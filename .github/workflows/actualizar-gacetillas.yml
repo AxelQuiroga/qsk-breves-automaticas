@@ -44,7 +44,7 @@ jobs:
       - name: Validar resultado antes de publicar
         run: |
           node --input-type=module -e '
-            import { readFileSync } from "node:fs";
+            import { readFileSync, writeFileSync } from "node:fs";
             const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
             if (!Array.isArray(noticias) || noticias.length < 10) {
               throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se publicará.");
@@ -52,9 +52,6 @@ jobs:
             if (noticias.length > 15) noticias.length = 15;
             console.log("Se publicarán " + noticias.length + " gacetillas.");
             writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2) + "\n");
-            function writeFileSync(path, content) {
-              const fs = awaitImportFs;
-            }
           '
 
       - name: Descargar QSK Noticias
