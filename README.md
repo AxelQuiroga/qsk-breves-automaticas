@@ -1,6 +1,6 @@
 # QSK Breves Automáticas
 
-Extractor de gacetillas oficiales del Gobierno de la Provincia de Buenos Aires para alimentar una sección informativa de QSK Noticias.
+Extractor de gacetillas oficiales del Gobierno de la Provincia de Buenos Aires para alimentar una sección informativa separada en QSK Noticias.
 
 ## Ejecución local
 
@@ -26,20 +26,19 @@ El workflow `.github/workflows/actualizar-gacetillas.yml` consulta el listado of
 Flujo:
 1. Instala dependencias y ejecuta tests y typecheck.
 2. Hace una única petición al listado oficial.
-3. Rechaza respuestas HTTP fallidas y resultados con menos de 10 tarjetas para no reemplazar datos válidos con una extracción incompleta.
-4. Copia el JSON a `src/data/gacetillas.json` en QSK Noticias.
-5. Solo crea un commit si el contenido cambió. El push a `master` dispara la publicación habitual del sitio.
+3. Rechaza respuestas HTTP fallidas y resultados con menos de 10 tarjetas para no preparar una actualización con una extracción incompleta.
+4. Conserva como máximo las últimas 12 tarjetas del listado.
+5. Compara los datos con QSK Noticias y crea o actualiza una PR en la rama `automation/gacetillas-oficiales` únicamente cuando hay cambios.
+6. No publica directamente en `master`: la PR queda para revisión y fusión manual.
+
+No recorre las 165 páginas ni visita cada noticia individual. Extrae título, descripción, URL original, miniatura y volanta cuando están disponibles. La fecha se mantiene como `null` porque no figura en las tarjetas del listado; no se inventan fechas.
 
 ### Configuración requerida una sola vez
 
 En **Settings → Secrets and variables → Actions** de este repositorio, crear el secret:
 
-- `QSK_NOTICIAS_TOKEN`: fine-grained personal access token limitado al repositorio `AxelQuiroga/QSK-Noticias`, con permiso **Contents: Read and write**.
+- `QSK_NOTICIAS_TOKEN`: fine-grained personal access token limitado al repositorio `AxelQuiroga/QSK-Noticias`, con permiso **Contents: Read and write** y **Pull requests: Read and write**.
 
 No guardar el token en archivos, código ni logs. Si el secret falta o no tiene permisos, el workflow fallará antes de modificar QSK Noticias.
 
-El workflow conserva los datos anteriores ante errores HTTP, timeout, tests fallidos o una extracción con menos de 10 tarjetas. No recorre las 165 páginas: utiliza las 12 tarjetas del listado principal, que están dentro del objetivo inicial de 10–15 gacetillas.
-
-## Datos extraídos
-
-Se conservan título, descripción, URL original, miniatura y volanta cuando están disponibles. La fecha se mantiene como `null` porque no figura en las tarjetas del listado; no se inventan fechas ni se visitan páginas individuales.
+Ante errores HTTP, timeout, tests fallidos o una extracción con menos de 10 tarjetas, la actualización se detiene y no prepara una PR con datos incompletos.
