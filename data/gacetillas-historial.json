@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Kicillof encabezó la presentación del programa “Empleo Verde Joven”",
+    "descripcion": "La iniciativa está destinada a promover la formación técnica y la inserción laboral de jóvenes en el sector de las energías renovables.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_222.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_presentaci%C3%B3n_del_programa_%E2%80%9Cempleo_verde_joven%E2%80%9D",
+    "fecha": null,
+    "volanta": "LOMAS DE ZAMORA"
+  },
+  {
     "titulo": "Kicillof entregó viviendas a familias de Tristán Suárez",
     "descripcion": "Además, el Gobernador inauguró la Casa de la Provincia y las nuevas instalaciones de la base del Grupo Halcón.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_221.jpg",
@@ -86,13 +94,5 @@
     "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_nueve_de_julio",
     "fecha": null,
     "volanta": "NUEVE DE JULIO"
-  },
-  {
-    "titulo": "Kicillof inauguró el nuevo Centro de Formación Integral N°1",
-    "descripcion": "Además, el Gobernador anunció que iniciarán las obras de construcción de un acueducto para mejorar el servicio del agua en el distrito.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC8032%20%281%29.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_el_nuevo_centro_de_formaci%C3%B3n_integral_n%C2%B01",
-    "fecha": null,
-    "volanta": "CARLOS CASARES"
   }
 ]
