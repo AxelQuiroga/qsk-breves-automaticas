@@ -1,0 +1,82 @@
+name: Actualizar gacetillas oficiales
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: actualizar-gacetillas-gba
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Descargar repositorio del extractor
+        uses: actions/checkout@v4
+
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.28.5
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Instalar dependencias
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Verificar extractor
+        run: |
+          pnpm test
+          pnpm typecheck
+
+      - name: Extraer gacetillas oficiales
+        run: pnpm extraer
+
+      - name: Validar resultado antes de publicar
+        run: |
+          node --input-type=module -e '
+            import { readFileSync } from "node:fs";
+            const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
+            if (!Array.isArray(noticias) || noticias.length < 10) {
+              throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se publicará.");
+            }
+            if (noticias.length > 15) noticias.length = 15;
+            console.log("Se publicarán " + noticias.length + " gacetillas.");
+            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2) + "\n");
+            function writeFileSync(path, content) {
+              const fs = awaitImportFs;
+            }
+          '
+
+      - name: Descargar QSK Noticias
+        uses: actions/checkout@v4
+        with:
+          repository: AxelQuiroga/QSK-Noticias
+          ref: master
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+
+      - name: Actualizar datos y publicar si hubo cambios
+        env:
+          TARGET_REPO: qsk-noticias
+        run: |
+          cp data/gacetillas.json "$TARGET_REPO/src/data/gacetillas.json"
+          cd "$TARGET_REPO"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/gacetillas.json
+          if git diff --cached --quiet; then
+            echo "Las gacetillas no cambiaron; no se crea ningún commit."
+            exit 0
+          fi
+          git commit -m "chore: update official Buenos Aires gacetillas"
+          git push origin master
