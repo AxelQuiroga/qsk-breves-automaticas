@@ -1,15 +1,30 @@
 /**
  * Extrae las tarjetas de gacetillas a data/gacetillas.json.
  * Uso:
- *   pnpm extraer                      -> descarga la página real y extrae
- *   pnpm extraer ruta/archivo.html    -> extrae desde un HTML local (sin red)
+ *   pnpm extraer                      -> descarga la página real y actualiza el historial
+ *   pnpm extraer ruta/archivo.html    -> extrae desde un HTML local, sin tocar el historial
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { combinarHistorial } from "./historial.ts";
 import { extraerGacetillas } from "./extractor/gacetillas.ts";
+import type { Noticia } from "./types/noticia.ts";
 
 const FUENTE_URL = "https://www.gba.gob.ar/comunicacion_publica/gacetillas";
 const SALIDA = new URL("../data/gacetillas.json", import.meta.url);
+const HISTORIAL = new URL("../data/gacetillas-historial.json", import.meta.url);
 const TIMEOUT_MS = 15_000;
+
+async function leerHistorial(): Promise<Noticia[]> {
+  const contenido = await readFile(HISTORIAL, "utf8").catch((error: NodeJS.ErrnoException) => {
+    if (error.code === "ENOENT") return "[]";
+    throw error;
+  });
+  const historial: unknown = JSON.parse(contenido);
+  if (!Array.isArray(historial)) {
+    throw new Error("El historial de gacetillas no contiene un array JSON.");
+  }
+  return historial as Noticia[];
+}
 
 async function main(): Promise<void> {
   const archivoLocal = process.argv[2];
@@ -46,10 +61,19 @@ async function main(): Promise<void> {
         clearTimeout(timeout);
       }
     }
-    const noticias = extraerGacetillas(html, urlBase);
 
-    if (noticias.length === 0) {
-      console.warn("AVISO: 0 tarjetas extraídas. Posible cambio de estructura en la fuente.");
+    const nuevas = extraerGacetillas(html, urlBase);
+    if (nuevas.length === 0) {
+      throw new Error("No se extrajo ninguna gacetilla. Se conserva el historial anterior.");
+    }
+
+    // En pruebas con HTML local se conserva el comportamiento de extracción aislada.
+    // En producción se combinan las novedades con el historial persistido en el repositorio.
+    const historialAnterior = archivoLocal ? [] : await leerHistorial();
+    const noticias = combinarHistorial(nuevas, historialAnterior, 12);
+
+    if (!archivoLocal) {
+      await writeFile(HISTORIAL, JSON.stringify(noticias, null, 2) + "\n", "utf8");
     }
 
     await mkdir(new URL("../data/", import.meta.url), { recursive: true });
@@ -68,13 +92,15 @@ async function main(): Promise<void> {
     }).length;
     const conFecha = noticias.filter((n) => n.fecha !== null).length;
 
-    console.log(`\nTarjetas detectadas: ${noticias.length}`);
+    console.log(`\nGacetillas nuevas detectadas: ${nuevas.length}`);
+    console.log(`Gacetillas finales (máximo 12): ${noticias.length}`);
     console.log(`  con título:       ${conTitulo}`);
     console.log(`  con descripción:  ${conDescripcion}`);
     console.log(`  con imagen:       ${conImagen}`);
     console.log(`  con URL válida:   ${conUrl}`);
     console.log(`  con fecha:        ${conFecha}`);
-    console.log(`JSON guardado en: ${SALIDA.pathname}`);
+    if (!archivoLocal) console.log(`Historial actualizado: ${HISTORIAL.pathname}`);
+    console.log(`JSON de salida: ${SALIDA.pathname}`);
   } catch (error) {
     const mensaje = error instanceof Error ? error.message : String(error);
     console.error(`ERROR: ${mensaje}`);

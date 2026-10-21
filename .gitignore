@@ -5,8 +5,8 @@ coverage/
 .env
 .env.*
 !.env.example
-
 data/*.json
+!data/gacetillas-historial.json
 !data/.gitkeep
 
 *.log

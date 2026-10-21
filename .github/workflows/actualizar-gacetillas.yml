@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   actualizar:
@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Descargar repositorio del extractor
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Configurar pnpm
         uses: pnpm/action-setup@v4
@@ -38,21 +40,41 @@ jobs:
           pnpm test
           pnpm typecheck
 
-      - name: Extraer gacetillas oficiales
+      - name: Extraer y combinar gacetillas con el historial
         run: pnpm extraer
 
-      - name: Validar resultado antes de preparar la PR
+      - name: Validar resultado antes de persistir o preparar la PR
         run: |
           node --input-type=module -e '
-            import { readFileSync, writeFileSync } from "node:fs";
+            import { readFileSync } from "node:fs";
             const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
             if (!Array.isArray(noticias) || noticias.length < 10) {
-              throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se actualizará QSK.");
+              throw new Error("Resultado incompleto: se requieren al menos 10 gacetillas combinadas. No se actualizará el historial ni QSK.");
             }
-            if (noticias.length > 12) noticias.length = 12;
-            console.log("Se prepararán " + noticias.length + " gacetillas.");
-            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2));
+            if (noticias.length > 12) {
+              throw new Error("El resultado superó el máximo de 12 gacetillas.");
+            }
+            const urls = noticias.map((noticia) => noticia.urlNoticia);
+            if (urls.some((url) => typeof url !== "string" || !url.startsWith("https://www.gba.gob.ar/"))) {
+              throw new Error("Hay URLs inválidas o fuera del dominio oficial. No se actualizará QSK.");
+            }
+            if (new Set(urls).size !== urls.length) {
+              throw new Error("El resultado contiene URLs duplicadas.");
+            }
+            console.log("Resultado validado: " + noticias.length + " gacetillas.");
           '
+
+      - name: Guardar historial en el repositorio del extractor
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gacetillas-historial.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update official gacetillas history"
+            git push origin HEAD:main
+          else
+            echo "El historial no cambió."
+          fi
 
       - name: Descargar QSK Noticias
         uses: actions/checkout@v4
@@ -76,8 +98,9 @@ jobs:
           commit-message: "chore: update official Buenos Aires gacetillas"
           title: "chore: actualizar gacetillas oficiales de la Provincia"
           body: |
-            Actualización automática de las últimas 12 gacetillas del listado oficial del Gobierno de la Provincia de Buenos Aires.
+            Actualización automática de las últimas 12 gacetillas del Gobierno de la Provincia de Buenos Aires.
 
-            - Se reproducen los datos del listado sin reescritura editorial.
+            - Se combinan las publicaciones detectadas con el historial persistido del extractor.
+            - Se eliminan duplicados por URL original y se conservan hasta 12 gacetillas.
             - Cada tarjeta conserva su enlace a la publicación original.
             - Revisar la extracción antes de fusionar.
