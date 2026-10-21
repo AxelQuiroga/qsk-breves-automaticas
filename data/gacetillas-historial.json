@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "titulo": "Kicillof entregó viviendas a familias de Tristán Suárez",
+    "descripcion": "Además, el Gobernador inauguró la Casa de la Provincia y las nuevas instalaciones de la base del Grupo Halcón.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_221.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_viviendas_familias_de_trist%C3%A1n_su%C3%A1rez",
+    "fecha": null,
+    "volanta": "EZEIZA"
+  },
+  {
+    "titulo": "Kicillof encabezó la apertura de la etapa final de los Juegos Bonaerenses 2026",
+    "descripcion": "Se desarrollará entre el 19 y el 23 de octubre y contará con la participación de 30.000 deportistas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261019-WA0206.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_la_etapa_final_de_los_juegos_2",
+    "fecha": null,
+    "volanta": "MAR DEL PLATA"
+  },
+  {
+    "titulo": "Kicillof inauguró un Centro de Desarrollo Infantil y entregó viviendas paralizadas por el Gobierno nacional",
+    "descripcion": "Ambas obras fueron reactivadas por la Provincia. Además, se distribuyeron escrituras gratuitas y netbooks para estudiantes del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB9647%20%281%29.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_centro_de_desarrollo_infantil_y_entreg%C3%B3",
+    "fecha": null,
+    "volanta": "CASTELLI"
+  },
+  {
+    "titulo": "Kicillof participó de la apertura de la 2° Cumbre Federal de Logística",
+    "descripcion": "El encuentro reúne a representantes del sector público, empresarios y referentes de cámaras del sector para debatir sobre los desafíos del sistema logístico argentino.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_220.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_apertura_de_la_2%C2%B0_cumbre_federal_de",
+    "fecha": null,
+    "volanta": "CABA"
+  },
+  {
+    "titulo": "Kicillof participó de la 5° Marcha Federal Universitaria",
+    "descripcion": "La convocatoria se realizó en reclamo por el cumplimiento de la Ley de Financiamiento Universitario y en defensa de la educación pública.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB4580.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_5%C2%B0_marcha_federal_universitaria",
+    "fecha": null,
+    "volanta": "EDUCACIÓN"
+  },
+  {
+    "titulo": "Más de 160 personas participaron del curso sobre Periodismo Local y Comunitario",
+    "descripcion": "Con esta propuesta de formación finalizó el Ciclo Herramientas 2026, impulsado por la Provincia de Buenos Aires para fortalecer y acompañar a los medios y a quienes integran el sector de la comunicación.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/WhatsApp%20Image%202026-10-15%20at%2015.27.34.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/m%C3%A1s_de_160_personas_participaron_del_curso_sobre_periodismo_local_y",
+    "fecha": null,
+    "volanta": "POTENCIA MEDIOS"
+  },
+  {
+    "titulo": "Kicillof recorrió la nueva base de la UTOI en San Isidro",
+    "descripcion": "Las instalaciones permiten que los efectivos que cumplen sus tareas en el distrito cuenten con una base operativa permanente y refuercen el despliegue preventivo en los barrios de La Cava, Santa Rita, Uruguay y San Cayetano.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_219.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_la_nueva_base_de_la_utoi_en_san_isidro",
+    "fecha": null,
+    "volanta": "SEGURIDAD"
+  },
+  {
+    "titulo": "Kicillof y Kreplak encabezaron la presentación del 2° Plan Provincial de Salud Mental",
+    "descripcion": "La iniciativa establece los lineamientos para el periodo 2026-2031 e incorpora nuevas estrategias para dar continuidad a las políticas públicas ante los desafíos sociales y económicos actuales.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_218.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_kreplak_encabezaron_la_presentaci%C3%B3n_del_2%C2%B0_plan",
+    "fecha": null,
+    "volanta": "ENSENADA"
+  },
+  {
+    "titulo": "La muestra “Vidas submarinas” comienza su recorrido por la provincia",
+    "descripcion": "Del 13 al 22 de octubre la muestra podrá visitarse con entrada libre y gratuita en la Casa de la Cultura de Adrogué, y continuará su recorrido por Escobar, Tandil, General San Martín y Luján.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG_3830.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_muestra_%E2%80%9Cvidas_submarinas%E2%80%9D_comienza_su_recorrido_por_la_provincia",
+    "fecha": null,
+    "volanta": "CIENCIA Y CULTURA"
+  },
+  {
+    "titulo": "Kicillof: \"No vamos a mejorar la educación con recetas importadas, vamos a hacerlo junto a los docentes y los estudiantes\"",
+    "descripcion": "El Gobernador encabezó un encuentro junto a más de 800 autoridades y miembros de la comunidad educativa, al cumplirse 150 años de la aplicación de la Ley N°988 de Educación Común de la Provincia.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC8288.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_no_vamos_mejorar_la_educaci%C3%B3n_con_recetas_importadas_vamos",
+    "fecha": null,
+    "volanta": "LA PLATA"
+  },
+  {
+    "titulo": "Kicillof entregó escrituras gratuitas a familias de Nueve de Julio",
+    "descripcion": "Además, el Gobernador otorgó netbooks a estudiantes de nivel secundario y recorrió el nuevo edificio de la Escuela de Educación Artística N°1.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON4939.JPG",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_nueve_de_julio",
+    "fecha": null,
+    "volanta": "NUEVE DE JULIO"
+  },
+  {
+    "titulo": "Kicillof inauguró el nuevo Centro de Formación Integral N°1",
+    "descripcion": "Además, el Gobernador anunció que iniciarán las obras de construcción de un acueducto para mejorar el servicio del agua en el distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC8032%20%281%29.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_el_nuevo_centro_de_formaci%C3%B3n_integral_n%C2%B01",
+    "fecha": null,
+    "volanta": "CARLOS CASARES"
+  }
+]
