@@ -11,3 +11,4 @@ data/*.json
 
 *.log
 .DS_Store
+produccion.md
