@@ -81,5 +81,3 @@ jobs:
             - Se reproducen los datos del listado sin reescritura editorial.
             - Cada tarjeta conserva su enlace a la publicación original.
             - Revisar la extracción antes de fusionar.
-          labels: |
-            automated
