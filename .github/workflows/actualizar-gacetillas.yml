@@ -1,0 +1,83 @@
+name: Actualizar gacetillas oficiales
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: actualizar-gacetillas-gba
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Descargar repositorio del extractor
+        uses: actions/checkout@v4
+
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.28.5
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Instalar dependencias
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Verificar extractor
+        run: |
+          pnpm test
+          pnpm typecheck
+
+      - name: Extraer gacetillas oficiales
+        run: pnpm extraer
+
+      - name: Validar resultado antes de preparar la PR
+        run: |
+          node --input-type=module -e '
+            import { readFileSync, writeFileSync } from "node:fs";
+            const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
+            if (!Array.isArray(noticias) || noticias.length < 10) {
+              throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se actualizará QSK.");
+            }
+            if (noticias.length > 12) noticias.length = 12;
+            console.log("Se prepararán " + noticias.length + " gacetillas.");
+            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2));
+          '
+
+      - name: Descargar QSK Noticias
+        uses: actions/checkout@v4
+        with:
+          repository: AxelQuiroga/QSK-Noticias
+          ref: master
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+
+      - name: Copiar datos extraídos
+        run: cp data/gacetillas.json qsk-noticias/src/data/gacetillas.json
+
+      - name: Crear o actualizar PR en QSK Noticias
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+          branch: automation/gacetillas-oficiales
+          delete-branch: false
+          add-paths: src/data/gacetillas.json
+          commit-message: "chore: update official Buenos Aires gacetillas"
+          title: "chore: actualizar gacetillas oficiales de la Provincia"
+          body: |
+            Actualización automática de las últimas 12 gacetillas del listado oficial del Gobierno de la Provincia de Buenos Aires.
+
+            - Se reproducen los datos del listado sin reescritura editorial.
+            - Cada tarjeta conserva su enlace a la publicación original.
+            - Revisar la extracción antes de fusionar.
