@@ -15,7 +15,7 @@ permissions:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Descargar repositorio del extractor
         uses: actions/checkout@v4
@@ -41,17 +41,17 @@ jobs:
       - name: Extraer gacetillas oficiales
         run: pnpm extraer
 
-      - name: Validar resultado antes de publicar
+      - name: Validar resultado antes de preparar la PR
         run: |
           node --input-type=module -e '
             import { readFileSync, writeFileSync } from "node:fs";
             const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
             if (!Array.isArray(noticias) || noticias.length < 10) {
-              throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se publicará.");
+              throw new Error("Extracción incompleta: se esperaban al menos 10 gacetillas; se obtuvieron " + (noticias?.length ?? "un valor inválido") + ". No se actualizará QSK.");
             }
-            if (noticias.length > 15) noticias.length = 15;
-            console.log("Se publicarán " + noticias.length + " gacetillas.");
-            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2) + "\n");
+            if (noticias.length > 12) noticias.length = 12;
+            console.log("Se prepararán " + noticias.length + " gacetillas.");
+            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2) + "\\n");
           '
 
       - name: Descargar QSK Noticias
@@ -62,18 +62,24 @@ jobs:
           token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
           path: qsk-noticias
 
-      - name: Actualizar datos y publicar si hubo cambios
-        env:
-          TARGET_REPO: qsk-noticias
-        run: |
-          cp data/gacetillas.json "$TARGET_REPO/src/data/gacetillas.json"
-          cd "$TARGET_REPO"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/gacetillas.json
-          if git diff --cached --quiet; then
-            echo "Las gacetillas no cambiaron; no se crea ningún commit."
-            exit 0
-          fi
-          git commit -m "chore: update official Buenos Aires gacetillas"
-          git push origin master
+      - name: Copiar datos extraídos
+        run: cp data/gacetillas.json qsk-noticias/src/data/gacetillas.json
+
+      - name: Crear o actualizar PR en QSK Noticias
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+          branch: automation/gacetillas-oficiales
+          delete-branch: false
+          add-paths: src/data/gacetillas.json
+          commit-message: "chore: update official Buenos Aires gacetillas"
+          title: "chore: actualizar gacetillas oficiales de la Provincia"
+          body: |
+            Actualización automática de las últimas 12 gacetillas del listado oficial del Gobierno de la Provincia de Buenos Aires.
+
+            - Se reproducen los datos del listado sin reescritura editorial.
+            - Cada tarjeta conserva su enlace a la publicación original.
+            - Revisar la extracción antes de fusionar.
+          labels: |
+            automated
