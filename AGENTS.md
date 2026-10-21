@@ -2,26 +2,29 @@
 
 ## Objetivo
 
-Crear un extractor pequeño que obtenga las tarjetas visibles de la página oficial de gacetillas del Gobierno de la Provincia de Buenos Aires:
+Extraer las gacetillas visibles del listado oficial del Gobierno de la Provincia de Buenos Aires:
 
 https://www.gba.gob.ar/comunicacion_publica/gacetillas
 
-El resultado de esta primera etapa es un JSON local de prueba con los datos recuperados de cada tarjeta.
+El resultado alimenta una sección separada de QSK Noticias para mostrar título, bajada, imagen, volanta y enlace a la publicación oficial. No son artículos editoriales propios ni se agregan a la colección editorial de noticias.
 
-## Alcance actual
+## Alcance
 
-Extraer, cuando estén disponibles:
+- Extraer las tarjetas del listado; no visitar páginas individuales.
+- Consultar el listado como máximo una vez por ejecución.
+- Conservar título, descripción, imagen, URL original, fecha solo si está disponible y volanta/localidad cuando exista.
+- La fecha se mantiene como null si no aparece en las tarjetas.
+- Normalizar espacios, resolver URLs relativas y deduplicar por URL.
+- Mantener un JSON local en data/gacetillas.json para desarrollo y verificación.
+- El workflow programado publica el JSON en src/data/gacetillas.json del repositorio AxelQuiroga/QSK-Noticias; el cambio dispara el build normal del sitio.
+- No crear borradores ni publicar artículos dentro de src/content/noticias.
+- No incorporar IA, base de datos ni dependencias innecesarias.
 
-- Título.
-- Descripción breve.
-- URL de la imagen en miniatura.
-- URL absoluta de la noticia original.
-- Fecha, si la tarjeta la proporciona.
-- Localidad o etiqueta geográfica, si existe.
+## Automatización
 
-No entrar en las páginas individuales de las noticias.
+El workflow .github/workflows/actualizar-gacetillas.yml se ejecuta cada seis horas y también permite ejecución manual. Antes de actualizar QSK, ejecuta los tests, el typecheck y valida que haya al menos 10 tarjetas. Si la fuente falla o la extracción parece incompleta, no modifica el JSON de QSK.
 
-No publicar artículos en QSK Noticias. No modificar el repositorio QSK Noticias ni `extraccion-ultimate`.
+Requiere el secret QSK_NOTICIAS_TOKEN, un fine-grained token limitado al repositorio AxelQuiroga/QSK-Noticias con permiso Contents: Read and write. Nunca incluir tokens en el repositorio.
 
 ## Tecnologías
 
@@ -32,29 +35,19 @@ No publicar artículos en QSK Noticias. No modificar el repositorio QSK Noticias
 - Vitest para tests.
 - ESLint para análisis estático.
 
-## Criterios de calidad
+## Tests y verificación
 
-- Mantener una implementación pequeña y fácil de entender.
-- No inventar campos ni valores ausentes.
-- Resolver correctamente las URL relativas.
-- Distinguir entre una imagen ausente y una extracción fallida.
-- Evitar duplicados usando la URL normalizada de cada noticia.
-- Manejar errores de red, respuestas HTTP no exitosas y HTML inesperado.
-- Usar timeouts razonables al consultar la fuente.
-- No incorporar dependencias innecesarias.
-- No agregar IA ni base de datos.
-- No modificar archivos fuera de este repositorio.
+- Los tests deben usar tests/fixtures/; nunca dependen de Internet.
+- Cubrir tarjetas completas, campos opcionales, URLs relativas, duplicados, HTML vacío y cambios de estructura.
+- Ejecutar pnpm test y pnpm typecheck.
+- El lint tiene una incompatibilidad conocida entre typescript-eslint@8.72 y TypeScript 7; no bloquear la automatización por ese lint hasta resolver la incompatibilidad deliberadamente.
 
-## Tests
+## Comandos
 
-Probar tarjetas completas, campos opcionales, URL relativas, duplicados, HTML vacío y cambios inesperados en la estructura.
-
-Usar HTML de prueba local en `tests/fixtures/`. Los tests no deben depender de Internet.
-
-## Entrega
-
-Antes de terminar, ejecutar los tests, el build y el lint. Documentar cómo ejecutar el extractor y dónde se guarda el JSON.
-
-Informar cuántas tarjetas se detectaron y cuántas contienen título, descripción, imagen y URL válida. No afirmar que la extracción funciona correctamente si no se ha ejecutado contra la página real.
-
-No implementar publicación automática en esta etapa.
+```powershell
+pnpm install
+pnpm test
+pnpm typecheck
+pnpm extraer
+pnpm extraer data/gacetillas-fuente.html
+```
