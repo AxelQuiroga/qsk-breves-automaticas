@@ -51,7 +51,7 @@ jobs:
             }
             if (noticias.length > 12) noticias.length = 12;
             console.log("Se prepararán " + noticias.length + " gacetillas.");
-            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2) + "\\n");
+            writeFileSync("data/gacetillas.json", JSON.stringify(noticias, null, 2));
           '
 
       - name: Descargar QSK Noticias
