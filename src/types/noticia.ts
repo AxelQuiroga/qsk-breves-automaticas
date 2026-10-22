@@ -15,4 +15,12 @@ export interface Noticia {
   fecha: string | null;
   /** Volanta / etiqueta geográfica o temática (campo `field-volanta-noticia`). */
   volanta: string | null;
+  /**
+   * Slug URL-friendly asignado por `completarSlugs` al momento de la
+   * extracción. Es la identidad de la URL en QSK Noticias
+   * (`/gacetillas-oficiales/<slug>/`): persiste en el historial y nunca
+   * se vuelve a derivar a partir del título, para que el orden del
+   * listado o una actualización del texto no rompan la URL.
+   */
+  slug?: string;
 }
