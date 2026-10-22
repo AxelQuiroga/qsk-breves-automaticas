@@ -1,0 +1,89 @@
+<!doctype html>
+<!--
+  Fixture del listado https://www.lanus.gob.ar/noticias (CMS propio).
+  Derivado del markup real capturado en la auditoría (2026-10-22): tarjetas
+  <article> dentro de <li>, imagen en background-image inline (variante
+  horizontal + vertical), .categorias con categoría + dd/MM/yyyy, h3 con
+  entidades HTML, resumen casi siempre vacío y a.cover sin texto.
+
+  Casos incluidos: tarjeta real (4625, salud), tarjeta con resumen (4624,
+  polideportivo), tarjeta sin fecha, tarjeta sin imagen, duplicada y sin
+  a.cover (descartada).
+-->
+<html lang="es">
+<head><title>Noticias - Lanús</title></head>
+<body>
+<main>
+<ul>
+  <li>
+    <article>
+      <div class="imagen" data-mantener-relacion-alto="60"><div style="background-image:url(https://www.lanus.gob.ar/storage/fichas/imagenes/sabados-de-salud.jpeg)"></div></div>
+      <div class="imagen vertical" data-mantener-relacion-ancho="80"><div style="background-image:url(https://www.lanus.gob.ar/storage/fichas/imagenes/sabados-de-salud.jpeg)"></div></div>
+      <div class="info">
+        <div class="categorias">Salud
+21/10/2026</div>
+        <h3>&quot;S&#193;BADOS DE SALUD&quot;: NUEVO OPERATIVO DE MEDICINA Y ODONTOLOG&#205;A</h3>
+        <div class="resumen texto"></div>
+      </div>
+      <a href="https://www.lanus.gob.ar/noticias/4625-sabados-de-salud-en-la-plaza-del-barrio-centro" class="cover"></a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <div class="imagen" data-mantener-relacion-alto="60"><div style="background-image:url('https://www.lanus.gob.ar/storage/fichas/imagenes/polideportivo.jpeg')"></div></div>
+      <div class="imagen vertical" data-mantener-relacion-ancho="80"><div style="background-image:url('https://www.lanus.gob.ar/storage/fichas/imagenes/polideportivo.jpeg')"></div></div>
+      <div class="info">
+        <div class="categorias">Deportes
+20/10/2026</div>
+        <h3>EL POLIDEPORTIVO MUNICIPAL ABRE LA INSCRIPCI&#211;N PARA LAS ESCUELAS DEPORTIVAS</h3>
+        <div class="resumen texto">Las inscripciones quedan abiertas desde el lunes en todas las sedes del distrito.</div>
+      </div>
+      <a href="https://www.lanus.gob.ar/noticias/4624-el-polideportivo-municipal-abre-la-inscripcion-para-las-escuelas-deportivas" class="cover"></a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <div class="imagen" data-mantener-relacion-alto="60"><div style="background-image:url(https://www.lanus.gob.ar/storage/fichas/imagenes/cultura.jpeg)"></div></div>
+      <div class="info">
+        <div class="categorias">Cultura</div>
+        <h3>SE FINANCIARON REFORMAS EN LA ESCUELA RETURNS</h3>
+        <div class="resumen texto"></div>
+      </div>
+      <a href="https://www.lanus.gob.ar/noticias/4623-se-financiaron-reformas-en-la-escuela-returns" class="cover"></a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <div class="info">
+        <div class="categorias">Salud
+18/10/2026</div>
+        <h3>COMENZ&#211; LA CONSTRUCCI&#211;N DE UN NUEVO CENTRO DE SALUD</h3>
+        <div class="resumen texto"></div>
+      </div>
+      <a href="https://www.lanus.gob.ar/noticias/4621-comenzo-la-construccion-de-un-nuevo-centro-de-salud" class="cover"></a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <div class="imagen" data-mantener-relacion-alto="60"><div style="background-image:url(https://www.lanus.gob.ar/storage/fichas/imagenes/sabados-de-salud.jpeg)"></div></div>
+      <div class="info">
+        <div class="categorias">Salud 21/10/2026</div>
+        <h3>TARJETA DUPLICADA: MISMA URL QUE LA PRIMERA</h3>
+      </div>
+      <a href="https://www.lanus.gob.ar/noticias/4625-sabados-de-salud-en-la-plaza-del-barrio-centro" class="cover"></a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <div class="imagen" data-mantener-relacion-alto="60"><div style="background-image:url(https://www.lanus.gob.ar/storage/fichas/imagenes/huerfana.jpeg)"></div></div>
+      <div class="info">
+        <div class="categorias">Comunidad
+17/10/2026</div>
+        <h3>TARJETA SIN ENLACE COVER</h3>
+      </div>
+    </article>
+  </li>
+</ul>
+</main>
+</body>
+</html>

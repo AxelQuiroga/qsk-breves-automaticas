@@ -11,10 +11,19 @@ export interface Noticia {
   imagenUrl: string | null;
   /** URL absoluta de la noticia original, resuelta desde el `href` del título. */
   urlNoticia: string;
-  /** Fecha de la noticia. El listado actual no expone fecha en las tarjetas: siempre `null`. */
+  /** Fecha ISO `YYYY-MM-DD` (zona horaria de la fuente). `null` si la fuente no la expone. */
   fecha: string | null;
-  /** Volanta / etiqueta geográfica o temática (campo `field-volanta-noticia`). */
+  /** Volanta / etiqueta geográfica o temática. `null` si la fuente no la expone. */
   volanta: string | null;
+  /**
+   * Identificador de la fuente (`src/fuentes.ts`): "gba", "lanus",
+   * "avellaneda", "esteban-echeverria". Los parsers lo asignan al extraer;
+   * los registros históricos previos a la migración lo reciben por backfill
+   * determinista desde el dominio de su URL (`completarFuentes`). En el
+   * dataset final es obligatorio y siempre coincide con el dominio de la
+   * URL: cualquier ambigüedad aborta la persistencia.
+   */
+  fuente?: string;
   /**
    * Slug URL-friendly asignado por `completarSlugs` al momento de la
    * extracción. Es la identidad de la URL en QSK Noticias

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Fixture del feed RSS de Esteban Echeverría (https://www.estebanecheverria.gob.ar/feed/).
+  Derivado de la evidencia real capturada en la auditoría (2026-10-22): WordPress 6.8.11,
+  10 items por página, <pubDate> RFC-822 en UTC, <description> con CDATA, sin imágenes
+  (0 <enclosure>, sin og:image): la decisión aprobada es imagenUrl: null.
+
+  Contiene casos de borde: item sin <description>, item duplicado (por URL) e item
+  sin título (descartado).
+-->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Esteban Echeverría</title>
+  <link>https://www.estebanecheverria.gob.ar</link>
+  <description>Novedades de la Municipalidad de Esteban Echeverría</description>
+
+  <item>
+    <title>NUEVOS TRABAJOS DE BACHEO SOBRE LA RUTA 58, EN CANNING</title>
+    <link>https://www.estebanecheverria.gob.ar/nuevos-trabajos-de-bacheo-sobre-la-ruta-58-en-canning/</link>
+    <pubDate>Tue, 20 Oct 2026 13:37:17 +0000</pubDate>
+    <description><![CDATA[Como parte del plan integral de infraestructura, avanza el bacheo sobre la Ruta 58 y calles aledañas.]]></description>
+    <guid isPermaLink="false">https://www.estebanecheverria.gob.ar/?p=135855</guid>
+  </item>
+
+  <item>
+    <title>VOLVIÓ EL PROGRAMA PASEOS DE COMPRAS A LAS PLAZAS DEL MUNICIPIO</title>
+    <link>https://www.estebanecheverria.gob.ar/volvio-el-programa-paseos-de-compras-a-las-plazas-del-municipio/</link>
+    <pubDate>Sun, 18 Oct 2026 22:33:00 +0000</pubDate>
+    <description><![CDATA[El Municipio acompaña a productores y emprendedores locales con ferias en distintas plazas del distrito.]]></description>
+    <guid isPermaLink="false">https://www.estebanecheverria.gob.ar/?p=135657</guid>
+  </item>
+
+  <item>
+    <title>ABRIERON LAS INSCRIPCIONES PARA LOS CENTROS DE ATENCIÓN BARRIAL</title>
+    <link>https://www.estebanecheverria.gob.ar/abrieron-las-inscripciones-para-los-centros-de-atencion-barrial/</link>
+    <pubDate>Fri, 17 Oct 2026 09:00:00 +0000</pubDate>
+    <guid isPermaLink="false">https://www.estebanecheverria.gob.ar/?p=135500</guid>
+  </item>
+
+  <item>
+    <title>NUEVOS TRABAJOS DE BACHEO SOBRE LA RUTA 58, EN CANNING (DUPLICADO)</title>
+    <link>https://www.estebanecheverria.gob.ar/nuevos-trabajos-de-bacheo-sobre-la-ruta-58-en-canning/</link>
+    <pubDate>Tue, 20 Oct 2026 15:00:00 +0000</pubDate>
+    <description><![CDATA[Misma URL distinta: el dedup por URL lo descarta.]]></description>
+    <guid isPermaLink="false">https://www.estebanecheverria.gob.ar/?p=135856</guid>
+  </item>
+
+  <item>
+    <title></title>
+    <link>https://www.estebanecheverria.gob.ar/item-sin-titulo/</link>
+    <pubDate>Thu, 16 Oct 2026 10:00:00 +0000</pubDate>
+    <description><![CDATA[Item sin título: descartado por obligatorios.]]></description>
+    <guid isPermaLink="false">https://www.estebanecheverria.gob.ar/?p=135499</guid>
+  </item>
+</channel>
+</rss>
