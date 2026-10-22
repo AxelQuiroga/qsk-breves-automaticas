@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "titulo": "Se entregó el crédito N°500.000 de Provincia Microcréditos",
+    "descripcion": "Fue en un encuentro encabezado por el gobernador Axel Kicillof. La empresa del Banco Provincia alcanzó este hito tras haber otorgado más de 260.000 préstamos en los últimos seis años.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_223.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entreg%C3%B3_el_cr%C3%A9dito_n%C2%B0500000_de_provincia_microcr%C3%A9ditos",
+    "fecha": null,
+    "volanta": "INCLUSIÓN FINANCIERA",
+    "fuente": "gba",
+    "slug": "se-entrego-el-credito-n500000-de-provincia-microcreditos"
+  },
+  {
+    "titulo": "Kicillof encabezó la presentación del programa “Empleo Verde Joven”",
+    "descripcion": "La iniciativa está destinada a promover la formación técnica y la inserción laboral de jóvenes en el sector de las energías renovables.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_222.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_presentaci%C3%B3n_del_programa_%E2%80%9Cempleo_verde_joven%E2%80%9D",
+    "fecha": null,
+    "volanta": "LOMAS DE ZAMORA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
+  },
+  {
+    "titulo": "Kicillof entregó viviendas a familias de Tristán Suárez",
+    "descripcion": "Además, el Gobernador inauguró la Casa de la Provincia y las nuevas instalaciones de la base del Grupo Halcón.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_221.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_viviendas_familias_de_trist%C3%A1n_su%C3%A1rez",
+    "fecha": null,
+    "volanta": "EZEIZA",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-viviendas-a-familias-de-tristan-suarez"
+  },
+  {
+    "titulo": "Kicillof encabezó la apertura de la etapa final de los Juegos Bonaerenses 2026",
+    "descripcion": "Se desarrollará entre el 19 y el 23 de octubre y contará con la participación de 30.000 deportistas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261019-WA0206.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_la_etapa_final_de_los_juegos_2",
+    "fecha": null,
+    "volanta": "MAR DEL PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-apertura-de-la-etapa-final-de-los-juegos-bonaerenses-2026"
+  },
+  {
+    "titulo": "Kicillof inauguró un Centro de Desarrollo Infantil y entregó viviendas paralizadas por el Gobierno nacional",
+    "descripcion": "Ambas obras fueron reactivadas por la Provincia. Además, se distribuyeron escrituras gratuitas y netbooks para estudiantes del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB9647%20%281%29.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_centro_de_desarrollo_infantil_y_entreg%C3%B3",
+    "fecha": null,
+    "volanta": "CASTELLI",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-un-centro-de-desarrollo-infantil-y-entrego-viviendas-paralizadas-por-el-gobierno-nacional"
+  },
+  {
+    "titulo": "Kicillof participó de la apertura de la 2° Cumbre Federal de Logística",
+    "descripcion": "El encuentro reúne a representantes del sector público, empresarios y referentes de cámaras del sector para debatir sobre los desafíos del sistema logístico argentino.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_220.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_apertura_de_la_2%C2%B0_cumbre_federal_de",
+    "fecha": null,
+    "volanta": "CABA",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-apertura-de-la-2-cumbre-federal-de-logistica"
+  },
+  {
+    "titulo": "Kicillof participó de la 5° Marcha Federal Universitaria",
+    "descripcion": "La convocatoria se realizó en reclamo por el cumplimiento de la Ley de Financiamiento Universitario y en defensa de la educación pública.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB4580.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_5%C2%B0_marcha_federal_universitaria",
+    "fecha": null,
+    "volanta": "EDUCACIÓN",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
+  },
+  {
+    "titulo": "Más de 160 personas participaron del curso sobre Periodismo Local y Comunitario",
+    "descripcion": "Con esta propuesta de formación finalizó el Ciclo Herramientas 2026, impulsado por la Provincia de Buenos Aires para fortalecer y acompañar a los medios y a quienes integran el sector de la comunicación.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/WhatsApp%20Image%202026-10-15%20at%2015.27.34.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/m%C3%A1s_de_160_personas_participaron_del_curso_sobre_periodismo_local_y",
+    "fecha": null,
+    "volanta": "POTENCIA MEDIOS",
+    "fuente": "gba",
+    "slug": "mas-de-160-personas-participaron-del-curso-sobre-periodismo-local-y-comunitario"
+  },
+  {
+    "titulo": "Kicillof recorrió la nueva base de la UTOI en San Isidro",
+    "descripcion": "Las instalaciones permiten que los efectivos que cumplen sus tareas en el distrito cuenten con una base operativa permanente y refuercen el despliegue preventivo en los barrios de La Cava, Santa Rita, Uruguay y San Cayetano.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_219.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_la_nueva_base_de_la_utoi_en_san_isidro",
+    "fecha": null,
+    "volanta": "SEGURIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-recorrio-la-nueva-base-de-la-utoi-en-san-isidro"
+  },
+  {
+    "titulo": "Kicillof y Kreplak encabezaron la presentación del 2° Plan Provincial de Salud Mental",
+    "descripcion": "La iniciativa establece los lineamientos para el periodo 2026-2031 e incorpora nuevas estrategias para dar continuidad a las políticas públicas ante los desafíos sociales y económicos actuales.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_218.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_kreplak_encabezaron_la_presentaci%C3%B3n_del_2%C2%B0_plan",
+    "fecha": null,
+    "volanta": "ENSENADA",
+    "fuente": "gba",
+    "slug": "kicillof-y-kreplak-encabezaron-la-presentacion-del-2-plan-provincial-de-salud-mental"
+  },
+  {
+    "titulo": "La muestra “Vidas submarinas” comienza su recorrido por la provincia",
+    "descripcion": "Del 13 al 22 de octubre la muestra podrá visitarse con entrada libre y gratuita en la Casa de la Cultura de Adrogué, y continuará su recorrido por Escobar, Tandil, General San Martín y Luján.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG_3830.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_muestra_%E2%80%9Cvidas_submarinas%E2%80%9D_comienza_su_recorrido_por_la_provincia",
+    "fecha": null,
+    "volanta": "CIENCIA Y CULTURA",
+    "fuente": "gba",
+    "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
+  },
+  {
+    "titulo": "Kicillof: \"No vamos a mejorar la educación con recetas importadas, vamos a hacerlo junto a los docentes y los estudiantes\"",
+    "descripcion": "El Gobernador encabezó un encuentro junto a más de 800 autoridades y miembros de la comunidad educativa, al cumplirse 150 años de la aplicación de la Ley N°988 de Educación Común de la Provincia.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC8288.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_no_vamos_mejorar_la_educaci%C3%B3n_con_recetas_importadas_vamos",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-no-vamos-a-mejorar-la-educacion-con-recetas-importadas-vamos-a-hacerlo-junto-a-los-docentes-y-los-estudiantes"
+  },
+  {
+    "titulo": "FERNANDO GRAY RECIBIÓ EL PREMIO COMUNAS POR SU COMPROMISO EN LA DEFENSA DE LOS DERECHOS FUNDAMENTALES DE LOS CIUDADANOS",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, recibió esta tarde el Premio Comunas al compromiso en la defensa de los derechos fundamentales de los ciudadanos, otorgado por Revista y Agencia Comunas en reconocimiento a su desempeño durante el año en el distrito. El evento tuvo lugar en el salón Alfredo Palacios del anexo del Senado de la Nación.&#160; “Es una alegría y un honor recibir este reconocimiento por parte de esta distinguida entidad. Seguimos y seguiremos siempre trabajando y acompañando a las vecinas y los vecinos de Esteban Echeverría para mejorar su calidad de vida”, expresó Fernando Gray. Revista y Agencia Comunas es un medio especializado en la regionalización y descentralización municipal. Las distinciones que otorga son el resultado de la participación de sus lectoras y lectores a través del voto digital, con el objetivo de estimular a las personalidades más exponentes de los ámbitos ejecutivo, legislativo, gremial y empresarial.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-recibio-el-premio-comunas-por-su-compromiso-en-la-defensa-de-los-derechos-fundamentales-de-los-ciudadanos/",
+    "fecha": "2026-10-21",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-recibio-el-premio-comunas-por-su-compromiso-en-la-defensa-de-los-derechos-fundamentales-de-los-ciudadanos"
+  },
+  {
+    "titulo": "LUIS GUILLÓN: NUEVO OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE",
+    "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas. Será este jueves 22 de octubre, de 11 a 12:30 horas, en la Plaza Colonia Monte Grande, ubicada en Colonia Monte Grande y Zuviría, en el barrio Parish Robertson de la localidad de Luis Guillón. Durante el operativo, las vecinas y los vecinos podrán acceder a la recarga del envase de 10 kilogramos a $23.500, un valor inferior al registrado en comercios del mercado local. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/luis-guillon-nuevo-operativo-de-recarga-de-garrafas-a-precio-accesible-2/",
+    "fecha": "2026-10-21",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "luis-guillon-nuevo-operativo-de-recarga-de-garrafas-a-precio-accesible"
+  },
+  {
+    "titulo": "CANNING: AVANZA LA OBRA DE REPAVIMENTACIÓN DE LA CALLE JUANA DE ARCO",
+    "descripcion": "El Municipio de Esteban Echeverría avanza con la obra de repavimentación de la calle Juana de Arco entre Suárez y Ruta 58, en la localidad de Canning.&#160; En esta primera etapa, las cuadrillas municipales realizan trabajos de bacheo con base de hormigón rodillado y compactado en las zonas donde el pavimento se encuentra deteriorado. Una vez finalizada esta etapa, se continuará con la repavimentación total en concreto asfáltico en el mismo tramo, para completar una superficie total de 13.300 metros cuadrados. La obra integral representa una inversión de $ 1.392 millones para poner en valor una calle fundamental para conectar a las vecinas y los vecinos de Canning con el resto del municipio y favorecer el acceso a barrios, escuelas, jardines, centros de salud y comercios.&#160; Esta intervención forma parte del plan de mantenimiento vial que el Municipio ejecuta con financiamiento propio y que contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/canning-avanza-la-obra-de-repavimentacion-de-la-calle-juana-de-arco/",
+    "fecha": "2026-10-21",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "canning-avanza-la-obra-de-repavimentacion-de-la-calle-juana-de-arco"
+  },
+  {
+    "titulo": "FERNANDO GRAY MANTUVO UNA REUNIÓN DE TRABAJO CON LA UNIVERSIDAD NACIONAL DE LA MATANZA PARA LA DIGITALIZACIÓN DE LA BASE DE DATOS MUNICIPAL",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, mantuvo una reunión de trabajo con representantes de la Universidad Nacional de La Matanza (UNLaM) para avanzar en convenios de cooperación y continuar con el proceso de digitalización de la Dirección de Catastro y de la Dirección General de Gestión Tributaria. “La articulación con la universidad pública nos permite incorporar herramientas tecnológicas para mejorar la gestión municipal y brindar mejores respuestas a nuestras vecinas y nuestros vecinos. Este es un paso clave para avanzar con la modernización de un área clave del Municipio”, expresó Fernando Gray, quien estuvo acompañado por el secretario de Hacienda local, Walter Saracco; el subsecretario de Hacienda, Sergio Hernández; y Gabriel Osuna, director de Informática. Por parte de la Universidad Nacional de La Matanza participaron Daniel Benítez, director de Proyecto; Alejandro Sánchez, director del Instituto de Transferencia Tecnológica; Pablo Lietti, coordinador institucional; y Federico Elías, líder técnico. Este proceso de digitalización se llevará a cabo por etapas, encontrándose en ejecución actualmente la primera. El mismo culminará con la integración de la digitalización de ambas direcciones, constituyendo una estrategia clave para modernizar la gestión fiscal, optimizar la recaudación y mejorar la planificación urbana. Para llevar adelante esta tarea se firmaron convenios con la Universidad Nacional de La Matanza, la secretaría de Extensión Universitaria de la UNLaM y el Instituto de Transferencia de Servicios y Tecnología, que ya trabajan en el proceso de digitalización de la base de datos municipal.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-mantuvo-una-reunion-de-trabajo-con-la-universidad-nacional-de-la-matanza-para-la-digitalizacion-de-la-base-de-datos-municipal/",
+    "fecha": "2026-10-20",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-mantuvo-una-reunion-de-trabajo-con-la-universidad-nacional-de-la-matanza-para-la-digitalizacion-de-la-base-de-datos-municipal"
+  },
+  {
+    "titulo": "NUEVOS TRABAJOS DE BACHEO SOBRE LA RUTA 58, EN CANNING",
+    "descripcion": "Como parte del plan integral de mantenimiento vial que se desarrolla en todo el distrito, los equipos municipales realizaron tareas de bacheo con asfalto caliente en la Ruta 58, entre la calle Talcahuano y la avenida Pedro Dreyer, en la localidad de Canning. Los trabajos consistieron en la reparación de sectores deteriorados de la calzada mediante la aplicación de mezcla asfáltica en caliente. Estas intervenciones forman parte del plan de mantenimiento vial que el Municipio ejecuta con financiamiento propio y que contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/nuevos-trabajos-de-bacheo-sobre-la-ruta-58-en-canning/",
+    "fecha": "2026-10-20",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "nuevos-trabajos-de-bacheo-sobre-la-ruta-58-en-canning"
+  },
+  {
+    "titulo": "9 DE ABRIL Y EL JAGÜEL: SE REALIZARON LOS PASEOS DE COMPRAS PEATONALES",
+    "descripcion": "Durante la tarde de ayer, sábado 17 de octubre y en vísperas del Día de la Madre, las calles Oliver (en 9 de Abril) y Evita (en El Jagüel) se convirtieron en peatonales para que las vecinas y los vecinos puedan realizar sus compras con mayor comodidad.&#160; Con el fin de fomentar la actividad económica local, el Municipio en acuerdo con los comerciantes de cada zona realizaron los paseos de compras peatonales: en 9 de Abril, se realizó en Oliver desde la avenida Huergo hasta la calle E. Prayones, mientras que en El Jagüel fue sobre Evita, desde la Ruta 205 hasta Valentín Alsina. El Municipio de Esteban Echeverría realiza habitualmente este tipo de acciones días antes de fechas festivas como el Día del Padre, el Día de la Madre y Navidad, con el propósito de fomentar la compra de productos en comercios de cercanía.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/9-de-abril-y-el-jaguel-se-realizaron-los-paseos-de-compras-peatonales/",
+    "fecha": "2026-10-18",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "9-de-abril-y-el-jaguel-se-realizaron-los-paseos-de-compras-peatonales"
+  },
+  {
+    "titulo": "OPERATIVO DE SEGURIDAD Y CONTROL VEHICULAR EN MONTE GRANDE",
+    "descripcion": "Como es habitual, los equipos de Tránsito y de Guardia Urbana local junto con personal de la Policía bonaerense, llevaron adelante operativos de seguridad y control vehicular en las plazas Salta y Mitre de Monte Grande.&#160; En la noche del 17 de octubre, el personal realizó test de alcoholemia y estupefacientes; y revisó la documentación obligatoria para circular (licencia de conducir, VTV, seguro y cédula). Además, concientizaron a conductoras y conductores acerca del uso de casco y cinturón de seguridad.&#160; Como resultado, se secuestraron tres vehículos por faltas a la Ley Nacional de Tránsito Nº 24.449.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/operativo-de-seguridad-y-control-vehicular-en-monte-grande-7/",
+    "fecha": "2026-10-18",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "operativo-de-seguridad-y-control-vehicular-en-monte-grande"
+  },
+  {
+    "titulo": "LA POLICÍA DESBARATÓ UNA BANDA QUE ROBABA VEHÍCULOS PARA VENDER LAS AUTOPARTES",
+    "descripcion": "Con el apoyo de las imágenes aportadas por el Centro Operativo de Monitoreo (COM), personal de la Policía bonaerense desbarató a una banda conformada por hombres y mujeres que se dedicaba al robo de vehículos en zona sur, especialmente en Esteban Echeverría, para vender las autopartes de manera ilegal.&#160; La investigación se originó tras una denuncia al 911, realizada por un hombre que fue víctima del robo de su motocicleta en Luis Guillón.&#160; Tras el análisis de las cámaras de seguridad del COM, los efectivos realizaron una investigación, que incluyó tareas encubiertas, gracias a las cuales lograron localizar a los delincuentes en el partido de Almirante Brown. Previa orden judicial, se realizaron allanamientos en cuatro domicilios de ese distrito y se aprehendieron a 8 hombres y 6 mujeres, todos quedaron a disposición de la UFI N° 14 de Lomas de Zamora.&#160; Como resultado de los operativos, se secuestraron: una motocicleta, 7 puertas de vehículos, 5 puertas de baúl, un capot, 4 partes de motovehículos; un cuadro de moto; una chapa patente y 3 teléfonos celulares. El Centro Operativo de Monitoreo cuenta actualmente con 1.781 cámaras fijas y domos de 360° en funcionamiento las 24 horas, los 365 días del año. Este dispositivo de prevención se complementa con Paradas Seguras, tótems de emergencia y el Anillo Digital de Seguridad equipados con lectoras de patentes para la detección inmediata de vehículos con pedido de captura o denuncia de robo.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/la-policia-desbarato-una-banda-que-robaba-vehiculos-para-vender-las-autopartes/",
+    "fecha": "2026-10-18",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "la-policia-desbarato-una-banda-que-robaba-vehiculos-para-vender-las-autopartes"
+  },
+  {
+    "titulo": "FERNANDO GRAY ENTREGÓ INDUMENTARIA A LOS FINALISTAS DE LOS JUEGOS BONAERENSES",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, entregó en la Sociedad de Fomento Santa Rosa de Monte Grande kits de indumentaria a las y los deportistas del distrito que, entre el 19 y el 23 de octubre, participarán de la final provincial de los Juegos Bonaerenses 2026 en Mar del Plata. “Estamos profundamente orgullosos de cada deportista que nos va a representar en estos Juegos Bonaerenses 2026; les deseamos muchos éxitos en esta competencia y felicitamos a cada participante por su esfuerzo, dedicación y compromiso. Para nosotros, el deporte es una herramienta fundamental para promover la inclusión y generar oportunidades para toda la comunidad”, señaló Fernando Gray, acompañado por la presidenta del Honorable Concejo Deliberante, Valeria Bellizzi; y el presidente de la Sociedad de Fomento Santa Rosa, Arduino Iacovella. De la actividad participaron también el secretario de Cultura, Alejandro Correa; el secretario de Tierras y Vivienda, Marcelo González; el subsecretario de Deportes, Hernán Clemente; y el subsecretario de Tierras y Vivienda, Alejandro Moyano; la subsecretaria de Gestión Cultural, Joana Carvajal; la subsecretaria de Entidades Intermedias, Tamara Crosta; y la directora general de Deporte Social y Turismo, Ligia Filippo; y el director general de Desarrollo Deportivo y Competencias, Lucas Falcao, junto con integrantes de la comisión directiva de la institución. La delegación, integrada por deportistas, entrenadoras, entrenadores y acompañantes, recibió un total de 540 kits que incluyen un conjunto deportivo (pantalón y campera), una mochila, una remera y un llavero. Durante la jornada se realizó una entrega simbólica de 12 kits a representantes del grupo que competirá en la instancia final. Durante el encuentro, Fernando Gray también entregó la escritura de propiedad a la Sociedad de Fomento Santa Rosa, un avance clave para la institución. Asimismo, otorgó mobiliario y elementos de pinturería para mejorar sus instalaciones.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-entrego-indumentaria-a-los-finalistas-de-los-juegos-bonaerenses/",
+    "fecha": "2026-10-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-entrego-indumentaria-a-los-finalistas-de-los-juegos-bonaerenses"
+  },
+  {
+    "titulo": "CONTINÚAN LAS TAREAS DE FUMIGACIÓN EN ESTEBAN ECHEVERRÍA",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría siguen realizando trabajos de fumigación en el distrito para prevenir la reproducción del mosquito Aedes aegypti, transmisor de enfermedades virales como el dengue. En esta oportunidad, las tareas se llevaron a cabo en los barrios San Carlos, Santa Adela, Las Torres, El Zaizar, Olimpo y San Sebastián Este (9 de Abril); Parque Delfino, Santa Catalina, Parish Robertson y Los Eucaliptos (Luis Guillón); Federal, Primo, Don Conrado, Las Talitas, Noroeste Centro, Santa Rosa, Sud Este Centro, San Norberto, La Cautiva y Nuestras Malvinas (Monte Grande); Miriam, Policial, La Primavera, Las Heras, Monte Chico, Las Colinas, La Victoria y Barrio Grande (Monte Grande Sur); El Jagüel, Don Mariano, Altos de Monte Grande, Antártida Argentina, Martínez Moreno, Aguaribay, Loma Verde, San Ignacio y El Lucero (El Jagüel); y Santa Isabel, Costa Azul, Allá en el Sur y Don Marcelo (Canning). Como complemento de estas acciones, se recomienda a la comunidad realizar la limpieza de jardines, eliminar objetos que puedan acumular agua y utilizar repelentes, tanto ambientales como personales. Los operativos son gratuitos y están a cargo de personal autorizado por la Comuna. Se recuerda que dicho personal no está facultado para realizar cobros por estos trabajos en la vía pública. Ante cualquier consulta o denuncia, las vecinas y los vecinos pueden comunicarse con el Centro de Atención al Vecino (CAV) llamando al 0810-999-6800, por WhatsApp al 15-5131-6800 (solo para chats) o enviando un correo electrónico a cavee@estebanecheverria.gob.ar.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/continuan-las-tareas-de-fumigacion-en-esteban-echeverria-20/",
+    "fecha": "2026-10-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "continuan-las-tareas-de-fumigacion-en-esteban-echeverria"
+  },
+  {
+    "titulo": "Kicillof entregó escrituras gratuitas a familias de Nueve de Julio",
+    "descripcion": "Además, el Gobernador otorgó netbooks a estudiantes de nivel secundario y recorrió el nuevo edificio de la Escuela de Educación Artística N°1.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON4939.JPG",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_nueve_de_julio",
+    "fecha": null,
+    "volanta": "NUEVE DE JULIO",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-nueve-de-julio"
+  },
+  {
+    "titulo": "FERNANDO GRAY ASISTIÓ AL 26° ANIVERSARIO DE LA ASOCIACIÓN CIVIL EL PUENTE VERDE",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, estuvo presente en la celebración por los 26 años de la Asociación Civil El Puente Verde, entidad que trabaja por la inclusión y la formación laboral de jóvenes. “Es una alegría compartir este nuevo aniversario de esta querida institución que fomenta valores fundamentales como el trabajo, la inclusión y el cuidado del medioambiente. Como Municipio debemos acompañarlos para fortalecer su proyecto social y educativo”, afirmó Fernando Gray, quien estuvo acompañado por la presidenta del Concejo Deliberante, Valeria Bellizzi; el subsecretario de Gestión Urbana y Territorial, Alejandro Moyano; la directora de Entidades Intermedias, Micaela Lagrotta; y la presidenta de la entidad, Magdalena Garoberea Ferre. En la jornada, el jefe comunal les entregó materiales que serán destinados a realizar mejoras en el predio. Cabe destacar que, a finales de 2024, el Municipio le firmó a la asociación un permiso por 25 años —renovable por otros 25— para el uso de las tierras donde se ubica la entidad. El Puente Verde es una asociación civil sin fines de lucro ubicada en la avenida Jorge Newbery, kilómetro 28,5. Desarrolla ferias en las que comercializa productos artesanales, bolsones de verduras, frutas y diferentes variedades de plantas. También realiza visitas guiadas para que estudiantes de las escuelas de Esteban Echeverría puedan conocer su granja y su forma de producción agroecológica. Además, colabora con el cuidado de los espacios verdes del distrito mediante la entrega de plantines para la plaza Mitre.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-asistio-al-26-aniversario-de-la-asociacion-civil-el-puente-verde/",
+    "fecha": "2026-10-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-asistio-al-26-aniversario-de-la-asociacion-civil-el-puente-verde"
+  },
+  {
+    "titulo": "PASEO DE COMPRAS PEATONAL EN 9 DE ABRIL Y EL JAGÜEL",
+    "descripcion": "Este sábado 17 de octubre, a partir de las 14 horas, las calles Oliver (en 9 de Abril) y Evita (en El Jagüel) serán paseos de compra peatonales. Esta iniciativa, previa al Día de la Madre, tiene como objetivo fomentar la actividad comercial local. En 9 de Abril, el sector peatonal abarcará la calle Oliver desde Av. Huergo hasta E. Prayones, mientras que en El Jagüel se llevará a cabo en la calle Evita, desde la Ruta 205 hasta Valentín Alsina. De esta manera, las vecinas y los vecinos que se acerquen a realizar compras podrán desplazarse con mayor comodidad y tendrán una mayor oferta disponible. El Municipio de Esteban Echeverría realiza habitualmente este tipo de acciones días antes de fechas festivas como el Día del Padre, el Día de la Madre y Navidad, previo acuerdo con las y los comerciantes de cada localidad.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/paseo-de-compras-peatonal-en-9-de-abril-y-el-jaguel/",
+    "fecha": "2026-10-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "paseo-de-compras-peatonal-en-9-de-abril-y-el-jaguel"
+  },
+  {
+    "titulo": "FERNANDO GRAY INAUGURÓ OBRAS Y PARTICIPÓ DEL ACTO DE IMPOSICIÓN DE NOMBRE DEL JARDÍN DE INFANTES N° 924 DE 9 DE ABRIL",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, inauguró las obras de puesta en valor del Jardín de Infantes Nº 924 de 9 de Abril y participó del acto de imposición del nombre Juan Ayetz a la institución, en homenaje a uno de los primeros vecinos del barrio San Sebastián. “Es un honor estar presente en un día tan importante para la identidad de esta institución y poder acompañar a tan linda comunidad con este homenaje a Juan Ayetz. Hoy también inauguramos la puesta en valor del edificio y el nuevo patio de juegos, y seguiremos trabajando para que las chicas y los chicos cuenten con las mejores condiciones para continuar con su desarrollo”, expresó Fernando Gray, quien estuvo acompañado por el presidente del Consejo Escolar, David De Lío; la jefa distrital, Lucía Ibarra; el secretario de Obras Públicas local, Sergio Benet; la directora de Entidades Intermedias local, Micaela Lagrotta; y la directora del jardín, Vanesa Riquelme. Los trabajos incluyeron la reparación e impermeabilización de techos, la pintura integral del edificio y la colocación de nuevas puertas. También se realizó el recambio de luminarias, tomas de corriente, lámparas de emergencia y carteles luminosos de salida. En el exterior, se construyó un patio de juegos equipado, con superficie de hormigón y piso de goma para brindar mayor seguridad a las chicas y los chicos. Además, se levantó un muro medianero para delimitar el terreno. Durante el acto se descubrió una placa conmemorativa por la imposición del nombre Juan Ayetz y se realizó el corte de cinta del patio de juegos y de las obras de puesta en valor edilicia. También se entregó un subsidio de $5.000.000 destinado a colaborar con la compra de aires acondicionados y mobiliario para el jardín. De la actividad participaron integrantes de la comunidad educativa, docentes, alumnas, alumnos y sus familias, junto con autoridades de Educación, municipales y representantes de organizaciones gremiales.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-inauguro-obras-y-participo-del-acto-de-imposicion-de-nombre-del-jardin-de-infantes-n-924-de-9-de-abril/",
+    "fecha": "2026-10-16",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-inauguro-obras-y-participo-del-acto-de-imposicion-de-nombre-del-jardin-de-infantes-n-924-de-9-de-abril"
+  },
+  {
+    "titulo": "NUEVAS OBRAS DE BACHEO EN MONTE GRANDE",
+    "descripcion": "Como parte de un plan integral financiado con fondos propios, el Municipio de Esteban Echeverría sigue adelante con trabajos de Origone al 1.000, en la localidad de Monte Grande. Las intervenciones se ejecutan mediante la aplicación de asfalto caliente, una técnica que consiste en el uso de mezcla asfáltica a alta temperatura para recomponer la superficie de la calzada y asegurar su estabilidad. Estas obras se desarrollan en el marco de un plan integral de mantenimiento vial, que también incluye trabajos de pavimentación en asfalto y hormigón, repavimentación y sellado de juntas en distintos puntos del partido.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/nuevas-obras-de-bacheo-en-monte-grande-8/",
+    "fecha": "2026-10-16",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "nuevas-obras-de-bacheo-en-monte-grande"
+  },
+  {
+    "titulo": "Kicillof inauguró el nuevo Centro de Formación Integral N°1",
+    "descripcion": "Además, el Gobernador anunció que iniciarán las obras de construcción de un acueducto para mejorar el servicio del agua en el distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC8032%20%281%29.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_el_nuevo_centro_de_formaci%C3%B3n_integral_n%C2%B01",
+    "fecha": null,
+    "volanta": "CARLOS CASARES",
+    "slug": "kicillof-inauguro-el-nuevo-centro-de-formacion-integral-n1",
+    "fuente": "gba"
+  }
+]
