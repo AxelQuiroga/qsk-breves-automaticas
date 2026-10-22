@@ -66,13 +66,31 @@ export async function descargarConReintentos(
   for (let intento = 1; intento <= intentos; intento++) {
     try {
       return await descargar(url, { fetchFn, timeoutMs, tiposAceptados });
+    
     } catch (error) {
+      const detalle =
+        error instanceof Error
+          ? `${error.name}: ${error.message}` +
+            (error.cause instanceof Error
+              ? ` | causa: ${error.cause.name}: ${error.cause.message}` +
+                ("code" in error.cause
+                  ? ` | código: ${String(error.cause.code)}`
+                  : "")
+              : "")
+          : String(error);
+
+      console.error(
+        `[HTTP diagnóstico] Intento ${intento}/${intentos} para ${url}: ${detalle}`,
+      );
+
       if (esReintentable(error) && intento < intentos) {
         await esperar(intento * 2000);
         continue;
       }
+
       throw error;
     }
+
   }
   /* istanbul ignore next -- lazos no alcanzable */
   throw new ErrorExtraccion(`Agotaron los ${intentos} intentos en ${url}`, "red");
