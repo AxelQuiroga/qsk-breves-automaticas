@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Se entregó el crédito N°500.000 de Provincia Microcréditos",
+    "descripcion": "Fue en un encuentro encabezado por el gobernador Axel Kicillof. La empresa del Banco Provincia alcanzó este hito tras haber otorgado más de 260.000 préstamos en los últimos seis años.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_223.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entreg%C3%B3_el_cr%C3%A9dito_n%C2%B0500000_de_provincia_microcr%C3%A9ditos",
+    "fecha": null,
+    "volanta": "INCLUSIÓN FINANCIERA",
+    "fuente": "gba",
+    "slug": "se-entrego-el-credito-n500000-de-provincia-microcreditos"
+  },
+  {
     "titulo": "Kicillof encabezó la presentación del programa “Empleo Verde Joven”",
     "descripcion": "La iniciativa está destinada a promover la formación técnica y la inserción laboral de jóvenes en el sector de las energías renovables.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_222.jpg",
@@ -110,16 +120,6 @@
     "slug": "kicillof-no-vamos-a-mejorar-la-educacion-con-recetas-importadas-vamos-a-hacerlo-junto-a-los-docentes-y-los-estudiantes"
   },
   {
-    "titulo": "Kicillof entregó escrituras gratuitas a familias de Nueve de Julio",
-    "descripcion": "Además, el Gobernador otorgó netbooks a estudiantes de nivel secundario y recorrió el nuevo edificio de la Escuela de Educación Artística N°1.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON4939.JPG",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_nueve_de_julio",
-    "fecha": null,
-    "volanta": "NUEVE DE JULIO",
-    "fuente": "gba",
-    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-nueve-de-julio"
-  },
-  {
     "titulo": "FERNANDO GRAY RECIBIÓ EL PREMIO COMUNAS POR SU COMPROMISO EN LA DEFENSA DE LOS DERECHOS FUNDAMENTALES DE LOS CIUDADANOS",
     "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, recibió esta tarde el Premio Comunas al compromiso en la defensa de los derechos fundamentales de los ciudadanos, otorgado por Revista y Agencia Comunas en reconocimiento a su desempeño durante el año en el distrito. El evento tuvo lugar en el salón Alfredo Palacios del anexo del Senado de la Nación.&#160; “Es una alegría y un honor recibir este reconocimiento por parte de esta distinguida entidad. Seguimos y seguiremos siempre trabajando y acompañando a las vecinas y los vecinos de Esteban Echeverría para mejorar su calidad de vida”, expresó Fernando Gray. Revista y Agencia Comunas es un medio especializado en la regionalización y descentralización municipal. Las distinciones que otorga son el resultado de la participación de sus lectoras y lectores a través del voto digital, con el objetivo de estimular a las personalidades más exponentes de los ámbitos ejecutivo, legislativo, gremial y empresarial.",
     "imagenUrl": null,
@@ -218,6 +218,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "continuan-las-tareas-de-fumigacion-en-esteban-echeverria"
+  },
+  {
+    "titulo": "Kicillof entregó escrituras gratuitas a familias de Nueve de Julio",
+    "descripcion": "Además, el Gobernador otorgó netbooks a estudiantes de nivel secundario y recorrió el nuevo edificio de la Escuela de Educación Artística N°1.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON4939.JPG",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_nueve_de_julio",
+    "fecha": null,
+    "volanta": "NUEVE DE JULIO",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-nueve-de-julio"
   },
   {
     "titulo": "FERNANDO GRAY ASISTIÓ AL 26° ANIVERSARIO DE LA ASOCIACIÓN CIVIL EL PUENTE VERDE",
