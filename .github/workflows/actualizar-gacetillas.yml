@@ -107,7 +107,7 @@ jobs:
           add-paths: src/data/gacetillas.json
           commit-message: "chore: update official gacetillas"
           title: "chore: actualizar gacetillas oficiales (GBA y municipios)"
-          body-path: .pr-body.md
+          body-path: qsk-noticias/.pr-body.md
 
       # Con falla parcial la PR ya se creó/actualizó y el historial ya se
       # guardó; recién acá se marca el job como fallido.
