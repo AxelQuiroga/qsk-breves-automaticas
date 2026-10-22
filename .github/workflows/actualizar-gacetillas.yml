@@ -32,6 +32,9 @@ jobs:
         with:
           node-version: 24
 
+      - name: Actualizar certificados del sistema TLS (solución Avellaneda)
+        run: sudo apt-get update -qq && sudo apt-get install -y ca-certificates && sudo update-ca-certificates
+
       - name: Instalar dependencias
         run: pnpm install --no-frozen-lockfile
 
