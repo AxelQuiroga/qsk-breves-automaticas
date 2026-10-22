@@ -143,6 +143,45 @@ describe("completarSlugs", () => {
     expect(resultado[0]?.slug).toBe("gacetilla-de-prueba-2");
   });
 
+  it("saltea los slugs reservados de QSK (archivo y fuente) al derivar nuevos", () => {
+    // /gacetillas-oficiales/archivo/ y /gacetillas-oficiales/fuente/<id>/ son
+    // rutas del portal: derivar el slug "archivo" o "fuente" colisionaría.
+    // Los títulos derivan EXACTO a los nombres reservados.
+    const resultado = completarSlugs(
+      [
+        gacetilla(1, "Archivo"),
+        gacetilla(2, "Fuente"),
+        gacetilla(3, "Archivo del municipio"),
+      ],
+      [],
+    );
+
+    expect(resultado.map((g) => g.slug)).toEqual([
+      "archivo-2",
+      "fuente-2",
+      "archivo-del-municipio",
+    ]);
+  });
+
+  it("además respeta un slug ya declarado que cae dentro del rango de derivación", () => {
+    // El slug declarado entra en `usados` ANTES de derivar; un nuevo título
+    // "Archivo" debe rodearlo sin chocar.
+    const resultado = completarSlugs(
+      [
+        gacetilla(1, "Otra cosa", "archivo-2"),
+        gacetilla(2, "Archivo"),
+        gacetilla(3, "Fuente"),
+      ],
+      [],
+    );
+
+    expect(resultado.map((g) => g.slug)).toEqual([
+      "archivo-2",
+      "archivo-3",
+      "fuente-2",
+    ]);
+  });
+
   it("usa el slug de reserva cuando el título no produce ninguno", () => {
     const resultado = completarSlugs(
       [gacetilla(1, "/// ___ ⑂")],

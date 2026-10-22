@@ -29,6 +29,14 @@ export function slugificar(texto: string): string {
 const SLUG_VALIDO = /^[a-z0-9-]+$/;
 const FALLBACK_SLUG = "gacetilla";
 
+/**
+ * Nombres reservados por QSK Noticias en /gacetillas-oficiales/: `archivo`
+ * (archivo histórico global) y `fuente` (prefijo de las secciones per-source,
+ * /gacetillas-oficiales/fuente/&lt;id&gt;/). Un slug `archivo` o `fuente`
+ * colisionaría con esas rutas, así que al derivar se lo saltea.
+ */
+const SLUGS_RESERVADOS = new Set(["archivo", "fuente"]);
+
 /** Decisión pendiente (deriva del título) o ya tomada (inmutable). */
 type Decision = { nuevo: true } | { nuevo: false; slug: string };
 
@@ -80,7 +88,7 @@ export function completarSlugs(gacetillas: Noticia[], previas: Noticia[]): Notic
     const base = slugificar(gacetilla.titulo) || FALLBACK_SLUG;
     let asignado = base;
     let sufijo = 2;
-    while (usados.has(asignado)) {
+    while (usados.has(asignado) || SLUGS_RESERVADOS.has(asignado)) {
       asignado = `${base}-${sufijo++}`;
     }
     usados.add(asignado);
