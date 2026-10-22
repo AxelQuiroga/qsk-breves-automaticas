@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: actualizar-gacetillas-gba
+  group: actualizar-gacetillas
   cancel-in-progress: false
 
 permissions:
@@ -17,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: Descargar repositorio del extractor
+      - name: Descargar repositorio del extractor (rama actual: main en schedule, la rama disparada en dispatch)
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.ref }}
 
       - name: Configurar pnpm
         uses: pnpm/action-setup@v4
@@ -40,64 +40,47 @@ jobs:
           pnpm test
           pnpm typecheck
 
+      # La extracción puede terminar en parcial (alguna fuente falló y las
+      # sanas aportaron datos): exit 2 + estado en data/estado-corrida.json.
+      # continue-on-error permite validar/persistir/PR con el resultado parcial;
+      # el último paso vuelve a marcar el job como fallido DESPUÉS de la PR.
       - name: Extraer y combinar gacetillas con el historial
+        id: extraer
+        continue-on-error: true
         run: pnpm extraer
 
-      - name: Validar resultado antes de persistir o preparar la PR
+      - name: Registrar estado de la corrida
+        id: estado
+        if: always()
         run: |
-          node --input-type=module -e '
-            import { execSync } from "node:child_process";
-            import { readFileSync } from "node:fs";
+          ESTADO=$(node -p "JSON.parse(require('fs').readFileSync('data/estado-corrida.json','utf8')).estado" 2>/dev/null || echo falla-total)
+          echo "estado=$ESTADO" >> "$GITHUB_OUTPUT"
+          echo "Estado de la corrida: $ESTADO"
 
-            function readHistorialPrevio() {
-              try {
-                return JSON.parse(execSync("git show HEAD:data/gacetillas-historial.json", { encoding: "utf8" }));
-              } catch {
-                return [];
-              }
-            }
+      # Rechaza falla-total, en-curso (crash a mitad), y todo dataset inválido:
+      # fuente requerida y consistente con el dominio, URLs/slugs únicos,
+      # preservación del historial por fuente. Sin mínimo universal de 12.
+      - name: Validar resultado antes de persistir o preparar la PR
+        if: steps.estado.outputs.estado != 'falla-total'
+        run: node scripts/validar.mjs
 
-            const noticias = JSON.parse(readFileSync("data/gacetillas.json", "utf8"));
-            if (!Array.isArray(noticias) || noticias.length < 12) {
-              throw new Error("Resultado incompleto: el historial completo debe tener al menos 12 gacetillas. No se actualizará el historial ni QSK.");
-            }
-            const urls = noticias.map((noticia) => noticia.urlNoticia);
-            if (urls.some((url) => typeof url !== "string" || !url.startsWith("https://www.gba.gob.ar/"))) {
-              throw new Error("Hay URLs inválidas o fuera del dominio oficial. No se actualizará QSK.");
-            }
-            if (new Set(urls).size !== urls.length) {
-              throw new Error("El resultado contiene URLs duplicadas.");
-            }
-            const slugs = noticias.map((noticia) => noticia.slug);
-            if (slugs.some((slug) => typeof slug !== "string" || !/^[a-z0-9-]+$/.test(slug))) {
-              throw new Error("Hay slugs inválidos o ausentes. No se actualizará QSK.");
-            }
-            if (new Set(slugs).size !== slugs.length) {
-              throw new Error("El resultado contiene slugs duplicados.");
-            }
-            const previas = readHistorialPrevio();
-            const urlsPrevias = new Set(Array.isArray(previas) ? previas.map((noticia) => noticia.urlNoticia) : []);
-            const urlsActuales = new Set(urls);
-            const perdidas = [...urlsPrevias].filter((url) => !urlsActuales.has(url));
-            if (perdidas.length > 0) {
-              throw new Error("El resultado eliminaría " + perdidas.length + " gacetillas del historial. No se actualizará el historial ni QSK.");
-            }
-            console.log("Resultado validado: " + noticias.length + " gacetillas, sin pérdidas respecto del historial.");
-          '
-
+      # En schedule, github.ref_name = main (push a main igual que antes).
+      # En dispatch desde una rama de prueba, empuja a ESA rama: no toca main.
       - name: Guardar historial en el repositorio del extractor
+        if: steps.estado.outputs.estado != 'falla-total'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/gacetillas-historial.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update official gacetillas history"
-            git push origin HEAD:main
+            git push origin "HEAD:${{ github.ref_name }}"
           else
             echo "El historial no cambió."
           fi
 
       - name: Descargar QSK Noticias
+        if: steps.estado.outputs.estado != 'falla-total'
         uses: actions/checkout@v4
         with:
           repository: AxelQuiroga/QSK-Noticias
@@ -106,9 +89,15 @@ jobs:
           path: qsk-noticias
 
       - name: Copiar datos extraídos
+        if: steps.estado.outputs.estado != 'falla-total'
         run: cp data/gacetillas.json qsk-noticias/src/data/gacetillas.json
 
+      - name: Generar cuerpo de la PR (estado por fuente)
+        if: steps.estado.outputs.estado != 'falla-total'
+        run: node scripts/generar-body-pr.mjs qsk-noticias/.pr-body.md
+
       - name: Crear o actualizar PR en QSK Noticias
+        if: steps.estado.outputs.estado != 'falla-total'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
@@ -116,13 +105,15 @@ jobs:
           branch: automation/gacetillas-oficiales
           delete-branch: false
           add-paths: src/data/gacetillas.json
-          commit-message: "chore: update official Buenos Aires gacetillas"
-          title: "chore: actualizar gacetillas oficiales de la Provincia"
-          body: |
-            Actualización automática de gacetillas oficiales del Gobierno de la Provincia de Buenos Aires.
+          commit-message: "chore: update official gacetillas"
+          title: "chore: actualizar gacetillas oficiales (GBA y municipios)"
+          body-path: .pr-body.md
 
-            - El dataset será el historial completo: los registros existentes nunca se eliminan, las novedades se agregan al frente.
-            - El slug de cada URL individual (/gacetillas-oficiales/&lt;slug&gt;/) se asigna una sola vez y no cambia.
-            - El portal muestra las últimas 12 en la sección principal; el resto queda disponible en /gacetillas-oficiales/archivo/.
-            - Cada tarjeta conserva su enlace a la publicación original.
-            - Revisar la extracción antes de fusionar.
+      # Con falla parcial la PR ya se creó/actualizó y el historial ya se
+      # guardó; recién acá se marca el job como fallido.
+      - name: Marcar el job como fallido por fuentes con error
+        if: always() && steps.extraer.outcome == 'failure'
+        run: |
+          echo "La corrida de extracción terminó con errores (revisar el paso 'Extraer')."
+          echo "La PR en QSK y el historial del extractor ya reflejan el resultado parcial con los datos de las fuentes sanas."
+          exit 1
