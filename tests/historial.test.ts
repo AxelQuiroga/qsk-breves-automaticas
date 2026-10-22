@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Noticia } from "../src/types/noticia.ts";
-import { combinarHistorial } from "../src/historial.ts";
+import { combinarHistorial, verificarHistorialCompleto } from "../src/historial.ts";
 
 function noticia(id: number): Noticia {
   return {
@@ -14,28 +14,28 @@ function noticia(id: number): Noticia {
 }
 
 describe("combinarHistorial", () => {
-  it("combina 6 nuevas con 6 anteriores hasta completar 12", () => {
+  it("por defecto no recorta: agrega las nuevas y conserva TODO el historial anterior", () => {
     const nuevas = Array.from({ length: 6 }, (_, i) => noticia(i + 13));
     const anteriores = Array.from({ length: 12 }, (_, i) => noticia(i + 1));
 
     const resultado = combinarHistorial(nuevas, anteriores);
 
-    expect(resultado).toHaveLength(12);
+    expect(resultado).toHaveLength(18);
     expect(resultado.map((n) => n.urlNoticia)).toEqual([
       ...nuevas.map((n) => n.urlNoticia),
-      ...anteriores.slice(0, 6).map((n) => n.urlNoticia),
+      ...anteriores.map((n) => n.urlNoticia),
     ]);
   });
 
-  it("combina 2 nuevas con las 10 anteriores más recientes", () => {
+  it("combina 2 nuevas delante del historial completo", () => {
     const nuevas = [noticia(13), noticia(14)];
     const anteriores = Array.from({ length: 12 }, (_, i) => noticia(i + 1));
 
     const resultado = combinarHistorial(nuevas, anteriores);
 
-    expect(resultado).toHaveLength(12);
+    expect(resultado).toHaveLength(14);
     expect(resultado.slice(2).map((n) => n.urlNoticia)).toEqual(
-      anteriores.slice(0, 10).map((n) => n.urlNoticia),
+      anteriores.map((n) => n.urlNoticia),
     );
   });
 
@@ -55,10 +55,28 @@ describe("combinarHistorial", () => {
     expect(resultado[0]?.titulo).toBe("Título actualizado");
   });
 
-  it("respeta un límite menor y rechaza límites inválidos", () => {
-    const anteriores = Array.from({ length: 5 }, (_, i) => noticia(i + 1));
+  it("respeta un límite explícito y rechaza límites inválidos", () => {
+    const anteriores = Array.from({ length: 12 }, (_, i) => noticia(i + 1));
 
     expect(combinarHistorial(anteriores, [], 3)).toHaveLength(3);
     expect(() => combinarHistorial([], [], 0)).toThrow();
+  });
+});
+
+describe("verificarHistorialCompleto", () => {
+  it("no alerta cuando el resultado conserva todas las URLs previas", () => {
+    const anteriores = [noticia(1), noticia(2)];
+
+    expect(() =>
+      verificarHistorialCompleto([noticia(3), ...anteriores], anteriores),
+    ).not.toThrow();
+  });
+
+  it("lanza si el resultado perdería registros del historial anterior", () => {
+    const anteriores = [noticia(1), noticia(2)];
+
+    expect(() => verificarHistorialCompleto([noticia(3)], anteriores)).toThrow(
+      /perdería 2 gacetillas/,
+    );
   });
 });

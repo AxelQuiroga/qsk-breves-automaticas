@@ -5,7 +5,8 @@
  *   pnpm extraer ruta/archivo.html    -> extrae desde un HTML local, sin tocar el historial
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { combinarHistorial } from "./historial.ts";
+import { combinarHistorial, verificarHistorialCompleto } from "./historial.ts";
+import { completarSlugs } from "./slugs.ts";
 import { extraerGacetillas } from "./extractor/gacetillas.ts";
 import type { Noticia } from "./types/noticia.ts";
 
@@ -70,7 +71,11 @@ async function main(): Promise<void> {
     // En pruebas con HTML local se conserva el comportamiento de extracción aislada.
     // En producción se combinan las novedades con el historial persistido en el repositorio.
     const historialAnterior = archivoLocal ? [] : await leerHistorial();
-    const noticias = combinarHistorial(nuevas, historialAnterior, 12);
+    const fusion = combinarHistorial(nuevas, historialAnterior);
+    const noticias = completarSlugs(fusion, historialAnterior);
+
+    // Protección contra pérdida silenciosa: el historial nunca se reduce.
+    verificarHistorialCompleto(noticias, historialAnterior);
 
     if (!archivoLocal) {
       await writeFile(HISTORIAL, JSON.stringify(noticias, null, 2) + "\n", "utf8");
@@ -91,14 +96,16 @@ async function main(): Promise<void> {
       }
     }).length;
     const conFecha = noticias.filter((n) => n.fecha !== null).length;
+    const conSlug = noticias.filter((n) => typeof n.slug === "string" && /^[a-z0-9-]+$/.test(n.slug)).length;
 
     console.log(`\nGacetillas nuevas detectadas: ${nuevas.length}`);
-    console.log(`Gacetillas finales (máximo 12): ${noticias.length}`);
+    console.log(`Gacetillas finales (historial completo): ${noticias.length}`);
     console.log(`  con título:       ${conTitulo}`);
     console.log(`  con descripción:  ${conDescripcion}`);
     console.log(`  con imagen:       ${conImagen}`);
     console.log(`  con URL válida:   ${conUrl}`);
     console.log(`  con fecha:        ${conFecha}`);
+    console.log(`  con slug persistente: ${conSlug}`);
     if (!archivoLocal) console.log(`Historial actualizado: ${HISTORIAL.pathname}`);
     console.log(`JSON de salida: ${SALIDA.pathname}`);
   } catch (error) {
