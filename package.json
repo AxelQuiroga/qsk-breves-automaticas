@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "extraer": "node src/index.ts",
+    "extraer": "node --use-system-ca src/index.ts",
     "test": "vitest run",
     "lint": "eslint src tests",
     "typecheck": "tsc --noEmit"
