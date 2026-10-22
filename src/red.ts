@@ -102,9 +102,26 @@ async function descargar(
 ): Promise<Descarga> {
   const { fetchFn = fetch, timeoutMs, tiposAceptados = TIPOS_HTML } = opciones;
   const controller = new AbortController();
+  // Headers HTTP coherentes para simular navegación real (ayuda Lanús en GitHub Actions)
+  const defaultHeaders: Record<string, string> = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml" +
+      ";q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "es-AR,es;q=0.9,en;q=0.8",
+    "Referer": url,
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+  };
+  // Construye las opciones de fetch combinando las opciones con los headers defaults
+  const fetchOptions: Parameters<typeof fetch>[1] = {
+    signal: controller.signal,
+    redirect: "follow" as const,
+    ...defaultHeaders,
+  };
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const response = await fetchFn(url, { signal: controller.signal, redirect: "follow" });
+    const response = await fetchFn(url, fetchOptions);
     if (!response.ok) {
       const categoria: CategoriaError = response.status >= 500 ? "red" : "http";
       throw new ErrorExtraccion(
