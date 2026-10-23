@@ -1,3 +1,4 @@
+
 name: Actualizar gacetillas oficiales
 
 on:
@@ -11,30 +12,28 @@ concurrency:
 
 permissions:
   contents: write
+  packages: read
 
 jobs:
   actualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 8
+
+    container:
+      image: ghcr.io/axelquiroga/qsk-breves-automaticas:runtime-1.0.0
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
-      - name: Descargar repositorio del extractor (main en schedule, rama de prueba en dispatch)
+      - name: Descargar repositorio del extractor
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
 
-      - name: Configurar pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 11.28.5
-
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-
-      - name: Actualizar certificados del sistema TLS (solución Avellaneda)
-        run: sudo apt-get update -qq && sudo apt-get install -y ca-certificates && sudo update-ca-certificates
-
+      # El contenedor ya aporta Node, pnpm y el entorno TLS.
+      # Instalamos las dependencias del checkout para trabajar
+      # sobre el código de la rama ejecutada.
       - name: Instalar dependencias
         run: pnpm install --no-frozen-lockfile
 
@@ -43,10 +42,8 @@ jobs:
           pnpm test
           pnpm typecheck
 
-      # La extracción puede terminar en parcial (alguna fuente falló y las
-      # sanas aportaron datos): exit 2 + estado en data/estado-corrida.json.
-      # continue-on-error permite validar/persistir/PR con el resultado parcial;
-      # el último paso vuelve a marcar el job como fallido DESPUÉS de la PR.
+      # Permite procesar los datos sanos y preparar la PR aunque
+      # alguna fuente falle. El job se marcará como fallido al final.
       - name: Extraer y combinar gacetillas con el historial
         id: extraer
         continue-on-error: true
@@ -60,18 +57,17 @@ jobs:
           echo "estado=$ESTADO" >> "$GITHUB_OUTPUT"
           echo "Estado de la corrida: $ESTADO"
 
-      # Rechaza falla-total, en-curso (crash a mitad), y todo dataset inválido:
-      # fuente requerida y consistente con el dominio, URLs/slugs únicos,
-      # preservación del historial por fuente. Sin mínimo universal de 12.
       - name: Validar resultado antes de persistir o preparar la PR
         if: steps.estado.outputs.estado != 'falla-total'
         run: node scripts/validar.mjs
 
-      # En schedule, github.ref_name = main (push a main igual que antes).
-      # En dispatch desde una rama de prueba, empuja a ESA rama: no toca main.
+      # En schedule actualiza main del extractor.
+      # En workflow_dispatch conserva la rama seleccionada.
+      
       - name: Guardar historial en el repositorio del extractor
         if: steps.estado.outputs.estado != 'falla-total'
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/gacetillas-historial.json
@@ -81,6 +77,7 @@ jobs:
           else
             echo "El historial no cambió."
           fi
+
 
       - name: Descargar QSK Noticias
         if: steps.estado.outputs.estado != 'falla-total'
@@ -112,12 +109,11 @@ jobs:
           title: "chore: actualizar gacetillas oficiales (GBA y municipios)"
           body-path: qsk-noticias/.pr-body.md
 
-      # Con falla parcial la PR ya se creó/actualizó y el historial ya se
-      # guardó; recién acá se marca el job como fallido.
+      # Primero se guarda el resultado parcial y se prepara la PR;
+      # después se informa el error para que Actions lo registre.
       - name: Marcar el job como fallido por fuentes con error
         if: always() && steps.extraer.outcome == 'failure'
         run: |
           echo "La corrida de extracción terminó con errores (revisar el paso 'Extraer')."
           echo "La PR en QSK y el historial del extractor ya reflejan el resultado parcial con los datos de las fuentes sanas."
           exit 1
-
