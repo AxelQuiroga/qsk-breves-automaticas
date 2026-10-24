@@ -113,13 +113,17 @@ async function descargar(
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
   };
-  // Construye las opciones de fetch combinando las opciones con los headers defaults
+  // Los headers van SÍ o SÍ dentro de `init.headers`: esparcidos al nivel
+  // superior de fetchOptions (`...defaultHeaders`) fetch los descarta
+  // silenciosamente — causa del HTTP 403 de Lanús en GitHub Actions.
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
   const fetchOptions: Parameters<typeof fetch>[1] = {
     signal: controller.signal,
     redirect: "follow" as const,
-    ...defaultHeaders,
+    headers: defaultHeaders,
   };
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
   try {
     const response = await fetchFn(url, fetchOptions);
     if (!response.ok) {

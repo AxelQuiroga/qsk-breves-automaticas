@@ -133,6 +133,53 @@ describe("descargarConReintentos", () => {
     expect(fetchFn).toHaveBeenCalledTimes(1);
   });
 
+  it("envia encabezados de navegador dentro de init.headers (bug del 403 de Lanús)", async () => {
+    let cabecerasCapturadas: HeadersInit | undefined;
+    const fetchFn = vi.fn<typeof fetch>().mockImplementation(async (_url, init) => {
+      cabecerasCapturadas = init?.headers;
+      return respuesta("text/html; charset=utf-8", "<h1>ok</h1>");
+    });
+
+    await descargarConReintentos("https://www.lanus.gob.ar/noticias", {
+      ...sinEsperaEsperable,
+      fetchFn,
+    });
+
+    const cabeceras = new Headers(cabecerasCapturadas);
+    expect(cabeceras.get("User-Agent")).toMatch(/^Mozilla\/5\.0 /);
+    expect(cabeceras.get("Accept")).toContain("text/html");
+    expect(cabeceras.get("Accept-Language")).toContain("es-AR");
+    // Referer igual a la URL del listado pedida (navegación real).
+    expect(cabeceras.get("Referer")).toBe("https://www.lanus.gob.ar/noticias");
+    expect(cabeceras.get("DNT")).toBe("1");
+    expect(cabeceras.get("Upgrade-Insecure-Requests")).toBe("1");
+  });
+
+  it("los encabezados no sustituyen signal, redirect ni el resto de la init", async () => {
+    let initCapturada: Parameters<typeof fetch>[1] | undefined;
+    const fetchFn = vi.fn<typeof fetch>().mockImplementation(async (_url, init) => {
+      initCapturada = init;
+      // El abort del timeout nos permite verificar que la signal viaja bien.
+      return await new Promise<Response>((_resolver, rechazar) => {
+        init?.signal?.addEventListener("abort", () =>
+          rechazar(new DOMException("This operation was aborted", "AbortError")),
+        );
+      });
+    });
+
+    await expect(
+      descargarConReintentos("https://www.lanus.gob.ar/noticias", {
+        ...sinEsperaEsperable,
+        fetchFn,
+        timeoutMs: 25,
+      }),
+    ).rejects.toMatchObject({ name: "AbortError" });
+
+    expect(initCapturada?.redirect).toBe("follow");
+    expect(new Headers(initCapturada?.headers).get("User-Agent")).toMatch(/^Mozilla\/5\.0 /);
+    expect(fetchFn).toHaveBeenCalledTimes(3);
+  });
+
   it("ErrorExtraccion se exporta y mantiene su categoria", () => {
     const error = new ErrorExtraccion("mensaje", "estructural");
     expect(error).toBeInstanceOf(Error);
