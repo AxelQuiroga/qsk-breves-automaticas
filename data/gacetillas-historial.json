@@ -120,6 +120,16 @@
     "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
   },
   {
+    "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-16.21.40-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/32300/",
+    "fecha": "2026-10-24",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
+  },
+  {
     "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
     "descripcion": null,
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
@@ -230,16 +240,6 @@
     "slug": "el-municipio-entrego-subsidios-a-escuelas-publicas-de-avellaneda"
   },
   {
-    "titulo": "Familias de Isla Maciel recibieron viviendas",
-    "descripcion": null,
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/familias-de-isla-maciel-recibieron-viviendas/",
-    "fecha": "2026-10-06",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "familias-de-isla-maciel-recibieron-viviendas"
-  },
-  {
     "titulo": "NUEVAS OBRAS DE BACHEO EN MONTE GRANDE",
     "descripcion": "Como parte de un plan integral que se desarrolla en todo el distrito, los equipos municipales llevaron a cabo trabajos de bacheo en la calle Mariano Castex, esquina Nicolás Avellaneda, en Monte Grande. Las intervenciones consisten en la aplicación de asfalto caliente, una técnica que utiliza mezcla asfáltica a alta temperatura para recomponer la superficie de la calzada y asegurar su estabilidad. Estas obras se desarrollan en el marco de un plan integral de mantenimiento vial, que también incluye trabajos de pavimentación en asfalto y hormigón, repavimentación y sellado de juntas en distintos puntos del partido.",
     "imagenUrl": null,
@@ -338,6 +338,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "9-de-abril-y-el-jaguel-se-realizaron-los-paseos-de-compras-peatonales"
+  },
+  {
+    "titulo": "Familias de Isla Maciel recibieron viviendas",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/familias-de-isla-maciel-recibieron-viviendas/",
+    "fecha": "2026-10-06",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "familias-de-isla-maciel-recibieron-viviendas"
   },
   {
     "titulo": "OPERATIVO DE SEGURIDAD Y CONTROL VEHICULAR EN MONTE GRANDE",
