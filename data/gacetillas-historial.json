@@ -120,6 +120,16 @@
     "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
   },
   {
+    "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026/",
+    "fecha": "2026-10-23",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
+  },
+  {
     "titulo": "En el Municipio de Río Grande, Magdalena Sierra recorrió obras y visitó centros de cuidado",
     "descripcion": null,
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-18.53.14-1-350x240.jpeg",
@@ -230,16 +240,6 @@
     "slug": "familias-de-isla-maciel-recibieron-viviendas"
   },
   {
-    "titulo": "El Centro Municipal de Arte cumplió 11 años y lo festejó en comunidad",
-    "descripcion": null,
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-03-at-21.29.25-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/el-centro-municipal-de-arte-cumplio-11-anos-y-lo-festejo-en-comunidad/",
-    "fecha": "2026-10-05",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "el-centro-municipal-de-arte-cumplio-11-anos-y-lo-festejo-en-comunidad"
-  },
-  {
     "titulo": "EL MUNICIPIO REALIZÓ UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN LUIS GUILLÓN",
     "descripcion": "El Municipio de Esteban Echeverría llevó adelante un nuevo operativo de recarga de garrafas a precio accesible, en esta oportunidad en la plaza Colonia Monte Grande, en la localidad de Luis Guillón.&#160; Durante la jornada, las vecinas y los vecinos accedieron a la recarga del envase de 10 kg por $23.500, un valor inferior al que ofrece el mercado. Esta iniciativa forma parte de las políticas que impulsa el Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad.",
     "imagenUrl": null,
@@ -338,6 +338,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "operativo-de-seguridad-y-control-vehicular-en-monte-grande"
+  },
+  {
+    "titulo": "El Centro Municipal de Arte cumplió 11 años y lo festejó en comunidad",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-03-at-21.29.25-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-centro-municipal-de-arte-cumplio-11-anos-y-lo-festejo-en-comunidad/",
+    "fecha": "2026-10-05",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-centro-municipal-de-arte-cumplio-11-anos-y-lo-festejo-en-comunidad"
   },
   {
     "titulo": "Jornadas de vacunación antirrábica y desparasitación",
