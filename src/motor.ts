@@ -2,6 +2,7 @@ import type { Noticia } from "./types/noticia.ts";
 import { FUENTES } from "./listado-fuentes.ts";
 import { LIMITE_POR_FUENTE, type FuenteEjecutable } from "./fuentes.ts";
 import { descargarConReintentos, ErrorExtraccion, type CategoriaError, type OpcionesDescarga } from "./red.ts";
+import { crearFetchLanusConFallback } from "./fetch-lanus.ts";
 
 /**
  * Motor de extracción multi-fuente.
@@ -76,7 +77,9 @@ export async function correrExtraccion(
     try {
       const { html, urlBase } = await descargarConReintentos(fuente.listarUrl, {
         tiposAceptados: fuente.tiposAceptados,
-        fetchFn: opciones.fetchFn,
+        fetchFn: fuente.id === "lanus"
+          ? crearFetchLanusConFallback(opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {})
+          : opciones.fetchFn,
         dormir: opciones.dormir,
         intentos: opciones.intentos,
         timeoutMs: opciones.timeoutMs,

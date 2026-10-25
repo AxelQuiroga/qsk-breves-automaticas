@@ -31,6 +31,38 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
+      # curl-impersonate se instala en el contenedor de esta corrida; no cambia
+      # la imagen runtime ni el calendario del workflow. Solo lo usa Lanús si fetch da 403.
+      - name: Instalar curl-impersonate para el fallback de Lanús
+        run: |
+          set -eu
+
+          apt-get update
+          apt-get install -y --no-install-recommends curl ca-certificates tar
+
+          VERSION="2.3.0"
+          ARCHIVE="curl-impersonate-v${VERSION}.x86_64-linux-gnu.tar.gz"
+          URL="https://github.com/lexiforest/curl-impersonate/releases/download/v${VERSION}/${ARCHIVE}"
+
+          curl --fail --silent --show-error --location \
+            "$URL" --output "/tmp/${ARCHIVE}"
+
+          echo "Verificando SHA-256 del archivo descargado..."
+          echo "5e77cb12217158f118ead21ab550791788e553fb140d03a49d74d08308ebdb06  /tmp/${ARCHIVE}" \
+            | sha256sum --check
+
+          mkdir -p /opt/curl-impersonate
+          tar -xzf "/tmp/${ARCHIVE}" -C /opt/curl-impersonate
+
+          WRAPPER="$(find /opt/curl-impersonate -type f -name curl_chrome152 -print -quit)"
+          test -n "$WRAPPER"
+
+          chmod +x "$WRAPPER"
+          echo "$(dirname "$WRAPPER")" >> "$GITHUB_PATH"
+
+          echo "Ejecutable encontrado: $WRAPPER"
+          "$WRAPPER" --version
+
       # El contenedor ya aporta Node, pnpm y el entorno TLS.
       # Instalamos las dependencias del checkout para trabajar
       # sobre el código de la rama ejecutada.
