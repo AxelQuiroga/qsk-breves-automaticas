@@ -1,0 +1,133 @@
+name: Diagnóstico curl-impersonate — Lanús
+
+on:
+  push:
+    branches:
+      - "diagnostico/curl-impersonate-lanus"
+    paths:
+      - ".github/workflows/diagnostico-curl-impersonate-lanus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: diagnostico-curl-impersonate-lanus
+  cancel-in-progress: false
+
+jobs:
+  probe-lanus:
+    name: Comprobar HTML real de Lanús
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Crear directorio temporal
+        run: mkdir -p "$RUNNER_TEMP/lanus-probe"
+
+      - name: Descargar listado de noticias con curl-impersonate
+        shell: bash
+        run: |
+          set +e
+          docker run --rm \
+            -v "$RUNNER_TEMP/lanus-probe:/out" \
+            lexiforest/curl-impersonate:latest \
+            curl_chrome152 \
+              --silent --show-error --location --max-time 35 \
+              --dump-header /out/headers.txt \
+              --output /out/body.html \
+              --write-out 'HTTP_FINAL=%{http_code}\nURL_FINAL=%{url_effective}\n' \
+              https://www.lanus.gob.ar/noticias
+          curl_exit=$?
+          set -e
+          echo "CURL_EXIT=$curl_exit"
+
+          if [ -f "$RUNNER_TEMP/lanus-probe/headers.txt" ]; then
+            grep -iE '^(HTTP/|server:|cf-mitigated:|cf-ray:|content-type:)' "$RUNNER_TEMP/lanus-probe/headers.txt" | tail -n 12 || true
+          fi
+
+          if [ -f "$RUNNER_TEMP/lanus-probe/body.html" ]; then
+            python3 - "$RUNNER_TEMP/lanus-probe/body.html" <<'PY'
+          import re, sys
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urljoin, urlparse
+
+          base = "https://www.lanus.gob.ar/noticias"
+          html = Path(sys.argv[1]).read_text(encoding="utf-8", errors="replace")
+          lower = html.lower()
+          title = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+          title_text = re.sub(r"\s+", " ", title.group(1)).strip()[:180] if title else "(sin title)"
+
+          class Scan(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.headings, self.links = [], []
+                  self.heading = None
+                  self.anchor = None
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag in ("h1", "h2", "h3"):
+                      self.heading = [tag, []]
+                  if tag == "a" and attrs.get("href"):
+                      self.anchor = [attrs["href"], []]
+              def handle_data(self, data):
+                  if self.heading is not None:
+                      self.heading[1].append(data)
+                  if self.anchor is not None:
+                      self.anchor[1].append(data)
+              def handle_endtag(self, tag):
+                  if self.heading is not None and tag == self.heading[0]:
+                      value = re.sub(r"\s+", " ", "".join(self.heading[1])).strip()
+                      if value:
+                          self.headings.append(value)
+                      self.heading = None
+                  if tag == "a" and self.anchor is not None:
+                      href, chunks = self.anchor
+                      value = re.sub(r"\s+", " ", "".join(chunks)).strip()
+                      self.links.append((href, value))
+                      self.anchor = None
+
+          scan = Scan()
+          scan.feed(html)
+          print(f"BODY_BYTES={len(html.encode('utf-8'))}")
+          print(f"HTML_TITLE={title_text}")
+          print(f"HEADING_COUNT={len(scan.headings)}")
+          for value in scan.headings[:12]:
+              print("HEADING=" + value[:160])
+
+          candidates = []
+          for href, value in scan.links:
+              url = urljoin(base, href)
+              path = urlparse(url).path.lower()
+              if value and ("noticia" in path or "noticias" in path or "/prensa/" in path):
+                  candidates.append((value, url))
+          print(f"NEWS_PATH_LINKS={len(candidates)}")
+          for value, url in candidates[:10]:
+              print(f"NEWS_PATH_TEXT={value[:120]}")
+              print(f"NEWS_PATH_URL={url[:220]}")
+
+          descriptive = []
+          for href, value in scan.links:
+              url = urljoin(base, href)
+              path = urlparse(url).path.lower()
+              if (len(value) >= 28 and urlparse(url).netloc == "www.lanus.gob.ar"
+                  and "page=" not in url and path.rstrip("/") != "/noticias"):
+                  descriptive.append((value, url))
+          print(f"DESCRIPTIVE_LINKS={len(descriptive)}")
+          for value, url in descriptive[:20]:
+              print(f"DESCRIPTIVE_TEXT={value[:140]}")
+              print(f"DESCRIPTIVE_URL={url[:220]}")
+
+          for key, present in {
+              "JUST_A_MOMENT": "just a moment" in lower,
+              "CF_CHL_OPT": "cf_chl_opt" in lower,
+              "CHALLENGE_PLATFORM": "challenge-platform" in lower,
+              "VERIFY_HUMAN_TEXT": "verify you are human" in lower or "checking your browser" in lower,
+          }.items():
+              print(f"{key}={str(present).lower()}")
+          PY
+          else
+            echo "No se descargó body.html"
+          fi
+          # Mantener visibles los diagnósticos aunque la URL responda con error.
+          exit 0
