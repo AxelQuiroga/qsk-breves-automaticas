@@ -78,7 +78,7 @@ export async function correrExtraccion(
       const { html, urlBase } = await descargarConReintentos(fuente.listarUrl, {
         tiposAceptados: fuente.tiposAceptados,
         fetchFn: fuente.id === "lanus"
-          ? crearFetchLanusConFallback({ fetchFn: opciones.fetchFn })
+          ? crearFetchLanusConFallback(opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {})
           : opciones.fetchFn,
         dormir: opciones.dormir,
         intentos: opciones.intentos,
