@@ -33,7 +33,7 @@ jobs:
 
       # curl-impersonate se instala en el contenedor de esta corrida; no cambia
       # la imagen runtime ni el calendario del workflow. Solo lo usa Lanús si fetch da 403.
-            - name: Instalar curl-impersonate para el fallback de Lanús
+      - name: Instalar curl-impersonate para el fallback de Lanús
         run: |
           set -euo pipefail
 
