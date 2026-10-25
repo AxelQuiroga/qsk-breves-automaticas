@@ -57,7 +57,7 @@ async function descargarConCurlImpersonate(url: string): Promise<string> {
     { encoding: "utf8", maxBuffer: 4 * 1024 * 1024, timeout: 40_000 },
   );
 
-  const marcador = /\\nQSK_HTTP_STATUS:(\\d{3})$/.exec(stdout);
+  const marcador = /\nQSK_HTTP_STATUS:(\d{3})$/.exec(stdout);
   if (!marcador) {
     throw new Error("curl-impersonate no devolvió el código HTTP esperado.");
   }
