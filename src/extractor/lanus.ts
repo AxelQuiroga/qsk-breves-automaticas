@@ -78,3 +78,32 @@ export function extraerLanus(html: string, urlBase: string): Noticia[] {
 
   return noticias;
 }
+
+/**
+ * Extrae la bajada de una noticia individual de Lanús.
+ *
+ * Estructura verificada en páginas reales (2026-10-26):
+ *   <h1>TÍTULO</h1>
+ *   <div class="texto">
+ *     <p>Primer párrafo (bajada/lead)</p>
+ *     <p>Resto del cuerpo</p>
+ *   </div>
+ *
+ * Solo se toma el primer párrafo no vacío de `.texto`; nunca el cuerpo completo.
+ * Devuelve `null` si no hay texto válido o si repite el título.
+ */
+export function extraerDescripcionLanus(html: string): string | null {
+  const $ = load(html);
+  const titulo = normalizarEspacios($("h1").first().text());
+  let descripcion = "";
+  $(".texto")
+    .first()
+    .find("p")
+    .each((_, elemento) => {
+      if (descripcion) return;
+      const texto = normalizarEspacios($(elemento).text());
+      if (texto) descripcion = texto;
+    });
+  if (!descripcion || descripcion === titulo) return null;
+  return descripcion;
+}

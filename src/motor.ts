@@ -3,6 +3,9 @@ import { FUENTES } from "./listado-fuentes.ts";
 import { LIMITE_POR_FUENTE, type FuenteEjecutable } from "./fuentes.ts";
 import { descargarConReintentos, ErrorExtraccion, type CategoriaError, type OpcionesDescarga } from "./red.ts";
 import { crearFetchLanusConFallback } from "./fetch-lanus.ts";
+import { extraerDescripcionLanus } from "./extractor/lanus.ts";
+import { extraerDescripcionAvellaneda } from "./extractor/avellaneda.ts";
+import { enriquecerDescripciones } from "./extractor/enriquecer-descripciones.ts";
 
 /**
  * Motor de extracción multi-fuente.
@@ -91,6 +94,24 @@ export async function correrExtraccion(
       } catch (error) {
         const mensaje = error instanceof Error ? error.message : String(error);
         throw new ErrorExtraccion(`El parser de ${fuente.nombre} falló: ${mensaje}`, "parser");
+      }
+
+      if (fuente.id === "lanus" || fuente.id === "avellaneda") {
+        const extraerDescripcion =
+          fuente.id === "lanus" ? extraerDescripcionLanus : extraerDescripcionAvellaneda;
+        const fetchEnriquecimiento =
+          fuente.id === "lanus"
+            ? crearFetchLanusConFallback(
+                opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {},
+              )
+            : opciones.fetchFn;
+        extras = await enriquecerDescripciones(extras, extraerDescripcion, {
+          fetchFn: fetchEnriquecimiento,
+          dormir: opciones.dormir,
+          intentos: opciones.intentos,
+          timeoutMs: opciones.timeoutMs,
+          tiposAceptados: ["text/html"],
+        });
       }
 
       if (extras.length === 0) {

@@ -84,3 +84,21 @@ export function extraerAvellaneda(html: string, urlBase: string): Noticia[] {
 
   return noticias;
 }
+
+/**
+ * Extrae la bajada de una noticia individual de Avellaneda.
+ *
+ * Estructura verificada en páginas reales (2026-10-26):
+ *   <h1 class="pt-4">TÍTULO</h1>
+ *   <h2 class="pt-4">Bajada breve</h2>
+ *
+ * Solo se toma el texto del primer `h2`; nunca el cuerpo completo.
+ * Devuelve `null` si no hay texto válido o si repite el título.
+ */
+export function extraerDescripcionAvellaneda(html: string): string | null {
+  const $ = load(html);
+  const titulo = normalizarEspacios($("h1").first().text());
+  const descripcion = normalizarEspacios($("h2").first().text());
+  if (!descripcion || descripcion === titulo) return null;
+  return descripcion;
+}
