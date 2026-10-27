@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof inauguró la obra de refacción integral de la Escuela Primaria N°1",
+    "descripcion": "Además, el Gobernador recorrió los avances de la construcción del nuevo Centro Universitario del programa Puentes y entregó netbooks a estudiantes del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB6141.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_la_obra_de_refacci%C3%B3n_integral_de_la_escuela",
+    "fecha": null,
+    "volanta": "GENERAL VILLEGAS",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-la-obra-de-refaccion-integral-de-la-escuela-primaria-n1"
+  },
+  {
     "titulo": "La Provincia entregó el premio Hebe Uhart de Novela 2026",
     "descripcion": "La ceremonia fue encabezada por el gobernador Axel Kicillof. El concurso promueve la creatividad artística y fomenta la escritura y la producción cultural.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC1169.jpg",
@@ -110,14 +120,24 @@
     "slug": "kicillof-y-kreplak-encabezaron-la-presentacion-del-2-plan-provincial-de-salud-mental"
   },
   {
-    "titulo": "La muestra “Vidas submarinas” comienza su recorrido por la provincia",
-    "descripcion": "Del 13 al 22 de octubre la muestra podrá visitarse con entrada libre y gratuita en la Casa de la Cultura de Adrogué, y continuará su recorrido por Escobar, Tandil, General San Martín y Luján.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG_3830.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_muestra_%E2%80%9Cvidas_submarinas%E2%80%9D_comienza_su_recorrido_por_la_provincia",
-    "fecha": null,
-    "volanta": "CIENCIA Y CULTURA",
-    "fuente": "gba",
-    "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
+    "titulo": "LLEGA UN NUEVO OPERATIVO “LANÚS TU GOBIERNO” A LANÚS OESTE",
+    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 30 de octubre, de 10 a 14 en el Club 9 de Julio, ubicado en la calle Gdor. Manuel Ocampo Nº 1023, en Lanús Oeste. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-27-at-41031-pm-6YxzP.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4639-llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste",
+    "fecha": "2026-10-27",
+    "volanta": "Atención vecinal",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste"
+  },
+  {
+    "titulo": "NUEVA EDICIÓN DEL PROGRAMA “TARDES DE VACUNACIÓN” EN GERLI",
+    "descripcion": "Lanús Gobierno llevará adelante este viernes 30 de octubre, de 17 a 20, una nueva jornada del programa “Tardes de Vacunación” en la plaza Ricardo Rojas, situada en la avenida Bustamante N° 900 en Gerli.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-27-at-150712-NFoSj.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4638-nueva-edicion-del-programa-tardes-de-vacunacion-en-gerli",
+    "fecha": "2026-10-27",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-del-programa-tardes-de-vacunacion-en-gerli"
   },
   {
     "titulo": "CONTINÚA EL PLAN DE OBRAS DEL PARQUE LINEAL DEL OESTE",
@@ -188,26 +208,6 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo"
-  },
-  {
-    "titulo": "SE HARÁN NUEVAS JORNADAS DE AUTOCUIDADO “LANÚS SE PREPARA” EN EL DISTRITO",
-    "descripcion": "Lanús Gobierno informa que desde el lunes 26 al viernes 30 de octubre se llevarán a cabo distintas jornadas de autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, donde las ciudadanas y los ciudadanos obtendrán información relacionada al fenómeno climatológico El Niño, además de recomendaciones sobre cómo actuar frente a este evento.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-23-at-42256-pm-pkHyL.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4630-se-haran-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito",
-    "fecha": "2026-10-23",
-    "volanta": "Espacios y Servicios Públicos",
-    "fuente": "lanus",
-    "slug": "se-haran-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
-  },
-  {
-    "titulo": "FERIA DE ARTESANÍAS: CÓNOCE DÓNDE SE HARÁN LAS PRÓXIMAS JORNADAS",
-    "descripcion": "Lanús Gobierno informa que este viernes 23, sábado 24 y domingo 25 de octubre se llevará adelante la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes lugares abiertos del distrito con el objetivo de impulsar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-23-at-102329-RXoC8.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4629-feria-de-artesanias-conoce-donde-se-haran-las-proximas-jornadas",
-    "fecha": "2026-10-23",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "feria-de-artesanias-conoce-donde-se-haran-las-proximas-jornadas"
   },
   {
     "titulo": "Avellaneda presenta el programa municipal “Repartidores en Red”",
@@ -428,6 +428,36 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-participo-de-la-inauguracion-de-la-biblioteca-popular-teodosia-tudy-castano"
+  },
+  {
+    "titulo": "La muestra “Vidas submarinas” comienza su recorrido por la provincia",
+    "descripcion": "Del 13 al 22 de octubre la muestra podrá visitarse con entrada libre y gratuita en la Casa de la Cultura de Adrogué, y continuará su recorrido por Escobar, Tandil, General San Martín y Luján.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG_3830.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_muestra_%E2%80%9Cvidas_submarinas%E2%80%9D_comienza_su_recorrido_por_la_provincia",
+    "fecha": null,
+    "volanta": "CIENCIA Y CULTURA",
+    "fuente": "gba",
+    "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
+  },
+  {
+    "titulo": "SE HARÁN NUEVAS JORNADAS DE AUTOCUIDADO “LANÚS SE PREPARA” EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 26 al viernes 30 de octubre se llevarán a cabo distintas jornadas de autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, donde las ciudadanas y los ciudadanos obtendrán información relacionada al fenómeno climatológico El Niño, además de recomendaciones sobre cómo actuar frente a este evento.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-23-at-42256-pm-pkHyL.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4630-se-haran-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito",
+    "fecha": "2026-10-23",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "se-haran-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
+  },
+  {
+    "titulo": "FERIA DE ARTESANÍAS: CÓNOCE DÓNDE SE HARÁN LAS PRÓXIMAS JORNADAS",
+    "descripcion": "Lanús Gobierno informa que este viernes 23, sábado 24 y domingo 25 de octubre se llevará adelante la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes lugares abiertos del distrito con el objetivo de impulsar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-23-at-102329-RXoC8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4629-feria-de-artesanias-conoce-donde-se-haran-las-proximas-jornadas",
+    "fecha": "2026-10-23",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "feria-de-artesanias-conoce-donde-se-haran-las-proximas-jornadas"
   },
   {
     "titulo": "NUEVA EDICIÓN DE LA FERIA “HECHO EN LANÚS”",
