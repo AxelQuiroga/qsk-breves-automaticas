@@ -120,6 +120,16 @@
     "slug": "la-muestra-vidas-submarinas-comienza-su-recorrido-por-la-provincia"
   },
   {
+    "titulo": "CONTINÚA EL PLAN DE OBRAS DEL PARQUE LINEAL DEL OESTE",
+    "descripcion": "Lanús Gobierno sigue con las obras de urbanización y recuperación de espacios verdes en los barrios Villa Constitución y Villa Ilaza, en la localidad de Valentín Alsina, que forman parte del proyecto del Parque Lineal del Oeste para que las y los lanusenses tengan más y mejores sitios públicos de calidad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-27-at-124641-JGyQP.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4637-continua-el-plan-de-obras-del-parque-lineal-del-oeste",
+    "fecha": "2026-10-27",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "continua-el-plan-de-obras-del-parque-lineal-del-oeste"
+  },
+  {
     "titulo": "SIGUE EL PLAN DE PAVIMENTACIÓN EN EL BARRIO VILLA ARGERICH",
     "descripcion": "Lanús Gobierno continúa con la ejecución del Plan de Pavimentación en diferentes barrios del distrito, con el objetivo de mejorar la circulación vehicular y peatonal, la seguridad vial y la calidad de vida de las y los lanusenses.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich-1-CBKH6.jpeg",
@@ -200,14 +210,14 @@
     "slug": "feria-de-artesanias-conoce-donde-se-haran-las-proximas-jornadas"
   },
   {
-    "titulo": "NUEVA EDICIÓN DE LA FERIA “HECHO EN LANÚS”",
-    "descripcion": "Lanús Gobierno llevará a cabo nuevas ediciones de la Feria de la Economía Social “Hecho en Lanús” en el distrito, con la finalidad de que las y los lanusenses se acerquen a recorrer los diversos stands con artesanías, productos de elaboración propia y amplias propuestas gastronómicas a precios populares.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-15-at-143709-P7bEW.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4628-nueva-edicion-de-la-feria-hecho-en-lanus",
-    "fecha": "2026-10-22",
-    "volanta": "Ferias",
-    "fuente": "lanus",
-    "slug": "nueva-edicion-de-la-feria-hecho-en-lanus"
+    "titulo": "Avellaneda presenta el programa municipal “Repartidores en Red”",
+    "descripcion": "La iniciativa está destinada a acompañar a las y los trabajadores de plataformas y repartidores de nuestra ciudad, a través de diferentes programas y beneficios.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-2-2-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-presenta-el-programa-municipal-repartidores-en-red/",
+    "fecha": "2026-10-27",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-presenta-el-programa-municipal-repartidores-en-red"
   },
   {
     "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
@@ -320,14 +330,24 @@
     "slug": "magdalena-sierra-inauguro-obras-en-instituciones-de-la-ciudad"
   },
   {
-    "titulo": "El Municipio entregó subsidios a escuelas públicas de Avellaneda",
-    "descripcion": "“Invertimos en educación publica para que todos los chicos tengan las mismas oportunidades”, aseguró la intendenta Sierra.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-15.17.03-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-entrego-subsidios-a-escuelas-publicas-de-avellaneda/",
-    "fecha": "2026-10-08",
+    "titulo": "PROGRAMA OFTALMOLÓGICO ECHEverRÍA: ENTREGA DE LENTES A ESTUDIANTES DE EL JAGÜEL",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría acompañados por la concejal local Magui Gray llevaron adelante la entrega de 371 lentes para estudiantes de la localidad de El Jagüel, en el marco del Programa Oftalmológico EcheVERría. En la Escuela Primaria N° 12 se otorgaron 144 anteojos, mientras que en la Escuela Secundaria N° 21 se entregaron 227 pares de lentes para chicas y chicos de la institución. Previo a estas entregas, profesionales de la salud del Municipio asistieron a dichos establecimientos para realizar controles de agudeza visual y así determinar quiénes necesitaban los lentes. Luego, cada estudiante eligió los marcos de los anteojos que se ofrecieron de forma gratuita. El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión para mejorar la salud y la calidad de vida de quienes no pueden acceder a este servicio.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-el-jaguel/",
+    "fecha": "2026-10-27",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "el-municipio-entrego-subsidios-a-escuelas-publicas-de-avellaneda"
+    "fuente": "esteban-echeverria",
+    "slug": "programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-el-jaguel"
+  },
+  {
+    "titulo": "MONTE GRANDE: NUEVAS RAMPAS PARA MEJORAR LA CIRCULACIÓN PEATONAL",
+    "descripcion": "El Municipio de Esteban Echeverría avanza con la construcción de rampas para personas con movilidad reducida en distintos puntos del distrito. En esta oportunidad, las obras se llevaron adelante en la intersección de las calles Hudson y Joaquín V. González, en la localidad de Monte Grande. La Comuna realiza estos trabajos como parte del programa de renovación y mantenimiento de los espacios públicos. Estas tareas en particular facilitan la circulación de las vecinas y los vecinos del distrito, y permiten un mejor acceso y comunicación entre viviendas, instituciones educativas, deportivas, religiosas y sociales.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/monte-grande-nuevas-rampas-para-mejorar-la-circulacion-peatonal-2/",
+    "fecha": "2026-10-27",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "monte-grande-nuevas-rampas-para-mejorar-la-circulacion-peatonal"
   },
   {
     "titulo": "EL JAGÜEL: TRES DETENIDOS POR ROBOS EN VIVIENDAS",
@@ -408,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-participo-de-la-inauguracion-de-la-biblioteca-popular-teodosia-tudy-castano"
+  },
+  {
+    "titulo": "NUEVA EDICIÓN DE LA FERIA “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno llevará a cabo nuevas ediciones de la Feria de la Economía Social “Hecho en Lanús” en el distrito, con la finalidad de que las y los lanusenses se acerquen a recorrer los diversos stands con artesanías, productos de elaboración propia y amplias propuestas gastronómicas a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-15-at-143709-P7bEW.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4628-nueva-edicion-de-la-feria-hecho-en-lanus",
+    "fecha": "2026-10-22",
+    "volanta": "Ferias",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-de-la-feria-hecho-en-lanus"
+  },
+  {
+    "titulo": "El Municipio entregó subsidios a escuelas públicas de Avellaneda",
+    "descripcion": "“Invertimos en educación publica para que todos los chicos tengan las mismas oportunidades”, aseguró la intendenta Sierra.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-15.17.03-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-entrego-subsidios-a-escuelas-publicas-de-avellaneda/",
+    "fecha": "2026-10-08",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-municipio-entrego-subsidios-a-escuelas-publicas-de-avellaneda"
   },
   {
     "titulo": "FERNANDO GRAY PARTICIPÓ DEL 20° ANIVERSARIO DE LA SOCIEDAD DE FOMENTO SAN CARLOS BORROMEO",
