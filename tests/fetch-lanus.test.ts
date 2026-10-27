@@ -42,4 +42,16 @@ describe("crearFetchLanusConFallback", () => {
     expect(resultado.status).toBe(200);
     expect(curlFn).not.toHaveBeenCalled();
   });
+
+  it("usa curl-impersonate cuando una noticia individual de Lanús devuelve 403", async () => {
+    const fetchFn = vi.fn<typeof fetch>().mockResolvedValue(respuesta(403, "blocked"));
+    const curlFn = vi.fn().mockResolvedValue("<html><p>Bajada</p></html>");
+    const fetchLanus = crearFetchLanusConFallback({ fetchFn, curlFn });
+
+    const resultado = await fetchLanus("https://www.lanus.gob.ar/noticias/4635-el-colectivo-sanitario");
+
+    expect(resultado.status).toBe(200);
+    expect(await resultado.text()).toContain("Bajada");
+    expect(curlFn).toHaveBeenCalledWith("https://www.lanus.gob.ar/noticias/4635-el-colectivo-sanitario");
+  });
 });

@@ -31,7 +31,9 @@ export async function enriquecerDescripciones(
           tiposAceptados: opciones.tiposAceptados ?? ["text/html"],
         });
         descripcion = extraerDescripcion(html);
-      } catch {
+      } catch (error) {
+        const mensaje = error instanceof Error ? error.message : String(error);
+        console.warn(`[descripcion] No se pudo obtener descripcion de ${noticia.urlNoticia}: ${mensaje}`);
         descripcion = null;
       }
       cache.set(noticia.urlNoticia, descripcion);
