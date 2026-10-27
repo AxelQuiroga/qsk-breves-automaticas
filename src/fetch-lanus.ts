@@ -2,7 +2,6 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
-const URL_LISTADO_LANUS = "https://www.lanus.gob.ar/noticias";
 
 export interface OpcionesFetchLanus {
   fetchFn?: typeof fetch;
@@ -27,13 +26,13 @@ export function crearFetchLanusConFallback(
     if (
       respuesta.status !== 403 ||
       destino.hostname !== "www.lanus.gob.ar" ||
-      destino.pathname !== "/noticias"
+      !(destino.pathname === "/noticias" || destino.pathname.startsWith("/noticias/"))
     ) {
       return respuesta;
     }
 
-    console.warn("[Lanús] fetch recibió HTTP 403; activando curl-impersonate (Chrome 152).");
-    const html = await descargarConCurl(URL_LISTADO_LANUS);
+    console.warn(`[Lanús] fetch recibió HTTP 403 en ${url}; activando curl-impersonate (Chrome 152).`);
+    const html = await descargarConCurl(url);
     return new Response(html, {
       status: 200,
       headers: { "content-type": "text/html; charset=utf-8" },
