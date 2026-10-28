@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof entregó escrituras gratuitas a familias de Rivadavia",
+    "descripcion": "Además el Gobernador otorgó netbooks a estudiantes de nivel secundario en el marco del Programa \"Conectar Igualdad Bonaerense\".",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20RIVADAVIA.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_rivadavia",
+    "fecha": null,
+    "volanta": "RIVADAVIA",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-rivadavia"
+  },
+  {
     "titulo": "Kicillof inauguró la obra de refacción integral de la Escuela Primaria N°1",
     "descripcion": "Además, el Gobernador recorrió los avances de la construcción del nuevo Centro Universitario del programa Puentes y entregó netbooks a estudiantes del distrito.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB6141.jpg",
@@ -108,16 +118,6 @@
     "volanta": "SEGURIDAD",
     "fuente": "gba",
     "slug": "kicillof-recorrio-la-nueva-base-de-la-utoi-en-san-isidro"
-  },
-  {
-    "titulo": "Kicillof y Kreplak encabezaron la presentación del 2° Plan Provincial de Salud Mental",
-    "descripcion": "La iniciativa establece los lineamientos para el periodo 2026-2031 e incorpora nuevas estrategias para dar continuidad a las políticas públicas ante los desafíos sociales y económicos actuales.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_218.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_kreplak_encabezaron_la_presentaci%C3%B3n_del_2%C2%B0_plan",
-    "fecha": null,
-    "volanta": "ENSENADA",
-    "fuente": "gba",
-    "slug": "kicillof-y-kreplak-encabezaron-la-presentacion-del-2-plan-provincial-de-salud-mental"
   },
   {
     "titulo": "LLEGA UN NUEVO OPERATIVO “LANÚS TU GOBIERNO” A LANÚS OESTE",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-participo-de-la-inauguracion-de-la-biblioteca-popular-teodosia-tudy-castano"
+  },
+  {
+    "titulo": "Kicillof y Kreplak encabezaron la presentación del 2° Plan Provincial de Salud Mental",
+    "descripcion": "La iniciativa establece los lineamientos para el periodo 2026-2031 e incorpora nuevas estrategias para dar continuidad a las políticas públicas ante los desafíos sociales y económicos actuales.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_218.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_kreplak_encabezaron_la_presentaci%C3%B3n_del_2%C2%B0_plan",
+    "fecha": null,
+    "volanta": "ENSENADA",
+    "fuente": "gba",
+    "slug": "kicillof-y-kreplak-encabezaron-la-presentacion-del-2-plan-provincial-de-salud-mental"
   },
   {
     "titulo": "La muestra “Vidas submarinas” comienza su recorrido por la provincia",
