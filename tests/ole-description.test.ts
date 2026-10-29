@@ -40,7 +40,7 @@ describe("description del RSS de Olé", () => {
   });
 
   it("admite descripción HTML dentro de CDATA", () => {
-    const [candidata] = parsearFeedOle(xml("<description><![CDATA[<p>Resumen <strong>importante</strong> &amp; contexto</p>]]></description>"));
+    const [candidata] = parsearFeedOle(xml("<description><![CDATA[<p>Resumen</p><p><strong>importante</strong> &amp; contexto</p>]]></description>"));
     expect(candidata?.description).toContain("<p>");
     const [normalizada] = normalizarNoticiasOle([candidata!]);
     expect(normalizada?.description).toBe("Resumen importante & contexto");
