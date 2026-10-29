@@ -10,8 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   actualizar:
@@ -19,7 +18,7 @@ jobs:
     timeout-minutes: 8
 
     steps:
-      - name: Descargar repositorio
+      - name: Descargar repositorio del extractor
         uses: actions/checkout@v4
 
       - name: Configurar pnpm
@@ -84,23 +83,39 @@ jobs:
           console.log(`Contrato válido: ${noticias.length} noticias de Olé.`);
           NODE
 
-      # Las ejecuciones manuales desde ramas de trabajo validan el feed,
-      # pero solo main puede abrir/actualizar el PR de automatización.
-      - name: Crear o actualizar PR exclusivo de Olé
+      # El feed se entrega al repositorio del sitio, siguiendo el mecanismo
+      # de gacetillas. Solo main puede abrir o actualizar el PR automatizado.
+      - name: Descargar QSK Noticias
+        if: github.ref == 'refs/heads/main'
+        uses: actions/checkout@v4
+        with:
+          repository: AxelQuiroga/QSK-Noticias
+          ref: master
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+
+      - name: Copiar feed validado a QSK Noticias
+        if: github.ref == 'refs/heads/main'
+        run: cp data/ole-noticias.json qsk-noticias/src/data/ole-noticias.json
+
+      - name: Crear o actualizar PR de Olé en QSK Noticias
         if: github.ref == 'refs/heads/main'
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
           branch: automation/ole-rss
-          base: main
+          base: master
           delete-branch: false
-          add-paths: data/ole-noticias.json
+          add-paths: src/data/ole-noticias.json
           commit-message: "chore(ole): actualizar feed RSS"
-          title: "chore(ole): actualizar noticias del feed RSS"
+          title: "chore(ole): actualizar noticias de Olé"
           body: |
             Actualización automática del feed RSS de Olé.
 
-            - Archivo: `data/ole-noticias.json`
+            - Destino: `src/data/ole-noticias.json`
             - Fuente: https://www.ole.com.ar/rss/ultimas-noticias/
             - Se incluyen metadatos y enlaces originales, no el texto completo de los artículos.
+            - Este PR solo modifica el archivo del feed de Olé; no toca las gacetillas oficiales.
 
             Revisar los cambios antes de fusionar.
