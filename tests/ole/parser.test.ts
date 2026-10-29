@@ -2,7 +2,6 @@ import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { parsearFeedOle } from "../../src/ole/parser.ts";
-import { ErrorOleFeed } from "../../src/ole/errors.ts";
 
 const fixture = fileURLToPath(new URL("../fixtures/ole-feed.xml", import.meta.url));
 const xmlReal = await readFile(fixture, "utf8");
