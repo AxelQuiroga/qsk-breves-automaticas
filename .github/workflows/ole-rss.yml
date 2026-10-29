@@ -96,7 +96,7 @@ jobs:
 
       - name: Copiar feed validado a QSK Noticias
         if: github.ref == 'refs/heads/main'
-        run: cp data/ole-noticias.json qsk-noticias/src/data/ole-noticias.json
+        run: cp data/ole-noticias.json qsk-noticias/src/data/ole.json
 
       - name: Crear o actualizar PR de Olé en QSK Noticias
         if: github.ref == 'refs/heads/main'
@@ -107,13 +107,13 @@ jobs:
           branch: automation/ole-rss
           base: master
           delete-branch: false
-          add-paths: src/data/ole-noticias.json
+          add-paths: src/data/ole.json
           commit-message: "chore(ole): actualizar feed RSS"
           title: "chore(ole): actualizar noticias de Olé"
           body: |
             Actualización automática del feed RSS de Olé.
 
-            - Destino: `src/data/ole-noticias.json`
+            - Destino: `src/data/ole.json`
             - Fuente: https://www.ole.com.ar/rss/ultimas-noticias/
             - Se incluyen metadatos y enlaces originales, no el texto completo de los artículos.
             - Este PR solo modifica el archivo del feed de Olé; no toca las gacetillas oficiales.
