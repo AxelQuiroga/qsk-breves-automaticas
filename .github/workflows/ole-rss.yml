@@ -70,7 +70,7 @@ jobs:
             if (
               noticia.id !== noticia.url ||
               typeof noticia.url !== "string" ||
-              !noticia.url.startsWith("https://www.ole.com.ar/") ||
+              !["ole.com.ar", "www.ole.com.ar"].includes(new URL(noticia.url).hostname) ||
               typeof noticia.title !== "string" ||
               noticia.title.trim() === "" ||
               noticia.source !== "Olé" ||
