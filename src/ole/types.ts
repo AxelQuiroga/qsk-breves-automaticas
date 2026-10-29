@@ -5,6 +5,8 @@ export interface OleNews {
   url: string;
   publishedAt: string | null;
   imageUrl: string | null;
+  /** Resumen opcional del RSS; se omite si no contiene texto útil. */
+  description?: string;
   source: "Olé";
 }
 
@@ -14,4 +16,6 @@ export interface NoticiaOleCandidata {
   url: string;
   pubDate: string | null;
   imagenUrl: string | null;
+  /** El RSS puede omitir description o traerla vacía. */
+  description?: string | null;
 }
