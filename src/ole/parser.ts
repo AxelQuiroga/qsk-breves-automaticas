@@ -17,7 +17,8 @@ export function parsearFeedOle(xml: string): NoticiaOleCandidata[] {
   if (!/<\/rss\s*>\s*$/i.test(sinCdataNiComentarios)
     || !/<channel\b/i.test(sinCdataNiComentarios)
     || !/<\/channel\s*>/i.test(sinCdataNiComentarios)
-    || (sinCdataNiComentarios.match(/<item\b/gi) ?? []).length !== (sinCdataNiComentarios.match(/<\/item\s*>/gi) ?? []).length) {
+    || (sinCdataNiComentarios.match(/<item\b/gi) ?? []).length !== (sinCdataNiComentarios.match(/<\/item\s*>/gi) ?? []).length
+    || !tieneAnidamientoValido(contenido)) {
     throw new ErrorOleFeed("El XML RSS de Olé está incompleto o no tiene la estructura esperada", "xml-invalido");
   }
 
@@ -47,6 +48,36 @@ export function parsearFeedOle(xml: string): NoticiaOleCandidata[] {
     throw new ErrorOleFeed("El feed RSS de Olé no contiene noticias utilizables", "feed-vacio");
   }
   return candidatas;
+}
+
+/**
+ * Cheerio repara ciertos errores de anidamiento. Validamos una pila de etiquetas
+ * antes de entregarle el documento para no confundir XML roto con feed vacío.
+ */
+function tieneAnidamientoValido(xml: string): boolean {
+  const contenido = xml
+    .replace(/<!\[CDATA\[[\s\S]*?\]\]>/g, "")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<\?[\s\S]*?\?>/g, "")
+    .replace(/<!DOCTYPE[^>]*>/gi, "");
+  const pila: string[] = [];
+  const etiquetas = /<\s*(\/)?\s*([A-Za-z_][\w:.-]*)(?:\s[^<>]*?)?(\/)?\s*>/g;
+  let coincidencia: RegExpExecArray | null;
+
+  while ((coincidencia = etiquetas.exec(contenido)) !== null) {
+    const cierre = coincidencia[1] === "/";
+    const nombre = coincidencia[2];
+    const autocerrada = coincidencia[3] === "/";
+    if (!nombre) return false;
+
+    if (cierre) {
+      if (pila.pop() !== nombre) return false;
+    } else if (!autocerrada) {
+      pila.push(nombre);
+    }
+  }
+
+  return pila.length === 0;
 }
 
 function limpiar(valor: string): string {
