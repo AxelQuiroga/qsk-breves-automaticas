@@ -1,0 +1,106 @@
+name: Actualizar feed RSS de Olé
+
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: actualizar-feed-ole
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Verificar contratos y código
+        run: |
+          pnpm test
+          pnpm typecheck
+          pnpm lint
+
+      - name: Descargar, validar y generar el feed
+        run: pnpm ole
+
+      - name: Validar el contrato del JSON generado
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from "node:fs/promises";
+
+          const path = "data/ole-noticias.json";
+          const noticias = JSON.parse(await readFile(path, "utf8"));
+          const campos = ["id", "imageUrl", "publishedAt", "source", "title", "url"];
+
+          if (!Array.isArray(noticias) || noticias.length === 0 || noticias.length > 10) {
+            throw new Error("El feed debe contener entre 1 y 10 noticias.");
+          }
+
+          for (const [indice, noticia] of noticias.entries()) {
+            if (
+              noticia === null ||
+              typeof noticia !== "object" ||
+              JSON.stringify(Object.keys(noticia).sort()) !== JSON.stringify(campos)
+            ) {
+              throw new Error(`Contrato de campos inválido en la noticia ${indice}.`);
+            }
+
+            if (
+              noticia.id !== noticia.url ||
+              typeof noticia.url !== "string" ||
+              !noticia.url.startsWith("https://www.ole.com.ar/") ||
+              typeof noticia.title !== "string" ||
+              noticia.title.trim() === "" ||
+              noticia.source !== "Olé" ||
+              !(noticia.publishedAt === null || typeof noticia.publishedAt === "string") ||
+              !(noticia.imageUrl === null || typeof noticia.imageUrl === "string")
+            ) {
+              throw new Error(`Datos inválidos en la noticia ${indice}.`);
+            }
+          }
+
+          console.log(`Contrato válido: ${noticias.length} noticias de Olé.`);
+          NODE
+
+      # Las ejecuciones manuales desde ramas de trabajo validan el feed,
+      # pero solo main puede abrir/actualizar el PR de automatización.
+      - name: Crear o actualizar PR exclusivo de Olé
+        if: github.ref == 'refs/heads/main'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/ole-rss
+          base: main
+          delete-branch: false
+          add-paths: data/ole-noticias.json
+          commit-message: "chore(ole): actualizar feed RSS"
+          title: "chore(ole): actualizar noticias del feed RSS"
+          body: |
+            Actualización automática del feed RSS de Olé.
+
+            - Archivo: `data/ole-noticias.json`
+            - Fuente: https://www.ole.com.ar/rss/ultimas-noticias/
+            - Se incluyen metadatos y enlaces originales, no el texto completo de los artículos.
+
+            Revisar los cambios antes de fusionar.
