@@ -3,7 +3,10 @@ name: Contratos del módulo Olé
 on:
   push:
     branches:
-      - test/ole-contracts-tdd
+      - super-ole
+  pull_request:
+    branches:
+      - super-ole
   workflow_dispatch:
 
 permissions:
@@ -16,8 +19,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: test/ole-contracts-tdd
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
