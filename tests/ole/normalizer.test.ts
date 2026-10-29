@@ -8,6 +8,7 @@ const base: NoticiaOleCandidata = {
   url: "https://www.ole.com.ar/futbol/boca.html?utm_source=rss",
   pubDate: "Thu, 29 Oct 2026 00:47:58 +0000",
   imagenUrl: "https://www.ole.com.ar/images/boca.jpg",
+  descripcion: null,
 };
 
 describe("normalizarNoticiasOle", () => {
@@ -18,8 +19,21 @@ describe("normalizarNoticiasOle", () => {
       url: "https://www.ole.com.ar/futbol/boca.html",
       publishedAt: "2026-10-29T00:47:58.000Z",
       imageUrl: "https://www.ole.com.ar/images/boca.jpg",
+      description: null,
       source: "Olé",
     }]);
+  });
+
+
+  it("conserva la descripción extraída y normaliza una descripción ausente a null", () => {
+    const conDescripcion = normalizarNoticiasOle([{
+      ...base,
+      descripcion: "Resumen de la noticia",
+    }])[0];
+    const sinDescripcion = normalizarNoticiasOle([base])[0];
+
+    expect(conDescripcion).toMatchObject({ description: "Resumen de la noticia" });
+    expect(sinDescripcion).toMatchObject({ description: null });
   });
 
   it("deduplica por URL canónica y conserva la primera entrada válida", () => {

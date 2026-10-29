@@ -41,6 +41,7 @@ export function parsearFeedOle(xml: string): NoticiaOleCandidata[] {
       url,
       pubDate: fecha || null,
       imagenUrl: imagen || null,
+      descripcion: limpiarDescripcion($item.find("description").first().text()),
     });
   });
 
@@ -78,6 +79,14 @@ function tieneAnidamientoValido(xml: string): boolean {
   }
 
   return pila.length === 0;
+}
+
+/** Convierte la descripción RSS a texto plano y descarta nodos activos. */
+function limpiarDescripcion(valor: string): string | null {
+  if (!valor.trim()) return null;
+  const $descripcion = load(valor);
+  $descripcion("script, style, iframe, object, embed, noscript").remove();
+  return limpiar($descripcion.root().text()) || null;
 }
 
 function limpiar(valor: string): string {

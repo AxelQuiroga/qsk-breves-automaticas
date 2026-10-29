@@ -22,6 +22,7 @@ export function normalizarNoticiasOle(candidatas: NoticiaOleCandidata[]): OleNew
       url,
       publishedAt: normalizarFecha(candidata.pubDate),
       imageUrl: candidata.imagenUrl ? normalizarUrlOle(candidata.imagenUrl) : null,
+      description: candidata.descripcion?.trim() || null,
       source: "Olé",
     });
   }

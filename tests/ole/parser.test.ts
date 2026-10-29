@@ -15,6 +15,7 @@ describe("parsearFeedOle", () => {
       url: "https://www.ole.com.ar/copa-argentina/palermo-falcioni-reencuentro-salta-copa-argentina-platense-atletico-tucuman_0_lkjPJ5l8Vv.html",
       pubDate: "Thu, 29 Oct 2026 00:47:58 +0000",
       imagenUrl: "https://www.ole.com.ar/images/2026/10/29/vKhC6UY5a_1200x630__1.jpg",
+      descripcion: "Antes del inicio del partido entre A. Tucumán y Platense, el Loco y el Emperador se saludaron afectuosamente.",
     });
   });
 
@@ -25,7 +26,17 @@ describe("parsearFeedOle", () => {
       url: "https://www.ole.com.ar/deportes/nota.html",
       pubDate: null,
       imagenUrl: null,
+      descripcion: null,
     }]);
+  });
+
+
+  it("extrae la descripción como texto plano y elimina etiquetas y contenido ejecutable", () => {
+    const xml = `<rss version="2.0"><channel><title>Olé</title><item>
+      <title>Nota segura</title><link>https://www.ole.com.ar/deportes/nota.html</link>
+      <description><![CDATA[<p>Texto <strong>importante</strong>.</p><script>alert("xss")</script><img src=x onerror="alert(1)">]]></description>
+    </item></channel></rss>`;
+    expect(parsearFeedOle(xml)[0]?.descripcion).toBe("Texto importante.");
   });
 
   it.each(["", "<html><body>Cloudflare</body></html>", "<rss><channel><item>"]) (

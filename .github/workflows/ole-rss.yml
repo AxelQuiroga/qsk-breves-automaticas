@@ -51,7 +51,7 @@ jobs:
 
           const path = "data/ole-noticias.json";
           const noticias = JSON.parse(await readFile(path, "utf8"));
-          const campos = ["id", "imageUrl", "publishedAt", "source", "title", "url"];
+          const campos = ["description", "id", "imageUrl", "publishedAt", "source", "title", "url"];
 
           if (!Array.isArray(noticias) || noticias.length === 0 || noticias.length > 10) {
             throw new Error("El feed debe contener entre 1 y 10 noticias.");
@@ -74,7 +74,8 @@ jobs:
               noticia.title.trim() === "" ||
               noticia.source !== "Olé" ||
               !(noticia.publishedAt === null || typeof noticia.publishedAt === "string") ||
-              !(noticia.imageUrl === null || typeof noticia.imageUrl === "string")
+              !(noticia.imageUrl === null || typeof noticia.imageUrl === "string") ||
+              !(noticia.description === null || typeof noticia.description === "string")
             ) {
               throw new Error(`Datos inválidos en la noticia ${indice}.`);
             }
