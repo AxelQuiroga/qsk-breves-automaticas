@@ -1,3 +1,4 @@
+import { load } from "cheerio";
 import { ErrorOleFeed } from "./errors.ts";
 import type { NoticiaOleCandidata, OleNews } from "./types.ts";
 
@@ -22,6 +23,7 @@ export function normalizarNoticiasOle(candidatas: NoticiaOleCandidata[]): OleNew
       url,
       publishedAt: normalizarFecha(candidata.pubDate),
       imageUrl: candidata.imagenUrl ? normalizarUrlOle(candidata.imagenUrl) : null,
+      ...(normalizarDescripcion(candidata.description) ? { description: normalizarDescripcion(candidata.description) } : {}),
       source: "Olé",
     });
   }
@@ -52,6 +54,12 @@ function normalizarUrlOle(valor: string): string | null {
   } catch {
     return null;
   }
+}
+
+function normalizarDescripcion(valor: string | null | undefined): string | undefined {
+  if (!valor?.trim()) return undefined;
+  const texto = load(valor).text().replace(/\\u00a0/g, " ").replace(/\\s+/g, " ").trim();
+  return texto || undefined;
 }
 
 function normalizarFecha(valor: string | null): string | null {
