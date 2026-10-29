@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof participó de la 2° edición de la Agenda Ambiental Latinoamericana",
+    "descripcion": "El encuentro se desarrolla durante dos jornadas y reúne a gobiernos locales, provinciales y de distintos países de América Latina.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1536-1024%20%282%29.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_2%C2%B0_edici%C3%B3n_de_la_agenda_ambiental",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-2-edicion-de-la-agenda-ambiental-latinoamericana"
+  },
+  {
     "titulo": "Kicillof entregó escrituras gratuitas a familias de Rivadavia",
     "descripcion": "Además el Gobernador otorgó netbooks a estudiantes de nivel secundario en el marco del Programa \"Conectar Igualdad Bonaerense\".",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20RIVADAVIA.jpg",
@@ -110,14 +120,34 @@
     "slug": "mas-de-160-personas-participaron-del-curso-sobre-periodismo-local-y-comunitario"
   },
   {
-    "titulo": "Kicillof recorrió la nueva base de la UTOI en San Isidro",
-    "descripcion": "Las instalaciones permiten que los efectivos que cumplen sus tareas en el distrito cuenten con una base operativa permanente y refuercen el despliegue preventivo en los barrios de La Cava, Santa Rita, Uruguay y San Cayetano.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_219.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_la_nueva_base_de_la_utoi_en_san_isidro",
-    "fecha": null,
-    "volanta": "SEGURIDAD",
-    "fuente": "gba",
-    "slug": "kicillof-recorrio-la-nueva-base-de-la-utoi-en-san-isidro"
+    "titulo": "FERIA \"HECHO EN LANÚS\": NUEVAS EDICIONES EN EL CENTRO CULTURAL LEONARDO FAVIO Y EN LA PLAZA SARMIENTO",
+    "descripcion": "Lanús Gobierno realizará otras dos jornadas de la Feria de la Economía Social “Hecho en Lanús” durante el sábado 31 de octubre y el domingo 1 de noviembre, de 15 a 19, en el Centro Cultural Leonardo Favio (avenida 25 de Mayo N° 131, Lanús Oeste) y en la plaza Sarmiento (avenida 9 de julio N° 1900, Lanús Este).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-22-at-190833-7rYbO.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4643-feria-hecho-en-lanus-nuevas-ediciones-en-el-centro-cultural-leonardo-favio-y-en-la-plaza-sarmiento",
+    "fecha": "2026-10-29",
+    "volanta": "Desarrollo Social",
+    "fuente": "lanus",
+    "slug": "feria-hecho-en-lanus-nuevas-ediciones-en-el-centro-cultural-leonardo-favio-y-en-la-plaza-sarmiento"
+  },
+  {
+    "titulo": "JORNADAS DE AUTOCUIDADO \"LANÚS SE PREPARA\": CONOCÉ LAS PRÓXIMAS FECHAS",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 2 al sábado 7 de noviembre se llevarán a cabo distintas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, donde las y los lanusenses obtendrán información relacionada al fenómeno climatológico El Niño, además de recomendaciones sobre cómo actuar frente a este evento.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-29-at-134609-Kdc5M.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4642-jornadas-de-autocuidado-lanus-se-prepara-conoce-las-proximas-fechas",
+    "fecha": "2026-10-29",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "jornadas-de-autocuidado-lanus-se-prepara-conoce-las-proximas-fechas"
+  },
+  {
+    "titulo": "PUNTO DE CASTRACIÓN ITINERANTE: NUEVA JORNADA EN GERLI",
+    "descripcion": "Lanús Gobierno brindará nuevos turnos presenciales para que los vecinos y las vecinas puedan acceder al servicio de castración itinerante gratuito de mascotas durante este viernes 30 de octubre, desde las 9 y hasta agotar cupos en el Club Pioneros de Gerli, ubicado en Cmte. Mamberti N° 656.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-29-at-101807-CG5MH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4641-punto-de-castracion-itinerante-nueva-jornada-en-gerli",
+    "fecha": "2026-10-29",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "punto-de-castracion-itinerante-nueva-jornada-en-gerli"
   },
   {
     "titulo": "EL OPERATIVO \"SÁBADOS DE SALUD EN EL BARRIO\" LLEGA A GERLI",
@@ -178,36 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "el-colectivo-sanitario-llegara-a-la-plaza-arias-de-lanus-oeste"
-  },
-  {
-    "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS",
-    "descripcion": "Lanús Gobierno informa que desde el lunes 26 y hasta el viernes 30 de octubre se desarrollarán nuevas jornadas del programa “Plazas Saludables” en diferentes espacios públicos de la ciudad. La propuesta funcionará de 9 a 12 y permitirá que las vecinas y los vecinos accedan a controles médicos gratuitos y participen de actividades destinadas a fomentar el bienestar y los hábitos saludables.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5042239529481776724-7ZZat.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4634-programa-plazas-saludables-conoce-las-proximas-jornadas",
-    "fecha": "2026-10-25",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "programa-plazas-saludables-conoce-las-proximas-jornadas"
-  },
-  {
-    "titulo": "¡AMBIENTE SÍ! NUEVAS JORNADAS EN EL DISTRITO",
-    "descripcion": "Lanús Gobierno llevará adelante desde el lunes 26 y hasta el sábado 31 de octubre una nueva edición del operativo ¡Ambiente Sí! en diferentes espacios públicos del distrito. Durante las jornadas, las vecinas y los vecinos podrán acercar materiales reciclables, retirar semillas de temporada y participar de acciones destinadas a promover el cuidado del ambiente. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-25-at-111422-am-V5sMz.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4633-ambiente-si-nuevas-jornadas-en-el-distrito",
-    "fecha": "2026-10-25",
-    "volanta": "Ambiente",
-    "fuente": "lanus",
-    "slug": "ambiente-si-nuevas-jornadas-en-el-distrito"
-  },
-  {
-    "titulo": "EL QUIRÓFANO MÓVIL ESTARÁ NUEVAMENTE EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
-    "descripcion": "Lanús Gobierno informa que el lunes 26 de octubre, desde las 9 y hasta agotar cupos, se entregarán nuevos turnos presenciales para acceder a castraciones gratuitas de perros y gatos en el Quirófano Móvil ubicado en el Parque Municipal General San Martín (Coronel Sayos N° 2302, Valentín Alsina).",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5161500184201071627-y-Mjs7I.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4632-el-quirofano-movil-estara-nuevamente-en-el-parque-municipal-general-san-martin",
-    "fecha": "2026-10-24",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-quirofano-movil-estara-nuevamente-en-el-parque-municipal-general-san-martin"
   },
   {
     "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
@@ -330,6 +330,26 @@
     "slug": "cronograma-de-las-ferias-itinerantes-de-la-economia-popular"
   },
   {
+    "titulo": "CHARLA PARA PERSONAS MAYORES: CLAVES PARA CUIDAR NUESTRO CORAZÓN Y NUESTRA SALUD",
+    "descripcion": "El viernes 30 de octubre, a las 17:30 horas, el Municipio de Esteban Echeverría llevará a cabo una charla destinada a personas mayores de 55 años interesadas en el cuidado de su salud.&#160; La actividad se desarrollará en el Polo Judicial (Güemes 425, Monte Grande) y estará a cargo del Dr. Omar Prieto. Quienes asistan, podrán acceder a una charla con información importante sobre cuidados del corazón y hábitos saludables. El encuentro está pensado para acompañar a las adultas y los adultos mayores y mejorar su calidad de vida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/charla-para-personas-mayores-claves-para-cuidar-nuestro-corazon-y-nuestra-salud/",
+    "fecha": "2026-10-29",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "charla-para-personas-mayores-claves-para-cuidar-nuestro-corazon-y-nuestra-salud"
+  },
+  {
+    "titulo": "SIGUEN LOS TRABAJOS DE BACHEO EN CANNING",
+    "descripcion": "Como parte del plan integral de mantenimiento vial que se desarrolla en todo el distrito, los equipos municipales realizaron tareas de bacheo con asfalto caliente sobre la calle Suárez, entre Juana de Arco y Coronel Vicente Dupuy, en la localidad de Canning. Los trabajos consistieron en la reparación de sectores deteriorados de la calzada mediante la aplicación de mezcla asfáltica en caliente. Estas intervenciones forman parte del plan de mantenimiento vial que el Municipio ejecuta con financiamiento propio y que contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/siguen-los-trabajos-de-bacheo-en-canning/",
+    "fecha": "2026-10-29",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "siguen-los-trabajos-de-bacheo-en-canning"
+  },
+  {
     "titulo": "MONTE GRANDE SUR: EL MUNICIPIO ENTREGÓ LENTES DEL PROGRAMA OFTALMOLÓGICO ECHEverRÍA",
     "descripcion": "En el marco del Programa Oftalmológico EcheVERría, los equipos del Municipio de Esteban Echeverría junto con la concejal local Magui Gray entregaron 184 pares de lentes a estudiantes de Monte Grande Sur. En la Escuela Primaria N° 13 se otorgaron 88 anteojos, mientras que en la Escuela Secundaria N° 24 se llevó adelante la entrega de 96 pares de lentes. Previamente, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual; se determinó quiénes necesitaban anteojos y las y los estudiantes pudieron elegir los marcos que se brindaron de manera gratuita.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 555 pares de anteojos.",
     "imagenUrl": null,
@@ -350,6 +370,26 @@
     "slug": "nuevo-operativo-de-recarga-de-garrafas-en-monte-grande"
   },
   {
+    "titulo": "EL JAGÜEL: CONTINÚAN LOS TRABAJOS DE TOMADO DE JUNTAS",
+    "descripcion": "El Municipio de Esteban Echeverría sigue adelante con las obras de tomado de juntas en los distintos puntos del distrito. En esta oportunidad, los equipos trabajaron en 12 de Octubre y Estancia Los Remedios (El Jagüel). Estos trabajos se realizan con el fin de preservar la calidad y durabilidad del pavimento, y así mejorar la circulación en la vía pública para las vecinas y los vecinos de la localidad. Las obras de tomado de juntas forman parte de un plan integral que incluye pavimentación en el asfalto y hormigón, bacheo con asfalto caliente y repavimentación.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-jaguel-continuan-los-trabajos-de-tomado-de-juntas/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-jaguel-continuan-los-trabajos-de-tomado-de-juntas"
+  },
+  {
+    "titulo": "OPERATIVO DE RETIRO DE VEHÍCULOS ABANDONADOS EN 9 DE ABRIL",
+    "descripcion": "El Municipio de Esteban Echeverría realizó un nuevo operativo de retiro de automóviles en desuso y abandonados en la vía pública. En esta oportunidad fue en el barrio San Sebastián Oeste, en la localidad de 9 de Abril. Los vehículos fueron trasladados al depósito de Tránsito, ubicado en Lavardén y Constanzó, donde permanecerán hasta su compactación, prevista para fin de año. Estas acciones forman parte de los trabajos que lleva adelante el Municipio para retirar vehículos fuera de circulación y de esa forma contribuir al ordenamiento del espacio público. Además, las mismas se enmarcan en el PRO.DE.CO (Programa Nacional de Descontaminación, Compactación y Disposición Final de Automotores).",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/operativo-de-retiro-de-vehiculos-abandonados-en-9-de-abril/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "operativo-de-retiro-de-vehiculos-abandonados-en-9-de-abril"
+  },
+  {
     "titulo": "FERNANDO GRAY SE REUNIÓ CON INTEGRANTES DEL CENTRO DE MARTILLEROS PÚBLICOS DE ESTEBAN ECHEVERRÍA",
     "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, recibió a integrantes del Centro de Martilleros Públicos local, ubicado en Monte Grande, con quienes mantuvo una reunión en la que se abordaron diversas temáticas relativas al sector inmobiliario. “Siempre es un placer dialogar con las autoridades del Centro de Martilleros de nuestro distrito, una institución con la que mantenemos un contacto permanente para estar al tanto de sus inquietudes”, señaló el jefe comunal, acompañado por la presidenta del Honorable Concejo Deliberante local, Valeria Bellizzi; por el secretario de Gobierno, Alejandro Bonomo; y por la subsecretaria de Entidades Intermedias, Tamara Crosta.&#160; Por parte del Centro de Martilleros Públicos de Esteban Echeverría, estuvieron presentes su presidente, Martín Álvarez; el vicepresidente, Román Suárez; el secretario, Diego Stea; la secretaria, Abril Barboni; la protesorera, Elena Vila; y la vocal, Patricia Lambert.&#160; En dicha reunión, Fernando Gray saludó a las autoridades por el Día del Martillero, que se celebró el 23 de octubre pasado, y entregó materiales para llevar a cabo reparaciones en el techo de la sede de la entidad.",
     "imagenUrl": null,
@@ -360,8 +400,18 @@
     "slug": "fernando-gray-se-reunio-con-integrantes-del-centro-de-martilleros-publicos-de-esteban-echeverria"
   },
   {
+    "titulo": "OBRAS DE DESAGÜE PLUVIAL EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevó adelante obras de desagüe pluvial en el barrio de Montecarlo, en Monte Grande Sur. En la intersección de las calles Belizo y Olavarría, se colocaron caños de hormigón de 40 centímetros de diámetro para captar, conducir y evacuar el agua de lluvia. En el marco de las tareas de prevención ante el fenómeno de El Niño, se refuerzan los trabajos para favorecer el escurrimiento del agua y reducir el riesgo de inundaciones. Además, se recuerda la importancia de disponer correctamente los residuos, ya que su acumulación en calles y arroyos puede obstruir los desagües y afectar el funcionamiento de la red pluvial. Estas intervenciones se suman a las tareas periódicas de mantenimiento hídrico que el Municipio desarrolla en distintos puntos del distrito, reforzadas ante la posibilidad de lluvias intensas.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/obras-de-desague-pluvial-en-monte-grande-sur/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "obras-de-desague-pluvial-en-monte-grande-sur"
+  },
+  {
     "titulo": "FERNANDO GRAY ENTREGÓ UN SUBSIDIO AL INSTITUTO SENDEROS AZULES POR LA PARTICIPACIÓN DE 10 ALUMNOS EN LAS OLIMPÍADAS MATEMÁTICAS",
-    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, mantuvo un encuentro con autoridades del Instituto Senderos Azules de Monte Grande y con estudiantes que participaron en la Olimpiada Matemática Argentina (OMA) y que participarán en diversas finales durante el mes noviembre. “Desde el Municipio siempre apoyamos el desarrollo intelectual de nuestros estudiantes. Por eso, es un orgullo acompañar a esta institución para que sus estudiantes continúen participando de estos importantes eventos”, señaló Fernando Gray, acompañado por la directora general de Entidades Intermedias, Micaela Lagrotta; y el representante legal del instituto, Abel Barresi. Durante el encuentro, el jefe comunal hizo entrega de una ayuda económica por parte del Municipio que será destinará a solventar los costos de inscripción, traslado y alojamiento de los estudiantes en las cuatro olimpíadas que se vienen: Final Argentina de Física, Final Argentina de Física, Final Iberoamericana de Ciencias Junior y la Final Argentina de la OMA. Además, el subsidio colaborará con el reintegro de gastos de la Olimpíada Matemática Argentina que ya se llevó a cabo en septiembre pasado. El Instituto Senderos Azules es una institución ubicada en Monte Grande que posee nivel Inicial, Primario y Secundario y que, desde 1997, viene desarrollando el estudio de las Ciencias Duras y participando en Olimpíadas de diferentes ciencias. Además, desde 2013, implementó el Proyecto Olimpíadas para seguir incentivando la participación de los alumnos en estas competencias.",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, mantuvo un encuentro con autoridades del Instituto Senderos Azules de Monte Grande y con estudiantes que participaron en la Olimpiada Matemática Argentina (OMA) y que participarán en diversas finales durante el mes noviembre. “Desde el Municipio siempre apoyamos el desarrollo intelectual de nuestros estudiantes. Por eso, es un orgullo acompañar a esta institución para que sus estudiantes continúen participando de estos importantes eventos”, señaló Fernando Gray, acompañado por la directora general de Entidades Intermedias, Micaela Lagrotta; y el representante legal del instituto, Abel Barresi. Durante el encuentro, el jefe comunal hizo entrega de una ayuda económica por parte del Municipio que será destinada a solventar los costos de inscripción, traslado y alojamiento de los estudiantes en las cuatro olimpíadas que se vienen: Final Argentina de Física, Final Iberoamericana de Ciencias Junior y la Final Argentina de la OMA. Además, el subsidio colaborará con el reintegro de gastos de la Olimpíada Matemática Argentina que ya se llevó a cabo en septiembre pasado. El Instituto Senderos Azules es una institución ubicada en Monte Grande que posee nivel Inicial, Primario y Secundario y que, desde 1997, viene desarrollando el estudio de las Ciencias Duras y participando en Olimpíadas de diferentes ciencias. Además, desde 2013, implementó el Proyecto Olimpíadas para seguir incentivando la participación de los alumnos en estas competencias.",
     "imagenUrl": null,
     "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-entrego-un-subsidio-al-instituto-senderos-azules-por-la-participacion-de-10-alumnos-en-las-olimpiadas-matematicas/",
     "fecha": "2026-10-27",
@@ -378,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-entrego-notebooks-para-un-proyecto-tecnologico"
+  },
+  {
+    "titulo": "Kicillof recorrió la nueva base de la UTOI en San Isidro",
+    "descripcion": "Las instalaciones permiten que los efectivos que cumplen sus tareas en el distrito cuenten con una base operativa permanente y refuercen el despliegue preventivo en los barrios de La Cava, Santa Rita, Uruguay y San Cayetano.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_219.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_la_nueva_base_de_la_utoi_en_san_isidro",
+    "fecha": null,
+    "volanta": "SEGURIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-recorrio-la-nueva-base-de-la-utoi-en-san-isidro"
+  },
+  {
+    "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 26 y hasta el viernes 30 de octubre se desarrollarán nuevas jornadas del programa “Plazas Saludables” en diferentes espacios públicos de la ciudad. La propuesta funcionará de 9 a 12 y permitirá que las vecinas y los vecinos accedan a controles médicos gratuitos y participen de actividades destinadas a fomentar el bienestar y los hábitos saludables.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5042239529481776724-7ZZat.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4634-programa-plazas-saludables-conoce-las-proximas-jornadas",
+    "fecha": "2026-10-25",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "programa-plazas-saludables-conoce-las-proximas-jornadas"
+  },
+  {
+    "titulo": "¡AMBIENTE SÍ! NUEVAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno llevará adelante desde el lunes 26 y hasta el sábado 31 de octubre una nueva edición del operativo ¡Ambiente Sí! en diferentes espacios públicos del distrito. Durante las jornadas, las vecinas y los vecinos podrán acercar materiales reciclables, retirar semillas de temporada y participar de acciones destinadas a promover el cuidado del ambiente. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-25-at-111422-am-V5sMz.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4633-ambiente-si-nuevas-jornadas-en-el-distrito",
+    "fecha": "2026-10-25",
+    "volanta": "Ambiente",
+    "fuente": "lanus",
+    "slug": "ambiente-si-nuevas-jornadas-en-el-distrito"
+  },
+  {
+    "titulo": "EL QUIRÓFANO MÓVIL ESTARÁ NUEVAMENTE EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
+    "descripcion": "Lanús Gobierno informa que el lunes 26 de octubre, desde las 9 y hasta agotar cupos, se entregarán nuevos turnos presenciales para acceder a castraciones gratuitas de perros y gatos en el Quirófano Móvil ubicado en el Parque Municipal General San Martín (Coronel Sayos N° 2302, Valentín Alsina).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5161500184201071627-y-Mjs7I.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4632-el-quirofano-movil-estara-nuevamente-en-el-parque-municipal-general-san-martin",
+    "fecha": "2026-10-24",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-quirofano-movil-estara-nuevamente-en-el-parque-municipal-general-san-martin"
   },
   {
     "titulo": "PROGRAMA OFTALMOLÓGICO ECHEverRÍA: ENTREGA DE LENTES A ESTUDIANTES DE EL JAGÜEL",
