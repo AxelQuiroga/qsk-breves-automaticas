@@ -95,8 +95,7 @@ describe("description del RSS de Olé", () => {
       rutaSalida,
       descargar: async () => ({
         html: xml("<description><![CDATA[Resumen de extremo a extremo]]></description>"),
-        status: 200,
-        contentType: "application/rss+xml",
+        urlBase: "https://www.ole.com.ar/rss/ultimas-noticias/",
       }),
     });
     const persistido = JSON.parse(await readFile(rutaSalida, "utf8")) as OleNews[];
