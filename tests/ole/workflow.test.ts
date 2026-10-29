@@ -31,8 +31,8 @@ describe("contrato del workflow de Olé hacia QSK Noticias", () => {
     expect(workflow).toContain("ref: master");
     expect(workflow).toContain("token: ${{ secrets.QSK_NOTICIAS_TOKEN }}");
     expect(workflow).toContain("path: qsk-noticias");
-    expect(workflow).toContain("cp data/ole-noticias.json qsk-noticias/src/data/ole-noticias.json");
-    expect(workflow).toContain("add-paths: src/data/ole-noticias.json");
+    expect(workflow).toContain("cp data/ole-noticias.json qsk-noticias/src/data/ole.json");
+    expect(workflow).toContain("add-paths: src/data/ole.json");
     expect(workflow).toContain("branch: automation/ole-rss");
     expect(workflow).toContain("base: master");
     expect(workflow).not.toContain("add-paths: data/ole-noticias.json");
