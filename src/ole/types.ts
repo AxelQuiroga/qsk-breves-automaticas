@@ -5,6 +5,7 @@ export interface OleNews {
   url: string;
   publishedAt: string | null;
   imageUrl: string | null;
+  description: string | null;
   source: "Olé";
 }
 
@@ -14,4 +15,5 @@ export interface NoticiaOleCandidata {
   url: string;
   pubDate: string | null;
   imagenUrl: string | null;
+  descripcion: string | null;
 }
