@@ -37,6 +37,13 @@ describe("parsearFeedOle", () => {
     },
   );
 
+  it("rechaza etiquetas con anidamiento inválido aunque los conteos de apertura y cierre coincidan", () => {
+    const xml = '<rss version="2.0"><channel><item><title>Nota</title></channel></item></rss>';
+    expect(() => parsearFeedOle(xml)).toThrowError(
+      expect.objectContaining({ name: "ErrorOleFeed", categoria: "xml-invalido" }),
+    );
+  });
+
   it("rechaza un RSS truncado aunque el parser XML tolerante pudiera recuperarlo", () => {
     const xml = '<rss version="2.0"><channel><title>Olé</title><item><title>Nota</title><link>https://www.ole.com.ar/nota.html</link></item></channel>';
     expect(() => parsearFeedOle(xml)).toThrowError(
