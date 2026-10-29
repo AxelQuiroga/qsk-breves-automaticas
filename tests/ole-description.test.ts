@@ -14,7 +14,7 @@ const xml = (description: string) => `<?xml version="1.0" encoding="UTF-8"?>
 <pubDate>Thu, 29 Oct 2026 10:00:00 GMT</pubDate><enclosure url="https://www.ole.com.ar/imagen.jpg" type="image/jpeg"/>
 ${description}</item></channel></rss>`;
 
-const noticia = (description?: string | null): OleNews => ({
+const noticia = (description?: string): OleNews => ({
   id: "https://www.ole.com.ar/futbol/noticia.html",
   title: "Noticia de prueba",
   url: "https://www.ole.com.ar/futbol/noticia.html",
