@@ -1,8 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it, vi } from "vitest";
 import { correrExtraccion } from "../src/motor.ts";
-import { extraerLanus } from "../src/extractor/lanus.ts";
-import { extraerAvellaneda } from "../src/extractor/avellaneda.ts";
 import { FUENTES } from "../src/listado-fuentes.ts";
 import type { FuenteEjecutable } from "../src/fuentes.ts";
 
