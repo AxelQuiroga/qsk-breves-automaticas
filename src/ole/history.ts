@@ -31,7 +31,19 @@ export function combinarHistorialOle(
   for (const noticia of [...historial, ...recientes]) {
     const clave = canonicalizarUrlOle(noticia.url);
     const anterior = porUrl.get(clave);
-    porUrl.set(clave, anterior ? { ...anterior, ...noticia, id: anterior.id || noticia.id } : noticia);
+    if (!anterior) {
+      porUrl.set(clave, noticia);
+      continue;
+    }
+
+    const { description: descripcionNueva, ...metadatosRecientes } = noticia;
+    const descripcion = descripcionNueva?.trim() || anterior.description?.trim();
+    porUrl.set(clave, {
+      ...anterior,
+      ...metadatosRecientes,
+      ...(descripcion ? { description: descripcion } : {}),
+      id: anterior.id || noticia.id,
+    });
   }
 
   return [...porUrl.values()].sort((a, b) => {
