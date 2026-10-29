@@ -26,9 +26,9 @@ describe("generarArchivoOle", () => {
       await generarArchivoOle({ rutaSalida: temporal.ruta, descargar });
 
       const contenido: unknown = JSON.parse(await readFile(temporal.ruta, "utf8"));
-      expect(Array.isArray(contenido)).toBe(true);
+      if (!Array.isArray(contenido)) throw new Error("El JSON de salida no es un array");
       expect(contenido).toHaveLength(10);
-      expect(contenido?.[0]).toEqual({
+      expect(contenido[0]).toEqual({
         id: "https://www.ole.com.ar/copa-argentina/palermo-falcioni-reencuentro-salta-copa-argentina-platense-atletico-tucuman_0_lkjPJ5l8Vv.html",
         title: expect.stringContaining("Palermo y Falcioni"),
         url: "https://www.ole.com.ar/copa-argentina/palermo-falcioni-reencuentro-salta-copa-argentina-platense-atletico-tucuman_0_lkjPJ5l8Vv.html",
@@ -91,6 +91,7 @@ describe("generarArchivoOle", () => {
       });
 
       const contenido: unknown = JSON.parse(await readFile(temporal.ruta, "utf8"));
+      if (!Array.isArray(contenido)) throw new Error("El JSON de salida no es un array");
       expect(contenido).toHaveLength(1);
       expect(contenido).toMatchObject([{
         id: "https://www.ole.com.ar/futbol/boca.html",
