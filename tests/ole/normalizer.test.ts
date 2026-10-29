@@ -22,6 +22,18 @@ describe("normalizarNoticiasOle", () => {
     }]);
   });
 
+
+  it("conserva la descripción extraída y normaliza una descripción ausente a null", () => {
+    const conDescripcion = normalizarNoticiasOle([{
+      ...base,
+      descripcion: "Resumen de la noticia",
+    } as NoticiaOleCandidata])[0];
+    const sinDescripcion = normalizarNoticiasOle([base])[0];
+
+    expect(conDescripcion).toMatchObject({ description: "Resumen de la noticia" });
+    expect(sinDescripcion).toMatchObject({ description: null });
+  });
+
   it("deduplica por URL canónica y conserva la primera entrada válida", () => {
     expect(normalizarNoticiasOle([base, { ...base, titulo: "Titular duplicado", url: "https://www.ole.com.ar/futbol/boca.html" }])).toHaveLength(1);
   });
