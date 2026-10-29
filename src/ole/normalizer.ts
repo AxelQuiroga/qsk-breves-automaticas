@@ -17,13 +17,14 @@ export function normalizarNoticiasOle(candidatas: NoticiaOleCandidata[]): OleNew
     if (!title || !url || urlsVistas.has(url)) continue;
     urlsVistas.add(url);
 
+    const description = normalizarDescripcion(candidata.description);
     resultado.push({
       id: url,
       title,
       url,
       publishedAt: normalizarFecha(candidata.pubDate),
       imageUrl: candidata.imagenUrl ? normalizarUrlOle(candidata.imagenUrl) : null,
-      ...(normalizarDescripcion(candidata.description) ? { description: normalizarDescripcion(candidata.description) } : {}),
+      ...(description ? { description } : {}),
       source: "Olé",
     });
   }
