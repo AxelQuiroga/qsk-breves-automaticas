@@ -27,7 +27,6 @@ const FUENTE_URL = "https://www.gba.gob.ar/comunicacion_publica/gacetillas";
 const SALIDA = new URL("../data/gacetillas.json", import.meta.url);
 const HISTORIAL = new URL("../data/gacetillas-historial.json", import.meta.url);
 const ESTADO_CORRIDA = new URL("../data/estado-corrida.json", import.meta.url);
-const TIMEOUT_MS = 15_000;
 
 interface EstadoCorridaArchivo {
   estado: EstadoCorrida | "en-curso";
