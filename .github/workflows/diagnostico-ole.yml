@@ -1,0 +1,38 @@
+name: Diagnóstico aislado del RSS de Olé
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: diagnostico-ole-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  diagnostico:
+    name: Probar acceso real desde GitHub Actions
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout de la rama de diagnóstico
+        uses: actions/checkout@v4
+        with:
+          ref: debug/ole-403-actions
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Ejecutar diagnóstico usando el cliente real
+        run: node --use-system-ca scripts/diagnostico-ole.ts
