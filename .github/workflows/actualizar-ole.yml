@@ -1,0 +1,87 @@
+name: Actualizar noticias de Olé
+
+on:
+  schedule:
+    - cron: "47 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: actualizar-noticias-ole
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    container:
+      image: ghcr.io/axelquiroga/qsk-breves-automaticas:runtime-1.0.0
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Descargar repositorio del extractor
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Instalar dependencias
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Verificar extractor y contrato del historial
+        run: |
+          pnpm test
+          pnpm typecheck
+
+      - name: Extraer feed de Olé
+        run: pnpm ole
+
+      - name: Combinar noticias nuevas con el historial persistente
+        run: node --use-system-ca scripts/merge-ole-history.mjs data/ole-noticias.json data/ole-historial.json
+
+      - name: Guardar historial en el repositorio del extractor
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ole-historial.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update Ole news history"
+            git push origin "HEAD:${{ github.ref_name }}"
+          else
+            echo "El historial de Olé no cambió."
+          fi
+
+      - name: Descargar QSK Noticias
+        uses: actions/checkout@v4
+        with:
+          repository: AxelQuiroga/QSK-Noticias
+          ref: master
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+
+      - name: Copiar historial completo de Olé a QSK
+        run: cp data/ole-historial.json qsk-noticias/src/data/ole.json
+
+      - name: Crear o actualizar PR en QSK Noticias
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.QSK_NOTICIAS_TOKEN }}
+          path: qsk-noticias
+          branch: automation/ole-noticias
+          delete-branch: false
+          add-paths: src/data/ole.json
+          commit-message: "chore: update Ole news history"
+          title: "chore: actualizar noticias de Olé"
+          body: |
+            Actualización automática del historial persistente del feed RSS de Olé.
+
+            - Conserva las noticias anteriores aunque dejen de aparecer en el RSS reciente.
+            - Deduplica por URL canónica.
+            - Actualiza metadatos cuando una noticia ya conocida vuelve a aparecer.
+            - QSK genera una página estática por cada registro del historial.
