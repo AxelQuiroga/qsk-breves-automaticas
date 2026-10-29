@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { canonicalizarUrlOle, combinarHistorialOle } from "../scripts/merge-ole-history.mjs";
+import { canonicalizarUrlOle, combinarHistorialOle } from "../src/ole/history.ts";
+import type { OleNews } from "../src/ole/types.ts";
 
-const noticia = (url, title, publishedAt = "2026-10-29T10:00:00.000Z") => ({
+const noticia = (url: string, title: string, publishedAt: string | null = "2026-10-29T10:00:00.000Z"): OleNews => ({
   id: url,
   title,
   url,
