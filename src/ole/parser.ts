@@ -36,11 +36,13 @@ export function parsearFeedOle(xml: string): NoticiaOleCandidata[] {
 
     const fecha = limpiar($item.find("pubDate").first().text());
     const imagen = limpiar($item.find("enclosure").first().attr("url") ?? "");
+    const descripcion = limpiar($item.find("description").first().text());
     candidatas.push({
       titulo,
       url,
       pubDate: fecha || null,
       imagenUrl: imagen || null,
+      description: descripcion || null,
     });
   });
 
