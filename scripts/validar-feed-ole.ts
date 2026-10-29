@@ -47,7 +47,8 @@ async function main(): Promise<void> {
   const path = process.argv[2] ?? "data/ole-noticias.json";
   const noticias: unknown = JSON.parse(await readFile(path, "utf8"));
   validarFeedOle(noticias);
-  console.log(`Contrato válido: ${noticias.length} noticias de Olé.`);
+  const cantidad = Array.isArray(noticias) ? noticias.length : 0;
+  console.log(`Contrato válido: ${cantidad} noticias de Olé.`);
 }
 
 if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {
