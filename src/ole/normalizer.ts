@@ -59,7 +59,8 @@ function normalizarUrlOle(valor: string): string | null {
 
 function normalizarDescripcion(valor: string | null | undefined): string | undefined {
   if (!valor?.trim()) return undefined;
-  const texto = load(valor).text().replaceAll("\u00a0", " ").replace(/\s+/g, " ").trim();
+  const html = valor.replace(/<\/(?:p|div|li|h[1-6])\s*>/gi, " ").replace(/<br\s*\/?>/gi, " ");
+  const texto = load(html).text().replaceAll("\u00a0", " ").replace(/\s+/g, " ").trim();
   return texto || undefined;
 }
 
