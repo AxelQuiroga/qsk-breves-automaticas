@@ -11,7 +11,7 @@ describe("contrato del workflow independiente de Olé", () => {
   it("programa una ejecución cada seis horas y permite ejecución manual", async () => {
     const workflow = await readFile(workflowPath, "utf8");
 
-    expect(workflow).toMatch(/schedule:\s*\n\s*- cron: ["']\S+["']/);
+    expect(workflow).toContain('on:\n  schedule:\n    - cron: "41 */6 * * *"');
     expect(workflow).toContain('cron: "41 */6 * * *"');
     expect(workflow).toMatch(/workflow_dispatch:/);
   });
