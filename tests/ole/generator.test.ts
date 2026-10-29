@@ -34,11 +34,12 @@ describe("generarArchivoOle", () => {
         url: "https://www.ole.com.ar/copa-argentina/palermo-falcioni-reencuentro-salta-copa-argentina-platense-atletico-tucuman_0_lkjPJ5l8Vv.html",
         publishedAt: "2026-10-29T00:47:58.000Z",
         imageUrl: "https://www.ole.com.ar/images/2026/10/29/vKhC6UY5a_1200x630__1.jpg",
+        description: "Antes del inicio del partido entre A. Tucumán y Platense, el Loco y el Emperador se saludaron afectuosamente.",
         source: "Olé",
       });
       for (const registro of contenido as Record<string, unknown>[]) {
         expect(Object.keys(registro).sort()).toEqual([
-          "id", "imageUrl", "publishedAt", "source", "title", "url",
+          "description", "id", "imageUrl", "publishedAt", "source", "title", "url",
         ]);
         expect(registro.id).toBe(registro.url);
         expect(registro.source).toBe("Olé");
@@ -46,6 +47,7 @@ describe("generarArchivoOle", () => {
         expect(typeof registro.url).toBe("string");
         expect(registro.publishedAt === null || typeof registro.publishedAt === "string").toBe(true);
         expect(registro.imageUrl === null || typeof registro.imageUrl === "string").toBe(true);
+        expect(registro.description === null || typeof registro.description === "string").toBe(true);
       }
       expect(descargar).toHaveBeenCalledOnce();
     } finally {
@@ -61,6 +63,7 @@ describe("generarArchivoOle", () => {
       url: "https://www.ole.com.ar/nota.html",
       publishedAt: null,
       imageUrl: null,
+      description: null,
       source: "Olé",
     }], null, 2) + "\n";
     try {
