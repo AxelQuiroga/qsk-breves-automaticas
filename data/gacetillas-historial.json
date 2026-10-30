@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
+    "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_sadir_firmaron_un_acuerdo_de_colaboraci%C3%B3n_entre_las",
+    "fecha": null,
+    "volanta": "JUJUY",
+    "fuente": "gba",
+    "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
+  },
+  {
     "titulo": "Kicillof participó de la 2° edición de la Agenda Ambiental Latinoamericana",
     "descripcion": "El encuentro se desarrolla durante dos jornadas y reúne a gobiernos locales, provinciales y de distintos países de América Latina.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1536-1024%20%282%29.jpg",
@@ -110,14 +120,24 @@
     "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
   },
   {
-    "titulo": "Más de 160 personas participaron del curso sobre Periodismo Local y Comunitario",
-    "descripcion": "Con esta propuesta de formación finalizó el Ciclo Herramientas 2026, impulsado por la Provincia de Buenos Aires para fortalecer y acompañar a los medios y a quienes integran el sector de la comunicación.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/WhatsApp%20Image%202026-10-15%20at%2015.27.34.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/m%C3%A1s_de_160_personas_participaron_del_curso_sobre_periodismo_local_y",
-    "fecha": null,
-    "volanta": "POTENCIA MEDIOS",
-    "fuente": "gba",
-    "slug": "mas-de-160-personas-participaron-del-curso-sobre-periodismo-local-y-comunitario"
+    "titulo": "INICIARON LAS OBRAS DE PAVIMENTACIÓN SOBRE LA AVENIDA HIPÓLITO YRIGOYEN",
+    "descripcion": "Lanús Gobierno informa que comenzaron las obras de pavimentación sobre el primer tramo de la avenida Hipólito Yrigoyen, desde las avenidas Remedios de Escalada de San Martín hasta Manuel Quindimil, mano a Lomas de Zamora.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-inicio-las-obras-de-pavimentacion-de-la-avenida-hipolito-yrigoyen-W7RV6.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4645-iniciaron-las-obras-de-pavimentacion-sobre-la-avenida-hipolito-yrigoyen",
+    "fecha": "2026-10-30",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "iniciaron-las-obras-de-pavimentacion-sobre-la-avenida-hipolito-yrigoyen"
+  },
+  {
+    "titulo": "FERIA DE ARTESANÍAS: NUEVAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa a las vecinas y los vecinos que este viernes 30, sábado 31 de octubre y domingo 1 de noviembre se realizará la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes lugares abiertos del distrito, con el objetivo de impulsar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-30-at-112811-bAiyn.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4644-feria-de-artesanias-nuevas-jornadas-en-el-distrito",
+    "fecha": "2026-10-30",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "feria-de-artesanias-nuevas-jornadas-en-el-distrito"
   },
   {
     "titulo": "FERIA \"HECHO EN LANÚS\": NUEVAS EDICIONES EN EL CENTRO CULTURAL LEONARDO FAVIO Y EN LA PLAZA SARMIENTO",
@@ -190,24 +210,24 @@
     "slug": "continua-el-plan-de-obras-del-parque-lineal-del-oeste"
   },
   {
-    "titulo": "SIGUE EL PLAN DE PAVIMENTACIÓN EN EL BARRIO VILLA ARGERICH",
-    "descripcion": "Lanús Gobierno continúa con la ejecución del Plan de Pavimentación en diferentes barrios del distrito, con el objetivo de mejorar la circulación vehicular y peatonal, la seguridad vial y la calidad de vida de las y los lanusenses.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich-1-CBKH6.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4636-sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich",
-    "fecha": "2026-10-26",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich"
+    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
+    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
   },
   {
-    "titulo": "EL COLECTIVO SANITARIO LLEGARÁ A LA PLAZA ARIAS DE LANÚS OESTE",
-    "descripcion": "Lanús Gobierno informa que el Colectivo Sanitario estará presente el miércoles 28, jueves 29 y viernes 30 de octubre, de 10 a 14, en la plaza Arias (Carlos Gardel N° 1301, Lanús Oeste). La iniciativa tiene como objetivo facilitar el acceso a controles preventivos y distintas prestaciones médicas gratuitas para las vecinas y los vecinos del distrito.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-26-at-102632-zQGAH.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4635-el-colectivo-sanitario-llegara-a-la-plaza-arias-de-lanus-oeste",
-    "fecha": "2026-10-26",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-colectivo-sanitario-llegara-a-la-plaza-arias-de-lanus-oeste"
+    "titulo": "El Municipio de Avellaneda recibió 24 vehículos adquiridos mediante Provincia Leasing",
+    "descripcion": "La intendenta Magdalena Sierra entregó el equipamiento urbano a cada responsable de las áreas comunales.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-4-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing"
   },
   {
     "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
@@ -310,24 +330,24 @@
     "slug": "la-intendenta-magdalena-sierra-presento-el-plan-hidrico-2026-2027"
   },
   {
-    "titulo": "Se extendió el plazo para regularizar las tasas vencidas",
-    "descripcion": "El Estado eficiente se pone al frente de los momentos difíciles, para que la ciudad no detenga su motor. Cuáles son los beneficios y condiciones para adherirse.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/prorroga13_11-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/plan-de-regulizacion-de-deudas-para-comercios-prestadores-de-servicios-e-industrias/",
-    "fecha": "2026-10-14",
+    "titulo": "EL MUNICIPIO REALIZA TAREAS DE LIMPIEZA Y SANEAMIENTO ANTE LAS INTENSAS LLUVIAS",
+    "descripcion": "El Municipio de Esteban Echeverría lleva adelante un operativo de limpieza y saneamiento en calles y avenidas del distrito, con el objetivo de facilitar la circulación y el drenaje de agua para reducir los efectos que pueden ocasionar las intensas lluvias. Los equipos realizan tareas de limpieza de sumideros, drenajes pluviales y bocas de tormenta; recolección de basura y residuos que obstruyen la circulación del agua en los arroyos y retiro de ramas caídas en la vía pública.&#160; La Comuna recuerda a la comunidad que es importante que contribuya al mantenimiento y el cuidado de la vía pública. Durante los días de lluvia es fundamental que no se arrojen residuos y objetos que perjudiquen el escurrimiento del agua en calles, avenidas y arroyos. Ante cualquier inconveniente, las vecinas y los vecinos pueden comunicarse con el Centro de Atención al Vecino (CAV), al 0810-999-6800 o, por WhatsApp, al 11-5131-6800.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-realiza-tareas-de-limpieza-y-saneamiento-ante-las-intensas-lluvias-5/",
+    "fecha": "2026-10-30",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "se-extendio-el-plazo-para-regularizar-las-tasas-vencidas"
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-realiza-tareas-de-limpieza-y-saneamiento-ante-las-intensas-lluvias"
   },
   {
-    "titulo": "Cronograma de las ferias itinerantes de la economía popular",
-    "descripcion": "El programa “Ahorremos en el barrio” ofrece productos de la canasta básica a precios accesibles y apoya a los emprendimientos locales.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/ahorremos-en-elbarrio-1-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/ahorremos-en-el-barrio/",
-    "fecha": "2026-10-12",
+    "titulo": "EL JAGÜEL: NUEVO PASEO PEATONAL DE COMPRAS SOBRE LA CALLE EVITA",
+    "descripcion": "El sábado 31 de octubre , de 17 a 20:30 horas, se llevará a cabo el tradicional paseo de compras peatonal sobre la calle Evita en la localidad de El Jagüel, con una edición especial de Halloween. La jornada se realizará entre Ruta 205 y la calle Valentín Alsina, con el objetivo de acompañar la actividad económica de la zona. Los comercios tendrán puestos de venta en la calle y habrá stands de emprendimientos locales, para acercar los productos a la comunidad y brindar una tarde de diversión para las chicas y los chicos. Estas acciones que organiza el Municipio están orientadas a acompañar el funcionamiento de los comercios de cercanía y promover la actividad económica en el distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-jaguel-nuevo-paseo-peatonal-de-compras-sobre-la-calle-evita/",
+    "fecha": "2026-10-30",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "cronograma-de-las-ferias-itinerantes-de-la-economia-popular"
+    "fuente": "esteban-echeverria",
+    "slug": "el-jaguel-nuevo-paseo-peatonal-de-compras-sobre-la-calle-evita"
   },
   {
     "titulo": "LUIS GUILLÓN: NUEVO OPERATIVO CERROJO DE LAS FUERZAS FEDERALES",
@@ -408,6 +428,56 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-se-reunio-con-integrantes-del-centro-de-martilleros-publicos-de-esteban-echeverria"
+  },
+  {
+    "titulo": "Más de 160 personas participaron del curso sobre Periodismo Local y Comunitario",
+    "descripcion": "Con esta propuesta de formación finalizó el Ciclo Herramientas 2026, impulsado por la Provincia de Buenos Aires para fortalecer y acompañar a los medios y a quienes integran el sector de la comunicación.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/WhatsApp%20Image%202026-10-15%20at%2015.27.34.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/m%C3%A1s_de_160_personas_participaron_del_curso_sobre_periodismo_local_y",
+    "fecha": null,
+    "volanta": "POTENCIA MEDIOS",
+    "fuente": "gba",
+    "slug": "mas-de-160-personas-participaron-del-curso-sobre-periodismo-local-y-comunitario"
+  },
+  {
+    "titulo": "SIGUE EL PLAN DE PAVIMENTACIÓN EN EL BARRIO VILLA ARGERICH",
+    "descripcion": "Lanús Gobierno continúa con la ejecución del Plan de Pavimentación en diferentes barrios del distrito, con el objetivo de mejorar la circulación vehicular y peatonal, la seguridad vial y la calidad de vida de las y los lanusenses.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich-1-CBKH6.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4636-sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich",
+    "fecha": "2026-10-26",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "sigue-el-plan-de-pavimentacion-en-el-barrio-villa-argerich"
+  },
+  {
+    "titulo": "EL COLECTIVO SANITARIO LLEGARÁ A LA PLAZA ARIAS DE LANÚS OESTE",
+    "descripcion": "Lanús Gobierno informa que el Colectivo Sanitario estará presente el miércoles 28, jueves 29 y viernes 30 de octubre, de 10 a 14, en la plaza Arias (Carlos Gardel N° 1301, Lanús Oeste). La iniciativa tiene como objetivo facilitar el acceso a controles preventivos y distintas prestaciones médicas gratuitas para las vecinas y los vecinos del distrito.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-26-at-102632-zQGAH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4635-el-colectivo-sanitario-llegara-a-la-plaza-arias-de-lanus-oeste",
+    "fecha": "2026-10-26",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-colectivo-sanitario-llegara-a-la-plaza-arias-de-lanus-oeste"
+  },
+  {
+    "titulo": "Se extendió el plazo para regularizar las tasas vencidas",
+    "descripcion": "El Estado eficiente se pone al frente de los momentos difíciles, para que la ciudad no detenga su motor. Cuáles son los beneficios y condiciones para adherirse.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/prorroga13_11-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/plan-de-regulizacion-de-deudas-para-comercios-prestadores-de-servicios-e-industrias/",
+    "fecha": "2026-10-14",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "se-extendio-el-plazo-para-regularizar-las-tasas-vencidas"
+  },
+  {
+    "titulo": "Cronograma de las ferias itinerantes de la economía popular",
+    "descripcion": "El programa “Ahorremos en el barrio” ofrece productos de la canasta básica a precios accesibles y apoya a los emprendimientos locales.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/ahorremos-en-elbarrio-1-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/ahorremos-en-el-barrio/",
+    "fecha": "2026-10-12",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "cronograma-de-las-ferias-itinerantes-de-la-economia-popular"
   },
   {
     "titulo": "OBRAS DE DESAGÜE PLUVIAL EN MONTE GRANDE SUR",
