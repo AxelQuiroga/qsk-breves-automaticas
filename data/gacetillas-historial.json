@@ -120,6 +120,26 @@
     "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
   },
   {
+    "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el jueves 5 de noviembre se realizarán nuevas jornadas del programa “Plazas Saludables” en distintos espacios públicos del distrito. Las actividades se desarrollarán de 9 a 12 y estarán destinadas a acercar controles médicos gratuitos, fomentar la actividad física y promover hábitos saludables entre las vecinas y los vecinos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/img-2534jpg-dmrig.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4649-programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito",
+    "fecha": "2026-11-01",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito"
+  },
+  {
+    "titulo": "NUEVO OPERATIVO ¡AMBIENTE SÍ! EN LAS PLAZAS DEL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el sábado 7 de noviembre se realizará una nueva edición del operativo ¡Ambiente Sí! en distintos espacios públicos del distrito. La propuesta busca promover la separación de residuos y el cuidado del ambiente, permitiendo que las vecinas y los vecinos acerquen materiales reciclables y retiren semillas de temporada. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5066591951100423664-iXGVa.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4648-nuevo-operativo-ambiente-si-en-las-plazas-del-distrito",
+    "fecha": "2026-11-01",
+    "volanta": "Ambiente",
+    "fuente": "lanus",
+    "slug": "nuevo-operativo-ambiente-si-en-las-plazas-del-distrito"
+  },
+  {
     "titulo": "PASEO DE COMPRAS 25 DE MAYO: NUEVAS JORNADAS EN EL DISTRITO",
     "descripcion": "Lanús Gobierno informa que el lunes 2, miércoles 4 y viernes 6 de noviembre, de 13:30 a 16:30, el clásico Paseo de Compras 25 de Mayo volverá a situarse en Santiago Plaul N° 3201 en Lanús Oeste.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5150180334032235971-G0fyA.jpg",
@@ -188,26 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "punto-de-castracion-itinerante-nueva-jornada-en-gerli"
-  },
-  {
-    "titulo": "EL OPERATIVO \"SÁBADOS DE SALUD EN EL BARRIO\" LLEGA A GERLI",
-    "descripcion": "Lanús Gobierno realizará un nuevo operativo de “Sábados de Salud en el Barrio” este sábado 31 de octubre, de 10 a 14 en la plazoleta Antonio Piacquadio, ubicada en Bustamante N° 309 en Gerli. La jornada ofrecerá diferentes servicios gratuitos de prevención, atención y promoción de la salud.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-28-at-120849-Ooic6.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4640-el-operativo-sabados-de-salud-en-el-barrio-llega-a-gerli",
-    "fecha": "2026-10-28",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-operativo-sabados-de-salud-en-el-barrio-llega-a-gerli"
-  },
-  {
-    "titulo": "LLEGA UN NUEVO OPERATIVO “LANÚS TU GOBIERNO” A LANÚS OESTE",
-    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 30 de octubre, de 10 a 14 en el Club 9 de Julio, ubicado en la calle Gdor. Manuel Ocampo Nº 1023, en Lanús Oeste. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-27-at-41031-pm-6YxzP.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4639-llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste",
-    "fecha": "2026-10-27",
-    "volanta": "Atención vecinal",
-    "fuente": "lanus",
-    "slug": "llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste"
   },
   {
     "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
@@ -428,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "el-municipio-realiza-tareas-de-limpieza-y-saneamiento-ante-las-intensas-lluvias"
+  },
+  {
+    "titulo": "EL OPERATIVO \"SÁBADOS DE SALUD EN EL BARRIO\" LLEGA A GERLI",
+    "descripcion": "Lanús Gobierno realizará un nuevo operativo de “Sábados de Salud en el Barrio” este sábado 31 de octubre, de 10 a 14 en la plazoleta Antonio Piacquadio, ubicada en Bustamante N° 309 en Gerli. La jornada ofrecerá diferentes servicios gratuitos de prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-28-at-120849-Ooic6.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4640-el-operativo-sabados-de-salud-en-el-barrio-llega-a-gerli",
+    "fecha": "2026-10-28",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-operativo-sabados-de-salud-en-el-barrio-llega-a-gerli"
+  },
+  {
+    "titulo": "LLEGA UN NUEVO OPERATIVO “LANÚS TU GOBIERNO” A LANÚS OESTE",
+    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 30 de octubre, de 10 a 14 en el Club 9 de Julio, ubicado en la calle Gdor. Manuel Ocampo Nº 1023, en Lanús Oeste. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-27-at-41031-pm-6YxzP.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4639-llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste",
+    "fecha": "2026-10-27",
+    "volanta": "Atención vecinal",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-operativo-lanus-tu-gobierno-a-lanus-oeste"
   },
   {
     "titulo": "NUEVA EDICIÓN DEL PROGRAMA “TARDES DE VACUNACIÓN” EN GERLI",
