@@ -1,0 +1,24 @@
+name: Motor editorial LLM
+
+on:
+  push:
+    paths:
+      - "src/editorial/**"
+      - "tests/editorial/**"
+  pull_request:
+    paths:
+      - "src/editorial/**"
+      - "tests/editorial/**"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install -g pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test -- tests/editorial
