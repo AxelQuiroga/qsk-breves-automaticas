@@ -120,6 +120,16 @@
     "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
   },
   {
+    "titulo": "NUEVA EDICIÓN CONJUNTA DE LA FERIA \"HECHO EN LANÚS\" Y MERCADOS BONAERENSES",
+    "descripcion": "Lanús Gobierno realizará una edición conjunta de la Feria de la Economía Social “Hecho en Lanús” con los tradicionales Mercados Bonaerenses durante el martes 3 de noviembre, de 10 a 14 en la plaza Villa Obrera, situada en la avenida Eva Perón N° 2400 en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-02-at-104253-uJCUH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4650-nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses",
+    "fecha": "2026-11-02",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses"
+  },
+  {
     "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS EN EL DISTRITO",
     "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el jueves 5 de noviembre se realizarán nuevas jornadas del programa “Plazas Saludables” en distintos espacios públicos del distrito. Las actividades se desarrollarán de 9 a 12 y estarán destinadas a acercar controles médicos gratuitos, fomentar la actividad física y promover hábitos saludables entre las vecinas y los vecinos.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/img-2534jpg-dmrig.jpeg",
@@ -198,16 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "jornadas-de-autocuidado-lanus-se-prepara-conoce-las-proximas-fechas"
-  },
-  {
-    "titulo": "PUNTO DE CASTRACIÓN ITINERANTE: NUEVA JORNADA EN GERLI",
-    "descripcion": "Lanús Gobierno brindará nuevos turnos presenciales para que los vecinos y las vecinas puedan acceder al servicio de castración itinerante gratuito de mascotas durante este viernes 30 de octubre, desde las 9 y hasta agotar cupos en el Club Pioneros de Gerli, ubicado en Cmte. Mamberti N° 656.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-29-at-101807-CG5MH.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4641-punto-de-castracion-itinerante-nueva-jornada-en-gerli",
-    "fecha": "2026-10-29",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "punto-de-castracion-itinerante-nueva-jornada-en-gerli"
   },
   {
     "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "el-municipio-realiza-tareas-de-limpieza-y-saneamiento-ante-las-intensas-lluvias"
+  },
+  {
+    "titulo": "PUNTO DE CASTRACIÓN ITINERANTE: NUEVA JORNADA EN GERLI",
+    "descripcion": "Lanús Gobierno brindará nuevos turnos presenciales para que los vecinos y las vecinas puedan acceder al servicio de castración itinerante gratuito de mascotas durante este viernes 30 de octubre, desde las 9 y hasta agotar cupos en el Club Pioneros de Gerli, ubicado en Cmte. Mamberti N° 656.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-29-at-101807-CG5MH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4641-punto-de-castracion-itinerante-nueva-jornada-en-gerli",
+    "fecha": "2026-10-29",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "punto-de-castracion-itinerante-nueva-jornada-en-gerli"
   },
   {
     "titulo": "EL OPERATIVO \"SÁBADOS DE SALUD EN EL BARRIO\" LLEGA A GERLI",
