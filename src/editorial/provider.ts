@@ -27,6 +27,8 @@ export interface CloudflareWorkersAiOptions {
   fetchFn?: typeof fetch;
   /** Base URL (para tests/mocks). */
   baseUrl?: string;
+  /** Timeout en ms para la petición. Default 30000. */
+  timeoutMs?: number;
 }
 
 const DEFAULT_MODEL = "@cf/zai-org/glm-4.7-flash";
@@ -46,17 +48,19 @@ export class CloudflareWorkersAiProvider implements LlmProvider {
   private readonly model: string;
   private readonly fetchFn: typeof fetch;
   private readonly baseUrl: string;
+  private readonly timeoutMs: number;
 
   constructor(options: CloudflareWorkersAiOptions = {}) {
     const token = options.token ?? process.env.CLOUDFLARE_API_TOKEN ?? "";
     const accountId = options.accountId ?? process.env.CLOUDFLARE_ACCOUNT_ID ?? "";
-    if (!token) throw new ProviderError("Falta CLOUDFLARE_API_TOKEN.");
-    if (!accountId) throw new ProviderError("Falta CLOUDFLARE_ACCOUNT_ID.");
+    if (!token) throw new ProviderError("Falta CLOUDFLARE_API_TOKEN.", undefined, false);
+    if (!accountId) throw new ProviderError("Falta CLOUDFLARE_ACCOUNT_ID.", undefined, false);
     this.token = token;
     this.accountId = accountId;
     this.model = options.model ?? process.env.CLOUDFLARE_MODEL ?? DEFAULT_MODEL;
     this.fetchFn = options.fetchFn ?? fetch;
     this.baseUrl = (options.baseUrl ?? DEFAULT_BASE_URL).replace(/\/$/, "");
+    this.timeoutMs = options.timeoutMs ?? 30000;
   }
 
   async complete(request: LlmCompletionRequest): Promise<string> {
@@ -70,6 +74,9 @@ export class CloudflareWorkersAiProvider implements LlmProvider {
       temperature: request.temperature ?? 0.2,
     });
 
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), this.timeoutMs);
+
     let response: Response;
     try {
       response = await this.fetchFn(url, {
@@ -79,35 +86,46 @@ export class CloudflareWorkersAiProvider implements LlmProvider {
           "Content-Type": "application/json",
         },
         body,
+        signal: controller.signal,
       });
     } catch (error) {
-      throw new ProviderError("No se pudo contactar a Cloudflare Workers AI.", error);
+      clearTimeout(timer);
+      const isAbort = error instanceof Error && error.name === "AbortError";
+      throw new ProviderError(
+        isAbort ? "Timeout contactando a Cloudflare Workers AI." : "No se pudo contactar a Cloudflare Workers AI.",
+        error,
+        true,
+      );
     }
+    clearTimeout(timer);
 
     let payload: unknown;
     try {
       const text = await response.text();
       payload = text ? JSON.parse(text) : null;
     } catch (error) {
-      throw new ProviderError("Respuesta no JSON de Cloudflare Workers AI.", error);
+      throw new ProviderError("Respuesta no JSON de Cloudflare Workers AI.", error, response.status >= 500);
     }
 
     if (!response.ok) {
       const detail = typeof payload === "object" && payload !== null
         ? JSON.stringify(payload).slice(0, 1000)
         : String(payload);
-      throw new ProviderError(`Workers AI respondió HTTP ${response.status}: ${detail}`);
+      const retryable = response.status === 408 || response.status === 429 || response.status >= 500;
+      throw new ProviderError(`Workers AI respondió HTTP ${response.status}: ${detail}`, undefined, retryable);
     }
 
     if (typeof payload === "object" && payload !== null && (payload as { success?: boolean }).success === false) {
       throw new ProviderError(
         "Workers AI informó un error: " + JSON.stringify((payload as { errors?: unknown }).errors ?? []),
+        undefined,
+        false,
       );
     }
 
     const text = extractResponseText(payload);
     if (!text) {
-      throw new ProviderError("Workers AI devolvió una respuesta sin texto reconocible.");
+      throw new ProviderError("Workers AI devolvió una respuesta sin texto reconocible.", undefined, true);
     }
     return text;
   }

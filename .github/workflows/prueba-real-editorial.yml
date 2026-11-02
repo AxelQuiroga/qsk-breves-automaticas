@@ -1,0 +1,51 @@
+name: Prueba real motor editorial LLM
+
+on:
+  push:
+    branches:
+      - feat/qsk-editorial-llm-engine
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Rama o commit a probar"
+        required: false
+        default: "feat/qsk-editorial-llm-engine"
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  prueba-real:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout del código a probar
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.ref || github.ref_name }}
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Instalar pnpm
+        run: npm install -g pnpm
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Ejecutar prueba real con Cloudflare Workers AI
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/prueba-real-editorial.mjs
+
+      - name: Publicar evidencia
+        uses: actions/upload-artifact@v4
+        with:
+          name: prueba-real-editorial
+          path: examples/prueba-real/
+          if-no-files-found: error
+          retention-days: 14

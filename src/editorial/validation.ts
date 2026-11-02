@@ -6,15 +6,37 @@ export const DEFAULT_MIN_DESCRIPTION_LENGTH = 1;
 export const DESCRIPTION_FIELD_CANDIDATES = ["descripcion", "description"] as const;
 
 export function detectDescriptionField(input: Record<string, unknown>): string {
-  for (const candidate of DESCRIPTION_FIELD_CANDIDATES) {
-    if (Object.prototype.hasOwnProperty.call(input, candidate)) {
-      return candidate;
-    }
+  const hasEs = Object.prototype.hasOwnProperty.call(input, "descripcion");
+  const hasEn = Object.prototype.hasOwnProperty.call(input, "description");
+  if (hasEs && hasEn) {
+    throw new EditorialEngineError(
+      "INVALID_INPUT",
+      "Ambigüedad: el JSON contiene 'descripcion' y 'description' simultáneamente. El motor no puede decidir cuál reescribir.",
+    );
   }
+  if (hasEs) return "descripcion";
+  if (hasEn) return "description";
   throw new EditorialEngineError(
     "MISSING_DESCRIPTION_FIELD",
     "El JSON de entrada no contiene un campo 'descripcion' ni 'description'.",
   );
+}
+
+/**
+ * Indica si una entrada es reescribible por el motor (tiene descripción no vacía).
+ * Útil para la futura integración por lotes: las noticias con descripción nula
+ * o vacía se omiten sin fallar la corrida.
+ */
+export function isRewritable(input: unknown): boolean {
+  if (typeof input !== "object" || input === null || Array.isArray(input)) return false;
+  const record = input as Record<string, unknown>;
+  try {
+    const field = detectDescriptionField(record);
+    const value = record[field];
+    return typeof value === "string" && value.trim().length > 0;
+  } catch {
+    return false;
+  }
 }
 
 export function validateInput(input: unknown): { field: string; value: string } {

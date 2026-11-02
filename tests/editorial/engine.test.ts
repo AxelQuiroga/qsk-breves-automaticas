@@ -1,4 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
+import { buildUserContent } from "../../src/editorial/prompt.ts";
 import {
   rewriteDescription,
   rewriteNoticia,
@@ -7,6 +8,7 @@ import {
   EditorialEngineError,
   ProviderError,
 } from "../../src/editorial/index.ts";
+import { isRewritable } from "../../src/editorial/validation.ts";
 
 function mockProvider(response: string | Error) {
   return {
@@ -36,7 +38,6 @@ describe("rewriteDescription - contrato y preservación", () => {
     expect(result.field).toBe("descripcion");
     expect(result.description).toBe("El gobernador encabezó la entrega del premio.");
     expect(result.output.descripcion).toBe("El gobernador encabezó la entrega del premio.");
-    // Preservación exacta.
     for (const key of Object.keys(input)) {
       if (key !== "descripcion") {
         expect(result.output[key]).toEqual(input[key as keyof typeof input]);
@@ -83,11 +84,9 @@ describe("rewriteDescription - contrato y preservación", () => {
     await expect(rewriteDescription({ descripcion: "algo" }, { provider, maxDescriptionLength: 50 })).rejects.toMatchObject({ code: "RETRIES_EXHAUSTED" });
   });
 
-  it("rechaza salida JSON/Markdown", async () => {
-    const provider = mockProvider('{"descripcion":"x"}');
-    // extractDescription extrae el campo, que es válido -> no rechaza. Usar fence.
-    const provider2 = mockProvider("```");
-    await expect(rewriteDescription({ descripcion: "algo" }, { provider: provider2 })).rejects.toBeInstanceOf(EditorialEngineError);
+  it("rechaza salida que es solo fence", async () => {
+    const provider = mockProvider("```");
+    await expect(rewriteDescription({ descripcion: "algo" }, { provider })).rejects.toBeInstanceOf(EditorialEngineError);
   });
 
   it("reintenta ante respuesta inválida y tiene éxito", async () => {
@@ -108,19 +107,15 @@ describe("rewriteDescription - contrato y preservación", () => {
     await expect(rewriteDescription({ descripcion: "original" }, { provider, maxRetries: 1 })).rejects.toMatchObject({ code: "RETRIES_EXHAUSTED" });
   });
 
-  it("propaga ProviderError sin reintentar entrada inválida", async () => {
-    const provider = mockProvider(new ProviderError("boom"));
-    await expect(rewriteDescription({ descripcion: "original" }, { provider, maxRetries: 2 })).rejects.toMatchObject({ code: "RETRIES_EXHAUSTED" });
-  });
-
-  it("detecta alteración de campos (assertPreserved)", async () => {
-    // El motor construye output preservando; este test verifica que si el proveedor
-    // devuelve JSON con campo extra, se rechaza.
-    const provider = mockProvider('{"descripcion":"x","titulo":"hackeado"}');
-    // extractDescription extrae descripcion "x" (válido) -> no altera otros campos porque
-    // el motor solo toma el texto. Verificamos preservación.
-    const result = await rewriteDescription({ titulo: "T", descripcion: "orig" }, { provider });
-    expect(result.output.titulo).toBe("T");
+  it("no reintenta errores permanentes del proveedor", async () => {
+    const provider = {
+      name: "mock",
+      complete: vi.fn(async () => {
+        throw new ProviderError("credenciales inválidas", undefined, false);
+      }),
+    };
+    await expect(rewriteDescription({ descripcion: "original" }, { provider, maxRetries: 2 })).rejects.toBeInstanceOf(ProviderError);
+    expect(provider.complete).toHaveBeenCalledTimes(1);
   });
 
   it("extrae descripción desde respuesta JSON del proveedor", async () => {
@@ -142,9 +137,62 @@ describe("rewriteDescription - contrato y preservación", () => {
     expect(r2.description).toBe("ok");
   });
 
-  it("field explícito inexistente se rechaza", async () => {
+  it("rechaza si ambos campos de descripción aparecen simultáneamente", async () => {
     const provider = mockProvider("ok");
-    await expect(rewriteDescription({ descripcion: "orig" }, { provider, field: "noexiste" })).rejects.toMatchObject({ code: "INVALID_INPUT" });
+    await expect(
+      rewriteDescription({ descripcion: "a", description: "b" }, { provider }),
+    ).rejects.toMatchObject({ code: "INVALID_INPUT" });
+  });
+
+  it("no modifica título, slug, URL ni otros campos", async () => {
+    const input = {
+      titulo: "Título original",
+      descripcion: "Descripción original.",
+      slug: "titulo-original",
+      urlNoticia: "https://example.com/nota",
+      fuente: "gba",
+      fecha: "2026-10-20",
+    };
+    const provider = mockProvider("Nueva descripción.");
+    const result = await rewriteDescription(input, { provider });
+    expect(result.output.titulo).toBe("Título original");
+    expect(result.output.slug).toBe("titulo-original");
+    expect(result.output.urlNoticia).toBe("https://example.com/nota");
+    expect(result.output.fuente).toBe("gba");
+    expect(result.output.fecha).toBe("2026-10-20");
+    expect(result.output.descripcion).toBe("Nueva descripción.");
+  });
+
+  it("omitir descripciones nulas/vacías es decisión del caller (isRewritable)", async () => {
+    expect(isRewritable({ descripcion: "algo" })).toBe(true);
+    expect(isRewritable({ descripcion: "   " })).toBe(false);
+    expect(isRewritable({ descripcion: null })).toBe(false);
+    expect(isRewritable({ titulo: "X" })).toBe(false);
+  });
+});
+
+describe("buildUserContent", () => {
+  it("envía solo título y descripción", () => {
+    const input = {
+      titulo: "T",
+      descripcion: "D",
+      imagenUrl: "https://x",
+      urlNoticia: "https://y",
+      slug: "s",
+    };
+    const content = buildUserContent(input, "descripcion");
+    expect(content).toContain("Título: T");
+    expect(content).toContain("Descripción original: D");
+    expect(content).not.toContain("imagenUrl");
+    expect(content).not.toContain("urlNoticia");
+    expect(content).not.toContain("slug");
+  });
+
+  it("soporta campos en inglés", () => {
+    const input = { title: "T", description: "D" };
+    const content = buildUserContent(input, "description");
+    expect(content).toContain("Título: T");
+    expect(content).toContain("Descripción original: D");
   });
 });
 
@@ -167,6 +215,20 @@ describe("CloudflareWorkersAiProvider", () => {
     const fetchFn = vi.fn(async () => new Response("bad", { status: 401 }));
     const provider = new CloudflareWorkersAiProvider({ token: "t", accountId: "a", fetchFn });
     await expect(provider.complete({ system: "s", user: "u" })).rejects.toBeInstanceOf(ProviderError);
+  });
+
+  it("respeta timeout", async () => {
+    const fetchFn = vi.fn(async (_url: any, init?: RequestInit) => {
+      return new Promise<Response>((_resolve, reject) => {
+        init?.signal?.addEventListener("abort", () => {
+          const err = new Error("aborted");
+          err.name = "AbortError";
+          reject(err);
+        });
+      });
+    });
+    const provider = new CloudflareWorkersAiProvider({ token: "t", accountId: "a", fetchFn, timeoutMs: 10 });
+    await expect(provider.complete({ system: "s", user: "u" })).rejects.toMatchObject({ message: expect.stringContaining("Timeout") });
   });
 
   it("lanza ProviderError si faltan credenciales", () => {

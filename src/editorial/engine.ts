@@ -1,5 +1,5 @@
 import type { LlmProvider } from "./provider.ts";
-import { EditorialEngineError } from "./errors.ts";
+import { EditorialEngineError, ProviderError } from "./errors.ts";
 import {
   validateInput,
   validateOutput,
@@ -9,8 +9,6 @@ import { QSK_EDITORIAL_SYSTEM_PROMPT, buildUserContent } from "./prompt.ts";
 
 export interface RewriteOptions {
   provider: LlmProvider;
-  /** Campo a reescribir. Si se omite, se detecta ('descripcion' o 'description'). */
-  field?: string;
   /** Largo máximo de la descripción reescrita. Default 280. */
   maxDescriptionLength?: number;
   /** Reintentos acotados ante respuestas inválidas o errores transitorios. Default 2. */
@@ -80,15 +78,8 @@ export async function rewriteDescription(
   }
 
   const { field: detectedField } = validateInput(input);
-  const field = options.field ?? detectedField;
-  if (field !== detectedField && !Object.prototype.hasOwnProperty.call(input as object, field)) {
-    throw new EditorialEngineError("INVALID_INPUT", `El campo '${field}' no existe en la entrada.`);
-  }
-  // Validar que el campo elegido exista y sea string.
+  const field = detectedField;
   const record = input as Record<string, unknown>;
-  if (typeof record[field] !== "string" || (record[field] as string).trim() === "") {
-    throw new EditorialEngineError("INVALID_INPUT", `El campo '${field}' debe ser un string no vacío.`);
-  }
 
   const maxDescriptionLength = options.maxDescriptionLength ?? 280;
   const maxRetries = Math.max(0, options.maxRetries ?? 2);
@@ -125,6 +116,10 @@ export async function rewriteDescription(
       lastError = error;
       // Errores de validación de entrada no se reintentan.
       if (error instanceof EditorialEngineError && (error.code === "INVALID_INPUT" || error.code === "MISSING_DESCRIPTION_FIELD")) {
+        throw error;
+      }
+      // Errores permanentes del proveedor no se reintentan.
+      if (error instanceof ProviderError && !error.retryable) {
         throw error;
       }
       if (attempt < maxAttempts) {

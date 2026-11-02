@@ -26,8 +26,10 @@ export class EditorialEngineError extends Error {
 }
 
 export class ProviderError extends EditorialEngineError {
-  constructor(message: string, details?: unknown) {
+  public readonly retryable: boolean;
+  constructor(message: string, details?: unknown, retryable = true) {
     super("PROVIDER_ERROR", message, details);
     this.name = "ProviderError";
+    this.retryable = retryable;
   }
 }
