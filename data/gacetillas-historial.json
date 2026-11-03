@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
+    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
+    "fecha": null,
+    "volanta": "UNIVERSIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
+  },
+  {
     "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
     "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
@@ -110,14 +120,14 @@
     "slug": "kicillof-participo-de-la-apertura-de-la-2-cumbre-federal-de-logistica"
   },
   {
-    "titulo": "Kicillof participó de la 5° Marcha Federal Universitaria",
-    "descripcion": "La convocatoria se realizó en reclamo por el cumplimiento de la Ley de Financiamiento Universitario y en defensa de la educación pública.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB4580.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_5%C2%B0_marcha_federal_universitaria",
-    "fecha": null,
-    "volanta": "EDUCACIÓN",
-    "fuente": "gba",
-    "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
+    "titulo": "JULIÁN ÁLVAREZ Y EL MINISTRO GABRIEL KATOPODIS RECORRIERON LAS OBRAS QUE REALIZAN EN CONJUNTO EN LANÚS",
+    "descripcion": "El intendente de Lanús, Julián Álvarez y el ministro de Infraestructura y Servicios Públicos, Gabriel Katopodis, supervisaron los avances de la obra de la nueva Clínica Veterinaria Municipal de Lanús Oeste en la calle Cnel. Osorio N° 3023, en el barrio de Villa Jardín, al igual que la pavimentación del primer tramo de la avenida Hipólito Yrigoyen, desde Remedios de Escalada de San Martín hasta Manuel Quindimil, mano a Lomas de Zamora.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-03-at-190346-1-hAxub.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4653-julian-alvarez-y-el-ministro-gabriel-katopodis-recorrieron-las-obras-que-realizan-en-conjunto-en-lanus",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "julian-alvarez-y-el-ministro-gabriel-katopodis-recorrieron-las-obras-que-realizan-en-conjunto-en-lanus"
   },
   {
     "titulo": "EL COLECTIVO SANITARIO LLEGA AL PARQUE LINEAL DEL OESTE",
@@ -200,14 +210,14 @@
     "slug": "iniciaron-las-obras-de-pavimentacion-sobre-la-avenida-hipolito-yrigoyen"
   },
   {
-    "titulo": "FERIA DE ARTESANÍAS: NUEVAS JORNADAS EN EL DISTRITO",
-    "descripcion": "Lanús Gobierno informa a las vecinas y los vecinos que este viernes 30, sábado 31 de octubre y domingo 1 de noviembre se realizará la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes lugares abiertos del distrito, con el objetivo de impulsar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-30-at-112811-bAiyn.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4644-feria-de-artesanias-nuevas-jornadas-en-el-distrito",
-    "fecha": "2026-10-30",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "feria-de-artesanias-nuevas-jornadas-en-el-distrito"
+    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
+    "descripcion": "Comenzó hoy y se extiende hasta mañana, de 9 a 16 hs, en el Parque La Estación. Entrada libre y gratuita.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
   },
   {
     "titulo": "Jornadas de vacunación antirrábica y desparasitación",
@@ -218,6 +228,16 @@
     "volanta": null,
     "fuente": "avellaneda",
     "slug": "jornadas-de-vacunacion-antirrabica-y-desparasitacion"
+  },
+  {
+    "titulo": "Productos económicos cerca de tu casa",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/CanastaBWeb-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/vuelve-la-canasta-basica-avellaneda/",
+    "fecha": "2026-11-02",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "productos-economicos-cerca-de-tu-casa"
   },
   {
     "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
@@ -308,26 +328,6 @@
     "volanta": null,
     "fuente": "avellaneda",
     "slug": "magdalena-sierra-participo-de-las-4tas-jornadas-municipales-sobre-cuidados-igualitarios-en-tierra-del-fuego"
-  },
-  {
-    "titulo": "La delegación de Avellaneda viajó a Mar del Plata para las finales de los Juegos Bonaerenses 2026",
-    "descripcion": "Magdalena Sierra y Jorge Ferraresi acompañaron a las y los vecinos que representarán a la ciudad en 106 disciplinas deportivas y culturales. El gobernador Axel Kicillof encabezó el acto de apertura.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-16.24.18-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-viajo-a-mar-del-plata-para-las-finales-de-los-juegos-bonaerenses-2026/",
-    "fecha": "2026-10-20",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-delegacion-de-avellaneda-viajo-a-mar-del-plata-para-las-finales-de-los-juegos-bonaerenses-2026"
-  },
-  {
-    "titulo": "Salud presente en tu barrio",
-    "descripcion": null,
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2024/05/banner-salud-presente-en-tu-barrio-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/salud-en-tu-barrio/",
-    "fecha": "2026-10-19",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "salud-presente-en-tu-barrio"
   },
   {
     "titulo": "TAREAS DE BACHEO EN MONTE GRANDE",
@@ -428,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "avanzan-las-tareas-de-fumigacion-en-esteban-echeverria-2"
+  },
+  {
+    "titulo": "Kicillof participó de la 5° Marcha Federal Universitaria",
+    "descripcion": "La convocatoria se realizó en reclamo por el cumplimiento de la Ley de Financiamiento Universitario y en defensa de la educación pública.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB4580.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_5%C2%B0_marcha_federal_universitaria",
+    "fecha": null,
+    "volanta": "EDUCACIÓN",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-5-marcha-federal-universitaria"
+  },
+  {
+    "titulo": "FERIA DE ARTESANÍAS: NUEVAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa a las vecinas y los vecinos que este viernes 30, sábado 31 de octubre y domingo 1 de noviembre se realizará la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes lugares abiertos del distrito, con el objetivo de impulsar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-10-30-at-112811-bAiyn.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4644-feria-de-artesanias-nuevas-jornadas-en-el-distrito",
+    "fecha": "2026-10-30",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "feria-de-artesanias-nuevas-jornadas-en-el-distrito"
+  },
+  {
+    "titulo": "La delegación de Avellaneda viajó a Mar del Plata para las finales de los Juegos Bonaerenses 2026",
+    "descripcion": "Magdalena Sierra y Jorge Ferraresi acompañaron a las y los vecinos que representarán a la ciudad en 106 disciplinas deportivas y culturales. El gobernador Axel Kicillof encabezó el acto de apertura.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-16.24.18-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-viajo-a-mar-del-plata-para-las-finales-de-los-juegos-bonaerenses-2026/",
+    "fecha": "2026-10-20",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-delegacion-de-avellaneda-viajo-a-mar-del-plata-para-las-finales-de-los-juegos-bonaerenses-2026"
+  },
+  {
+    "titulo": "Salud presente en tu barrio",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2024/05/banner-salud-presente-en-tu-barrio-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/salud-en-tu-barrio/",
+    "fecha": "2026-10-19",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "salud-presente-en-tu-barrio"
   },
   {
     "titulo": "FERNANDO GRAY RECIBIÓ A AUTORIDADES DE LA PRIMARIA N° 37 DE MONTE GRANDE",
