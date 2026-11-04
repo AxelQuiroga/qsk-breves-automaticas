@@ -1,8 +1,9 @@
 {
   "name": "qsk-breves-automaticas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extractor de noticias oficiales de organismos públicos para QSK Noticias.",
   "main": "index.js",
+  "packageManager": "pnpm@11.28.5",
   "scripts": {
     "extraer": "node --use-system-ca src/index.ts",
     "test": "vitest run",
