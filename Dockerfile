@@ -12,12 +12,12 @@ RUN corepack enable \
 
 WORKDIR /app
 
-COPY package.json ./
+COPY package.json pnpm-lock.yaml ./
 
-RUN pnpm install --no-frozen-lockfile
+RUN pnpm install --frozen-lockfile
 
 COPY . .
 
-CMD ["pnpm", "extraer"]
-
 ENV NODE_EXTRA_CA_CERTS=/app/certs/sectigo-r36.pem
+
+CMD ["pnpm", "extraer"]
