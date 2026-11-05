@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof encabezó el cierre de la 6° edición de Futuro Memoria",
+    "descripcion": "La iniciativa promueve la creación de producciones culturales y artísticas que visibilicen las luchas por la Memoria, la Verdad y la Justicia.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_226.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_el_cierre_de_la_6%C2%B0_edici%C3%B3n_de_futuro_memoria",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-el-cierre-de-la-6-edicion-de-futuro-memoria"
+  },
+  {
     "titulo": "Kicillof presentó el operativo por la visita del Papa León XIV a la provincia de Buenos Aires",
     "descripcion": "El Gobierno provincial desplegará un importante operativo sanitario, de seguridad y asistencia para garantizar el cuidado de los fieles.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_225.jpg",
@@ -110,14 +120,34 @@
     "slug": "kicillof-encabezo-la-apertura-de-la-etapa-final-de-los-juegos-bonaerenses-2026"
   },
   {
-    "titulo": "Kicillof inauguró un Centro de Desarrollo Infantil y entregó viviendas paralizadas por el Gobierno nacional",
-    "descripcion": "Ambas obras fueron reactivadas por la Provincia. Además, se distribuyeron escrituras gratuitas y netbooks para estudiantes del distrito.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB9647%20%281%29.jpg.jpeg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_centro_de_desarrollo_infantil_y_entreg%C3%B3",
-    "fecha": null,
-    "volanta": "CASTELLI",
-    "fuente": "gba",
-    "slug": "kicillof-inauguro-un-centro-de-desarrollo-infantil-y-entrego-viviendas-paralizadas-por-el-gobierno-nacional"
+    "titulo": "SE VIENE UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno desarrollará otra nueva jornada del operativo “Sábados de Salud en el Barrio” este sábado 7 de noviembre, de 10 a 14 en la plaza Juan Manuel de Rosas, situada en José María Moreno N° 2102, en Lanús Oeste, con el objetivo de ofrecer numerosos servicios gratuitos en materia de prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-150422-6SNa0.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4659-se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste",
+    "fecha": "2026-11-05",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+  },
+  {
+    "titulo": "SE DESARROLLARÁN DOS NUEVAS EDICIONES DE LA FERIA “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno concretará otras dos jornadas de la Feria de la Economía Social “Hecho en Lanús” durante el sábado 7 y el domingo 8 de noviembre, de 16 a 20, en el Centro Cultural Leonardo Favio (avenida 25 de Mayo N° 131, Lanús Oeste) y en la plaza Villa Obrera (avenida Eva Perón N° 2400, Lanús Este).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-101501-6HSAq.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4658-se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ FIRMÓ UN CONVENIO CON LA UTN PARA INCORPORAR HERRAMIENTAS TECNOLÓGICAS A LA PLANTA ASFÁLTICA MUNICIPAL",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, recibió en su despacho del Palacio Municipal al decano de la Universidad Tecnológica Nacional (UTN) La Plata, ingeniero Fabio Romani, con quien rubricó un convenio específico para incorporar asesoramiento técnico y herramientas tecnológicas a la Planta Asfáltica Municipal, con la finalidad de mejorar la calidad de la mezcla, optimizar los procesos de producción y reducir costos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-084746-cGxY3.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4657-julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal",
+    "fecha": "2026-11-05",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
   },
   {
     "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL QUIRÓFANO MÓVIL EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
@@ -180,36 +210,6 @@
     "slug": "continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante"
   },
   {
-    "titulo": "NUEVA EDICIÓN CONJUNTA DE LA FERIA \"HECHO EN LANÚS\" Y MERCADOS BONAERENSES",
-    "descripcion": "Lanús Gobierno realizará una edición conjunta de la Feria de la Economía Social “Hecho en Lanús” con los tradicionales Mercados Bonaerenses durante el martes 3 de noviembre, de 10 a 14 en la plaza Villa Obrera, situada en la avenida Eva Perón N° 2400 en Lanús Este.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-02-at-104253-uJCUH.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4650-nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses",
-    "fecha": "2026-11-02",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses"
-  },
-  {
-    "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS EN EL DISTRITO",
-    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el jueves 5 de noviembre se realizarán nuevas jornadas del programa “Plazas Saludables” en distintos espacios públicos del distrito. Las actividades se desarrollarán de 9 a 12 y estarán destinadas a acercar controles médicos gratuitos, fomentar la actividad física y promover hábitos saludables entre las vecinas y los vecinos.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/img-2534jpg-dmrig.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4649-programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito",
-    "fecha": "2026-11-01",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito"
-  },
-  {
-    "titulo": "NUEVO OPERATIVO ¡AMBIENTE SÍ! EN LAS PLAZAS DEL DISTRITO",
-    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el sábado 7 de noviembre se realizará una nueva edición del operativo ¡Ambiente Sí! en distintos espacios públicos del distrito. La propuesta busca promover la separación de residuos y el cuidado del ambiente, permitiendo que las vecinas y los vecinos acerquen materiales reciclables y retiren semillas de temporada. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5066591951100423664-iXGVa.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4648-nuevo-operativo-ambiente-si-en-las-plazas-del-distrito",
-    "fecha": "2026-11-01",
-    "volanta": "Ambiente",
-    "fuente": "lanus",
-    "slug": "nuevo-operativo-ambiente-si-en-las-plazas-del-distrito"
-  },
-  {
     "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
     "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
@@ -221,7 +221,7 @@
   },
   {
     "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
-    "descripcion": "Comenzó hoy y se extiende hasta mañana, de 9 a 16 hs, en el Parque La Estación. Entrada libre y gratuita.",
+    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
     "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
     "fecha": "2026-11-03",
@@ -330,6 +330,46 @@
     "slug": "en-el-municipio-de-rio-grande-magdalena-sierra-recorrio-obras-y-visito-centros-de-cuidado"
   },
   {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DE LA APERTURA DEL CENTRO DE ATENCIÓN AL ESTUDIANTE Y A LA FAMILIA DE LA UNIVERSIDAD DE FLORES",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la apertura del Centro de Atención al Estudiante y a la Familia de la Universidad de Flores que funcionará en la localidad de Canning. “Seguimos estrechando lazos para que las vecinas y los vecinos de Esteban Echeverría cuenten con cada vez más accesos a la educación. Fomentamos el desarrollo académico de nuestra comunidad y estos espacios nos permiten garantizarles mayores oportunidades”, expresó Fernando Gray, quien estuvo acompañado por el intendente de Ezeiza, Gastón Granados, y las máximas autoridades de instituciones académicas y de salud de la región. En el plano universitario, participaron la rectora de la Universidad de Flores, Ruth Fischer; el vicerrector general, Christian Kreber; el rector de la Universidad Nacional Guillermo Brown, Pablo Domenichini; el rector y la vicerrectora de la Universidad Provincial de Ezeiza, Pablo Galli y Macarena Forneris; la vicerrectora general de docencia e investigación de la UFLO, Analía Lozada, y la coordinadora de la Universidad de Flores Canning, Florencia Amer. Asimismo, el ámbito institucional y sanitario local estuvo representado por el presidente de la Clínica Monte Grande, Carlos Santoro; la jefa distrital, Lucía Ibarra, y el presidente del Consejo Escolar, David De Lío.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores"
+  },
+  {
+    "titulo": "MONTE GRANDE: DETUVIERON A TRES HOMBRES TRAS UN INTENTO DE ROBO A UNA INSTITUCIÓN",
+    "descripcion": "A través de las cámaras del Centro Operativo de Monitoreo (COM) de Esteban Echeverría, personal municipal detectó a tres sujetos en actitud sospechosa en la intersección de las calles Alem e Italiani, en Monte Grande. Mediante el seguimiento en tiempo real, los operadores observaron cómo uno de los hombres trepaba la reja de la Escuela de Arte e intentaba sustraer un equipo de aire acondicionado del establecimiento, mientras los otros dos permanecían en la vereda haciendo de campana. Inmediatamente, desde el COM se dio aviso a efectivos de la Guardia Urbana y de la Policía bonaerense, quienes acudieron con móviles al lugar. Como resultado del rápido accionar conjunto, los tres sospechosos fueron detenidos y puestos a disposición de la Justicia. El Centro Operativo de Monitoreo cuenta actualmente con 1.783 cámaras fijas y domos de 360 grados en funcionamiento durante las 24 horas. Este sistema de prevención se complementa con paradas seguras, tótems de emergencia y el Anillo Digital de Seguridad, que incorpora lectoras de patentes para detectar vehículos con pedido de secuestro o denuncia de robo.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/monte-grande-detuvieron-a-tres-hombres-tras-un-intento-de-robo-a-una-institucion/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "monte-grande-detuvieron-a-tres-hombres-tras-un-intento-de-robo-a-una-institucion"
+  },
+  {
+    "titulo": "FERNANDO GRAY BRINDÓ UN RECONOCIMIENTO A TRABAJADORAS Y TRABAJADORES VECINALES DEL DISTRITO",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, llevó adelante un reconocimiento a trabajadoras y trabajadores vecinales mayores de 65 años que desde hace más de 25 años acompañan a la comunidad en todos los barrios del distrito.&#160; “Es un orgullo ver el compromiso con el que las trabajadoras y los trabajadores vecinales día a día acompañan a la población de nuestro municipio. Agradezco infinitamente su apoyo y la ayuda que brindan a las personas que más lo necesitan”, expresó Fernando Gray, quien estuvo acompañado por el subsecretario de Inclusión y Asistencia, César Galo; y el director general de Participación Comunitaria, Gastón Solimini. Durante el encuentro, el intendente hizo entrega de un mate grabado a cada vecina y vecino, en reconocimiento por su gran labor. Recibieron el reconocimiento: Martha Rodríguez, Mirta Díaz, María Giménez, Marta Ruiz, Nélida Sanabria, Patricia Vergara, Norma Aires, Estela Ríos, Rafaela Espínola Báez, Héctor Godoy, Mirta Romero, Leila Rivero, María Rosa Cotez, Elda Cabral y Teresa Jesús Vázquez",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-brindo-un-reconocimiento-a-trabajadoras-y-trabajadores-vecinales-del-distrito/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-brindo-un-reconocimiento-a-trabajadoras-y-trabajadores-vecinales-del-distrito"
+  },
+  {
+    "titulo": "EL MUNICIPIO ENTREGÓ LENTES DEL PROGRAMA OFTALMOLÓGICO ECHEverRÍA",
+    "descripcion": "El Programa Oftalmológico EcheVERría llegó a cuatro instituciones educativas de El Jagüel, donde los equipos de trabajo del Municipio, junto con la concejal Magui Gray, entregaron 511 pares de lentes a chicas y chicos de tres escuelas primarias y una secundaria. &#160; En referencia al nivel primario, se entregaron 47 lentes a estudiantes de la Escuela Primaria N° 3, 212 en la Escuela Primaria N° 17, y 60 en la Escuela Primaria N° 20. En el nivel secundario, los equipos hicieron entrega de 192 anteojos a chicas y chicos de la Escuela Secundaria N° 38.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 1.068 pares de anteojos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-entrego-lentes-del-programa-oftalmologico-echeverria-4/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-entrego-lentes-del-programa-oftalmologico-echeverria"
+  },
+  {
     "titulo": "NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN MONTE GRANDE SUR",
     "descripcion": "El Municipio de Esteban Echeverría llevará a cabo un nuevo operativo de recarga de garrafas a precio accesible este jueves 5 de noviembre, de 11 a 12:30 horas. La actividad tendrá lugar en la Escuela Primaria N° 13, ubicada en San Pedrito y R. Santamarina, barrio La Paz, en Monte Grande Sur. Allí, las vecinas y los vecinos tendrán la posibilidad de acceder a la recarga del envase de 10 kg por $ 25.500, valor que se encuentra por debajo del precio que ofrece el mercado. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad quedará suspendida.",
     "imagenUrl": null,
@@ -388,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "9-de-abril-desarticulan-puntos-de-venta-de-drogas-y-detienen-a-cuatro-personas"
+  },
+  {
+    "titulo": "Kicillof inauguró un Centro de Desarrollo Infantil y entregó viviendas paralizadas por el Gobierno nacional",
+    "descripcion": "Ambas obras fueron reactivadas por la Provincia. Además, se distribuyeron escrituras gratuitas y netbooks para estudiantes del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB9647%20%281%29.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_centro_de_desarrollo_infantil_y_entreg%C3%B3",
+    "fecha": null,
+    "volanta": "CASTELLI",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-un-centro-de-desarrollo-infantil-y-entrego-viviendas-paralizadas-por-el-gobierno-nacional"
+  },
+  {
+    "titulo": "NUEVA EDICIÓN CONJUNTA DE LA FERIA \"HECHO EN LANÚS\" Y MERCADOS BONAERENSES",
+    "descripcion": "Lanús Gobierno realizará una edición conjunta de la Feria de la Economía Social “Hecho en Lanús” con los tradicionales Mercados Bonaerenses durante el martes 3 de noviembre, de 10 a 14 en la plaza Villa Obrera, situada en la avenida Eva Perón N° 2400 en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-02-at-104253-uJCUH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4650-nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses",
+    "fecha": "2026-11-02",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-conjunta-de-la-feria-hecho-en-lanus-y-mercados-bonaerenses"
+  },
+  {
+    "titulo": "PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ LAS PRÓXIMAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el jueves 5 de noviembre se realizarán nuevas jornadas del programa “Plazas Saludables” en distintos espacios públicos del distrito. Las actividades se desarrollarán de 9 a 12 y estarán destinadas a acercar controles médicos gratuitos, fomentar la actividad física y promover hábitos saludables entre las vecinas y los vecinos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/img-2534jpg-dmrig.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4649-programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito",
+    "fecha": "2026-11-01",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "programa-plazas-saludables-conoce-las-proximas-jornadas-en-el-distrito"
+  },
+  {
+    "titulo": "NUEVO OPERATIVO ¡AMBIENTE SÍ! EN LAS PLAZAS DEL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que desde el lunes 2 y hasta el sábado 7 de noviembre se realizará una nueva edición del operativo ¡Ambiente Sí! en distintos espacios públicos del distrito. La propuesta busca promover la separación de residuos y el cuidado del ambiente, permitiendo que las vecinas y los vecinos acerquen materiales reciclables y retiren semillas de temporada. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5066591951100423664-iXGVa.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4648-nuevo-operativo-ambiente-si-en-las-plazas-del-distrito",
+    "fecha": "2026-11-01",
+    "volanta": "Ambiente",
+    "fuente": "lanus",
+    "slug": "nuevo-operativo-ambiente-si-en-las-plazas-del-distrito"
   },
   {
     "titulo": "FENÓMENO DE EL NIÑO: LIMPIEZA Y SANEAMIENTO EN EL RÍO MATANZA",
