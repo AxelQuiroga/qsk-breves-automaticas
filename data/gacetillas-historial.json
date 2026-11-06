@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof inauguró un nuevo centro universitario en Arrecifes",
+    "descripcion": "Además, el Gobernador entregó escrituras gratuitas y otorgó netbooks a estudiantes secundarios del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_227.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_nuevo_centro_universitario_en_arrecifes",
+    "fecha": null,
+    "volanta": "PROGRAMA PUENTES",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-un-nuevo-centro-universitario-en-arrecifes"
+  },
+  {
     "titulo": "Kicillof encabezó el cierre de la 6° edición de Futuro Memoria",
     "descripcion": "La iniciativa promueve la creación de producciones culturales y artísticas que visibilicen las luchas por la Memoria, la Verdad y la Justicia.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_226.jpg",
@@ -110,14 +120,14 @@
     "slug": "kicillof-entrego-viviendas-a-familias-de-tristan-suarez"
   },
   {
-    "titulo": "Kicillof encabezó la apertura de la etapa final de los Juegos Bonaerenses 2026",
-    "descripcion": "Se desarrollará entre el 19 y el 23 de octubre y contará con la participación de 30.000 deportistas.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261019-WA0206.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_la_etapa_final_de_los_juegos_2",
-    "fecha": null,
-    "volanta": "MAR DEL PLATA",
-    "fuente": "gba",
-    "slug": "kicillof-encabezo-la-apertura-de-la-etapa-final-de-los-juegos-bonaerenses-2026"
+    "titulo": "SE REALIZA UNA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
+    "descripcion": "Lanús Gobierno informa que este viernes 6, sábado 7 y domingo 8 de noviembre se desarrollará nuevamente la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos de la ciudad, con la finalidad de impulsar la tarea de los emprendedores y las emprendedoras locales y facilitar alternativas de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/2025-03-18-a-las-115104-46f12ede-baGwe.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4661-se-realiza-una-nueva-edicion-de-la-feria-de-artesanias",
+    "fecha": "2026-11-06",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "se-realiza-una-nueva-edicion-de-la-feria-de-artesanias"
   },
   {
     "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ A MÁS DE 200 TRABAJADORES Y TRABAJADORAS MUNICIPALES DE LANÚS POR SU TRAYECTORIA",
@@ -200,14 +210,14 @@
     "slug": "julian-alvarez-y-el-ministro-gabriel-katopodis-recorrieron-las-obras-que-realizan-en-conjunto-en-lanus"
   },
   {
-    "titulo": "EL COLECTIVO SANITARIO LLEGA AL PARQUE LINEAL DEL OESTE",
-    "descripcion": "Lanús Gobierno informa que el Colectivo Sanitario estará presente este martes 3, miércoles 4 y jueves 5 de noviembre, de 10 a 14 en el Parque Lineal del Oeste ubicado en Emilio Castro N° 3400, en Lanús Oeste, con la finalidad de facilitar el acceso a controles preventivos y a distintas prestaciones médicas gratuitas para los vecinos y las vecinas del distrito.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-02-at-71355-pm-pxBdI.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4652-el-colectivo-sanitario-llega-al-parque-lineal-del-oeste",
-    "fecha": "2026-11-02",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-colectivo-sanitario-llega-al-parque-lineal-del-oeste"
+    "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
+    "descripcion": "“Buscamos excelencia”, sostuvo la jefa comunal durante las demostraciones de destrezas operativas, tácticas y técnicas adquiridas durante la formación de las y los cadetes.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-8-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda/",
+    "fecha": "2026-11-06",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
   },
   {
     "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
@@ -320,14 +330,24 @@
     "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
   },
   {
-    "titulo": "En el Municipio de Río Grande, Magdalena Sierra recorrió obras y visitó centros de cuidado",
-    "descripcion": "La jefa comunal valoró el intercambió experiencias de gestión para seguir fortaleciendo las políticas públicas que se impulsan en Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-18.53.14-1-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-municipio-de-rio-grande-magdalena-sierra-recorrio-obras-y-visito-centros-de-cuidado/",
-    "fecha": "2026-10-22",
+    "titulo": "PROGRAMA OFTALMOLÓGICO ECHEverRÍA: ENTREGA DE LENTES A ESTUDIANTES DE LUIS GUILLÓN",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría, acompañados por la presidenta del Concejo Deliberante, Valeria Bellizzi, llevaron adelante una nueva jornada de entrega de lentes para estudiantes de la localidad de Luis Guillón, en el marco del Programa Oftalmológico EcheVERría. Durante la visita a la Escuela Primaria Nº 18 se otorgaron 108 pares de lentes, con la participación de la subsecretaria de Niñez, Adolescencia y Familia, Laura Gómez, y la directora general de Infancias, Gisele Bufano. Posteriormente, en la Escuela de Educación Secundaria Nº 28 se entregaron 78 pares de lentes, una actividad que contó con el acompañamiento de la directora general de Derechos Sociales, Romina Pereyra, y la coordinadora de Juventudes, Milagros Arias. Previo a estas entregas, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual y determinar quiénes necesitaban los anteojos, los cuales fueron elegidos y entregados de forma totalmente gratuita a cada chica y chico. El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-luis-guillon/",
+    "fecha": "2026-11-06",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "en-el-municipio-de-rio-grande-magdalena-sierra-recorrio-obras-y-visito-centros-de-cuidado"
+    "fuente": "esteban-echeverria",
+    "slug": "programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-luis-guillon"
+  },
+  {
+    "titulo": "EL MUNICIPIO REALIZÓ UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevó adelante un nuevo operativo de recarga de garrafas en la Escuela Primaria N° 13, ubicada en San Pedrito y Ramón Santamarina, en el barrio La Paz de Monte Grande Sur. Durante la jornada, las vecinas y los vecinos pudieron acceder a la recarga de garrafas de 10 kilos a $25.500, un valor inferior al que ofrece el mercado. El pago se realizó en efectivo o mediante código QR. A través de esta iniciativa, el Municipio continúa acercando alternativas accesibles a los barrios y acompañando la economía de las familias del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur"
   },
   {
     "titulo": "FERNANDO GRAY PARTICIPÓ DE LA APERTURA DEL CENTRO DE ATENCIÓN AL ESTUDIANTE Y A LA FAMILIA DE LA UNIVERSIDAD DE FLORES",
@@ -408,6 +428,36 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "tareas-de-bacheo-en-monte-grande"
+  },
+  {
+    "titulo": "Kicillof encabezó la apertura de la etapa final de los Juegos Bonaerenses 2026",
+    "descripcion": "Se desarrollará entre el 19 y el 23 de octubre y contará con la participación de 30.000 deportistas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261019-WA0206.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_la_etapa_final_de_los_juegos_2",
+    "fecha": null,
+    "volanta": "MAR DEL PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-apertura-de-la-etapa-final-de-los-juegos-bonaerenses-2026"
+  },
+  {
+    "titulo": "EL COLECTIVO SANITARIO LLEGA AL PARQUE LINEAL DEL OESTE",
+    "descripcion": "Lanús Gobierno informa que el Colectivo Sanitario estará presente este martes 3, miércoles 4 y jueves 5 de noviembre, de 10 a 14 en el Parque Lineal del Oeste ubicado en Emilio Castro N° 3400, en Lanús Oeste, con la finalidad de facilitar el acceso a controles preventivos y a distintas prestaciones médicas gratuitas para los vecinos y las vecinas del distrito.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-02-at-71355-pm-pxBdI.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4652-el-colectivo-sanitario-llega-al-parque-lineal-del-oeste",
+    "fecha": "2026-11-02",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-colectivo-sanitario-llega-al-parque-lineal-del-oeste"
+  },
+  {
+    "titulo": "En el Municipio de Río Grande, Magdalena Sierra recorrió obras y visitó centros de cuidado",
+    "descripcion": "La jefa comunal valoró el intercambió experiencias de gestión para seguir fortaleciendo las políticas públicas que se impulsan en Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-18.53.14-1-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-municipio-de-rio-grande-magdalena-sierra-recorrio-obras-y-visito-centros-de-cuidado/",
+    "fecha": "2026-10-22",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "en-el-municipio-de-rio-grande-magdalena-sierra-recorrio-obras-y-visito-centros-de-cuidado"
   },
   {
     "titulo": "FERNANDO GRAY DIALOGÓ CON REPRESENTANTES DE LA SOCIEDAD DE FOMENTO ALTOS DE MONTE GRANDE",
