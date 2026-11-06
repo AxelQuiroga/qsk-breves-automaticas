@@ -120,6 +120,16 @@
     "slug": "kicillof-encabezo-la-apertura-de-la-etapa-final-de-los-juegos-bonaerenses-2026"
   },
   {
+    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ A MÁS DE 200 TRABAJADORES Y TRABAJADORAS MUNICIPALES DE LANÚS POR SU TRAYECTORIA",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, otorgó una serie de reconocimientos a más de 200 empleados y empleadas municipales por sus 25, 30, 35 y 40 años de trayectoria, en un acto que se desarrolló en el Microestadio Lionel Messi, ubicado en el Parque Central Las Colonias en la localidad de Remedios de Escalada, en el marco del Día del Trabajador y de la Trabajadora Municipal que se conmemorará el próximo domingo 8 de noviembre.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-172543-IEKw8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4660-julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
+  },
+  {
     "titulo": "SE VIENE UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" EN LANÚS OESTE",
     "descripcion": "Lanús Gobierno desarrollará otra nueva jornada del operativo “Sábados de Salud en el Barrio” este sábado 7 de noviembre, de 10 a 14 en la plaza Juan Manuel de Rosas, situada en José María Moreno N° 2102, en Lanús Oeste, con el objetivo de ofrecer numerosos servicios gratuitos en materia de prevención, atención y promoción de la salud.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-150422-6SNa0.jpeg",
@@ -198,16 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "el-colectivo-sanitario-llega-al-parque-lineal-del-oeste"
-  },
-  {
-    "titulo": "CONTINÚAN LAS OBRAS DEL PLAN DE PAVIMENTACIÓN EN EL BARRIO VILLA DIAMANTE",
-    "descripcion": "Lanús Gobierno informa que siguen a buen ritmo las obras del Plan de Pavimentación en distintas calles del distrito, con financiamiento 100% municipal, cuyo propósito es mejorar la circulación vehicular y peatonal, al igual la seguridad vial y la calidad de vida de las y los lanusenses.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante-1-UQoj8.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4651-continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante",
-    "fecha": "2026-11-02",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante"
   },
   {
     "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "9-de-abril-desarticulan-puntos-de-venta-de-drogas-y-detienen-a-cuatro-personas"
+  },
+  {
+    "titulo": "CONTINÚAN LAS OBRAS DEL PLAN DE PAVIMENTACIÓN EN EL BARRIO VILLA DIAMANTE",
+    "descripcion": "Lanús Gobierno informa que siguen a buen ritmo las obras del Plan de Pavimentación en distintas calles del distrito, con financiamiento 100% municipal, cuyo propósito es mejorar la circulación vehicular y peatonal, al igual la seguridad vial y la calidad de vida de las y los lanusenses.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante-1-UQoj8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4651-continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante",
+    "fecha": "2026-11-02",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "continuan-las-obras-del-plan-de-pavimentacion-en-el-barrio-villa-diamante"
   },
   {
     "titulo": "Kicillof inauguró un Centro de Desarrollo Infantil y entregó viviendas paralizadas por el Gobierno nacional",
