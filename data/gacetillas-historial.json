@@ -1,5 +1,55 @@
 [
   {
+    "titulo": "Kicillof entregó viviendas a familias de San Pedro",
+    "descripcion": "Además, el Gobernador inauguró los nuevos consultorios externos del Hospital Subzonal “Dr. Emilio Ruffa”.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON2663.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_viviendas_familias_de_san_pedro_0",
+    "fecha": null,
+    "volanta": "HÁBITAT",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-viviendas-a-familias-de-san-pedro"
+  },
+  {
+    "titulo": "Kicillof inauguró un nuevo centro universitario en Arrecifes",
+    "descripcion": "Además, el Gobernador entregó escrituras gratuitas y otorgó netbooks a estudiantes secundarios del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_227.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_un_nuevo_centro_universitario_en_arrecifes",
+    "fecha": null,
+    "volanta": "PROGRAMA PUENTES",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-un-nuevo-centro-universitario-en-arrecifes"
+  },
+  {
+    "titulo": "Kicillof encabezó el cierre de la 6° edición de Futuro Memoria",
+    "descripcion": "La iniciativa promueve la creación de producciones culturales y artísticas que visibilicen las luchas por la Memoria, la Verdad y la Justicia.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_226.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_el_cierre_de_la_6%C2%B0_edici%C3%B3n_de_futuro_memoria",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-el-cierre-de-la-6-edicion-de-futuro-memoria"
+  },
+  {
+    "titulo": "Kicillof presentó el operativo por la visita del Papa León XIV a la provincia de Buenos Aires",
+    "descripcion": "El Gobierno provincial desplegará un importante operativo sanitario, de seguridad y asistencia para garantizar el cuidado de los fieles.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_225.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_present%C3%B3_el_operativo_por_la_visita_del_papa_le%C3%B3n_xiv_la",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-presento-el-operativo-por-la-visita-del-papa-leon-xiv-a-la-provincia-de-buenos-aires"
+  },
+  {
+    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
+    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
+    "fecha": null,
+    "volanta": "UNIVERSIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
+  },
+  {
     "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
     "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
@@ -68,6 +118,316 @@
     "volanta": "LOMAS DE ZAMORA",
     "fuente": "gba",
     "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
+  },
+  {
+    "titulo": "PREMIAN A LOS BUENOS CONTRIBUYENTES CON DESCUENTOS EN LA TSG",
+    "descripcion": "Lanús Gobierno informa que, a través de la Agencia Municipal de Ingresos Públicos (AMIP), se ofrecen descuentos de hasta el 10% en la Tasa de Servicios Generales (TSG) para las vecinas y los vecinos que se encuentren al día con sus obligaciones tributarias. Además, quienes registren cuotas pendientes podrán cancelarlas sin intereses hasta el 15 de diciembre, con la posibilidad de acceder a los beneficios previstos para 2027.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-premia-a-los-buenos-contribuyentes-2-m4b07.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4662-premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg",
+    "fecha": "2026-11-06",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg"
+  },
+  {
+    "titulo": "SE REALIZA UNA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
+    "descripcion": "Lanús Gobierno informa que este viernes 6, sábado 7 y domingo 8 de noviembre se desarrollará nuevamente la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos de la ciudad, con la finalidad de impulsar la tarea de los emprendedores y las emprendedoras locales y facilitar alternativas de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/2025-03-18-a-las-115104-46f12ede-baGwe.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4661-se-realiza-una-nueva-edicion-de-la-feria-de-artesanias",
+    "fecha": "2026-11-06",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "se-realiza-una-nueva-edicion-de-la-feria-de-artesanias"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ A MÁS DE 200 TRABAJADORES Y TRABAJADORAS MUNICIPALES DE LANÚS POR SU TRAYECTORIA",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, otorgó una serie de reconocimientos a más de 200 empleados y empleadas municipales por sus 25, 30, 35 y 40 años de trayectoria, en un acto que se desarrolló en el Microestadio Lionel Messi, ubicado en el Parque Central Las Colonias en la localidad de Remedios de Escalada, en el marco del Día del Trabajador y de la Trabajadora Municipal que se conmemorará el próximo domingo 8 de noviembre.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-172543-IEKw8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4660-julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
+  },
+  {
+    "titulo": "SE VIENE UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno desarrollará otra nueva jornada del operativo “Sábados de Salud en el Barrio” este sábado 7 de noviembre, de 10 a 14 en la plaza Juan Manuel de Rosas, situada en José María Moreno N° 2102, en Lanús Oeste, con el objetivo de ofrecer numerosos servicios gratuitos en materia de prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-150422-6SNa0.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4659-se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste",
+    "fecha": "2026-11-05",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+  },
+  {
+    "titulo": "SE DESARROLLARÁN DOS NUEVAS EDICIONES DE LA FERIA “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno concretará otras dos jornadas de la Feria de la Economía Social “Hecho en Lanús” durante el sábado 7 y el domingo 8 de noviembre, de 16 a 20, en el Centro Cultural Leonardo Favio (avenida 25 de Mayo N° 131, Lanús Oeste) y en la plaza Villa Obrera (avenida Eva Perón N° 2400, Lanús Este).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-101501-6HSAq.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4658-se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ FIRMÓ UN CONVENIO CON LA UTN PARA INCORPORAR HERRAMIENTAS TECNOLÓGICAS A LA PLANTA ASFÁLTICA MUNICIPAL",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, recibió en su despacho del Palacio Municipal al decano de la Universidad Tecnológica Nacional (UTN) La Plata, ingeniero Fabio Romani, con quien rubricó un convenio específico para incorporar asesoramiento técnico y herramientas tecnológicas a la Planta Asfáltica Municipal, con la finalidad de mejorar la calidad de la mezcla, optimizar los procesos de producción y reducir costos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-084746-cGxY3.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4657-julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal",
+    "fecha": "2026-11-05",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
+  },
+  {
+    "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL QUIRÓFANO MÓVIL EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
+    "descripcion": "Lanús Gobierno informa que el jueves 5 de noviembre, a partir de las 9 y hasta agotar los cupos disponibles, se brindarán nuevos turnos presenciales para realizar castraciones gratuitas de perros y gatos en el Quirófano Móvil del Parque Municipal General San Martín (Coronel Sayos N° 2302, Valentín Alsina).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-120748-fNVbq.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4656-se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin",
+    "fecha": "2026-11-04",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin"
+  },
+  {
+    "titulo": "LLEGA UN NUEVO PUNTO DE CASTRACIÓN ITINERANTR A GERLI",
+    "descripcion": "Lanús Gobierno destinará una nueva tanda de turnos presenciales para que la comunidad lanusense pueda acceder al servicio de castración itinerante gratuito de mascotas durante este jueves 5 de noviembre, desde las 9 y hasta agotar cupos, en el Club Pioneros de Gerli ubicado en Cmte. Mamberti N° 656.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-102024-PPAUG.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4655-llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli",
+    "fecha": "2026-11-04",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ AL S.E.D.A.L.O. POR GANAR EL CAMPEONATO DE HANDBALL SCA DE CLUBES 2026",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, visitó la sede de la Sociedad Escolar y Deportiva Alemana de Lanús Oeste (S.E.D.A.L.O.) ubicada en la calle Gobernador Oliden N° 2444, donde les entregó un reconocimiento a las integrantes del equipo de handball femenino por la obtención del Campeonato Handball SCA de Clubes 2026, el más importante a nivel clubes de América del Sur y Central.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-083705-VCPKP.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4654-julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026",
+    "fecha": "2026-11-04",
+    "volanta": "Deportes",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026"
+  },
+  {
+    "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
+    "descripcion": "“Buscamos excelencia”, sostuvo la jefa comunal durante las demostraciones de destrezas operativas, tácticas y técnicas adquiridas durante la formación de las y los cadetes.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-8-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda/",
+    "fecha": "2026-11-06",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
+  },
+  {
+    "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
+    "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
+  },
+  {
+    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
+    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
+  },
+  {
+    "titulo": "Jornadas de vacunación antirrábica y desparasitación",
+    "descripcion": "El operativo de zoonosis se realizará en Gerli. Se suspende por lluvia.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/MS_2314.JPG-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/operativo-de-zoonosis/",
+    "fecha": "2026-11-02",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "jornadas-de-vacunacion-antirrabica-y-desparasitacion"
+  },
+  {
+    "titulo": "Productos económicos cerca de tu casa",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/CanastaBWeb-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/vuelve-la-canasta-basica-avellaneda/",
+    "fecha": "2026-11-02",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "productos-economicos-cerca-de-tu-casa"
+  },
+  {
+    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
+    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
+  },
+  {
+    "titulo": "El Municipio de Avellaneda recibió 24 vehículos adquiridos mediante Provincia Leasing",
+    "descripcion": "La intendenta Magdalena Sierra entregó el equipamiento urbano a cada responsable de las áreas comunales.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-4-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing"
+  },
+  {
+    "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
+    "descripcion": "Compartió una Misa y recorrió las obras de remodelación hechas por el municipio.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-11.43.53-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
+  },
+  {
+    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
+    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
+  },
+  {
+    "titulo": "Avellaneda presenta el programa municipal “Repartidores en Red”",
+    "descripcion": "La iniciativa está destinada a acompañar a las y los trabajadores de plataformas y repartidores de nuestra ciudad, a través de diferentes programas y beneficios.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-2-2-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-presenta-el-programa-municipal-repartidores-en-red/",
+    "fecha": "2026-10-27",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-presenta-el-programa-municipal-repartidores-en-red"
+  },
+  {
+    "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
+    "descripcion": "Estas formaciones musicales promueven el desarrollo social, cultural y educativo de las y los niños y adolescentes de Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-16.21.40-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/32300/",
+    "fecha": "2026-10-24",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
+  },
+  {
+    "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
+    "descripcion": "Nuestros representantes cosecharon 35 medallas de Oro, 12 de Plata y 10 de Bronce.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026/",
+    "fecha": "2026-10-23",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
+  },
+  {
+    "titulo": "PROGRAMA OFTALMOLÓGICO ECHEverRÍA: ENTREGA DE LENTES A ESTUDIANTES DE LUIS GUILLÓN",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría, acompañados por la presidenta del Concejo Deliberante, Valeria Bellizzi, llevaron adelante una nueva jornada de entrega de lentes para estudiantes de la localidad de Luis Guillón, en el marco del Programa Oftalmológico EcheVERría. Durante la visita a la Escuela Primaria Nº 18 se otorgaron 108 pares de lentes, con la participación de la subsecretaria de Niñez, Adolescencia y Familia, Laura Gómez, y la directora general de Infancias, Gisele Bufano. Posteriormente, en la Escuela de Educación Secundaria Nº 28 se entregaron 78 pares de lentes, una actividad que contó con el acompañamiento de la directora general de Derechos Sociales, Romina Pereyra, y la coordinadora de Juventudes, Milagros Arias. Previo a estas entregas, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual y determinar quiénes necesitaban los anteojos, los cuales fueron elegidos y entregados de forma totalmente gratuita a cada chica y chico. El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-luis-guillon/",
+    "fecha": "2026-11-06",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-luis-guillon"
+  },
+  {
+    "titulo": "EL MUNICIPIO REALIZÓ UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevó adelante un nuevo operativo de recarga de garrafas en la Escuela Primaria N° 13, ubicada en San Pedrito y Ramón Santamarina, en el barrio La Paz de Monte Grande Sur. Durante la jornada, las vecinas y los vecinos pudieron acceder a la recarga de garrafas de 10 kilos a $25.500, un valor inferior al que ofrece el mercado. El pago se realizó en efectivo o mediante código QR. A través de esta iniciativa, el Municipio continúa acercando alternativas accesibles a los barrios y acompañando la economía de las familias del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DE LA APERTURA DEL CENTRO DE ATENCIÓN AL ESTUDIANTE Y A LA FAMILIA DE LA UNIVERSIDAD DE FLORES",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la apertura del Centro de Atención al Estudiante y a la Familia de la Universidad de Flores que funcionará en la localidad de Canning. “Seguimos estrechando lazos para que las vecinas y los vecinos de Esteban Echeverría cuenten con cada vez más accesos a la educación. Fomentamos el desarrollo académico de nuestra comunidad y estos espacios nos permiten garantizarles mayores oportunidades”, expresó Fernando Gray, quien estuvo acompañado por el intendente de Ezeiza, Gastón Granados, y las máximas autoridades de instituciones académicas y de salud de la región. En el plano universitario, participaron la rectora de la Universidad de Flores, Ruth Fischer; el vicerrector general, Christian Kreber; el rector de la Universidad Nacional Guillermo Brown, Pablo Domenichini; el rector y la vicerrectora de la Universidad Provincial de Ezeiza, Pablo Galli y Macarena Forneris; la vicerrectora general de docencia e investigación de la UFLO, Analía Lozada, y la coordinadora de la Universidad de Flores Canning, Florencia Amer. Asimismo, el ámbito institucional y sanitario local estuvo representado por el presidente de la Clínica Monte Grande, Carlos Santoro; la jefa distrital, Lucía Ibarra, y el presidente del Consejo Escolar, David De Lío.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores"
+  },
+  {
+    "titulo": "MONTE GRANDE: DETUVIERON A TRES HOMBRES TRAS UN INTENTO DE ROBO A UNA INSTITUCIÓN",
+    "descripcion": "A través de las cámaras del Centro Operativo de Monitoreo (COM) de Esteban Echeverría, personal municipal detectó a tres sujetos en actitud sospechosa en la intersección de las calles Alem e Italiani, en Monte Grande. Mediante el seguimiento en tiempo real, los operadores observaron cómo uno de los hombres trepaba la reja de la Escuela de Arte e intentaba sustraer un equipo de aire acondicionado del establecimiento, mientras los otros dos permanecían en la vereda haciendo de campana. Inmediatamente, desde el COM se dio aviso a efectivos de la Guardia Urbana y de la Policía bonaerense, quienes acudieron con móviles al lugar. Como resultado del rápido accionar conjunto, los tres sospechosos fueron detenidos y puestos a disposición de la Justicia. El Centro Operativo de Monitoreo cuenta actualmente con 1.783 cámaras fijas y domos de 360 grados en funcionamiento durante las 24 horas. Este sistema de prevención se complementa con paradas seguras, tótems de emergencia y el Anillo Digital de Seguridad, que incorpora lectoras de patentes para detectar vehículos con pedido de secuestro o denuncia de robo.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/monte-grande-detuvieron-a-tres-hombres-tras-un-intento-de-robo-a-una-institucion/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "monte-grande-detuvieron-a-tres-hombres-tras-un-intento-de-robo-a-una-institucion"
+  },
+  {
+    "titulo": "FERNANDO GRAY BRINDÓ UN RECONOCIMIENTO A TRABAJADORAS Y TRABAJADORES VECINALES DEL DISTRITO",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, llevó adelante un reconocimiento a trabajadoras y trabajadores vecinales mayores de 65 años que desde hace más de 25 años acompañan a la comunidad en todos los barrios del distrito.&#160; “Es un orgullo ver el compromiso con el que las trabajadoras y los trabajadores vecinales día a día acompañan a la población de nuestro municipio. Agradezco infinitamente su apoyo y la ayuda que brindan a las personas que más lo necesitan”, expresó Fernando Gray, quien estuvo acompañado por el subsecretario de Inclusión y Asistencia, César Galo; y el director general de Participación Comunitaria, Gastón Solimini. Durante el encuentro, el intendente hizo entrega de un mate grabado a cada vecina y vecino, en reconocimiento por su gran labor. Recibieron el reconocimiento: Martha Rodríguez, Mirta Díaz, María Giménez, Marta Ruiz, Nélida Sanabria, Patricia Vergara, Norma Aires, Estela Ríos, Rafaela Espínola Báez, Héctor Godoy, Mirta Romero, Leila Rivero, María Rosa Cotez, Elda Cabral y Teresa Jesús Vázquez",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-brindo-un-reconocimiento-a-trabajadoras-y-trabajadores-vecinales-del-distrito/",
+    "fecha": "2026-11-05",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-brindo-un-reconocimiento-a-trabajadoras-y-trabajadores-vecinales-del-distrito"
+  },
+  {
+    "titulo": "EL MUNICIPIO ENTREGÓ LENTES DEL PROGRAMA OFTALMOLÓGICO ECHEverRÍA",
+    "descripcion": "El Programa Oftalmológico EcheVERría llegó a cuatro instituciones educativas de El Jagüel, donde los equipos de trabajo del Municipio, junto con la concejal Magui Gray, entregaron 511 pares de lentes a chicas y chicos de tres escuelas primarias y una secundaria. &#160; En referencia al nivel primario, se entregaron 47 lentes a estudiantes de la Escuela Primaria N° 3, 212 en la Escuela Primaria N° 17, y 60 en la Escuela Primaria N° 20. En el nivel secundario, los equipos hicieron entrega de 192 anteojos a chicas y chicos de la Escuela Secundaria N° 38.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 1.068 pares de anteojos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-entrego-lentes-del-programa-oftalmologico-echeverria-4/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-entrego-lentes-del-programa-oftalmologico-echeverria"
+  },
+  {
+    "titulo": "NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevará a cabo un nuevo operativo de recarga de garrafas a precio accesible este jueves 5 de noviembre, de 11 a 12:30 horas. La actividad tendrá lugar en la Escuela Primaria N° 13, ubicada en San Pedrito y R. Santamarina, barrio La Paz, en Monte Grande Sur. Allí, las vecinas y los vecinos tendrán la posibilidad de acceder a la recarga del envase de 10 kg por $ 25.500, valor que se encuentra por debajo del precio que ofrece el mercado. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad quedará suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur-5/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur"
+  },
+  {
+    "titulo": "FERNANDO GRAY ENTREGÓ RECONOCIMIENTOS A 130 GANADORAS Y GANADORES LOCALES DE LOS JUEGOS BONAERENSES 2026",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, entregó reconocimientos a las ganadoras y los ganadores locales de los Juegos Bonaerenses 2026, realizados en Mar del Plata. La delegación echeverriana obtuvo un total de 38 medallas —13 de oro, 12 de plata y 13 de bronce—, ubicando al distrito en el 13° puesto del medallero final entre los 135 municipios bonaerenses. &#8220;Es un orgullo enorme para Esteban Echeverría ver reflejado en estos resultados el enorme esfuerzo, la dedicación y el talento de cada uno de nuestros deportistas y artistas. Este logro no solo es un premio a su compromiso, sino un reflejo del potencial de toda nuestra comunidad&#8221;, expresó Fernando Gray en el acto que se realizó en el Salón de los Espejos del Polo Judicial, en Monte Grande. También participaron del evento la presidenta del Concejo Deliberante local, Valeria Bellizzi; el secretario de Cultura, Alejandro Correa; la subsecretaria de Cultura, Joana Carvajal; el subsecretario de Deportes, Hernán Clemente; el director General de Desarrollo Deportivo y Competencias, Lucas Falcao; y la directora General de Deporte Social y Turismo, Ligia Filippo.&#160; Durante la ceremonia se llevó adelante la entrega de 130 diplomas y zapatillas a quienes recibieron medallas en las distintas competencias deportivas y culturales. La delegación local que participó de la etapa final de los Juegos Bonaerenses contó con 540 jóvenes, adultas y adultos mayores y personas con discapacidad (PCD). La delegación de Esteban Echeverría participó en las diferentes disciplinas deportivas de los Juegos Bonaerenses: Natación, Handball, Rugby Seven, Voleibol, Hockey, Futsal, Fútbol, Tenis (dobles), Judo, Taekwondo (modalidades ITF y WTF), Gimnasia Artística y Tejo. Por su parte, en Deportes Adaptados y PCD, compitieron en Atletismo PCD (salto en largo y carreras), Natación PCD (estilos libre y espalda en distintas clasificaciones funcionales), Tenis de Mesa Trasplantado, Parabádminton PCD, Boccia PCD y la carrera inclusiva Bonaerenses en Carrera PCD. En las disciplinas culturales, las vecinas y los vecinos compitieron en el rubro Solista Vocal PCD, además de en distintas disciplinas y actividades destinadas a adultos mayores.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-entrego-reconocimientos-a-130-ganadoras-y-ganadores-locales-de-los-juegos-bonaerenses-2026/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-entrego-reconocimientos-a-130-ganadoras-y-ganadores-locales-de-los-juegos-bonaerenses-2026"
+  },
+  {
+    "titulo": "EL MUNICIPIO INVIRTIÓ EN OCTUBRE $3.271.760,72 EN COMBUSTIBLE PARA LOS BOMBEROS VOLUNTARIOS Y LE CONDONÓ LA DEUDA POR TASAS MUNICIPALES HASTA 2025 INCLUSIVE",
+    "descripcion": "Durante octubre de 2026, el Municipio de Esteban Echeverría entregó 1.336,25 litros de combustible al Destacamento de Bomberos Voluntarios, en el marco del programa local de asistencia a instituciones de bien público. El aporte equivale a $3.271.760,72.&#160; En lo que va del año, la entidad recibió ya un total de 17.512,81 litros de nafta, por un valor acumulado de $36.769.543,71. Este suministro se realiza mensualmente desde hace más de 15 años a través de los recursos obtenidos por la recaudación municipal. Asimismo, mediante una ordenanza aprobada por el Honorable Concejo Deliberante, se decretó la condonación de deudas del tributo municipal para la Sociedad de Bomberos Voluntarios de Esteban Echeverría, hasta el año 2025 inclusive. Como cada mes, el Municipio continuará informando las partidas de combustible asignadas a la mencionada institución.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-invirtio-en-octubre-3-271-76072-en-combustible-para-los-bomberos-voluntarios-y-le-condono-la-deuda-por-tasas-municipales-hasta-2025-inclusive/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-invirtio-en-octubre-327176072-en-combustible-para-los-bomberos-voluntarios-y-le-condono-la-deuda-por-tasas-municipales-hasta-2025-inclusive"
+  },
+  {
+    "titulo": "TAREAS DE BACHEO EN MONTE GRANDE",
+    "descripcion": "Los equipos de trabajo del Municipio de Esteban Echeverría llevaron adelante obras de bacheo con asfalto caliente en Monte Grande. En esta ocasión, las intervenciones se realizaron en la calle Mariano Alegre, entre Nicolás Avellaneda y San Martín. Las tareas consisten en la reparación de sectores con deterioro del pavimento mediante la aplicación de asfalto caliente. Este procedimiento se realiza con la colocación de mezcla asfáltica a alta temperatura, lo que permite recomponer la superficie de la calzada y garantizar condiciones adecuadas de circulación para la comunidad. Los trabajos forman parte de un plan integral que ejecuta el Municipio con financiamiento propio, el cual contempla bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las cinco localidades del distrito, con el objetivo de mejorar la seguridad vial y la transitabilidad para vecinas y vecinos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/tareas-de-bacheo-en-monte-grande/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "tareas-de-bacheo-en-monte-grande"
   },
   {
     "titulo": "Kicillof entregó viviendas a familias de Tristán Suárez",
@@ -208,76 +568,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "punto-de-castracion-itinerante-nueva-jornada-en-gerli"
-  },
-  {
-    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
-    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
-    "fecha": "2026-10-30",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
-  },
-  {
-    "titulo": "El Municipio de Avellaneda recibió 24 vehículos adquiridos mediante Provincia Leasing",
-    "descripcion": "La intendenta Magdalena Sierra entregó el equipamiento urbano a cada responsable de las áreas comunales.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-4-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing/",
-    "fecha": "2026-10-30",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing"
-  },
-  {
-    "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
-    "descripcion": "Compartió una Misa y recorrió las obras de remodelación hechas por el municipio.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-11.43.53-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda/",
-    "fecha": "2026-10-28",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
-  },
-  {
-    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
-    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
-    "fecha": "2026-10-28",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
-  },
-  {
-    "titulo": "Avellaneda presenta el programa municipal “Repartidores en Red”",
-    "descripcion": "La iniciativa está destinada a acompañar a las y los trabajadores de plataformas y repartidores de nuestra ciudad, a través de diferentes programas y beneficios.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-2-2-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-presenta-el-programa-municipal-repartidores-en-red/",
-    "fecha": "2026-10-27",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "avellaneda-presenta-el-programa-municipal-repartidores-en-red"
-  },
-  {
-    "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
-    "descripcion": "Estas formaciones musicales promueven el desarrollo social, cultural y educativo de las y los niños y adolescentes de Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-16.21.40-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/32300/",
-    "fecha": "2026-10-24",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
-  },
-  {
-    "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
-    "descripcion": "Nuestros representantes cosecharon 35 medallas de Oro, 12 de Plata y 10 de Bronce.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026/",
-    "fecha": "2026-10-23",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
   },
   {
     "titulo": "En el Municipio de Río Grande, Magdalena Sierra recorrió obras y visitó centros de cuidado",
@@ -1048,16 +1338,6 @@
     "volanta": null,
     "fuente": "avellaneda",
     "slug": "el-centro-municipal-de-arte-cumplio-11-anos-y-lo-festejo-en-comunidad"
-  },
-  {
-    "titulo": "Jornadas de vacunación antirrábica y desparasitación",
-    "descripcion": null,
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/MS_2314.JPG-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/operativo-de-zoonosis/",
-    "fecha": "2026-10-05",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "jornadas-de-vacunacion-antirrabica-y-desparasitacion"
   },
   {
     "titulo": "LA POLICÍA DESBARATÓ UNA BANDA QUE ROBABA VEHÍCULOS PARA VENDER LAS AUTOPARTES",
