@@ -1,14 +1,12 @@
-name: Contratos del módulo Olé
+name: CI
 
 on:
   push:
     branches:
       - main
-      - super-ole
   pull_request:
     branches:
       - main
-      - super-ole
   workflow_dispatch:
 
 permissions:
@@ -21,20 +19,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: pnpm
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
       - name: Tests
         run: pnpm test
+
       - name: Typecheck
         run: pnpm typecheck
+
       - name: Lint
         run: pnpm lint
