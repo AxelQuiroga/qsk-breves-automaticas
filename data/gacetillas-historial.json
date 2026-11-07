@@ -120,12 +120,22 @@
     "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
   },
   {
+    "titulo": "LLEGA UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
+    "descripcion": "Lanús Gobierno informa que el lunes 9, miércoles 11 y viernes 13 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo estará disponible en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5148112079645945528-w-XCPAI.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4663-llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
+    "fecha": "2026-11-07",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo-2"
+  },
+  {
     "titulo": "PREMIAN A LOS BUENOS CONTRIBUYENTES CON DESCUENTOS EN LA TSG",
     "descripcion": "Lanús Gobierno informa que, a través de la Agencia Municipal de Ingresos Públicos (AMIP), se ofrecen descuentos de hasta el 10% en la Tasa de Servicios Generales (TSG) para las vecinas y los vecinos que se encuentren al día con sus obligaciones tributarias. Además, quienes registren cuotas pendientes podrán cancelarlas sin intereses hasta el 15 de diciembre, con la posibilidad de acceder a los beneficios previstos para 2027.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-premia-a-los-buenos-contribuyentes-2-m4b07.jpeg",
     "urlNoticia": "https://www.lanus.gob.ar/noticias/4662-premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg",
     "fecha": "2026-11-06",
-    "volanta": null,
+    "volanta": "Atención vecinal",
     "fuente": "lanus",
     "slug": "premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg"
   },
@@ -145,7 +155,7 @@
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-172543-IEKw8.jpeg",
     "urlNoticia": "https://www.lanus.gob.ar/noticias/4660-julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria",
     "fecha": "2026-11-05",
-    "volanta": null,
+    "volanta": "Institucional",
     "fuente": "lanus",
     "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
   },
@@ -165,7 +175,7 @@
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-101501-6HSAq.jpeg",
     "urlNoticia": "https://www.lanus.gob.ar/noticias/4658-se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus",
     "fecha": "2026-11-05",
-    "volanta": null,
+    "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus"
   },
@@ -175,7 +185,7 @@
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-084746-cGxY3.jpeg",
     "urlNoticia": "https://www.lanus.gob.ar/noticias/4657-julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal",
     "fecha": "2026-11-05",
-    "volanta": "Espacios y Servicios Públicos",
+    "volanta": "Obras Públicas",
     "fuente": "lanus",
     "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
   },
@@ -198,16 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli"
-  },
-  {
-    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ AL S.E.D.A.L.O. POR GANAR EL CAMPEONATO DE HANDBALL SCA DE CLUBES 2026",
-    "descripcion": "El intendente de Lanús, Julián Álvarez, visitó la sede de la Sociedad Escolar y Deportiva Alemana de Lanús Oeste (S.E.D.A.L.O.) ubicada en la calle Gobernador Oliden N° 2444, donde les entregó un reconocimiento a las integrantes del equipo de handball femenino por la obtención del Campeonato Handball SCA de Clubes 2026, el más importante a nivel clubes de América del Sur y Central.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-083705-VCPKP.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4654-julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026",
-    "fecha": "2026-11-04",
-    "volanta": "Deportes",
-    "fuente": "lanus",
-    "slug": "julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026"
   },
   {
     "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "tareas-de-bacheo-en-monte-grande"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ AL S.E.D.A.L.O. POR GANAR EL CAMPEONATO DE HANDBALL SCA DE CLUBES 2026",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, visitó la sede de la Sociedad Escolar y Deportiva Alemana de Lanús Oeste (S.E.D.A.L.O.) ubicada en la calle Gobernador Oliden N° 2444, donde les entregó un reconocimiento a las integrantes del equipo de handball femenino por la obtención del Campeonato Handball SCA de Clubes 2026, el más importante a nivel clubes de América del Sur y Central.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-083705-VCPKP.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4654-julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026",
+    "fecha": "2026-11-04",
+    "volanta": "Deportes",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-reconocio-al-sedalo-por-ganar-el-campeonato-de-handball-sca-de-clubes-2026"
   },
   {
     "titulo": "Kicillof entregó viviendas a familias de Tristán Suárez",
