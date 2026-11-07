@@ -46,3 +46,7 @@ En **Settings → Secrets and variables → Actions** de este repositorio, crear
 El workflow usa el `GITHUB_TOKEN` del propio repositorio para guardar el historial en `main`. No guardar tokens en archivos, código ni logs.
 
 Ante errores HTTP, timeout, tests fallidos, un resultado combinado con menos de 10 tarjetas o URLs inválidas, la actualización se detiene y no prepara una PR con datos incompletos.
+
+## Technical documentation
+
+- [Networking, TLS and HTTP Troubleshooting](docs/NETWORKING-AND-TLS.md): TLS certificate validation, HTTP 403 responses, GitHub Actions networking differences, and source-specific fallback strategies.

@@ -1,8 +1,9 @@
 {
   "name": "qsk-breves-automaticas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extractor y normalizador automatizado de gacetillas y feeds oficiales para QSK Noticias",
   "main": "index.js",
+  "packageManager": "pnpm@11.1.2",
   "scripts": {
     "extraer": "node --use-system-ca src/index.ts",
     "test": "vitest run",
@@ -10,9 +11,20 @@
     "typecheck": "tsc --noEmit",
     "ole": "node --use-system-ca src/ole/run.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "scraper",
+    "gacetillas",
+    "buenos-aires",
+    "qsk-noticias",
+    "rss",
+    "automation"
+  ],
+  "author": "Axel Quiroga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxelQuiroga/qsk-breves-automaticas.git"
+  },
   "type": "module",
   "dependencies": {
     "cheerio": "^1.2.0"

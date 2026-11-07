@@ -51,3 +51,7 @@ pnpm typecheck
 pnpm extraer
 pnpm extraer data/gacetillas-fuente.html
 ```
+
+## Verificación
+- Ejecutar `pnpm test` y `pnpm typecheck`.
+- El linter se ejecuta con `pnpm lint` (si aplica).
