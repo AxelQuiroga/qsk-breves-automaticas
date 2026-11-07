@@ -9,7 +9,9 @@ data/*.json
 !data/gacetillas-historial.json
 !data/ole-noticias.json
 !data/.gitkeep
+data/*.html
 
 *.log
 .DS_Store
 produccion.md
+gacetillas.html
