@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Metadatos de fuentes de gacetillas y resolución de identidad de registros.
  *
  * Cada registro del dataset lleva `fuente` (id del municipio/provincia).
@@ -34,6 +34,12 @@ export interface FuenteDef {
 export interface FuenteEjecutable extends FuenteDef {
   /** Parser del listado. Devuelve `[]` si el HTML/feed no trae lo esperado. */
   extraer: (texto: string, urlBase: string) => Noticia[];
+  /**
+   * Extrae la descripci\u00f3n de la p\u00e1gina individual de una noticia.
+   * Solo para fuentes cuyo listado no incluye descripci\u00f3n.
+   * Si est\u00e1 ausente, no se realiza enriquecimiento para esta fuente.
+   */
+  enriquecerDescripcion?: (html: string) => string | null;
 }
 
 /** Registro del dataset con la fuente ya resuelta (salida de `completarFuentes`). */
