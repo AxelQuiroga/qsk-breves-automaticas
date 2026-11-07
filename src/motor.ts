@@ -3,8 +3,6 @@ import { FUENTES } from "./listado-fuentes.ts";
 import { LIMITE_POR_FUENTE, type FuenteEjecutable } from "./fuentes.ts";
 import { descargarConReintentos, ErrorExtraccion, type CategoriaError, type OpcionesDescarga } from "./red.ts";
 import { crearFetchLanusConFallback } from "./fetch-lanus.ts";
-import { extraerDescripcionLanus } from "./extractor/lanus.ts";
-import { extraerDescripcionAvellaneda } from "./extractor/avellaneda.ts";
 import { enriquecerDescripciones } from "./extractor/enriquecer-descripciones.ts";
 
 /**
@@ -15,6 +13,10 @@ import { enriquecerDescripciones } from "./extractor/enriquecer-descripciones.ts
  * resultado vacío válido) -> recorte a `LIMITE_POR_FUENTE` (12) más
  * recientes. Una fuente fallida queda marcada y NO aporta noticias;
  * nunca invalida la extracción de las demás.
+ *
+ * El enriquecimiento de descripción es opt-in por fuente: si la fuente
+ * define `enriquecerDescripcion`, se descarga la página individual de
+ * cada noticia que no traiga descripción en el listado.
  *
  * El motor NO toca el filesystem: recibe el historial (para calcular
  * "nuevas reales") y devuelve la corrida. La persistencia, el merge con
@@ -78,11 +80,14 @@ export async function correrExtraccion(
     };
 
     try {
+      const fetchFuente =
+        fuente.id === "lanus"
+          ? crearFetchLanusConFallback(opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {})
+          : opciones.fetchFn;
+
       const { html, urlBase } = await descargarConReintentos(fuente.listarUrl, {
         tiposAceptados: fuente.tiposAceptados,
-        fetchFn: fuente.id === "lanus"
-          ? crearFetchLanusConFallback(opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {})
-          : opciones.fetchFn,
+        fetchFn: fetchFuente,
         dormir: opciones.dormir,
         intentos: opciones.intentos,
         timeoutMs: opciones.timeoutMs,
@@ -96,16 +101,12 @@ export async function correrExtraccion(
         throw new ErrorExtraccion(`El parser de ${fuente.nombre} falló: ${mensaje}`, "parser");
       }
 
-      if (fuente.id === "lanus" || fuente.id === "avellaneda") {
-        const extraerDescripcion =
-          fuente.id === "lanus" ? extraerDescripcionLanus : extraerDescripcionAvellaneda;
+      if (fuente.enriquecerDescripcion) {
         const fetchEnriquecimiento =
           fuente.id === "lanus"
-            ? crearFetchLanusConFallback(
-                opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {},
-              )
+            ? crearFetchLanusConFallback(opciones.fetchFn ? { fetchFn: opciones.fetchFn } : {})
             : opciones.fetchFn;
-        extras = await enriquecerDescripciones(extras, extraerDescripcion, {
+        extras = await enriquecerDescripciones(extras, fuente.enriquecerDescripcion, {
           fetchFn: fetchEnriquecimiento,
           dormir: opciones.dormir,
           intentos: opciones.intentos,
