@@ -120,6 +120,26 @@
     "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
   },
   {
+    "titulo": "NUEVA EDICIÓN DEL PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ EL CRONOGRAMA SEMANAL",
+    "descripcion": "Lanús Gobierno informa que el martes 10, jueves 12 y viernes 13 de noviembre se llevarán adelante nuevas jornadas del programa “Plazas Saludables” en diferentes espacios públicos de la ciudad. Las actividades se realizarán de 9 a 12, con el propósito de acercar controles médicos gratuitos, promover hábitos saludables e incentivar la actividad física entre las vecinas y los vecinos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5026555236629720641-0wArN.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4665-nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal",
+    "fecha": "2026-11-08",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal"
+  },
+  {
+    "titulo": "¡AMBIENTE SÍ!: NUEVO OPERATIVO EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que el martes 10, jueves 12, viernes 13 y sábado 14 de noviembre se desarrollarán nuevas jornadas del operativo ¡Ambiente Sí! en distintos espacios públicos de la ciudad. La iniciativa permitirá que las vecinas y los vecinos acerquen materiales reciclables, retiren semillas de temporada y participen de acciones relacionadas con el cuidado del ambiente. Las postas funcionarán de 10 a 13 durante los días de semana y el sábado de 10 a 17.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-08-at-120917-pm-cwZ2u.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4664-ambiente-si-nuevo-operativo-en-el-distrito",
+    "fecha": "2026-11-08",
+    "volanta": "Ambiente",
+    "fuente": "lanus",
+    "slug": "ambiente-si-nuevo-operativo-en-el-distrito"
+  },
+  {
     "titulo": "LLEGA UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
     "descripcion": "Lanús Gobierno informa que el lunes 9, miércoles 11 y viernes 13 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo estará disponible en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5148112079645945528-w-XCPAI.jpg",
@@ -188,26 +208,6 @@
     "volanta": "Obras Públicas",
     "fuente": "lanus",
     "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
-  },
-  {
-    "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL QUIRÓFANO MÓVIL EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
-    "descripcion": "Lanús Gobierno informa que el jueves 5 de noviembre, a partir de las 9 y hasta agotar los cupos disponibles, se brindarán nuevos turnos presenciales para realizar castraciones gratuitas de perros y gatos en el Quirófano Móvil del Parque Municipal General San Martín (Coronel Sayos N° 2302, Valentín Alsina).",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-120748-fNVbq.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4656-se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin",
-    "fecha": "2026-11-04",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin"
-  },
-  {
-    "titulo": "LLEGA UN NUEVO PUNTO DE CASTRACIÓN ITINERANTR A GERLI",
-    "descripcion": "Lanús Gobierno destinará una nueva tanda de turnos presenciales para que la comunidad lanusense pueda acceder al servicio de castración itinerante gratuito de mascotas durante este jueves 5 de noviembre, desde las 9 y hasta agotar cupos, en el Club Pioneros de Gerli ubicado en Cmte. Mamberti N° 656.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-102024-PPAUG.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4655-llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli",
-    "fecha": "2026-11-04",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli"
   },
   {
     "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
@@ -428,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur"
+  },
+  {
+    "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL QUIRÓFANO MÓVIL EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
+    "descripcion": "Lanús Gobierno informa que el jueves 5 de noviembre, a partir de las 9 y hasta agotar los cupos disponibles, se brindarán nuevos turnos presenciales para realizar castraciones gratuitas de perros y gatos en el Quirófano Móvil del Parque Municipal General San Martín (Coronel Sayos N° 2302, Valentín Alsina).",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-120748-fNVbq.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4656-se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin",
+    "fecha": "2026-11-04",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-llevara-a-cabo-una-nueva-edicion-del-quirofano-movil-en-el-parque-municipal-general-san-martin"
+  },
+  {
+    "titulo": "LLEGA UN NUEVO PUNTO DE CASTRACIÓN ITINERANTR A GERLI",
+    "descripcion": "Lanús Gobierno destinará una nueva tanda de turnos presenciales para que la comunidad lanusense pueda acceder al servicio de castración itinerante gratuito de mascotas durante este jueves 5 de noviembre, desde las 9 y hasta agotar cupos, en el Club Pioneros de Gerli ubicado en Cmte. Mamberti N° 656.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-04-at-102024-PPAUG.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4655-llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli",
+    "fecha": "2026-11-04",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-punto-de-castracion-itinerantr-a-gerli"
   },
   {
     "titulo": "FERNANDO GRAY ENTREGÓ RECONOCIMIENTOS A 130 GANADORAS Y GANADORES LOCALES DE LOS JUEGOS BONAERENSES 2026",
