@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof recibió al papa León XIV en el Pequeño Cottolengo Don Orione",
+    "descripcion": "Durante la visita, el santo Padre recorrió el santuario y la parroquia, conversó con los huéspedes y saludó al personal que los asiste.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261109-WA0014.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recibi%C3%B3_al_papa_le%C3%B3n_xiv_en_el_peque%C3%B1o_cottolengo_don",
+    "fecha": null,
+    "volanta": "CLAYPOLE",
+    "fuente": "gba",
+    "slug": "kicillof-recibio-al-papa-leon-xiv-en-el-pequeno-cottolengo-don-orione"
+  },
+  {
     "titulo": "Kicillof entregó viviendas a familias de San Pedro",
     "descripcion": "Además, el Gobernador inauguró los nuevos consultorios externos del Hospital Subzonal “Dr. Emilio Ruffa”.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DON2663.jpg",
@@ -110,14 +120,14 @@
     "slug": "se-entrego-el-credito-n500000-de-provincia-microcreditos"
   },
   {
-    "titulo": "Kicillof encabezó la presentación del programa “Empleo Verde Joven”",
-    "descripcion": "La iniciativa está destinada a promover la formación técnica y la inserción laboral de jóvenes en el sector de las energías renovables.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_222.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_presentaci%C3%B3n_del_programa_%E2%80%9Cempleo_verde_joven%E2%80%9D",
-    "fecha": null,
-    "volanta": "LOMAS DE ZAMORA",
-    "fuente": "gba",
-    "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
+    "titulo": "SE VIENE UNA NUEVA EDICIÓN DE LA FERIA DEL LIBRO EN LANÚS",
+    "descripcion": "Lanús Gobierno informa que el viernes 13, sábado 14 y domingo 15 de noviembre, de 16 a 21, se llevará adelante una nueva edición de la tradicional Feria del Libro en Lanús, bajo el lema “Nos merecemos leer”, en el Centro Cultural Leonardo Favio (avenida 25 de Mayo N° 131, Lanús Oeste). La propuesta será con entrada libre y gratuita, y contará con diferentes actividades culturales, charlas y talleres destinados a toda la comunidad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-09-at-51128-pm-FM4q8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4666-se-viene-una-nueva-edicion-de-la-feria-del-libro-en-lanus",
+    "fecha": "2026-11-09",
+    "volanta": "Cultura",
+    "fuente": "lanus",
+    "slug": "se-viene-una-nueva-edicion-de-la-feria-del-libro-en-lanus"
   },
   {
     "titulo": "NUEVA EDICIÓN DEL PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ EL CRONOGRAMA SEMANAL",
@@ -198,16 +208,6 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "se-desarrollaran-dos-nuevas-ediciones-de-la-feria-hecho-en-lanus"
-  },
-  {
-    "titulo": "JULIÁN ÁLVAREZ FIRMÓ UN CONVENIO CON LA UTN PARA INCORPORAR HERRAMIENTAS TECNOLÓGICAS A LA PLANTA ASFÁLTICA MUNICIPAL",
-    "descripcion": "El intendente de Lanús, Julián Álvarez, recibió en su despacho del Palacio Municipal al decano de la Universidad Tecnológica Nacional (UTN) La Plata, ingeniero Fabio Romani, con quien rubricó un convenio específico para incorporar asesoramiento técnico y herramientas tecnológicas a la Planta Asfáltica Municipal, con la finalidad de mejorar la calidad de la mezcla, optimizar los procesos de producción y reducir costos.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-084746-cGxY3.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4657-julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal",
-    "fecha": "2026-11-05",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
   },
   {
     "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
@@ -428,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "nuevo-operativo-de-recarga-de-garrafas-en-monte-grande-sur"
+  },
+  {
+    "titulo": "Kicillof encabezó la presentación del programa “Empleo Verde Joven”",
+    "descripcion": "La iniciativa está destinada a promover la formación técnica y la inserción laboral de jóvenes en el sector de las energías renovables.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_222.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_presentaci%C3%B3n_del_programa_%E2%80%9Cempleo_verde_joven%E2%80%9D",
+    "fecha": null,
+    "volanta": "LOMAS DE ZAMORA",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-presentacion-del-programa-empleo-verde-joven"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ FIRMÓ UN CONVENIO CON LA UTN PARA INCORPORAR HERRAMIENTAS TECNOLÓGICAS A LA PLANTA ASFÁLTICA MUNICIPAL",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, recibió en su despacho del Palacio Municipal al decano de la Universidad Tecnológica Nacional (UTN) La Plata, ingeniero Fabio Romani, con quien rubricó un convenio específico para incorporar asesoramiento técnico y herramientas tecnológicas a la Planta Asfáltica Municipal, con la finalidad de mejorar la calidad de la mezcla, optimizar los procesos de producción y reducir costos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-084746-cGxY3.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4657-julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal",
+    "fecha": "2026-11-05",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-firmo-un-convenio-con-la-utn-para-incorporar-herramientas-tecnologicas-a-la-planta-asfaltica-municipal"
   },
   {
     "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL QUIRÓFANO MÓVIL EN EL PARQUE MUNICIPAL GENERAL SAN MARTÍN",
