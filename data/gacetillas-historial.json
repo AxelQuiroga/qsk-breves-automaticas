@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof recorrió el operativo desplegado en Luján por la visita del papa León XIV",
+    "descripcion": "Participarán más de 1.200 trabajadores de salud, 12.000 efectivos de fuerzas de seguridad y más de 10.000 voluntarios capacitados.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof%20previa%20a%20la%20visita%20del%20Papa%20Le%C3%B3n.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_el_operativo_desplegado_en_luj%C3%A1n_por_la_visita_del",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-recorrio-el-operativo-desplegado-en-lujan-por-la-visita-del-papa-leon-xiv"
+  },
+  {
     "titulo": "Kicillof recibió al papa León XIV en el Pequeño Cottolengo Don Orione",
     "descripcion": "Durante la visita, el santo Padre recorrió el santuario y la parroquia, conversó con los huéspedes y saludó al personal que los asiste.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261109-WA0014.jpg.jpeg",
@@ -110,14 +120,14 @@
     "slug": "la-provincia-entrego-el-premio-hebe-uhart-de-novela-2026"
   },
   {
-    "titulo": "Se entregó el crédito N°500.000 de Provincia Microcréditos",
-    "descripcion": "Fue en un encuentro encabezado por el gobernador Axel Kicillof. La empresa del Banco Provincia alcanzó este hito tras haber otorgado más de 260.000 préstamos en los últimos seis años.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_223.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entreg%C3%B3_el_cr%C3%A9dito_n%C2%B0500000_de_provincia_microcr%C3%A9ditos",
-    "fecha": null,
-    "volanta": "INCLUSIÓN FINANCIERA",
-    "fuente": "gba",
-    "slug": "se-entrego-el-credito-n500000-de-provincia-microcreditos"
+    "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4668-el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo",
+    "fecha": "2026-11-10",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo"
   },
   {
     "titulo": "EL OPERATIVO “LANÚS TU GOBIERNO” LLEGA A MONTE CHINGOLO",
@@ -200,14 +210,14 @@
     "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
   },
   {
-    "titulo": "SE VIENE UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" EN LANÚS OESTE",
-    "descripcion": "Lanús Gobierno desarrollará otra nueva jornada del operativo “Sábados de Salud en el Barrio” este sábado 7 de noviembre, de 10 a 14 en la plaza Juan Manuel de Rosas, situada en José María Moreno N° 2102, en Lanús Oeste, con el objetivo de ofrecer numerosos servicios gratuitos en materia de prevención, atención y promoción de la salud.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-150422-6SNa0.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4659-se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste",
-    "fecha": "2026-11-05",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+    "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
+    "descripcion": "Organizados por el Municipio de Avellaneda y el Consejo Escolar, los encuentros se desarrollan en el Polideportivo Delfo Cabrera.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-15.32.46-1-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias/",
+    "fecha": "2026-11-10",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias"
   },
   {
     "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
@@ -320,16 +330,6 @@
     "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
   },
   {
-    "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
-    "descripcion": "Nuestros representantes cosecharon 35 medallas de Oro, 12 de Plata y 10 de Bronce.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026/",
-    "fecha": "2026-10-23",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
-  },
-  {
     "titulo": "FERNANDO GRAY ASISTIÓ AL FESTEJO POR LOS 37 AÑOS DEL CENTRO DE RESIDENTES PARAGUAYOS EMILIANO R. FERNÁNDEZ",
     "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la celebración del Centro de Residentes Paraguayos Emiliano R. Fernández, que cumplió 37 años de trabajo en la localidad de El Jagüel y le otorgó la escritura de comodato por 30 años a la comisión directiva del centro. “Como siempre, muy contento de compartir un año más con las familias paraguayas, con esta comunidad trabajadora que eligió Esteban Echeverría para vivir y que desde aquí transmite la cultura y las costumbres de su país. Quiero agradecerles por participar de las actividades que realizamos desde el Municipio y por tener este espacio desde donde también se ofrecen actividades a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la &#160;presidenta del Centro de Residentes Paraguayos de Esteban Echeverría Emiliano R. Fernández, María Isabel Coronel; y el cónsul de la República del Paraguay en la región de San Justo, Gerardo Koopman.&#160; Durante el acto de apertura, el intendente entregó una ayuda económica que será destinada a realizar refacciones y mejorar las instalaciones del espacio. Además, como parte de las gestiones institucionales para respaldar el desarrollo de las actividades en el predio, se otorgó la escritura de comodato por 30 años a la comisión directiva del centro, asegurando así la estabilidad y continuidad de su espacio de trabajo y encuentro. Del festejo también participaron el secretario de Tierras y Viviendas, Marcelo González; el subsecretario de Abordaje Territorial, Alejandro Moyano; la directora general de Colectividades, María Oliva; y el escribano Marcelo Pérez.",
     "imagenUrl": null,
@@ -428,6 +428,36 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores"
+  },
+  {
+    "titulo": "Se entregó el crédito N°500.000 de Provincia Microcréditos",
+    "descripcion": "Fue en un encuentro encabezado por el gobernador Axel Kicillof. La empresa del Banco Provincia alcanzó este hito tras haber otorgado más de 260.000 préstamos en los últimos seis años.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_223.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entreg%C3%B3_el_cr%C3%A9dito_n%C2%B0500000_de_provincia_microcr%C3%A9ditos",
+    "fecha": null,
+    "volanta": "INCLUSIÓN FINANCIERA",
+    "fuente": "gba",
+    "slug": "se-entrego-el-credito-n500000-de-provincia-microcreditos"
+  },
+  {
+    "titulo": "SE VIENE UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno desarrollará otra nueva jornada del operativo “Sábados de Salud en el Barrio” este sábado 7 de noviembre, de 10 a 14 en la plaza Juan Manuel de Rosas, situada en José María Moreno N° 2102, en Lanús Oeste, con el objetivo de ofrecer numerosos servicios gratuitos en materia de prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-150422-6SNa0.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4659-se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste",
+    "fecha": "2026-11-05",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-viene-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+  },
+  {
+    "titulo": "La delegación de Avellaneda logró el tercer puesto en la Final de los Juegos Bonaerenses 2026",
+    "descripcion": "Nuestros representantes cosecharon 35 medallas de Oro, 12 de Plata y 10 de Bronce.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-1-2-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026/",
+    "fecha": "2026-10-23",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-delegacion-de-avellaneda-logro-el-tercer-puesto-en-la-final-de-los-juegos-bonaerenses-2026"
   },
   {
     "titulo": "SE DESARROLLARÁN DOS NUEVAS EDICIONES DE LA FERIA “HECHO EN LANÚS”",
