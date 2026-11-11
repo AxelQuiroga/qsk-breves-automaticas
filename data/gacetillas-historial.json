@@ -120,6 +120,16 @@
     "slug": "la-provincia-entrego-el-premio-hebe-uhart-de-novela-2026"
   },
   {
+    "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno inició una obra de renovación y puesta en valor sobre la ex traza del Ferrocarril Provincial Buenos Aires, entre Ituzaingó y Coronel Lynch en Monte Chingolo, con el objetivo de poner en valor más de 8.000 metros cuadrados de espacio verde para el disfrute de las vecinas y de los vecinos de la zona.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/obras-del-parque-lineal-monte-chingolo-FysPS.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4669-se-expanden-las-obras-del-parque-lineal-monte-chingolo",
+    "fecha": "2026-11-11",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "se-expanden-las-obras-del-parque-lineal-monte-chingolo"
+  },
+  {
     "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
     "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
@@ -198,16 +208,6 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "se-realiza-una-nueva-edicion-de-la-feria-de-artesanias"
-  },
-  {
-    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ A MÁS DE 200 TRABAJADORES Y TRABAJADORAS MUNICIPALES DE LANÚS POR SU TRAYECTORIA",
-    "descripcion": "El intendente de Lanús, Julián Álvarez, otorgó una serie de reconocimientos a más de 200 empleados y empleadas municipales por sus 25, 30, 35 y 40 años de trayectoria, en un acto que se desarrolló en el Microestadio Lionel Messi, ubicado en el Parque Central Las Colonias en la localidad de Remedios de Escalada, en el marco del Día del Trabajador y de la Trabajadora Municipal que se conmemorará el próximo domingo 8 de noviembre.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-172543-IEKw8.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4660-julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria",
-    "fecha": "2026-11-05",
-    "volanta": "Institucional",
-    "fuente": "lanus",
-    "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
   },
   {
     "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-participo-de-la-apertura-del-centro-de-atencion-al-estudiante-y-a-la-familia-de-la-universidad-de-flores"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ RECONOCIÓ A MÁS DE 200 TRABAJADORES Y TRABAJADORAS MUNICIPALES DE LANÚS POR SU TRAYECTORIA",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, otorgó una serie de reconocimientos a más de 200 empleados y empleadas municipales por sus 25, 30, 35 y 40 años de trayectoria, en un acto que se desarrolló en el Microestadio Lionel Messi, ubicado en el Parque Central Las Colonias en la localidad de Remedios de Escalada, en el marco del Día del Trabajador y de la Trabajadora Municipal que se conmemorará el próximo domingo 8 de noviembre.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-05-at-172543-IEKw8.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4660-julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria",
+    "fecha": "2026-11-05",
+    "volanta": "Institucional",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-reconocio-a-mas-de-200-trabajadores-y-trabajadoras-municipales-de-lanus-por-su-trayectoria"
   },
   {
     "titulo": "Se entregó el crédito N°500.000 de Provincia Microcréditos",
