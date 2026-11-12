@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Se entregaron diplomas a egresados del Curso de Formación de Cuidadores Domiciliarios",
+    "descripcion": "El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este jueves el cierre del Curso de Formación de Cuidadores/as Domiciliarios, acto en el que 50 egresados y egresadas recibieron sus diplomas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AxelKicillofCuidarnos.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entregaron_diplomas_egresados_del_curso_de_formaci%C3%B3n_de",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "se-entregaron-diplomas-a-egresados-del-curso-de-formacion-de-cuidadores-domiciliarios"
+  },
+  {
     "titulo": "Kicillof participó de la Santa Misa brindada por el papa León XIV en Luján",
     "descripcion": "Fue en la Plaza Belgrano, frente a la Basílica, ante más de dos millones de personas.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/cf33717b385b4dc18d72c30c4674364a.jpg.jpeg",
@@ -110,14 +120,14 @@
     "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-rivadavia"
   },
   {
-    "titulo": "Kicillof inauguró la obra de refacción integral de la Escuela Primaria N°1",
-    "descripcion": "Además, el Gobernador recorrió los avances de la construcción del nuevo Centro Universitario del programa Puentes y entregó netbooks a estudiantes del distrito.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB6141.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_la_obra_de_refacci%C3%B3n_integral_de_la_escuela",
-    "fecha": null,
-    "volanta": "GENERAL VILLEGAS",
-    "fuente": "gba",
-    "slug": "kicillof-inauguro-la-obra-de-refaccion-integral-de-la-escuela-primaria-n1"
+    "titulo": "SE REALIZARÁN NUEVAS EDICIONES DE LA FERIA DE LA ECONOMÍA SOCIAL “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno informa que el sábado 14 y domingo 15 de noviembre, de 15 a 19, se desarrollarán nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas ubicadas en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-151004-O3Ow7.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4674-se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
   },
   {
     "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
@@ -200,14 +210,14 @@
     "slug": "se-viene-una-nueva-edicion-de-la-feria-del-libro-en-lanus"
   },
   {
-    "titulo": "NUEVA EDICIÓN DEL PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ EL CRONOGRAMA SEMANAL",
-    "descripcion": "Lanús Gobierno informa que el martes 10, jueves 12 y viernes 13 de noviembre se llevarán adelante nuevas jornadas del programa “Plazas Saludables” en diferentes espacios públicos de la ciudad. Las actividades se realizarán de 9 a 12, con el propósito de acercar controles médicos gratuitos, promover hábitos saludables e incentivar la actividad física entre las vecinas y los vecinos.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5026555236629720641-0wArN.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4665-nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal",
-    "fecha": "2026-11-08",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal"
+    "titulo": "La Policía Municipal de Avellaneda se capacita en el uso de armas y dispositivos de baja letalidad",
+    "descripcion": "Magdalena Sierra presenció una clase en el polígono de tiro del Polo de Formación y Entrenamiento Policial local.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-10.19.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad/",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad"
   },
   {
     "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
@@ -320,14 +330,14 @@
     "slug": "avellaneda-presenta-el-programa-municipal-repartidores-en-red"
   },
   {
-    "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
-    "descripcion": "Estas formaciones musicales promueven el desarrollo social, cultural y educativo de las y los niños y adolescentes de Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-16.21.40-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/32300/",
-    "fecha": "2026-10-24",
+    "titulo": "EL MUNICIPIO DE ESTEBAN ECHEVERRÍA ENTREGÓ 475 PARES DE LENTES A ESTUDIANTES DE 9 DE ABRIL",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría, acompañados por la presidenta del Honorable Concejo Deliberante local, Valeria Bellizzi, llevaron adelante la entrega de 475 pares de lentes a estudiantes de la localidad de 9 de Abril, en el marco del Programa Oftalmológico EcheVERría. En la Escuela Primaria N° 11 se otorgaron 205 anteojos, mientras que en la Escuela Secundaria N° 16 se entregaron un total de 270 lentes a chicas y chicos con dificultades en la visión. Previamente, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual y determinar quiénes necesitaban los anteojos, los cuales fueron elegidos y entregados de forma totalmente gratuita a cada estudiante.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 1.972 pares de anteojos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril/",
+    "fecha": "2026-11-12",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril"
   },
   {
     "titulo": "FERNANDO GRAY PARTICIPÓ DEL 45° ANIVERSARIO DE LA IGLESIA CRISTIANA “SURIEL MI ROCA ES DIOS”, DE 9 DE ABRIL",
@@ -418,6 +428,36 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-inauguro-el-techo-parabolico-del-club-social-y-deportivo-santa-catalina"
+  },
+  {
+    "titulo": "Kicillof inauguró la obra de refacción integral de la Escuela Primaria N°1",
+    "descripcion": "Además, el Gobernador recorrió los avances de la construcción del nuevo Centro Universitario del programa Puentes y entregó netbooks a estudiantes del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB6141.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_la_obra_de_refacci%C3%B3n_integral_de_la_escuela",
+    "fecha": null,
+    "volanta": "GENERAL VILLEGAS",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-la-obra-de-refaccion-integral-de-la-escuela-primaria-n1"
+  },
+  {
+    "titulo": "NUEVA EDICIÓN DEL PROGRAMA “PLAZAS SALUDABLES”: CONOCÉ EL CRONOGRAMA SEMANAL",
+    "descripcion": "Lanús Gobierno informa que el martes 10, jueves 12 y viernes 13 de noviembre se llevarán adelante nuevas jornadas del programa “Plazas Saludables” en diferentes espacios públicos de la ciudad. Las actividades se realizarán de 9 a 12, con el propósito de acercar controles médicos gratuitos, promover hábitos saludables e incentivar la actividad física entre las vecinas y los vecinos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/5026555236629720641-0wArN.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4665-nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal",
+    "fecha": "2026-11-08",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "nueva-edicion-del-programa-plazas-saludables-conoce-el-cronograma-semanal"
+  },
+  {
+    "titulo": "La intendenta Sierra celebró los aniversarios de las orquestas “Creer es crear” y “El Docke musical”",
+    "descripcion": "Estas formaciones musicales promueven el desarrollo social, cultural y educativo de las y los niños y adolescentes de Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-16.21.40-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/32300/",
+    "fecha": "2026-10-24",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
   },
   {
     "titulo": "AVANZAN LAS TAREAS DE FUMIGACIÓN EN ESTEBAN ECHEVERRÍA",
