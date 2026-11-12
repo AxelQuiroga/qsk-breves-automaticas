@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof participó de la Santa Misa brindada por el papa León XIV en Luján",
+    "descripcion": "Fue en la Plaza Belgrano, frente a la Basílica, ante más de dos millones de personas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/cf33717b385b4dc18d72c30c4674364a.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_santa_misa_brindada_por_el_papa_le%C3%B3n_xiv_en",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-santa-misa-brindada-por-el-papa-leon-xiv-en-lujan"
+  },
+  {
     "titulo": "Kicillof recorrió el operativo desplegado en Luján por la visita del papa León XIV",
     "descripcion": "Participarán más de 1.200 trabajadores de salud, 12.000 efectivos de fuerzas de seguridad y más de 10.000 voluntarios capacitados.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof%20previa%20a%20la%20visita%20del%20Papa%20Le%C3%B3n.jpg",
@@ -110,14 +120,34 @@
     "slug": "kicillof-inauguro-la-obra-de-refaccion-integral-de-la-escuela-primaria-n1"
   },
   {
-    "titulo": "La Provincia entregó el premio Hebe Uhart de Novela 2026",
-    "descripcion": "La ceremonia fue encabezada por el gobernador Axel Kicillof. El concurso promueve la creatividad artística y fomenta la escritura y la producción cultural.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC1169.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_provincia_entreg%C3%B3_el_premio_hebe_uhart_de_novela_2026",
-    "fecha": null,
-    "volanta": "CULTURA",
-    "fuente": "gba",
-    "slug": "la-provincia-entrego-el-premio-hebe-uhart-de-novela-2026"
+    "titulo": "SE VIENE UN NUEVO PUNTO DE CASTRACIÓN ITINERANTE EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno informa que el viernes 13 de noviembre, a partir de las 9 y hasta agotar cupos, se entregarán nuevos turnos presenciales para acceder al servicio gratuito de castración itinerante de perros y gatos en el Club ATA, ubicado en Catamarca N° 2985, Lanús Oeste.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-35029-pm-Rmtzd.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4672-se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste",
+    "fecha": "2026-11-11",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste"
+  },
+  {
+    "titulo": "SE ENTREGARON INSUMOS A ESCUELAS TÉCNICAS DEL DISTRITO PARA EL DESARROLLO DE DIFERENTES PROYECTOS",
+    "descripcion": "Lanús Gobierno destinó herramientas y materiales a escuelas de educación técnica del distrito con el objetivo de solventar la concreción de distintos trabajos diseñados en las aulas, en el marco del programa “Escuelas y Proyectos en Comunidad”.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-entrego-insumos-a-escuelas-tecnicas-1-3kib7.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4671-se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos",
+    "fecha": "2026-11-11",
+    "volanta": "Educación",
+    "fuente": "lanus",
+    "slug": "se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos"
+  },
+  {
+    "titulo": "NUEVAS JORNADAS DE AUTOCUIDADO “LANÚS SE PREPARA” EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que el jueves 12 y viernes 13 de noviembre, a las 19, se llevarán a cabo nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de acercar información a las y los lanusenses sobre el fenómeno climático El Niño, al igual que recomendaciones sobre cómo actuar frente a este evento.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-115142-am-BNvmW.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4670-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito",
+    "fecha": "2026-11-11",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
   },
   {
     "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
@@ -178,36 +208,6 @@
     "volanta": "Ambiente",
     "fuente": "lanus",
     "slug": "ambiente-si-nuevo-operativo-en-el-distrito"
-  },
-  {
-    "titulo": "LLEGA UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
-    "descripcion": "Lanús Gobierno informa que el lunes 9, miércoles 11 y viernes 13 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo estará disponible en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5148112079645945528-w-XCPAI.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4663-llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
-    "fecha": "2026-11-07",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo-2"
-  },
-  {
-    "titulo": "PREMIAN A LOS BUENOS CONTRIBUYENTES CON DESCUENTOS EN LA TSG",
-    "descripcion": "Lanús Gobierno informa que, a través de la Agencia Municipal de Ingresos Públicos (AMIP), se ofrecen descuentos de hasta el 10% en la Tasa de Servicios Generales (TSG) para las vecinas y los vecinos que se encuentren al día con sus obligaciones tributarias. Además, quienes registren cuotas pendientes podrán cancelarlas sin intereses hasta el 15 de diciembre, con la posibilidad de acceder a los beneficios previstos para 2027.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-premia-a-los-buenos-contribuyentes-2-m4b07.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4662-premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg",
-    "fecha": "2026-11-06",
-    "volanta": "Desarrollo Social",
-    "fuente": "lanus",
-    "slug": "premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg"
-  },
-  {
-    "titulo": "SE REALIZA UNA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
-    "descripcion": "Lanús Gobierno informa que este viernes 6, sábado 7 y domingo 8 de noviembre se desarrollará nuevamente la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos de la ciudad, con la finalidad de impulsar la tarea de los emprendedores y las emprendedoras locales y facilitar alternativas de consumo a precios populares.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/2025-03-18-a-las-115104-46f12ede-baGwe.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4661-se-realiza-una-nueva-edicion-de-la-feria-de-artesanias",
-    "fecha": "2026-11-06",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "se-realiza-una-nueva-edicion-de-la-feria-de-artesanias"
   },
   {
     "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
@@ -330,6 +330,26 @@
     "slug": "la-intendenta-sierra-celebro-los-aniversarios-de-las-orquestas-creer-es-crear-y-el-docke-musical"
   },
   {
+    "titulo": "OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas el jueves 12 de noviembre, de 11 a 12:30 horas. Será en el Centro Cultural y Comunitario Los Gurises, ubicado en La Calandria 2195, barrio Santa Isabel, Monte Grande Sur. Durante la jornada, las personas podrán recargar sus envases de 10 kilos por $25.500. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur-7/",
+    "fecha": "2026-11-11",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur"
+  },
+  {
+    "titulo": "CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS EN MONTE GRANDE",
+    "descripcion": "Como parte de las acciones de mantenimiento de la red vial urbana de todo el distrito, los equipos de trabajo del Municipio de Esteban Echeverría llevaron adelante tareas de bacheo con asfalto caliente en la localidad de Monte Grande. Los mismos se realizaron en la intersección de las calles Amado Nervo y Olavarría. Las intervenciones estuvieron a cargo de cuadrillas municipales que realizaron la reparación de sectores con deterioro del pavimento mediante la aplicación de asfalto caliente. Este procedimiento consiste principalmente en la colocación de mezcla asfáltica a alta temperatura, lo que permite recomponer la superficie de la calzada y garantizar condiciones adecuadas de circulación. Los trabajos se enmarcan en el plan integral de mantenimiento vial que el Municipio ejecuta con financiamiento propio, el cual contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande/",
+    "fecha": "2026-11-11",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande"
+  },
+  {
     "titulo": "FERNANDO GRAY ASISTIÓ AL FESTEJO POR LOS 37 AÑOS DEL CENTRO DE RESIDENTES PARAGUAYOS EMILIANO R. FERNÁNDEZ",
     "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la celebración del Centro de Residentes Paraguayos Emiliano R. Fernández, que cumplió 37 años de trabajo en la localidad de El Jagüel y le otorgó la escritura de comodato por 30 años a la comisión directiva del centro. “Como siempre, muy contento de compartir un año más con las familias paraguayas, con esta comunidad trabajadora que eligió Esteban Echeverría para vivir y que desde aquí transmite la cultura y las costumbres de su país. Quiero agradecerles por participar de las actividades que realizamos desde el Municipio y por tener este espacio desde donde también se ofrecen actividades a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la &#160;presidenta del Centro de Residentes Paraguayos de Esteban Echeverría Emiliano R. Fernández, María Isabel Coronel; y el cónsul de la República del Paraguay en la región de San Justo, Gerardo Koopman.&#160; Durante el acto de apertura, el intendente entregó una ayuda económica que será destinada a realizar refacciones y mejorar las instalaciones del espacio. Además, como parte de las gestiones institucionales para respaldar el desarrollo de las actividades en el predio, se otorgó la escritura de comodato por 30 años a la comisión directiva del centro, asegurando así la estabilidad y continuidad de su espacio de trabajo y encuentro. Del festejo también participaron el secretario de Tierras y Viviendas, Marcelo González; el subsecretario de Abordaje Territorial, Alejandro Moyano; la directora general de Colectividades, María Oliva; y el escribano Marcelo Pérez.",
     "imagenUrl": null,
@@ -408,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "programa-oftalmologico-echeverria-entrega-de-lentes-a-estudiantes-de-luis-guillon"
+  },
+  {
+    "titulo": "La Provincia entregó el premio Hebe Uhart de Novela 2026",
+    "descripcion": "La ceremonia fue encabezada por el gobernador Axel Kicillof. El concurso promueve la creatividad artística y fomenta la escritura y la producción cultural.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC1169.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/la_provincia_entreg%C3%B3_el_premio_hebe_uhart_de_novela_2026",
+    "fecha": null,
+    "volanta": "CULTURA",
+    "fuente": "gba",
+    "slug": "la-provincia-entrego-el-premio-hebe-uhart-de-novela-2026"
+  },
+  {
+    "titulo": "LLEGA UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
+    "descripcion": "Lanús Gobierno informa que el lunes 9, miércoles 11 y viernes 13 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo estará disponible en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/photo-5148112079645945528-w-XCPAI.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4663-llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
+    "fecha": "2026-11-07",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "llega-una-nueva-edicion-del-paseo-de-compras-25-de-mayo-2"
+  },
+  {
+    "titulo": "PREMIAN A LOS BUENOS CONTRIBUYENTES CON DESCUENTOS EN LA TSG",
+    "descripcion": "Lanús Gobierno informa que, a través de la Agencia Municipal de Ingresos Públicos (AMIP), se ofrecen descuentos de hasta el 10% en la Tasa de Servicios Generales (TSG) para las vecinas y los vecinos que se encuentren al día con sus obligaciones tributarias. Además, quienes registren cuotas pendientes podrán cancelarlas sin intereses hasta el 15 de diciembre, con la posibilidad de acceder a los beneficios previstos para 2027.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-premia-a-los-buenos-contribuyentes-2-m4b07.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4662-premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg",
+    "fecha": "2026-11-06",
+    "volanta": "Desarrollo Social",
+    "fuente": "lanus",
+    "slug": "premian-a-los-buenos-contribuyentes-con-descuentos-en-la-tsg"
+  },
+  {
+    "titulo": "SE REALIZA UNA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
+    "descripcion": "Lanús Gobierno informa que este viernes 6, sábado 7 y domingo 8 de noviembre se desarrollará nuevamente la Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos de la ciudad, con la finalidad de impulsar la tarea de los emprendedores y las emprendedoras locales y facilitar alternativas de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/2025-03-18-a-las-115104-46f12ede-baGwe.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4661-se-realiza-una-nueva-edicion-de-la-feria-de-artesanias",
+    "fecha": "2026-11-06",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "se-realiza-una-nueva-edicion-de-la-feria-de-artesanias"
   },
   {
     "titulo": "EL MUNICIPIO REALIZÓ UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN MONTE GRANDE SUR",
