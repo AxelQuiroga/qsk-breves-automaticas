@@ -1,5 +1,315 @@
 [
   {
+    "titulo": "CONOCÉ DÓNDE FUNCIONARÁ LA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
+    "descripcion": "Lanús Gobierno informa que este viernes 13, sábado 14 y domingo 15 de noviembre se realizará una nueva edición de la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos del distrito, con el objetivo de apoyar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-13-at-093232-UzXsa.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4675-conoce-donde-funcionara-la-nueva-edicion-de-la-feria-de-artesanias",
+    "fecha": "2026-11-13",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "conoce-donde-funcionara-la-nueva-edicion-de-la-feria-de-artesanias"
+  },
+  {
+    "titulo": "SE REALIZARÁN NUEVAS EDICIONES DE LA FERIA DE LA ECONOMÍA SOCIAL “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno informa que el sábado 14 y domingo 15 de noviembre, de 15 a 19, se desarrollarán nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas ubicadas en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-151004-O3Ow7.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4674-se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
+  },
+  {
+    "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno informa que el sábado 14 de noviembre, de 10 a 14, se llevará adelante una nueva jornada del operativo “Sábados de Salud en el Barrio” en la plaza Hebe de Bonafini, situada en la avenida Donato Álvarez N° 4789, en Monte Chingolo. La propuesta permitirá que las vecinas y los vecinos accedan a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-101028-UQxl2.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4673-llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo",
+    "fecha": "2026-11-12",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo"
+  },
+  {
+    "titulo": "SE VIENE UN NUEVO PUNTO DE CASTRACIÓN ITINERANTE EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno informa que el viernes 13 de noviembre, a partir de las 9 y hasta agotar cupos, se entregarán nuevos turnos presenciales para acceder al servicio gratuito de castración itinerante de perros y gatos en el Club ATA, ubicado en Catamarca N° 2985, Lanús Oeste.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-35029-pm-Rmtzd.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4672-se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste",
+    "fecha": "2026-11-11",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste"
+  },
+  {
+    "titulo": "SE ENTREGARON INSUMOS A ESCUELAS TÉCNICAS DEL DISTRITO PARA EL DESARROLLO DE DIFERENTES PROYECTOS",
+    "descripcion": "Lanús Gobierno destinó herramientas y materiales a escuelas de educación técnica del distrito con el objetivo de solventar la concreción de distintos trabajos diseñados en las aulas, en el marco del programa “Escuelas y Proyectos en Comunidad”.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-entrego-insumos-a-escuelas-tecnicas-1-3kib7.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4671-se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos",
+    "fecha": "2026-11-11",
+    "volanta": "Educación",
+    "fuente": "lanus",
+    "slug": "se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos"
+  },
+  {
+    "titulo": "NUEVAS JORNADAS DE AUTOCUIDADO “LANÚS SE PREPARA” EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que el jueves 12 y viernes 13 de noviembre, a las 19, se llevarán a cabo nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de acercar información a las y los lanusenses sobre el fenómeno climático El Niño, al igual que recomendaciones sobre cómo actuar frente a este evento.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-115142-am-BNvmW.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4670-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito",
+    "fecha": "2026-11-11",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
+  },
+  {
+    "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno inició una obra de renovación y puesta en valor sobre la ex traza del Ferrocarril Provincial Buenos Aires, entre Ituzaingó y Coronel Lynch en Monte Chingolo, con el objetivo de poner en valor más de 8.000 metros cuadrados de espacio verde para el disfrute de las vecinas y de los vecinos de la zona.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/obras-del-parque-lineal-monte-chingolo-FysPS.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4669-se-expanden-las-obras-del-parque-lineal-monte-chingolo",
+    "fecha": "2026-11-11",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "se-expanden-las-obras-del-parque-lineal-monte-chingolo"
+  },
+  {
+    "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4668-el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo",
+    "fecha": "2026-11-10",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo"
+  },
+  {
+    "titulo": "EL OPERATIVO “LANÚS TU GOBIERNO” LLEGA A MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 13 de noviembre, de 10 a 14 en el Polideportivo Municipal Monte Chingolo, ubicado en la intersección de las calles Monasterio y Pitágoras, en Monte Chingolo. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-111003-L7N6z.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4667-el-operativo-lanus-tu-gobierno-llega-a-monte-chingolo",
+    "fecha": "2026-11-10",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "el-operativo-lanus-tu-gobierno-llega-a-monte-chingolo"
+  },
+  {
+    "titulo": "El Municipio de Avellaneda renovó el convenio con Provincia Microcréditos para fortalecer emprendimientos locales",
+    "descripcion": "Se amplían los recursos disponibles para que más vecinos puedan acceder a créditos con tasas subsidiadas para impulsar sus proyectos.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-17.31.31-1-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-renovo-el-convenio-con-provincia-microcreditos-para-fortalecer-emprendimientos-locales/",
+    "fecha": "2026-11-13",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-municipio-de-avellaneda-renovo-el-convenio-con-provincia-microcreditos-para-fortalecer-emprendimientos-locales"
+  },
+  {
+    "titulo": "La Policía Municipal de Avellaneda se capacita en el uso de armas y dispositivos de baja letalidad",
+    "descripcion": "Magdalena Sierra presenció una clase en el polígono de tiro del Polo de Formación y Entrenamiento Policial local.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-10.19.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad/",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad"
+  },
+  {
+    "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
+    "descripcion": "Organizados por el Municipio de Avellaneda y el Consejo Escolar, los encuentros se desarrollan en el Polideportivo Delfo Cabrera.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-15.32.46-1-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias/",
+    "fecha": "2026-11-10",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias"
+  },
+  {
+    "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
+    "descripcion": "“Buscamos excelencia”, sostuvo la jefa comunal durante las demostraciones de destrezas operativas, tácticas y técnicas adquiridas durante la formación de las y los cadetes.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-8-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda/",
+    "fecha": "2026-11-06",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
+  },
+  {
+    "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
+    "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
+  },
+  {
+    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
+    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
+  },
+  {
+    "titulo": "Jornadas de vacunación antirrábica y desparasitación",
+    "descripcion": "El operativo de zoonosis se realizará en Gerli. Se suspende por lluvia.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/MS_2314.JPG-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/operativo-de-zoonosis/",
+    "fecha": "2026-11-02",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "jornadas-de-vacunacion-antirrabica-y-desparasitacion"
+  },
+  {
+    "titulo": "Productos económicos cerca de tu casa",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/CanastaBWeb-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/vuelve-la-canasta-basica-avellaneda/",
+    "fecha": "2026-11-02",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "productos-economicos-cerca-de-tu-casa"
+  },
+  {
+    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
+    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
+  },
+  {
+    "titulo": "El Municipio de Avellaneda recibió 24 vehículos adquiridos mediante Provincia Leasing",
+    "descripcion": "La intendenta Magdalena Sierra entregó el equipamiento urbano a cada responsable de las áreas comunales.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-4-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing"
+  },
+  {
+    "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
+    "descripcion": "Compartió una Misa y recorrió las obras de remodelación hechas por el municipio.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-11.43.53-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
+  },
+  {
+    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
+    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
+  },
+  {
+    "titulo": "CENTENARIO DE LUIS GUILLÓN: GRILLA DE SHOWS Y ACTIVIDADES",
+    "descripcion": "Este domingo 15 de noviembre se llevarán a cabo los festejos por el Centenario de Luis Guillón en la plaza 25 de Mayo, ubicada en Adolfo E. Negro y Almafuerte. Allí se desarrollarán numerosas actividades y shows en vivo para todas las vecinas y vecinos. A partir de las 7 horas del domingo, habrá desvío de tránsito en el perímetro que comprende la plaza 25 de Mayo, con cortes en las calles Adolfo E. Negro, entre José Hernández y Martín Coronado; Independencia, entre José Hernández y Tte. Alberto Grande; San Martín, entre José Hernández y Tte. Alberto Grande; Almafuerte, entre San Martín y Adolfo Negro; y Martín Coronado, entre San Martín y Adolfo Negro. Las actividades comenzarán desde las 8.30 horas con el desfile de instituciones y de autos clásicos, espectáculos artísticos, feria de emprendedores y un patio gastronómico con variedades de food trucks. A continuación, la grilla completa de actividades y espectáculos: EXHIBICIÓN DE TALLERES11:30 h &#8211; Taller de corte y confección (Profesora Lidia Conforti) DANZA/ Ballet11:40 h &#8211; Mix Dance Infantil (Profesora Celeste Contardi)11:45 h &#8211; La Echeverriana (Profesora Viviana Hernández)11:50 h &#8211; Proyectando un Futuro (Profesora Melina Gómez) MÚSICA/ Banda12:05 h &#8211; Chacarera es mi pasión – Residentes Salteños DANZA/ Ballet12:35 h &#8211; El Antigal – Grupo Coreográfico (Profesor Fernando González)12:40 h &#8211; Bailando con el Alma (Profesora Marta Domínguez)12:55 h &#8211; Alma Azul (Profesores José Luis Bertini y Marcela Mesanza)13:00 h &#8211; ADN – Asociación Amigos de Luis Guillón (Profesores Ethel Álvarez y Ariel Nague)MÚSICA/ banda13:10 h &#8211; Carguero DANZA/ ballet13:40 h &#8211; Ashpaymanta (Profesora Daiana Acentares)13:45 h &#8211; Los Gurises (Profesora Daiana Acentares)13:50 h &#8211; Mujeres de Nuestra Tierra (Profesora Alicia Cabrera) MÚSICA/ BandaAsociación del Bicentenario14:05 h – Lengua Madre y Germinare DANZA/ ballet14:55 h &#8211; Renacer (Profesora Cecilia Nieto)15:00 h &#8211; Las Moreras (Profesor Eduardo Aníbal Albo) EXHIBICIÓN DE TALLERES15:05 h &#8211; Taller de lectura de la Biblioteca Popular Florentino Ameghino&#160;15:10 h &#8211; Taller de canto de la Biblioteca Popular Florentino Ameghino DANZA / Ballet15:15 h &#8211; Waynakay Tusuy (Profesora Romina Anello)15:20 h &#8211; Las Huarmis Sumaj (Profesora Romina Anello) EXHIBICIÓN DE TALLERES15:30 h &#8211; Escuela de patín artístico LG del Club Santa Catalina TEATRO15:40 &#160;h &#8211; Obra teatral &#8211; Grupo El Ilusionista, Rotary Club DANZA / ballet&#160;16:20 h &#8211; Danzas árabes &#8211; Centro RyG16:25 h &#8211; Danza clásica/neoclásico &#8211; Centro RyG EXHIBICIÓN DE TALLERES16:30 h- Exhibición del Taller de piano &#8211; Centro RyG DANZA / ballet&#160;16:45 h &#8211; Vida y Alma (Profesora Viviana Morena) TEATRO17:10 – Obra teatral a cargo de la Iglesia Evangélica Jesucristo Coronado MÚSICA / bandas17:40 &#8211; Mariana Ojeda18:20 &#8211; Asociación de Música Popular La Añorada",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/centenario-de-luis-guillon-grilla-de-shows-y-actividades/",
+    "fecha": "2026-11-13",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "centenario-de-luis-guillon-grilla-de-shows-y-actividades"
+  },
+  {
+    "titulo": "MONTE GRANDE SUR: VECINAS Y VECINOS ACCEDIERON A UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS",
+    "descripcion": "El Municipio de Esteban Echeverría llevó adelante un nuevo operativo de recarga de garrafas a precio accesible. En esta oportunidad, el encuentro tuvo lugar en el Centro Cultural y Comunitario Los Gurises del barrio Santa Isabel (Monte Grande Sur). Durante la jornada, las vecinas y los vecinos pudieron acceder a la recarga de garrafas de 10 kilos a $25.500, un valor inferior al que ofrece actualmente el mercado. Esta iniciativa forma parte de las políticas que impulsa el Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/monte-grande-sur-vecinas-y-vecinos-accedieron-a-un-nuevo-operativo-de-recarga-de-garrafas/",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "monte-grande-sur-vecinas-y-vecinos-accedieron-a-un-nuevo-operativo-de-recarga-de-garrafas"
+  },
+  {
+    "titulo": "EL MUNICIPIO DE ESTEBAN ECHEVERRÍA ENTREGÓ 475 PARES DE LENTES A ESTUDIANTES DE 9 DE ABRIL",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría, acompañados por la presidenta del Honorable Concejo Deliberante local, Valeria Bellizzi, llevaron adelante la entrega de 475 pares de lentes a estudiantes de la localidad de 9 de Abril, en el marco del Programa Oftalmológico EcheVERría. En la Escuela Primaria N° 11 se otorgaron 205 anteojos, mientras que en la Escuela Secundaria N° 16 se entregaron un total de 270 lentes a chicas y chicos con dificultades en la visión. Previamente, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual y determinar quiénes necesitaban los anteojos, los cuales fueron elegidos y entregados de forma totalmente gratuita a cada estudiante.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 1.972 pares de anteojos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril/",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DEL 45° ANIVERSARIO DE LA IGLESIA CRISTIANA “SURIEL MI ROCA ES DIOS”, DE 9 DE ABRIL",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de los festejos por el 45° aniversario de la Iglesia Cristiana “Suriel mi Roca es Dios”, de la localidad de 9 de Abril. Durante el evento también se realizó un homenaje al apóstol Rubén Osvaldo Mirande, quien falleció en junio de este año. “Qué honor participar de un nuevo aniversario de esta institución que hace tantos años nos acompaña en el distrito, siempre presente para aquellas vecinas y vecinos que lo necesitan. Y hoy también recordando con cariño al apóstol Rubén, por el gran compromiso con el que siempre le abrió los brazos a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la directora general de Gobierno local, Mariana Ferreyra. Durante el acto, el intendente hizo entrega de materiales para la refacción del lugar y una placa en homenaje al apóstol fallecido Rubén Mirande. De la ceremonia participaron su hija, Deborah Mirande, junto a su esposo Pablo Matarrese; y los apóstoles de la Iglesia Suriel, Fernando Frejenal y Víctor Ríos, quienes brindaron unas palabras a la congregación, en reconocimiento a sus 45 años de funcionamiento en el distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-del-45-aniversario-de-la-iglesia-cristiana-suriel-mi-roca-es-dios-de-9-de-abril/",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-del-45-aniversario-de-la-iglesia-cristiana-suriel-mi-roca-es-dios-de-9-de-abril"
+  },
+  {
+    "titulo": "OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE EN MONTE GRANDE SUR",
+    "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas el jueves 12 de noviembre, de 11 a 12:30 horas. Será en el Centro Cultural y Comunitario Los Gurises, ubicado en La Calandria 2195, barrio Santa Isabel, Monte Grande Sur. Durante la jornada, las personas podrán recargar sus envases de 10 kilos por $25.500. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur-7/",
+    "fecha": "2026-11-11",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur"
+  },
+  {
+    "titulo": "CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS EN MONTE GRANDE",
+    "descripcion": "Como parte de las acciones de mantenimiento de la red vial urbana de todo el distrito, los equipos de trabajo del Municipio de Esteban Echeverría llevaron adelante tareas de bacheo con asfalto caliente en la localidad de Monte Grande. Los mismos se realizaron en la intersección de las calles Amado Nervo y Olavarría. Las intervenciones estuvieron a cargo de cuadrillas municipales que realizaron la reparación de sectores con deterioro del pavimento mediante la aplicación de asfalto caliente. Este procedimiento consiste principalmente en la colocación de mezcla asfáltica a alta temperatura, lo que permite recomponer la superficie de la calzada y garantizar condiciones adecuadas de circulación. Los trabajos se enmarcan en el plan integral de mantenimiento vial que el Municipio ejecuta con financiamiento propio, el cual contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande/",
+    "fecha": "2026-11-11",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande"
+  },
+  {
+    "titulo": "FERNANDO GRAY ASISTIÓ AL FESTEJO POR LOS 37 AÑOS DEL CENTRO DE RESIDENTES PARAGUAYOS EMILIANO R. FERNÁNDEZ",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la celebración del Centro de Residentes Paraguayos Emiliano R. Fernández, que cumplió 37 años de trabajo en la localidad de El Jagüel y le otorgó la escritura de comodato por 30 años a la comisión directiva del centro. “Como siempre, muy contento de compartir un año más con las familias paraguayas, con esta comunidad trabajadora que eligió Esteban Echeverría para vivir y que desde aquí transmite la cultura y las costumbres de su país. Quiero agradecerles por participar de las actividades que realizamos desde el Municipio y por tener este espacio desde donde también se ofrecen actividades a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la &#160;presidenta del Centro de Residentes Paraguayos de Esteban Echeverría Emiliano R. Fernández, María Isabel Coronel; y el cónsul de la República del Paraguay en la región de San Justo, Gerardo Koopman.&#160; Durante el acto de apertura, el intendente entregó una ayuda económica que será destinada a realizar refacciones y mejorar las instalaciones del espacio. Además, como parte de las gestiones institucionales para respaldar el desarrollo de las actividades en el predio, se otorgó la escritura de comodato por 30 años a la comisión directiva del centro, asegurando así la estabilidad y continuidad de su espacio de trabajo y encuentro. Del festejo también participaron el secretario de Tierras y Viviendas, Marcelo González; el subsecretario de Abordaje Territorial, Alejandro Moyano; la directora general de Colectividades, María Oliva; y el escribano Marcelo Pérez.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-asistio-al-festejo-por-los-37-anos-del-centro-de-residentes-paraguayos-emiliano-r-fernandez/",
+    "fecha": "2026-11-08",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-asistio-al-festejo-por-los-37-anos-del-centro-de-residentes-paraguayos-emiliano-r-fernandez"
+  },
+  {
+    "titulo": "CRONOGRAMA DE SERVICIOS DURANTE LOS PRÓXIMOS FERIADOS",
+    "descripcion": "El Municipio de Esteban Echeverría informa el cronograma de servicios públicos durante los feriados de este lunes 9 y miércoles 11 de noviembre, con motivo de la visita del Papa León XIV. El servicio de recolección de residuos funcionará normalmente y el edificio municipal permanecerá cerrado. Servicio de salud Hospital Municipal Santamarina (Gral. Alvear 350, Monte Grande): atención durante las 24 horas a través de guardias, sin turnos programados. Unidad Sanitaria N° 6 (Restelli 1505, 9 de Abril) y Unidad Sanitaria N° 24 (Laprida 2733, El Jagüel): mantendrán las guardias de 24 horas. Unidad Sanitaria N° 3 (Medel y El Ceibo, El Jagüel) y Unidad Sanitaria N° 4 (San Pedrito 416, Monte Grande Sur): funcionarán de 8 a 20 horas. Centro de Atención al Vecino (CAV)Las vecinas y los vecinos podrán comunicarse con el CAV al 0810-999-6800 o, a través de WhatsApp, al 15-5131-6800, de 6 a 22 horas. Cementerio municipalHorario de atención para visitas: de 7 a 18 horas.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/cronograma-de-servicios-durante-los-proximos-feriados-6/",
+    "fecha": "2026-11-08",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "cronograma-de-servicios-durante-los-proximos-feriados"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DE LA CELEBRACIÓN DEL 40° ANIVERSARIO DEL CENTRO DE JUBILADOS Y PENSIONADOS 9 DE ABRIL",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, acompañó a personas adultas mayores en el festejo por los 40 años del Centro de Jubilados y Pensionados 9 de Abril.&#160; “Muy contento de estar un año más compartiendo la celebración con tantas personas queridas que asisten a este centro que sin lugar a dudas es fundamental para la vida de las personas adultas mayores de 9 de Abril. Quiero agradecer a las autoridades de esta institución por el trabajo y el esfuerzo que ponen día a día para ofrecer actividades sociales a nuestras adultas y nuestros adultos mayores”, expresó Fernando Gray, quien estuvo acompañado por el presidente del Centro de Jubilados, Carlos Galeano; el vicepresidente, Mateo Ojeda; y la secretaria, Liliana Salba.&#160; Durante la ceremonia, el intendente descubrió una placa conmemorativa a la fecha y entregó una ayuda económica destinada a la compra de baldosas, materiales eléctricos y de construcción, y una bomba centrífuga de agua para la institución. &#160; Actualmente asisten a este centro 70 adultas y adultos mayores que realizan actividades dictadas por el Municipio como taller de Memoria, pintura, folklore, porcelana fría, cocina, canto y corte y confección. Además, la institución es sede de una escuela primaria para adultas y adultos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-de-la-celebracion-del-40-aniversario-del-centro-de-jubilados-y-pensionados-9-de-abril/",
+    "fecha": "2026-11-07",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-de-la-celebracion-del-40-aniversario-del-centro-de-jubilados-y-pensionados-9-de-abril"
+  },
+  {
+    "titulo": "ENTREGA DE LENTES DEL PROGRAMA OFTALMOLÓGICO ECHEverRÍA A ESCUELAS PRIMARIAS DE MONTE GRANDE Y EL JAGÜEL",
+    "descripcion": "En el marco del Programa Oftalmológico EcheVERría, el Municipio de Esteban Echeverría junto con la concejal local, Magui Gray, entregaron 243 pares de lentes a estudiantes de dos escuelas primarias. En la Escuela Primaria N° 15 de Monte Grande se entregaron 155 anteojos, mientras que en la Escuela Primaria N° 23 de El Jagüel se distribuyeron otros 88 pares. Anteriormente, profesionales de la salud del Municipio asistieron a dichos establecimientos para realizar controles de agudeza visual y así determinar quiénes necesitaban anteojos. Luego, cada estudiante eligió los marcos de los lentes que hoy se entregaron de forma gratuita en esas escuelas. El Programa Oftalmológico EcheVERría es una política pública local destinada a la detección temprana, diagnóstico y tratamiento de problemas de visión, garantizando el acceso a la salud visual y mejorar la calidad de vida de quienes no pueden acceder a este servicio. En lo que va de 2026, mediante este programa ya se entregaron 1.497 pares de anteojos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/entrega-de-lentes-del-programa-oftalmologico-echeverria-a-escuelas-primarias-de-monte-grande-y-el-jaguel/",
+    "fecha": "2026-11-07",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "entrega-de-lentes-del-programa-oftalmologico-echeverria-a-escuelas-primarias-de-monte-grande-y-el-jaguel"
+  },
+  {
     "titulo": "Se entregaron diplomas a egresados del Curso de Formación de Cuidadores Domiciliarios",
     "descripcion": "El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este jueves el cierre del Curso de Formación de Cuidadores/as Domiciliarios, acto en el que 50 egresados y egresadas recibieron sus diplomas.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AxelKicillofCuidarnos.jpg",
@@ -120,86 +430,6 @@
     "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-rivadavia"
   },
   {
-    "titulo": "SE REALIZARÁN NUEVAS EDICIONES DE LA FERIA DE LA ECONOMÍA SOCIAL “HECHO EN LANÚS”",
-    "descripcion": "Lanús Gobierno informa que el sábado 14 y domingo 15 de noviembre, de 15 a 19, se desarrollarán nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas ubicadas en Lanús Este.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-151004-O3Ow7.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4674-se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus",
-    "fecha": "2026-11-12",
-    "volanta": null,
-    "fuente": "lanus",
-    "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
-  },
-  {
-    "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno informa que el sábado 14 de noviembre, de 10 a 14, se llevará adelante una nueva jornada del operativo “Sábados de Salud en el Barrio” en la plaza Hebe de Bonafini, situada en la avenida Donato Álvarez N° 4789, en Monte Chingolo. La propuesta permitirá que las vecinas y los vecinos accedan a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-101028-UQxl2.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4673-llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo",
-    "fecha": "2026-11-12",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo"
-  },
-  {
-    "titulo": "SE VIENE UN NUEVO PUNTO DE CASTRACIÓN ITINERANTE EN LANÚS OESTE",
-    "descripcion": "Lanús Gobierno informa que el viernes 13 de noviembre, a partir de las 9 y hasta agotar cupos, se entregarán nuevos turnos presenciales para acceder al servicio gratuito de castración itinerante de perros y gatos en el Club ATA, ubicado en Catamarca N° 2985, Lanús Oeste.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-35029-pm-Rmtzd.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4672-se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste",
-    "fecha": "2026-11-11",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "se-viene-un-nuevo-punto-de-castracion-itinerante-en-lanus-oeste"
-  },
-  {
-    "titulo": "SE ENTREGARON INSUMOS A ESCUELAS TÉCNICAS DEL DISTRITO PARA EL DESARROLLO DE DIFERENTES PROYECTOS",
-    "descripcion": "Lanús Gobierno destinó herramientas y materiales a escuelas de educación técnica del distrito con el objetivo de solventar la concreción de distintos trabajos diseñados en las aulas, en el marco del programa “Escuelas y Proyectos en Comunidad”.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/lanus-gobierno-entrego-insumos-a-escuelas-tecnicas-1-3kib7.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4671-se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos",
-    "fecha": "2026-11-11",
-    "volanta": "Educación",
-    "fuente": "lanus",
-    "slug": "se-entregaron-insumos-a-escuelas-tecnicas-del-distrito-para-el-desarrollo-de-diferentes-proyectos"
-  },
-  {
-    "titulo": "NUEVAS JORNADAS DE AUTOCUIDADO “LANÚS SE PREPARA” EN EL DISTRITO",
-    "descripcion": "Lanús Gobierno informa que el jueves 12 y viernes 13 de noviembre, a las 19, se llevarán a cabo nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de acercar información a las y los lanusenses sobre el fenómeno climático El Niño, al igual que recomendaciones sobre cómo actuar frente a este evento.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-11-at-115142-am-BNvmW.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4670-nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito",
-    "fecha": "2026-11-11",
-    "volanta": "Espacios y Servicios Públicos",
-    "fuente": "lanus",
-    "slug": "nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
-  },
-  {
-    "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno inició una obra de renovación y puesta en valor sobre la ex traza del Ferrocarril Provincial Buenos Aires, entre Ituzaingó y Coronel Lynch en Monte Chingolo, con el objetivo de poner en valor más de 8.000 metros cuadrados de espacio verde para el disfrute de las vecinas y de los vecinos de la zona.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/obras-del-parque-lineal-monte-chingolo-FysPS.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4669-se-expanden-las-obras-del-parque-lineal-monte-chingolo",
-    "fecha": "2026-11-11",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "se-expanden-las-obras-del-parque-lineal-monte-chingolo"
-  },
-  {
-    "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4668-el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo",
-    "fecha": "2026-11-10",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo"
-  },
-  {
-    "titulo": "EL OPERATIVO “LANÚS TU GOBIERNO” LLEGA A MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 13 de noviembre, de 10 a 14 en el Polideportivo Municipal Monte Chingolo, ubicado en la intersección de las calles Monasterio y Pitágoras, en Monte Chingolo. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-111003-L7N6z.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4667-el-operativo-lanus-tu-gobierno-llega-a-monte-chingolo",
-    "fecha": "2026-11-10",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "el-operativo-lanus-tu-gobierno-llega-a-monte-chingolo"
-  },
-  {
     "titulo": "SE VIENE UNA NUEVA EDICIÓN DE LA FERIA DEL LIBRO EN LANÚS",
     "descripcion": "Lanús Gobierno informa que el viernes 13, sábado 14 y domingo 15 de noviembre, de 16 a 21, se llevará adelante una nueva edición de la tradicional Feria del Libro en Lanús, bajo el lema “Nos merecemos leer”, en el Centro Cultural Leonardo Favio (avenida 25 de Mayo N° 131, Lanús Oeste). La propuesta será con entrada libre y gratuita, y contará con diferentes actividades culturales, charlas y talleres destinados a toda la comunidad.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-09-at-51128-pm-FM4q8.jpeg",
@@ -210,116 +440,6 @@
     "slug": "se-viene-una-nueva-edicion-de-la-feria-del-libro-en-lanus"
   },
   {
-    "titulo": "La Policía Municipal de Avellaneda se capacita en el uso de armas y dispositivos de baja letalidad",
-    "descripcion": "Magdalena Sierra presenció una clase en el polígono de tiro del Polo de Formación y Entrenamiento Policial local.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-10.19.05-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad/",
-    "fecha": "2026-11-12",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-policia-municipal-de-avellaneda-se-capacita-en-el-uso-de-armas-y-dispositivos-de-baja-letalidad"
-  },
-  {
-    "titulo": "Magdalena Sierra compartió la primera jornada de fin de curso de las y los egresados de las primarias",
-    "descripcion": "Organizados por el Municipio de Avellaneda y el Consejo Escolar, los encuentros se desarrollan en el Polideportivo Delfo Cabrera.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-15.32.46-1-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias/",
-    "fecha": "2026-11-10",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-compartio-la-primera-jornada-de-fin-de-curso-de-las-y-los-egresados-de-las-primarias"
-  },
-  {
-    "titulo": "La intendenta Sierra supervisó el entrenamiento de la Policía Municipal de Avellaneda",
-    "descripcion": "“Buscamos excelencia”, sostuvo la jefa comunal durante las demostraciones de destrezas operativas, tácticas y técnicas adquiridas durante la formación de las y los cadetes.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-8-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda/",
-    "fecha": "2026-11-06",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
-  },
-  {
-    "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
-    "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad/",
-    "fecha": "2026-11-04",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
-  },
-  {
-    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
-    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
-    "fecha": "2026-11-03",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
-  },
-  {
-    "titulo": "Jornadas de vacunación antirrábica y desparasitación",
-    "descripcion": "El operativo de zoonosis se realizará en Gerli. Se suspende por lluvia.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/09/MS_2314.JPG-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/operativo-de-zoonosis/",
-    "fecha": "2026-11-02",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "jornadas-de-vacunacion-antirrabica-y-desparasitacion"
-  },
-  {
-    "titulo": "Productos económicos cerca de tu casa",
-    "descripcion": null,
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/CanastaBWeb-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/vuelve-la-canasta-basica-avellaneda/",
-    "fecha": "2026-11-02",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "productos-economicos-cerca-de-tu-casa"
-  },
-  {
-    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
-    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
-    "fecha": "2026-10-30",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
-  },
-  {
-    "titulo": "El Municipio de Avellaneda recibió 24 vehículos adquiridos mediante Provincia Leasing",
-    "descripcion": "La intendenta Magdalena Sierra entregó el equipamiento urbano a cada responsable de las áreas comunales.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-4-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing/",
-    "fecha": "2026-10-30",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "el-municipio-de-avellaneda-recibio-24-vehiculos-adquiridos-mediante-provincia-leasing"
-  },
-  {
-    "titulo": "La intendenta Sierra visitó el Cottolengo Don Orione de Avellaneda",
-    "descripcion": "Compartió una Misa y recorrió las obras de remodelación hechas por el municipio.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-11.43.53-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda/",
-    "fecha": "2026-10-28",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
-  },
-  {
-    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
-    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
-    "fecha": "2026-10-28",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
-  },
-  {
     "titulo": "Avellaneda presenta el programa municipal “Repartidores en Red”",
     "descripcion": "La iniciativa está destinada a acompañar a las y los trabajadores de plataformas y repartidores de nuestra ciudad, a través de diferentes programas y beneficios.",
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/Proyecto-nuevo-2-2-350x240.jpg",
@@ -328,86 +448,6 @@
     "volanta": null,
     "fuente": "avellaneda",
     "slug": "avellaneda-presenta-el-programa-municipal-repartidores-en-red"
-  },
-  {
-    "titulo": "EL MUNICIPIO DE ESTEBAN ECHEVERRÍA ENTREGÓ 475 PARES DE LENTES A ESTUDIANTES DE 9 DE ABRIL",
-    "descripcion": "Los equipos del Municipio de Esteban Echeverría, acompañados por la presidenta del Honorable Concejo Deliberante local, Valeria Bellizzi, llevaron adelante la entrega de 475 pares de lentes a estudiantes de la localidad de 9 de Abril, en el marco del Programa Oftalmológico EcheVERría. En la Escuela Primaria N° 11 se otorgaron 205 anteojos, mientras que en la Escuela Secundaria N° 16 se entregaron un total de 270 lentes a chicas y chicos con dificultades en la visión. Previamente, profesionales de la salud del Municipio asistieron a los establecimientos para realizar los controles de agudeza visual y determinar quiénes necesitaban los anteojos, los cuales fueron elegidos y entregados de forma totalmente gratuita a cada estudiante.&#160; El Programa Oftalmológico EcheVERría es una política del Gobierno local destinada a la detección, el diagnóstico y el tratamiento de los problemas de visión, con el objetivo de mejorar la salud, la calidad de vida y el desempeño escolar de las y los estudiantes, reafirmando el compromiso de estar siempre cerca de las familias echeverrianas. En lo que va de 2026, mediante este programa ya se entregaron 1.972 pares de anteojos.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril/",
-    "fecha": "2026-11-12",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "el-municipio-de-esteban-echeverria-entrego-475-pares-de-lentes-a-estudiantes-de-9-de-abril"
-  },
-  {
-    "titulo": "FERNANDO GRAY PARTICIPÓ DEL 45° ANIVERSARIO DE LA IGLESIA CRISTIANA “SURIEL MI ROCA ES DIOS”, DE 9 DE ABRIL",
-    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de los festejos por el 45° aniversario de la Iglesia Cristiana “Suriel mi Roca es Dios”, de la localidad de 9 de Abril. Durante el evento también se realizó un homenaje al apóstol Rubén Osvaldo Mirande, quien falleció en junio de este año. “Qué honor participar de un nuevo aniversario de esta institución que hace tantos años nos acompaña en el distrito, siempre presente para aquellas vecinas y vecinos que lo necesitan. Y hoy también recordando con cariño al apóstol Rubén, por el gran compromiso con el que siempre le abrió los brazos a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la directora general de Gobierno local, Mariana Ferreyra. Durante el acto, el intendente hizo entrega de materiales para la refacción del lugar y una placa en homenaje al apóstol fallecido Rubén Mirande. De la ceremonia participaron su hija, Deborah Mirande, junto a su esposo Pablo Matarrese; y los apóstoles de la Iglesia Suriel, Fernando Frejenal y Víctor Ríos, quienes brindaron unas palabras a la congregación, en reconocimiento a sus 45 años de funcionamiento en el distrito.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-del-45-aniversario-de-la-iglesia-cristiana-suriel-mi-roca-es-dios-de-9-de-abril/",
-    "fecha": "2026-11-12",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "fernando-gray-participo-del-45-aniversario-de-la-iglesia-cristiana-suriel-mi-roca-es-dios-de-9-de-abril"
-  },
-  {
-    "titulo": "OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE EN MONTE GRANDE SUR",
-    "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas el jueves 12 de noviembre, de 11 a 12:30 horas. Será en el Centro Cultural y Comunitario Los Gurises, ubicado en La Calandria 2195, barrio Santa Isabel, Monte Grande Sur. Durante la jornada, las personas podrán recargar sus envases de 10 kilos por $25.500. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur-7/",
-    "fecha": "2026-11-11",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "operativo-de-recarga-de-garrafas-a-precio-accesible-en-monte-grande-sur"
-  },
-  {
-    "titulo": "CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS EN MONTE GRANDE",
-    "descripcion": "Como parte de las acciones de mantenimiento de la red vial urbana de todo el distrito, los equipos de trabajo del Municipio de Esteban Echeverría llevaron adelante tareas de bacheo con asfalto caliente en la localidad de Monte Grande. Los mismos se realizaron en la intersección de las calles Amado Nervo y Olavarría. Las intervenciones estuvieron a cargo de cuadrillas municipales que realizaron la reparación de sectores con deterioro del pavimento mediante la aplicación de asfalto caliente. Este procedimiento consiste principalmente en la colocación de mezcla asfáltica a alta temperatura, lo que permite recomponer la superficie de la calzada y garantizar condiciones adecuadas de circulación. Los trabajos se enmarcan en el plan integral de mantenimiento vial que el Municipio ejecuta con financiamiento propio, el cual contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande/",
-    "fecha": "2026-11-11",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-en-monte-grande"
-  },
-  {
-    "titulo": "FERNANDO GRAY ASISTIÓ AL FESTEJO POR LOS 37 AÑOS DEL CENTRO DE RESIDENTES PARAGUAYOS EMILIANO R. FERNÁNDEZ",
-    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de la celebración del Centro de Residentes Paraguayos Emiliano R. Fernández, que cumplió 37 años de trabajo en la localidad de El Jagüel y le otorgó la escritura de comodato por 30 años a la comisión directiva del centro. “Como siempre, muy contento de compartir un año más con las familias paraguayas, con esta comunidad trabajadora que eligió Esteban Echeverría para vivir y que desde aquí transmite la cultura y las costumbres de su país. Quiero agradecerles por participar de las actividades que realizamos desde el Municipio y por tener este espacio desde donde también se ofrecen actividades a la comunidad”, expresó Fernando Gray, quien estuvo acompañado por la &#160;presidenta del Centro de Residentes Paraguayos de Esteban Echeverría Emiliano R. Fernández, María Isabel Coronel; y el cónsul de la República del Paraguay en la región de San Justo, Gerardo Koopman.&#160; Durante el acto de apertura, el intendente entregó una ayuda económica que será destinada a realizar refacciones y mejorar las instalaciones del espacio. Además, como parte de las gestiones institucionales para respaldar el desarrollo de las actividades en el predio, se otorgó la escritura de comodato por 30 años a la comisión directiva del centro, asegurando así la estabilidad y continuidad de su espacio de trabajo y encuentro. Del festejo también participaron el secretario de Tierras y Viviendas, Marcelo González; el subsecretario de Abordaje Territorial, Alejandro Moyano; la directora general de Colectividades, María Oliva; y el escribano Marcelo Pérez.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-asistio-al-festejo-por-los-37-anos-del-centro-de-residentes-paraguayos-emiliano-r-fernandez/",
-    "fecha": "2026-11-08",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "fernando-gray-asistio-al-festejo-por-los-37-anos-del-centro-de-residentes-paraguayos-emiliano-r-fernandez"
-  },
-  {
-    "titulo": "CRONOGRAMA DE SERVICIOS DURANTE LOS PRÓXIMOS FERIADOS",
-    "descripcion": "El Municipio de Esteban Echeverría informa el cronograma de servicios públicos durante los feriados de este lunes 9 y miércoles 11 de noviembre, con motivo de la visita del Papa León XIV. El servicio de recolección de residuos funcionará normalmente y el edificio municipal permanecerá cerrado. Servicio de salud Hospital Municipal Santamarina (Gral. Alvear 350, Monte Grande): atención durante las 24 horas a través de guardias, sin turnos programados. Unidad Sanitaria N° 6 (Restelli 1505, 9 de Abril) y Unidad Sanitaria N° 24 (Laprida 2733, El Jagüel): mantendrán las guardias de 24 horas. Unidad Sanitaria N° 3 (Medel y El Ceibo, El Jagüel) y Unidad Sanitaria N° 4 (San Pedrito 416, Monte Grande Sur): funcionarán de 8 a 20 horas. Centro de Atención al Vecino (CAV)Las vecinas y los vecinos podrán comunicarse con el CAV al 0810-999-6800 o, a través de WhatsApp, al 15-5131-6800, de 6 a 22 horas. Cementerio municipalHorario de atención para visitas: de 7 a 18 horas.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/cronograma-de-servicios-durante-los-proximos-feriados-6/",
-    "fecha": "2026-11-08",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "cronograma-de-servicios-durante-los-proximos-feriados"
-  },
-  {
-    "titulo": "FERNANDO GRAY PARTICIPÓ DE LA CELEBRACIÓN DEL 40° ANIVERSARIO DEL CENTRO DE JUBILADOS Y PENSIONADOS 9 DE ABRIL",
-    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, acompañó a personas adultas mayores en el festejo por los 40 años del Centro de Jubilados y Pensionados 9 de Abril.&#160; “Muy contento de estar un año más compartiendo la celebración con tantas personas queridas que asisten a este centro que sin lugar a dudas es fundamental para la vida de las personas adultas mayores de 9 de Abril. Quiero agradecer a las autoridades de esta institución por el trabajo y el esfuerzo que ponen día a día para ofrecer actividades sociales a nuestras adultas y nuestros adultos mayores”, expresó Fernando Gray, quien estuvo acompañado por el presidente del Centro de Jubilados, Carlos Galeano; el vicepresidente, Mateo Ojeda; y la secretaria, Liliana Salba.&#160; Durante la ceremonia, el intendente descubrió una placa conmemorativa a la fecha y entregó una ayuda económica destinada a la compra de baldosas, materiales eléctricos y de construcción, y una bomba centrífuga de agua para la institución. &#160; Actualmente asisten a este centro 70 adultas y adultos mayores que realizan actividades dictadas por el Municipio como taller de Memoria, pintura, folklore, porcelana fría, cocina, canto y corte y confección. Además, la institución es sede de una escuela primaria para adultas y adultos.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-de-la-celebracion-del-40-aniversario-del-centro-de-jubilados-y-pensionados-9-de-abril/",
-    "fecha": "2026-11-07",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "fernando-gray-participo-de-la-celebracion-del-40-aniversario-del-centro-de-jubilados-y-pensionados-9-de-abril"
-  },
-  {
-    "titulo": "ENTREGA DE LENTES DEL PROGRAMA OFTALMOLÓGICO ECHEverRÍA A ESCUELAS PRIMARIAS DE MONTE GRANDE Y EL JAGÜEL",
-    "descripcion": "En el marco del Programa Oftalmológico EcheVERría, el Municipio de Esteban Echeverría junto con la concejal local, Magui Gray, entregaron 243 pares de lentes a estudiantes de dos escuelas primarias. En la Escuela Primaria N° 15 de Monte Grande se entregaron 155 anteojos, mientras que en la Escuela Primaria N° 23 de El Jagüel se distribuyeron otros 88 pares. Anteriormente, profesionales de la salud del Municipio asistieron a dichos establecimientos para realizar controles de agudeza visual y así determinar quiénes necesitaban anteojos. Luego, cada estudiante eligió los marcos de los lentes que hoy se entregaron de forma gratuita en esas escuelas. El Programa Oftalmológico EcheVERría es una política pública local destinada a la detección temprana, diagnóstico y tratamiento de problemas de visión, garantizando el acceso a la salud visual y mejorar la calidad de vida de quienes no pueden acceder a este servicio. En lo que va de 2026, mediante este programa ya se entregaron 1.497 pares de anteojos.",
-    "imagenUrl": null,
-    "urlNoticia": "https://www.estebanecheverria.gob.ar/entrega-de-lentes-del-programa-oftalmologico-echeverria-a-escuelas-primarias-de-monte-grande-y-el-jaguel/",
-    "fecha": "2026-11-07",
-    "volanta": null,
-    "fuente": "esteban-echeverria",
-    "slug": "entrega-de-lentes-del-programa-oftalmologico-echeverria-a-escuelas-primarias-de-monte-grande-y-el-jaguel"
   },
   {
     "titulo": "UN DETENIDO TRAS SER DETECTADO POR EL COM DESCARTANDO UN ARMA EN LA VÍA PÚBLICA",
