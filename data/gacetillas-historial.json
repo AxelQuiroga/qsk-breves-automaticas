@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof encabezó la apertura de Expo Cañuelas 2026",
+    "descripcion": "En ese marco se desarrolla también la Fiesta Provincial del Dulce de Leche, que reúne a más de 40 productores locales",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1000298226.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_expo_ca%C3%B1uelas_2026",
+    "fecha": null,
+    "volanta": "PRODUCCIÓN",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-apertura-de-expo-canuelas-2026"
+  },
+  {
     "titulo": "Se entregaron diplomas a egresados del Curso de Formación de Cuidadores Domiciliarios",
     "descripcion": "El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este jueves el cierre del Curso de Formación de Cuidadores/as Domiciliarios, acto en el que 50 egresados y egresadas recibieron sus diplomas.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AxelKicillofCuidarnos.jpg",
@@ -108,16 +118,6 @@
     "volanta": "LA PLATA",
     "fuente": "gba",
     "slug": "kicillof-participo-de-la-2-edicion-de-la-agenda-ambiental-latinoamericana"
-  },
-  {
-    "titulo": "Kicillof entregó escrituras gratuitas a familias de Rivadavia",
-    "descripcion": "Además el Gobernador otorgó netbooks a estudiantes de nivel secundario en el marco del Programa \"Conectar Igualdad Bonaerense\".",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20RIVADAVIA.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_rivadavia",
-    "fecha": null,
-    "volanta": "RIVADAVIA",
-    "fuente": "gba",
-    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-rivadavia"
   },
   {
     "titulo": "CONOCÉ DÓNDE FUNCIONARÁ LA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "entrega-de-lentes-del-programa-oftalmologico-echeverria-a-escuelas-primarias-de-monte-grande-y-el-jaguel"
+  },
+  {
+    "titulo": "Kicillof entregó escrituras gratuitas a familias de Rivadavia",
+    "descripcion": "Además el Gobernador otorgó netbooks a estudiantes de nivel secundario en el marco del Programa \"Conectar Igualdad Bonaerense\".",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20RIVADAVIA.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_escrituras_gratuitas_familias_de_rivadavia",
+    "fecha": null,
+    "volanta": "RIVADAVIA",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-escrituras-gratuitas-a-familias-de-rivadavia"
   },
   {
     "titulo": "SE VIENE UNA NUEVA EDICIÓN DE LA FERIA DEL LIBRO EN LANÚS",
