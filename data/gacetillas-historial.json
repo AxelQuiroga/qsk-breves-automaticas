@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof anunció una inversión de $3.800 millones para financiar proyectos de investigación científica, tecnológica y social",
+    "descripcion": "Los fondos estarán destinados a impulsar iniciativas estratégicas que respondan a las demandas del sector productivo y social bonaerense.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC2472.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_anunci%C3%B3_una_inversi%C3%B3n_de_3800_millones_para_financiar",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-anuncio-una-inversion-de-3800-millones-para-financiar-proyectos-de-investigacion-cientifica-tecnologica-y-social"
+  },
+  {
     "titulo": "Kicillof encabezó la apertura de Expo Cañuelas 2026",
     "descripcion": "En ese marco se desarrolla también la Fiesta Provincial del Dulce de Leche, que reúne a más de 40 productores locales",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1000298226.jpg",
@@ -110,16 +120,6 @@
     "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
   },
   {
-    "titulo": "Kicillof participó de la 2° edición de la Agenda Ambiental Latinoamericana",
-    "descripcion": "El encuentro se desarrolla durante dos jornadas y reúne a gobiernos locales, provinciales y de distintos países de América Latina.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1536-1024%20%282%29.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_2%C2%B0_edici%C3%B3n_de_la_agenda_ambiental",
-    "fecha": null,
-    "volanta": "LA PLATA",
-    "fuente": "gba",
-    "slug": "kicillof-participo-de-la-2-edicion-de-la-agenda-ambiental-latinoamericana"
-  },
-  {
     "titulo": "CONOCÉ DÓNDE FUNCIONARÁ LA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
     "descripcion": "Lanús Gobierno informa que este viernes 13, sábado 14 y domingo 15 de noviembre se realizará una nueva edición de la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos espacios públicos del distrito, con el objetivo de apoyar la labor de los emprendedores y las emprendedoras locales y acercar opciones de consumo a precios populares.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-13-at-093232-UzXsa.jpeg",
@@ -208,6 +208,16 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "el-operativo-lanus-tu-gobierno-llega-a-monte-chingolo"
+  },
+  {
+    "titulo": "Convocatoria abierta para la Fiesta Nacional del Pan Dulce",
+    "descripcion": null,
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/pan-dulce2026-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/convocatoria-abierta-para-la-fiesta-nacional-del-pan-dulce/",
+    "fecha": "2026-11-16",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "convocatoria-abierta-para-la-fiesta-nacional-del-pan-dulce"
   },
   {
     "titulo": "El Municipio de Avellaneda renovó el convenio con Provincia Microcréditos para fortalecer emprendimientos locales",
@@ -320,14 +330,84 @@
     "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
   },
   {
-    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
-    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
-    "fecha": "2026-10-28",
+    "titulo": "MONTE GRANDE: CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS",
+    "descripcion": "Las cuadrillas de trabajo del Municipio de Esteban Echeverría llevaron adelante tareas de bacheo con asfalto caliente en Monte Grande, en esta ocasión en varios puntos sobre la calle Colón, entre la Av. Enrique Santamarina y Pedro Dreyer. Estas acciones forman parte del mantenimiento general de la red vial urbana de todo el distrito. Las intervenciones se focalizaron en la reparación de sectores con deterioro del pavimento en un tramo de aproximadamente 1.000 metros, mediante la aplicación de asfalto caliente. Este procedimiento consiste en la colocación de mezcla asfáltica a alta temperatura, lo que permite recomponer la superficie de la calzada y garantizar condiciones adecuadas de circulación. Los trabajos se enmarcan en el plan integral de mantenimiento vial que el Municipio ejecuta con financiamiento propio, el cual contempla tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/monte-grande-continuan-los-trabajos-de-bacheo-en-calles-y-avenidas-3/",
+    "fecha": "2026-11-16",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
+    "fuente": "esteban-echeverria",
+    "slug": "monte-grande-continuan-los-trabajos-de-bacheo-en-calles-y-avenidas"
+  },
+  {
+    "titulo": "EL MUNICIPIO REALIZÓ OPERATIVOSDE SEGURIDAD Y CONTROL VEHICULAR EN MONTE GRANDE",
+    "descripcion": "Los equipos de Guardia Urbana y Tránsito local, junto con la Policía bonaerense, llevaron a cabo un operativo de seguridad y control vehicular en las inmediaciones de las plazas Salta y Mitre de Monte Grande. Durante la noche del sábado 14 de noviembre, los efectivos realizaron en ambos puntos controles de alcoholemia y estupefacientes, y verificaron que cada conductor y conductora contara con la documentación obligatoria para circular al día (licencia de conducir, VTV, seguro y cédula). Entre otras tareas, los equipos municipales trabajaron en la concientización sobre el uso del casco y del cinturón de seguridad como herramientas preventivas para garantizar la seguridad vial. Como resultado, se secuestraron cuatro vehículos por infracciones a la Ley Nacional de Tránsito Nº 24.449.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/el-municipio-realizo-operativos-de-seguridad-y-control-vehicular-en-monte-grande-3/",
+    "fecha": "2026-11-15",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "el-municipio-realizo-operativosde-seguridad-y-control-vehicular-en-monte-grande"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DEL FESTEJO POR EL CENTENARIO DE LUIS GUILLÓN",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó del festejo realizado por el 100° aniversario de Luis Guillón en la Plaza 25 de Mayo, ubicada en la intersección de Adolfo E. Negro y Almafuerte. &#8220;Qué emoción tan grande estar hoy acá, en estas calles llenas de historia, de encuentro y de comunidad, para celebrar juntos un momento inolvidable: los primeros 100 años de nuestra querida localidad de Luis Guillón. Quiero agradecer profundamente a cada institución que hoy desfiló, a los artistas locales, a los trabajadores municipales, a todos los que hicieron posible esta fiesta popular y, especialmente, a cada vecina y vecino que mantiene vivo el espíritu solidario de esta ciudad. ¡Feliz centenario, querido Luis Guillón! ¡Vamos por otros 100 años de historia, trabajo y orgullo echeverriense!&#8221;, expresó Fernando Gray, acompañado por Magui Gray; la presidenta del Concejo Deliberante, Valeria Bellizzi; el presidente de la Unión Vecinal Luis Guillón, Horacio Incaugarat; el presidente de la Asociación Amigos de Luis Guillón, Alberto Cejas; y el presidente de la Asociación de Fomento Social y Deportivo Mayo, Atilio Perda. La ceremonia oficial incluyó el descubrimiento de una placa conmemorativa, el cierre y la colocación de una cápsula del tiempo con fotografías y testimonios de la localidad —que volverá a abrirse en el año 2076— y la inauguración de la muestra fotográfica itinerante por el centenario, encabezada junto a la presidenta de la Biblioteca Florentino Ameghino, Andrea Fabiana Barral, y el representante legal del Colegio Vicenta Vidal Bou, Laureano Odoguardi. Posteriormente, la comunidad disfrutó del desfile de 60 entidades locales sobre la calle Adolfo E. Negro, acompañado por chocolatada caliente repartida por el Centro de Veteranos de Guerra de Esteban Echeverría y tortas fritas elaboradas por el Comedor La Ñango.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-del-festejo-por-el-centenario-de-luis-guillon/",
+    "fecha": "2026-11-15",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-del-festejo-por-el-centenario-de-luis-guillon"
+  },
+  {
+    "titulo": "Domingo 15-11-26",
+    "descripcion": null,
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/domingo-15-11-26/",
+    "fecha": "2026-11-15",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "domingo-15-11-26"
+  },
+  {
+    "titulo": "FERNANDO GRAY SE REUNIÓ CON AUTORIDADES DE LA FEDERACIÓN DE FÚTBOL INFANTIL Y JUVENIL DE ESTEBAN ECHEVERRÍA (FeFIJEE)",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, mantuvo un encuentro con las autoridades de la Federación de Fútbol Infantil y Juvenil de Esteban Echeverría (FeFIJEE). Además, entregó los premios a las categorías juveniles 2011 y 2012 de los clubes Inter Futbol Club, Santos Juniors, Club Social y Deportivo los Robles, Sociedad de Fomento el Jagüel, y el Club y Social y Deportivo 5 Estrellas, que se coronaron campeonas durante este año. “Quiero destacar la dedicación y el trabajo que llevan adelante en FeFIJEE para tener una liga de fútbol infantil competitiva y muy organizada. Y, a la vez, felicitar a todos los campeones que, con esfuerzo y dedicación, lograron el objetivo que todos buscan a principio de año”, manifestó Fernando Gray, acompañado por la subsecretaria de Entidades Intermedias, Tamara Crosta; y el presidente de FeFIJEE, Mario Rodríguez. En el encuentro también estuvieron presentes distintas autoridades de FeFIJEE, entre ellas el secretario, Daniel Seder; la tesorera, Libia Acebedo; el protesorero, Arduino Iacovella; el prosecretario, Nicolás Fiatti; el voca, Matías Van Welee; los miembros de comisión directiva Rafael Rodríguez y Carlos Villabalba; y delegados de los clubes campeones. Los equipos que se consagraron, además, fueron premiados con un viaje a Mar del Plata con todos los gastos de viaje, estadía y comida cubiertos.&#160; La FeFIJEE, fundada el 8 de septiembre de 1988, está actualmente conformada por 54 clubes deportivos de Esteban Echeverría, en los que participan alrededor de 5.500 chicos en las categorías infantiles y juveniles.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-se-reunio-con-autoridades-de-la-federacion-de-futbol-infantil-y-juvenil-de-esteban-echeverria-fefijee/",
+    "fecha": "2026-11-14",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-se-reunio-con-autoridades-de-la-federacion-de-futbol-infantil-y-juvenil-de-esteban-echeverria-fefijee"
+  },
+  {
+    "titulo": "AVANZAN LAS TAREAS DE FUMIGACIÓN EN ESTEBAN ECHEVERRÍA",
+    "descripcion": "Los equipos del Municipio de Esteban Echeverría continúan realizando tareas de fumigación en todo el distrito para prevenir la reproducción del mosquito Aedes aegypti, transmisor de enfermedades virales como el dengue. En esta oportunidad, los trabajos se realizaron en los barrios Coca Cola, La Sofía, El Jagüel y Santa María (El Jagüel); y en San Roque, Montecarlo y Cercanías (Monte Grande Sur). Como complemento de estas acciones, se recomienda a la comunidad realizar la limpieza de jardines, eliminar objetos que puedan acumular agua y utilizar repelentes, tanto ambientales como personales. Los operativos son gratuitos y están a cargo de personal autorizado por la comuna. Se recuerda que dicho personal no está facultado para realizar cobros por estos trabajos en la vía pública. Ante cualquier consulta o denuncia, las vecinas y los vecinos pueden comunicarse con el Centro de Atención al Vecino (CAV) llamando al 0810-999-6800, por WhatsApp al 15-5131-6800 (solo para chats) o enviando un correo electrónico a cavee@estebanecheverria.gob.ar.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/avanzan-las-tareas-de-fumigacion-en-esteban-echeverria-34/",
+    "fecha": "2026-11-14",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "avanzan-las-tareas-de-fumigacion-en-esteban-echeverria-4"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DEL FESTEJO POR EL 50° ANIVERSARIO DEL INSTITUTO TÉCNICO DE MONTE GRANDE",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de los festejos por el 50° aniversario del Instituto Técnico de Monte Grande (ITMG), una institución que cuenta con Nivel Secundario Técnico, Nivel Superior-Terciario y Formación Profesional y Oficios. “Es una enorme satisfacción participar de los 50 años de una institución educativa tan emblemática de Esteban Echeverría, que brinda herramientas para que las y los estudiantes puedan acceder a una salida laboral”, señaló Fernando Gray, acompañado por el secretario de Gobierno local, Alejandro Bonomo; la directora de Entidades Intermedias, Micaela Lagrotta; la directora del Instituto Técnico de Monte Grande, Laura Pisano; el representante legal de la institución, Carlos Borodziej; la segunda representante legal, Adelma Gómez; y la ex secretaria del establecimiento y Autoridad Histórica Institucional, Nilda Suárez Redondo. Durante el acto, el jefe comunal entregó una placa conmemorativa a las autoridades de la institución, además del suministro de materiales para la construcción destinados a realizar refacciones en los sanitarios de la Institución. Además, los alumnos descubrieron dos placas con motivo de la imposición de los nombres “Nilda Suárez Redondo” a la Secretaría de la Institución y “Carlos Borodziej” a la Sala de Robótica. Luego, se procedió al sellado de tres cápsulas del tiempo: una se abrirá dentro de 10 años, el 13 de noviembre de 2036; otra, dentro de 25 años, el 13 de noviembre de 2051; y la última, durante el centenario de la institución, el 13 de noviembre de 2076. El Instituto Técnico de Monte Grande fue fundado el 13 de noviembre de 1976. Fue Armando Bidart Jaureguiberry, quien junto con Héctor Caligari, Raúl Cajide, Romano Cresmani, Mario Efraín Flores y Raúl Belardi, entre otros vecinos de la comunidad, comenzaron la construcción de este establecimiento, pensando en un distrito industrial con acceso a la educación. Lo que comenzó como una institución de dos aulas hoy en día cuenta con cerca de 350 estudiantes de educación secundaria y de formación profesional, con diversas propuestas con gran salida laboral.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-del-festejo-por-el-50-aniversario-del-instituto-tecnico-de-monte-grande/",
+    "fecha": "2026-11-13",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-del-festejo-por-el-50-aniversario-del-instituto-tecnico-de-monte-grande"
+  },
+  {
+    "titulo": "Viernes 13-11-26",
+    "descripcion": null,
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/viernes-13-11-26/",
+    "fecha": "2026-11-13",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "viernes-13-11-26"
   },
   {
     "titulo": "CENTENARIO DE LUIS GUILLÓN: GRILLA DE SHOWS Y ACTIVIDADES",
@@ -348,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "monte-grande-sur-vecinas-y-vecinos-accedieron-a-un-nuevo-operativo-de-recarga-de-garrafas"
+  },
+  {
+    "titulo": "Kicillof participó de la 2° edición de la Agenda Ambiental Latinoamericana",
+    "descripcion": "El encuentro se desarrolla durante dos jornadas y reúne a gobiernos locales, provinciales y de distintos países de América Latina.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1536-1024%20%282%29.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_2%C2%B0_edici%C3%B3n_de_la_agenda_ambiental",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-2-edicion-de-la-agenda-ambiental-latinoamericana"
+  },
+  {
+    "titulo": "Magdalena Sierra recibió al Consejo Pastoral Evangélico",
+    "descripcion": "El espacio representa a más de 60 entidades religiosas evangélicas de Avellaneda.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-11.00.11-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recibio-al-consejo-pastoral-evangelico/",
+    "fecha": "2026-10-28",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recibio-al-consejo-pastoral-evangelico"
   },
   {
     "titulo": "EL MUNICIPIO DE ESTEBAN ECHEVERRÍA ENTREGÓ 475 PARES DE LENTES A ESTUDIANTES DE 9 DE ABRIL",
