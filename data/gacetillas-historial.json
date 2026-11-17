@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Kicillof participó de la 5º Jornada de Economía para el Desarrollo de la Provincia",
+    "descripcion": "En ese marco, se entregó el 5° Premio Anual de Investigación Aldo Ferrer, que impulsa proyectos de interés para nutrir políticas públicas bonaerenses.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_229.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_5%C2%BA_jornada_de_econom%C3%ADa_para_el_desarrollo",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-5-jornada-de-economia-para-el-desarrollo-de-la-provincia"
+  },
+  {
+    "titulo": "Kicillof y Alak reinauguraron el Teatro Municipal Coliseo Podestá de La Plata",
+    "descripcion": "El proyecto se llevó a cabo en dos etapas que contemplaron la reparación de cubiertas y techados; trabajos de impermeabilización; la recuperación del lucernario; y reformas en el escenario.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_228.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_alak_reinauguraron_el_teatro_municipal_coliseo_podest%C3%A1_de",
+    "fecha": null,
+    "volanta": "CULTURA",
+    "fuente": "gba",
+    "slug": "kicillof-y-alak-reinauguraron-el-teatro-municipal-coliseo-podesta-de-la-plata"
+  },
+  {
     "titulo": "Kicillof anunció una inversión de $3.800 millones para financiar proyectos de investigación científica, tecnológica y social",
     "descripcion": "Los fondos estarán destinados a impulsar iniciativas estratégicas que respondan a las demandas del sector productivo y social bonaerense.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC2472.jpg",
@@ -98,26 +118,6 @@
     "volanta": "LUJÁN",
     "fuente": "gba",
     "slug": "kicillof-presento-el-operativo-por-la-visita-del-papa-leon-xiv-a-la-provincia-de-buenos-aires"
-  },
-  {
-    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
-    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
-    "fecha": null,
-    "volanta": "UNIVERSIDAD",
-    "fuente": "gba",
-    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
-  },
-  {
-    "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
-    "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_sadir_firmaron_un_acuerdo_de_colaboraci%C3%B3n_entre_las",
-    "fecha": null,
-    "volanta": "JUJUY",
-    "fuente": "gba",
-    "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
   },
   {
     "titulo": "CONOCÉ DÓNDE FUNCIONARÁ LA NUEVA EDICIÓN DE LA FERIA DE ARTESANÍAS",
@@ -328,6 +328,26 @@
     "volanta": null,
     "fuente": "avellaneda",
     "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
+  },
+  {
+    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
+    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
+    "fecha": null,
+    "volanta": "UNIVERSIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
+  },
+  {
+    "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
+    "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_sadir_firmaron_un_acuerdo_de_colaboraci%C3%B3n_entre_las",
+    "fecha": null,
+    "volanta": "JUJUY",
+    "fuente": "gba",
+    "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
   },
   {
     "titulo": "MONTE GRANDE: CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS",
