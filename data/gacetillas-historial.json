@@ -330,24 +330,24 @@
     "slug": "la-intendenta-sierra-visito-el-cottolengo-don-orione-de-avellaneda"
   },
   {
-    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
-    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
-    "fecha": null,
-    "volanta": "UNIVERSIDAD",
-    "fuente": "gba",
-    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
+    "titulo": "SIGUEN LAS TAREAS DE BACHEO EN CANNING",
+    "descripcion": "Como parte del plan integral de mantenimiento vial que se desarrolla en todo el distrito, los equipos municipales realizaron trabajos de bacheo con asfalto caliente sobre la calle Sargento Cabral, entre Lacarra y Antonio González, en la localidad de Canning. Las tareas consistieron en la reparación de sectores deteriorados de la calzada a lo largo de alrededor de 2.500 metros, mediante la aplicación de mezcla asfáltica en caliente. Estas intervenciones se ejecutan con financiamiento propio y contemplan tareas de bacheo, pavimentación, repavimentación y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/siguen-las-tareas-de-bacheo-en-canning/",
+    "fecha": "2026-11-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "siguen-las-tareas-de-bacheo-en-canning"
   },
   {
-    "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
-    "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_sadir_firmaron_un_acuerdo_de_colaboraci%C3%B3n_entre_las",
-    "fecha": null,
-    "volanta": "JUJUY",
-    "fuente": "gba",
-    "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
+    "titulo": "JORNADA EDUCATIVA DE LA SECCIÓN DE CANES DE LA POLICÍA FEDERAL",
+    "descripcion": "El Municipio de Esteban Echeverría acompañó una nueva jornada de la Escuadra Fiel de la Sección Canes del Cuerpo de Policía Montada de la Policía Federal Argentina, realizada en la Casa de las Infancias N° 2 de 9 de Abril. En este encuentro, niñas y niños disfrutaron de una exhibición de habilidades de los perros de seguridad y conocieron el trabajo de adiestramiento que realizan los agentes de la Policía federal Argentina.&#160; Además, se brindó una charla de concientización sobre tenencia responsable de mascotas, con el objetivo de fomentar el cuidado y el compromiso que implica incorporar un animal al hogar. La propuesta fue articulada por la dirección del Hospital Veterinario Municipal para promover, a través de una actividad didáctica y entretenida, la salud y el bienestar animal en el distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/jornada-educativa-de-la-seccion-de-canes-de-la-policia-federal/",
+    "fecha": "2026-11-17",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "jornada-educativa-de-la-seccion-de-canes-de-la-policia-federal"
   },
   {
     "titulo": "MONTE GRANDE: CONTINÚAN LOS TRABAJOS DE BACHEO EN CALLES Y AVENIDAS",
@@ -428,6 +428,26 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "viernes-13-11-26"
+  },
+  {
+    "titulo": "Kicillof encabezó un encuentro con el rector y decanos regionales de la UTN",
+    "descripcion": "El encuentro institucional tiene por objetivo generar un espacio de diálogo e intercambio para fortalecer los vínculos y el trabajo conjunto.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_224.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_un_encuentro_con_el_rector_y_decanos_regionales_de",
+    "fecha": null,
+    "volanta": "UNIVERSIDAD",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-un-encuentro-con-el-rector-y-decanos-regionales-de-la-utn"
+  },
+  {
+    "titulo": "Kicillof y Sadir firmaron un acuerdo de colaboración entre las provincias de Buenos Aires y Jujuy",
+    "descripcion": "Además, el Gobernador se reunió con el intendente de Palpalá para suscribir un convenio y fortalecer políticas públicas conjuntas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_5AB6039.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_sadir_firmaron_un_acuerdo_de_colaboraci%C3%B3n_entre_las",
+    "fecha": null,
+    "volanta": "JUJUY",
+    "fuente": "gba",
+    "slug": "kicillof-y-sadir-firmaron-un-acuerdo-de-colaboracion-entre-las-provincias-de-buenos-aires-y-jujuy"
   },
   {
     "titulo": "CENTENARIO DE LUIS GUILLÓN: GRILLA DE SHOWS Y ACTIVIDADES",
