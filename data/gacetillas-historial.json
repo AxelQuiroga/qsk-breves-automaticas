@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof entregó 55 viviendas a familias de Dock Sud",
+    "descripcion": "Las obras contemplaron también redes de agua, cloacas, tendido eléctrico, gas envasado, luminarias y veredas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB3222%20%282%29ed.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_55_viviendas_familias_de_dock_sud_0",
+    "fecha": null,
+    "volanta": "AVELLANEDA",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-55-viviendas-a-familias-de-dock-sud"
+  },
+  {
     "titulo": "Kicillof participó de la 5º Jornada de Economía para el Desarrollo de la Provincia",
     "descripcion": "En ese marco, se entregó el 5° Premio Anual de Investigación Aldo Ferrer, que impulsa proyectos de interés para nutrir políticas públicas bonaerenses.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_229.jpg",
@@ -110,14 +120,24 @@
     "slug": "kicillof-encabezo-el-cierre-de-la-6-edicion-de-futuro-memoria"
   },
   {
-    "titulo": "Kicillof presentó el operativo por la visita del Papa León XIV a la provincia de Buenos Aires",
-    "descripcion": "El Gobierno provincial desplegará un importante operativo sanitario, de seguridad y asistencia para garantizar el cuidado de los fieles.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_225.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_present%C3%B3_el_operativo_por_la_visita_del_papa_le%C3%B3n_xiv_la",
-    "fecha": null,
-    "volanta": "LUJÁN",
-    "fuente": "gba",
-    "slug": "kicillof-presento-el-operativo-por-la-visita-del-papa-leon-xiv-a-la-provincia-de-buenos-aires"
+    "titulo": "EL PUNTO DE CASTRACIÓN ITINERANTE LLEGA A LANÚS OESTE",
+    "descripcion": "Lanús Gobierno informa que el viernes 20 de noviembre, a partir de las 9 y hasta agotar cupos, se otorgará una nueva tanda de turnos presenciales para acceder al servicio de castración itinerante gratuito de perros y gatos en el Club ATA, ubicado en Catamarca N° 2985, en Lanús Oeste.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-19-at-151526-1S8mw.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4678-el-punto-de-castracion-itinerante-llega-a-lanus-oeste",
+    "fecha": "2026-11-19",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "el-punto-de-castracion-itinerante-llega-a-lanus-oeste"
+  },
+  {
+    "titulo": "SE LLEVARÁ A CABO UNA NUEVA EDICIÓN DEL PASEO AMBIENTAL",
+    "descripcion": "Lanús Gobierno informa que se llevará adelante una nueva edición del Paseo Ambiental durante el sábado 21 y domingo 22 de noviembre en el Parque Ambiental, ubicado en la intersección de las calles Ferré y Almeyra dentro del Parque Central Las Colonias, con el objetivo de generar un espacio recreativo y de concientización para las ciudadanas y los ciudadanos sobre la importancia del cuidado de la biodiversidad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-19-at-104155-sF33u.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4677-se-llevara-a-cabo-una-nueva-edicion-del-paseo-ambiental",
+    "fecha": "2026-11-19",
+    "volanta": "Ambiente",
+    "fuente": "lanus",
+    "slug": "se-llevara-a-cabo-una-nueva-edicion-del-paseo-ambiental"
   },
   {
     "titulo": "SE REALIZARÁ UNA NUEVA JORNADA DEL PROGRAMA “TARDES DE VACUNACIÓN” EN REMEDIOS DE ESCALADA",
@@ -190,24 +210,14 @@
     "slug": "nuevas-jornadas-de-autocuidado-lanus-se-prepara-en-el-distrito"
   },
   {
-    "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno inició una obra de renovación y puesta en valor sobre la ex traza del Ferrocarril Provincial Buenos Aires, entre Ituzaingó y Coronel Lynch en Monte Chingolo, con el objetivo de poner en valor más de 8.000 metros cuadrados de espacio verde para el disfrute de las vecinas y de los vecinos de la zona.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/obras-del-parque-lineal-monte-chingolo-FysPS.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4669-se-expanden-las-obras-del-parque-lineal-monte-chingolo",
-    "fecha": "2026-11-11",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "se-expanden-las-obras-del-parque-lineal-monte-chingolo"
-  },
-  {
-    "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4668-el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo",
-    "fecha": "2026-11-10",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo"
+    "titulo": "Axel Kicillof y Magdalena Sierra entregaron 55 viviendas en Avellaneda",
+    "descripcion": "El Municipio de Avellaneda, en articulación con el Gobierno provincial, garantizó la continuidad de las obras y finalizó proyectos interrumpidos por falta de financiamiento del Gobierno nacional.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-2-1-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/axel-kicillof-y-magdalena-sierra-entregaron-55-viviendas-en-avellaneda/",
+    "fecha": "2026-11-19",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "axel-kicillof-y-magdalena-sierra-entregaron-55-viviendas-en-avellaneda"
   },
   {
     "titulo": "Magdalena Sierra conoció “Avellito”, una propuesta de mascota para la ciudad creada por las y los alumnos de la primaria Nº50",
@@ -320,14 +330,34 @@
     "slug": "productos-economicos-cerca-de-tu-casa"
   },
   {
-    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
-    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
-    "fecha": "2026-10-30",
+    "titulo": "AVANZAN LOS TRABAJOS DE BACHEO EN CANNING",
+    "descripcion": "El Municipio de Esteban Echeverría continúa con las tareas de bacheo en las calles y avenidas de todo el distrito. En esta ocasión, se trabajó a lo largo de aproximadamente 1.000 metros sobre la calle Coronel Vicente Dupuy, entre la Ruta 58 y la calle Suárez, en la localidad de Canning. Los trabajos se ejecutan mediante la aplicación de asfalto caliente, una técnica que consiste en el uso de mezcla asfáltica a alta temperatura para recomponer la superficie de la calzada y asegurar su estabilidad. Estas obras se desarrollan íntegramente con fondos municipales y en el marco de un plan integral de mantenimiento vial, que también incluye trabajos de pavimentación en asfalto y hormigón, repavimentación y sellado de juntas en distintos puntos del partido.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/avanzan-los-trabajos-de-bacheo-en-canning-2/",
+    "fecha": "2026-11-19",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
+    "fuente": "esteban-echeverria",
+    "slug": "avanzan-los-trabajos-de-bacheo-en-canning"
+  },
+  {
+    "titulo": "FERNANDO GRAY PARTICIPÓ DEL 35° ANIVERSARIO DEL CLUB SOCIAL Y DEPORTIVO UNIÓN DE MONTE GRANDE",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, participó de los festejos por el 35° aniversario del Club Social y Deportivo Unión, de Monte Grande, donde junto con las autoridades de la entidad descubrió una placa conmemorativa en homenaje a la trayectoria de esta institución que representa un gran aporte a la vida social y deportiva del distrito. “Es una alegría acompañar este aniversario y reconocer el compromiso diario de quienes sostienen el club. Quiero agradecer a las autoridades, a las familias y a cada vecina y vecino que forma parte de este espacio, porque el deporte y la vida en comunidad son pilares fundamentales que se fortalecen en instituciones como esta”, expresó Fernando Gray, quien estuvo acompañado por la presidenta del Concejo Deliberante, Valeria Bellizzi; y la subsecretaria de Entidades Intermedias, Tamara Crosta. Durante la ceremonia, de la que también fueron parte el presidente del club, Francisco Peñalba; el vicepresidente, Guido Presler; el delegado, Iván Orellana; y la tesorera, Mabel Carballo, el jefe comunal hizo entrega de un subsidio para la compra de materiales de construcción para finalizar los trabajos de cerramiento de las cabeceras del microestadio. Asimismo, se entregaron bandejas de reconocimiento por su labor y trayectoria al integrante de la comisión directiva, Raúl Ernesto Bonetti, y al ex presidente de la entidad, Nelson Ramírez.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-participo-del-35-aniversario-del-club-social-y-deportivo-union-de-monte-grande/",
+    "fecha": "2026-11-18",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-participo-del-35-aniversario-del-club-social-y-deportivo-union-de-monte-grande"
+  },
+  {
+    "titulo": "NUEVO OPERATIVO DE RECARGA DE GARRAFAS EN 9 DE ABRIL",
+    "descripcion": "El Municipio de Esteban Echeverría llevará a cabo un nuevo operativo de recarga de garrafas a precio accesible. Será el jueves 19 de noviembre, de 11 a 12:30 horas, en la plaza Manuel Belgrano, ubicada en Elcano y Santa Magdalena, en el barrio El Manzanar de la localidad de 9 de Abril. Allí, las vecinas y los vecinos tendrán la posibilidad de acceder a la recarga del envase de 10 kg por $25.500, valor que se encuentra por debajo del precio que ofrece el mercado. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad quedará suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/nuevo-operativo-de-recarga-de-garrafas-en-9-de-abril-2/",
+    "fecha": "2026-11-18",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "nuevo-operativo-de-recarga-de-garrafas-en-9-de-abril"
   },
   {
     "titulo": "NUEVA JORNADA DE EVALUACIÓN PARA EL INGRESO 2027 A LA POLICÍA BONAERENSE",
@@ -398,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "domingo-15-11-26"
+  },
+  {
+    "titulo": "Kicillof presentó el operativo por la visita del Papa León XIV a la provincia de Buenos Aires",
+    "descripcion": "El Gobierno provincial desplegará un importante operativo sanitario, de seguridad y asistencia para garantizar el cuidado de los fieles.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof_225.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_present%C3%B3_el_operativo_por_la_visita_del_papa_le%C3%B3n_xiv_la",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-presento-el-operativo-por-la-visita-del-papa-leon-xiv-a-la-provincia-de-buenos-aires"
+  },
+  {
+    "titulo": "SE EXPANDEN LAS OBRAS DEL PARQUE LINEAL MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno inició una obra de renovación y puesta en valor sobre la ex traza del Ferrocarril Provincial Buenos Aires, entre Ituzaingó y Coronel Lynch en Monte Chingolo, con el objetivo de poner en valor más de 8.000 metros cuadrados de espacio verde para el disfrute de las vecinas y de los vecinos de la zona.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/obras-del-parque-lineal-monte-chingolo-FysPS.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4669-se-expanden-las-obras-del-parque-lineal-monte-chingolo",
+    "fecha": "2026-11-11",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "se-expanden-las-obras-del-parque-lineal-monte-chingolo"
+  },
+  {
+    "titulo": "EL PROGRAMA “TARDES DE VACUNACIÓN” SE HARÁ NUEVAMENTE EN MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno informa que este viernes 13 de noviembre, de 17 a 20, se realizará otra jornada del programa “Tardes de Vacunación” en el Parque Municipal General Belgrano, ubicado en la avenida Tte. General Donato Álvarez N° 4468, en Monte Chingolo.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-10-at-185234-SzWnE.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4668-el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo",
+    "fecha": "2026-11-10",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "el-programa-tardes-de-vacunacion-se-hara-nuevamente-en-monte-chingolo"
+  },
+  {
+    "titulo": "En el Vivero Municipal, instituciones de Avellaneda recibieron plantines de estación, en el marco del Programa Huerta Urbana Bonaerense",
+    "descripcion": "La iniciativa buscar fomentar la producción local de alimentos, a través de huertas, propiciando prácticas agroecológicas y mejorando la seguridad alimentaria.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-13.44.05-350x240.jpeg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense/",
+    "fecha": "2026-10-30",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "en-el-vivero-municipal-instituciones-de-avellaneda-recibieron-plantines-de-estacion-en-el-marco-del-programa-huerta-urbana-bonaerense"
   },
   {
     "titulo": "FERNANDO GRAY SE REUNIÓ CON AUTORIDADES DE LA FEDERACIÓN DE FÚTBOL INFANTIL Y JUVENIL DE ESTEBAN ECHEVERRÍA (FeFIJEE)",
