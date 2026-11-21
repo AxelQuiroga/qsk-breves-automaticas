@@ -120,6 +120,16 @@
     "slug": "kicillof-entrego-viviendas-a-familias-de-san-pedro"
   },
   {
+    "titulo": "JULIÁN ÁLVAREZ SUPERVISÓ LAS OBRAS DE PAVIMENTO QUE SE REALIZARON EN MONTE CHINGOLO",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, recorrió las obras de pavimento que se ejecutaron a través de la Planta Asfáltica Municipal en Margarita Weild entre Monasterio y San Carlos, en la localidad de Monte Chingolo, con el objetivo de mejorar la circulación peatonal, vehicular y la calidad de vida de los vecinos y de las vecinas.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo-1-zDqHb.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4682-julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo",
+    "fecha": "2026-11-20",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo"
+  },
+  {
     "titulo": "CONTINÚA EL DESARROLLO DE LAS JORNADAS DE AUTOCUIDADO \"LANÚS SE PREPARA\"",
     "descripcion": "Lanús Gobierno llevará adelante nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de brindar herramientas y conocimientos a las y los vecinos para prevenir situaciones de riesgo y actuar ante posibles emergencias.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-50304-pm-r3K2i.jpeg",
@@ -198,16 +208,6 @@
     "volanta": null,
     "fuente": "lanus",
     "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
-  },
-  {
-    "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
-    "descripcion": "Lanús Gobierno informa que el sábado 14 de noviembre, de 10 a 14, se llevará adelante una nueva jornada del operativo “Sábados de Salud en el Barrio” en la plaza Hebe de Bonafini, situada en la avenida Donato Álvarez N° 4789, en Monte Chingolo. La propuesta permitirá que las vecinas y los vecinos accedan a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-101028-UQxl2.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4673-llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo",
-    "fecha": "2026-11-12",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo"
   },
   {
     "titulo": "Entrega de certificados en el cierre de la capacitación sobre el Protocolo de Actuación ante Derechos Vulnerados",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "monte-grande-continuan-los-trabajos-de-bacheo-en-calles-y-avenidas"
+  },
+  {
+    "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
+    "descripcion": "Lanús Gobierno informa que el sábado 14 de noviembre, de 10 a 14, se llevará adelante una nueva jornada del operativo “Sábados de Salud en el Barrio” en la plaza Hebe de Bonafini, situada en la avenida Donato Álvarez N° 4789, en Monte Chingolo. La propuesta permitirá que las vecinas y los vecinos accedan a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-101028-UQxl2.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4673-llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo",
+    "fecha": "2026-11-12",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-monte-chingolo"
   },
   {
     "titulo": "Kicillof entregó 55 viviendas a familias de Dock Sud",
