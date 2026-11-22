@@ -120,6 +120,16 @@
     "slug": "kicillof-entrego-viviendas-a-familias-de-san-pedro"
   },
   {
+    "titulo": "SE LLEVA ADELANTE UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
+    "descripcion": "Lanús Gobierno informa que el lunes 23, miércoles 25 y viernes 27 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo continuará en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.En cada jornada, las vecinas y los vecinos podrán recorrer los distintos puestos y conocer una variada oferta de productos artesanales, elaboraciones y artículos de diferentes rubros a precios populares.Esta iniciativa busca promover el consumo de cercanía, fortalecer los espacios de comercialización directa y brindar nuevas oportunidades a los productores y las productoras locales, quienes contribuyen al desarrollo de la economía social.De esta manera, el Paseo de Compras 25 de Mayo ofrece una alternativa de compra accesible para la comunidad y es un lugar que permite visibilizar el trabajo de los emprendedores y las emprendedoras de la ciudad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-21-at-45238-pm-8uW1e.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4683-se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
+    "fecha": "2026-11-21",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo"
+  },
+  {
     "titulo": "JULIÁN ÁLVAREZ SUPERVISÓ LAS OBRAS DE PAVIMENTO QUE SE REALIZARON EN MONTE CHINGOLO",
     "descripcion": "El intendente de Lanús, Julián Álvarez, recorrió las obras de pavimento que se ejecutaron a través de la Planta Asfáltica Municipal en Margarita Weild entre Monasterio y San Carlos, en la localidad de Monte Chingolo, con el objetivo de mejorar la circulación peatonal, vehicular y la calidad de vida de los vecinos y de las vecinas.",
     "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo-1-zDqHb.jpeg",
@@ -198,16 +208,6 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "conoce-donde-funcionara-la-nueva-edicion-de-la-feria-de-artesanias"
-  },
-  {
-    "titulo": "SE REALIZARÁN NUEVAS EDICIONES DE LA FERIA DE LA ECONOMÍA SOCIAL “HECHO EN LANÚS”",
-    "descripcion": "Lanús Gobierno informa que el sábado 14 y domingo 15 de noviembre, de 15 a 19, se desarrollarán nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas ubicadas en Lanús Este.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-151004-O3Ow7.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4674-se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus",
-    "fecha": "2026-11-12",
-    "volanta": null,
-    "fuente": "lanus",
-    "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
   },
   {
     "titulo": "Entrega de certificados en el cierre de la capacitación sobre el Protocolo de Actuación ante Derechos Vulnerados",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "monte-grande-continuan-los-trabajos-de-bacheo-en-calles-y-avenidas"
+  },
+  {
+    "titulo": "SE REALIZARÁN NUEVAS EDICIONES DE LA FERIA DE LA ECONOMÍA SOCIAL “HECHO EN LANÚS”",
+    "descripcion": "Lanús Gobierno informa que el sábado 14 y domingo 15 de noviembre, de 15 a 19, se desarrollarán nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas ubicadas en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-12-at-151004-O3Ow7.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4674-se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus",
+    "fecha": "2026-11-12",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-realizaran-nuevas-ediciones-de-la-feria-de-la-economia-social-hecho-en-lanus"
   },
   {
     "titulo": "LLEGA UN NUEVO OPERATIVO DE \"SÁBADOS DE SALUD EN EL BARRIO\" A MONTE CHINGOLO",
