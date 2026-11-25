@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Kicillof inauguró el nuevo Parque Solar de Pehuen Có",
+    "descripcion": "Además, el Gobernador puso en funcionamiento un SUM de la comunidad para el desarrollo de talleres y actividades culturales.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_AK%20PANEL%20SOLAR.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_inaugur%C3%B3_el_nuevo_parque_solar_de_pehuen_c%C3%B3",
+    "fecha": null,
+    "volanta": "CORONEL ROSALES",
+    "fuente": "gba",
+    "slug": "kicillof-inauguro-el-nuevo-parque-solar-de-pehuen-co"
+  },
+  {
+    "titulo": "Kicillof anunció la obra de profundización del calado del estuario de Bahía Blanca",
+    "descripcion": "Los trabajos permitirán la carga completa de buques petroleros y mejorarán las condiciones de navegación hacia los puertos.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_1AB9673.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_anunci%C3%B3_la_obra_de_profundizaci%C3%B3n_del_calado_del_estuario",
+    "fecha": null,
+    "volanta": "INFRAESTRUCTURA",
+    "fuente": "gba",
+    "slug": "kicillof-anuncio-la-obra-de-profundizacion-del-calado-del-estuario-de-bahia-blanca"
+  },
+  {
     "titulo": "La Provincia presentó el portal Servicio Bonaerense de Empleo",
     "descripcion": "El acto fue encabezado por el gobernador Axel Kicillof y el ministro de Trabajo Walter Correa. La plataforma vincula a personas que buscan empleo con oportunidades laborales, y ofrece formación y capacitación gratuita.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DAE3039.JPG",
@@ -100,24 +120,34 @@
     "slug": "kicillof-participo-de-la-santa-misa-brindada-por-el-papa-leon-xiv-en-lujan"
   },
   {
-    "titulo": "Kicillof recorrió el operativo desplegado en Luján por la visita del papa León XIV",
-    "descripcion": "Participarán más de 1.200 trabajadores de salud, 12.000 efectivos de fuerzas de seguridad y más de 10.000 voluntarios capacitados.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof%20previa%20a%20la%20visita%20del%20Papa%20Le%C3%B3n.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_el_operativo_desplegado_en_luj%C3%A1n_por_la_visita_del",
-    "fecha": null,
-    "volanta": "LUJÁN",
-    "fuente": "gba",
-    "slug": "kicillof-recorrio-el-operativo-desplegado-en-lujan-por-la-visita-del-papa-leon-xiv"
+    "titulo": "CONTINÚA EL AVANCE DEL PLAN DE PAVIMENTACIÓN EN VALENTÍN ALSINA",
+    "descripcion": "Lanús Gobierno sigue con la ejecución del Plan de Pavimentación 2024- 2027 en diferentes barrios del distrito, con financiamiento 100% municipal, cuyo propósito es mejorar la circulación vehicular y peatonal, la seguridad vial y la calidad de vida de las y los lanusenses.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/continua-el-avance-del-plan-de-pavimentacion-en-valentin-alsina-1-Vl3cq.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4691-continua-el-avance-del-plan-de-pavimentacion-en-valentin-alsina",
+    "fecha": "2026-11-25",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "continua-el-avance-del-plan-de-pavimentacion-en-valentin-alsina"
   },
   {
-    "titulo": "Kicillof recibió al papa León XIV en el Pequeño Cottolengo Don Orione",
-    "descripcion": "Durante la visita, el santo Padre recorrió el santuario y la parroquia, conversó con los huéspedes y saludó al personal que los asiste.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261109-WA0014.jpg.jpeg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recibi%C3%B3_al_papa_le%C3%B3n_xiv_en_el_peque%C3%B1o_cottolengo_don",
-    "fecha": null,
-    "volanta": "CLAYPOLE",
-    "fuente": "gba",
-    "slug": "kicillof-recibio-al-papa-leon-xiv-en-el-pequeno-cottolengo-don-orione"
+    "titulo": "LLEGA UN NUEVO OPERATIVO DE “SÁBADOS DE SALUD EN EL BARRIO” A LANÚS ESTE",
+    "descripcion": "Lanús Gobierno realizará este sábado 28 de noviembre, de 10 a 14, otra jornada del operativo “Sábados de Salud en el Barrio” en la intersección de la avenida 9 de Julio y 29 de Septiembre, en Lanús Este, con el objetivo de facilitar el acceso de las ciudadanas y los ciudadanos al sistema de salud municipal.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-25-at-34726-pm-jfdAR.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4689-llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-lanus-este",
+    "fecha": "2026-11-25",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-lanus-este"
+  },
+  {
+    "titulo": "SE REALIZARÁ EL FESTIVAL “ESTE ES MI BARRIO” POR EL 211° ANIVERSARIO DE MONTE CHINGOLO CON EL CIERRE ESTELAR DE WALTER ENCINA",
+    "descripcion": "Lanús Gobierno invita a los vecinos y a las vecinas a participar de una nueva edición del festival “Este es mi Barrio” por el 211° aniversario de Monte Chingolo este sábado 28 de noviembre, desde las 13 en el Parque Lineal situado en Pitágoras N° 4500, donde habrá shows musicales en vivo, propuestas gastronómicas y diversas actividades para disfrutar en familia.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-25-at-123356-DtwCo.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4688-se-realizara-el-festival-este-es-mi-barrio-por-el-2110-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina",
+    "fecha": "2026-11-25",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "se-realizara-el-festival-este-es-mi-barrio-por-el-211-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina"
   },
   {
     "titulo": "COMENZARON LAS OBRAS DE PUESTA EN VALOR DEL BOULEVARD DE LA AVENIDA RIVADAVIA",
@@ -180,34 +210,14 @@
     "slug": "julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo"
   },
   {
-    "titulo": "CONTINÚA EL DESARROLLO DE LAS JORNADAS DE AUTOCUIDADO \"LANÚS SE PREPARA\"",
-    "descripcion": "Lanús Gobierno llevará adelante nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de brindar herramientas y conocimientos a las y los vecinos para prevenir situaciones de riesgo y actuar ante posibles emergencias.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-50304-pm-r3K2i.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4681-continua-el-desarrollo-de-las-jornadas-de-autocuidado-lanus-se-prepara",
-    "fecha": "2026-11-20",
-    "volanta": "Espacios y Servicios Públicos",
-    "fuente": "lanus",
-    "slug": "continua-el-desarrollo-de-las-jornadas-de-autocuidado-lanus-se-prepara"
-  },
-  {
-    "titulo": "FERIA DE ARTESANÍAS: CONOCÉ EN QUÉ PLAZAS Y PARQUES FUNCIONARÁ LA NUEVA EDICIÓN",
-    "descripcion": "Lanús Gobierno informa que este viernes 20, sábado 21 y domingo 22 de noviembre se desarrolla la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes espacios públicos del distrito, con el objetivo de promover la labor de los emprendedores y las emprendedoras locales y acercar alternativas de consumo a precios populares.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-34944-pm-hYH8j.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4680-feria-de-artesanias-conoce-en-que-plazas-y-parques-funcionara-la-nueva-edicion",
-    "fecha": "2026-11-20",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "feria-de-artesanias-conoce-en-que-plazas-y-parques-funcionara-la-nueva-edicion"
-  },
-  {
-    "titulo": "SE DESARROLLARÁ UNA NUEVA EDICIÓN DEL OPERATIVO “SÁBADOS DE SALUD EN EL BARRIO” EN LANÚS OESTE",
-    "descripcion": "Lanús Gobierno realizará una nueva jornada del operativo “Sábados de Salud en el Barrio” el sábado 21 de noviembre, de 10 a 14 en la plaza del Futuro, ubicada en la calle José María Moreno y Pasaje Aguirre, en Lanús Oeste, con la finalidad de que las vecinas y los vecinos puedan acceder a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-105959-gdWcH.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4679-se-desarrollara-una-nueva-edicion-del-operativo-sabados-de-salud-en-el-barrio-en-lanus-oeste",
-    "fecha": "2026-11-20",
-    "volanta": "Salud",
-    "fuente": "lanus",
-    "slug": "se-desarrollara-una-nueva-edicion-del-operativo-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+    "titulo": "Avellaneda lanzó una licitación pública para incorporar cámaras corporales portátiles para su Policía Municipal",
+    "descripcion": "Los dispositivos formarán parte del equipamiento de la nueva fuerza de seguridad que lleva adelante la gestión de la intendenta Magdalena Sierra.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-6-1-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-lanzo-una-licitacion-publica-para-incorporar-camaras-corporales-portatiles-para-su-policia-municipal/",
+    "fecha": "2026-11-25",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-lanzo-una-licitacion-publica-para-incorporar-camaras-corporales-portatiles-para-su-policia-municipal"
   },
   {
     "titulo": "Magdalena Sierra lanzó el Plan de Viviendas “Tu casa, tu futuro” en Avellaneda",
@@ -320,14 +330,24 @@
     "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
   },
   {
-    "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
-    "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad/",
-    "fecha": "2026-11-04",
+    "titulo": "LUIS GUILLÓN: NUEVO OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE",
+    "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas. Será este jueves 26 de noviembre, de 11 a 12:30 horas, en la Plaza Colonia Monte Grande, ubicada en Colonia Monte Grande y Zuviría, en el barrio Parish Robertson de Luis Guillón. Durante el operativo, las vecinas y los vecinos podrán acceder a la recarga del envase de 10 kilogramos a $25.500, un valor inferior al registrado en comercios del mercado local. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/luis-guillon-nuevo-operativo-de-recarga-de-garrafas-a-precio-accesible-3/",
+    "fecha": "2026-11-25",
     "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
+    "fuente": "esteban-echeverria",
+    "slug": "luis-guillon-nuevo-operativo-de-recarga-de-garrafas-a-precio-accesible-2"
+  },
+  {
+    "titulo": "FERNANDO GRAY ENTREGÓ EL DECRETO DE PROMOCIÓN INDUSTRIAL A LA EMPRESA FELRRO S.R.L. DE MONTE GRANDE",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, entregó el decreto de promoción industrial a las autoridades de FELRRO S.R.L., en el marco del programa Invertí en Esteban Echeverría. La empresa funciona en la localidad de Monte Grande y se encarga de la fabricación de cables eléctricos comunes y especiales. “Seguimos incorporando empresas al programa Invertí en Esteban Echeverría, con el objetivo de fomentar el crecimiento industrial de nuestro distrito y promover la generación de más puestos de trabajo”, expresó Fernando Gray, quien estuvo acompañado por el dueño de Felrro y su esposa, Fernando Pérez y Catalina Trunzo; la gerente de Administración y Finanzas, Marianela Pérez; la asistente de Gerencia, María Acosta; la directora de Desarrollo Productivo local, Julia Galizzi, y la directora de Relaciones con la Comunidad local, Natalia Rama. FELRRO S.R.L. comenzó a funcionar hace 42 años y es una empresa pionera en el país en el desarrollo y fabricación de conductores eléctricos comunes y especiales. Cuenta con maquinarias de alta tecnología y profesionales que se encargan de generar productos de la máxima calidad para abastecer al mercado argentino y al internacional. Actualmente, la empresa se encuentra trabajando en una ampliación y readecuación de las instalaciones edilicias, y se prevé la incorporación y reorganización de distintos sectores productivos y de servicios. Al día de hoy, la fábrica cuenta con un total de 96 empleadas y empleados, y a partir de su incorporación al programa de promoción industrial asume el compromiso de sumar a cerca de 20 personas a su personal. El programa municipal “Invertí en Esteban Echeverría” otorga beneficios exclusivos —como la eximición del 100% en las tasas municipales por diez años— a las firmas que se radiquen en el distrito y a las que ya operan aquí y buscan expandir sus instalaciones, siempre que generen nuevos puestos de trabajo. La medida también alcanza a las compañías que desarrollen plantas industriales como galpones y naves destinadas a la instalación de nuevos centros operativos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-entrego-el-decreto-de-promocion-industrial-a-la-empresa-felrro-s-r-l-de-monte-grande/",
+    "fecha": "2026-11-24",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-entrego-el-decreto-de-promocion-industrial-a-la-empresa-felrro-srl-de-monte-grande"
   },
   {
     "titulo": "DOS DETENIDOS POR EL ROBO DE UN AUTOMÓVIL EN EL JAGÜEL",
@@ -338,6 +358,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "dos-detenidos-por-el-robo-de-un-automovil-en-el-jaguel"
+  },
+  {
+    "titulo": "ACOMPAÑAMIENTO DEL DISTRITO A LA TAEKWONDISTA ANA VICTORIA BENÍTEZ VERGARA",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, se reunió con la deportista Ana Victoria Benítez Vergara, oriunda de 9 de Abril, quien competirá en los II Juegos Mundiales de Taekwondo ITF. “Es muy importante acompañar y apoyar a nuestros y nuestras deportistas para que puedan seguir desarrollando sus habilidades y llevar en alto la bandera del distrito”, expresó Fernando Gray, quien estuvo acompañado por el subsecretario de Deportes, Hernán Clemente. El torneo de Taekwondo se llevará a cabo en Punta del Este, Uruguay, del 26 al 29 de noviembre. De esta forma, el Municipio acompaña a Ana Victoria en su desarrollo deportivo y promueve la participación de deportistas locales en competencias nacionales e internacionales, generando más oportunidades para su crecimiento.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/acompanamiento-del-distrito-a-la-taekwondista-ana-victoria-benitez-vergara/",
+    "fecha": "2026-11-24",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "acompanamiento-del-distrito-a-la-taekwondista-ana-victoria-benitez-vergara"
   },
   {
     "titulo": "NUEVOS TRABAJOS DE BACHEO EN MONTE GRANDE",
@@ -398,6 +428,66 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "avanzan-las-tareas-de-fumigacion-en-esteban-echeverria-5"
+  },
+  {
+    "titulo": "Kicillof recorrió el operativo desplegado en Luján por la visita del papa León XIV",
+    "descripcion": "Participarán más de 1.200 trabajadores de salud, 12.000 efectivos de fuerzas de seguridad y más de 10.000 voluntarios capacitados.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Axel%20Kicillof%20previa%20a%20la%20visita%20del%20Papa%20Le%C3%B3n.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recorri%C3%B3_el_operativo_desplegado_en_luj%C3%A1n_por_la_visita_del",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-recorrio-el-operativo-desplegado-en-lujan-por-la-visita-del-papa-leon-xiv"
+  },
+  {
+    "titulo": "Kicillof recibió al papa León XIV en el Pequeño Cottolengo Don Orione",
+    "descripcion": "Durante la visita, el santo Padre recorrió el santuario y la parroquia, conversó con los huéspedes y saludó al personal que los asiste.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/IMG-20261109-WA0014.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_recibi%C3%B3_al_papa_le%C3%B3n_xiv_en_el_peque%C3%B1o_cottolengo_don",
+    "fecha": null,
+    "volanta": "CLAYPOLE",
+    "fuente": "gba",
+    "slug": "kicillof-recibio-al-papa-leon-xiv-en-el-pequeno-cottolengo-don-orione"
+  },
+  {
+    "titulo": "CONTINÚA EL DESARROLLO DE LAS JORNADAS DE AUTOCUIDADO \"LANÚS SE PREPARA\"",
+    "descripcion": "Lanús Gobierno llevará adelante nuevas Jornadas de Autocuidado bajo el lema “Lanús se prepara para afrontar riesgos climatológicos”, con el objetivo de brindar herramientas y conocimientos a las y los vecinos para prevenir situaciones de riesgo y actuar ante posibles emergencias.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-50304-pm-r3K2i.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4681-continua-el-desarrollo-de-las-jornadas-de-autocuidado-lanus-se-prepara",
+    "fecha": "2026-11-20",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "continua-el-desarrollo-de-las-jornadas-de-autocuidado-lanus-se-prepara"
+  },
+  {
+    "titulo": "FERIA DE ARTESANÍAS: CONOCÉ EN QUÉ PLAZAS Y PARQUES FUNCIONARÁ LA NUEVA EDICIÓN",
+    "descripcion": "Lanús Gobierno informa que este viernes 20, sábado 21 y domingo 22 de noviembre se desarrolla la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en diferentes espacios públicos del distrito, con el objetivo de promover la labor de los emprendedores y las emprendedoras locales y acercar alternativas de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-34944-pm-hYH8j.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4680-feria-de-artesanias-conoce-en-que-plazas-y-parques-funcionara-la-nueva-edicion",
+    "fecha": "2026-11-20",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "feria-de-artesanias-conoce-en-que-plazas-y-parques-funcionara-la-nueva-edicion"
+  },
+  {
+    "titulo": "SE DESARROLLARÁ UNA NUEVA EDICIÓN DEL OPERATIVO “SÁBADOS DE SALUD EN EL BARRIO” EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno realizará una nueva jornada del operativo “Sábados de Salud en el Barrio” el sábado 21 de noviembre, de 10 a 14 en la plaza del Futuro, ubicada en la calle José María Moreno y Pasaje Aguirre, en Lanús Oeste, con la finalidad de que las vecinas y los vecinos puedan acceder a diferentes prestaciones gratuitas vinculadas a la prevención, atención y promoción de la salud.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-20-at-105959-gdWcH.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4679-se-desarrollara-una-nueva-edicion-del-operativo-sabados-de-salud-en-el-barrio-en-lanus-oeste",
+    "fecha": "2026-11-20",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-desarrollara-una-nueva-edicion-del-operativo-sabados-de-salud-en-el-barrio-en-lanus-oeste"
+  },
+  {
+    "titulo": "Avellaneda incorporó Inteligencia Artificial al monitoreo de cámaras de seguridad",
+    "descripcion": "La gestión de la intendenta Magdalena Sierra suma esta nueva herramienta para fortalecer la prevención en materia de seguridad en nuestra ciudad.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-7-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad/",
+    "fecha": "2026-11-04",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
   },
   {
     "titulo": "OPERATIVOS DE SEGURIDAD Y CONTROL VEHICULAR EN PLAZAS DE MONTE GRANDE Y 9 DE ABRIL",
