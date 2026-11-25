@@ -210,6 +210,16 @@
     "slug": "se-desarrollara-una-nueva-edicion-del-operativo-sabados-de-salud-en-el-barrio-en-lanus-oeste"
   },
   {
+    "titulo": "Magdalena Sierra lanzó el Plan de Viviendas “Tu casa, tu futuro” en Avellaneda",
+    "descripcion": "Desde hoy está abierta la inscripción para acceder a 326 viviendas ubicadas en cuatro desarrollos habitacionales de la ciudad. Además, la Intendenta anunció la construcción de otras 390 con recursos municipales.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-4-1-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-lanzo-el-plan-de-viviendas-tu-casa-tu-futuro-en-avellaneda/",
+    "fecha": "2026-11-24",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-lanzo-el-plan-de-viviendas-tu-casa-tu-futuro-en-avellaneda"
+  },
+  {
     "titulo": "Comenzó la entrega de medallas y diplomas a las y los egresados de los jardines de infantes municipales",
     "descripcion": "La jefa comunal participó de las ceremonias junto a las familias y las comunidades educativas.",
     "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-2-3-350x240.jpg",
@@ -320,16 +330,6 @@
     "slug": "avellaneda-incorporo-inteligencia-artificial-al-monitoreo-de-camaras-de-seguridad"
   },
   {
-    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
-    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
-    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
-    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
-    "fecha": "2026-11-03",
-    "volanta": null,
-    "fuente": "avellaneda",
-    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
-  },
-  {
     "titulo": "DOS DETENIDOS POR EL ROBO DE UN AUTOMÓVIL EN EL JAGÜEL",
     "descripcion": "Con el apoyo de las imágenes aportadas por las cámaras de seguridad del Centro Operativo de Monitoreo (COM), personal de la Policía bonaerense detuvo a dos hombres que le habían robado el auto a una mujer en El Jagüel. Tras la denuncia al 911 realizada por la dueña del vehículo, quien indicó que tres hombres armados le sustrajeron su Ford Ecosport color negro en Evita y Saavedra, en El Jagüel, se realizó un seguimiento a través de las cámaras de seguridad del COM. Además, un transeúnte le informó a la Guardia Urbana que dos hombres dejaron abandonado un auto de similares características en la intersección de las calles Tandil y Alejo Ortega, en Monte Grande. Tras el relevamiento de las imágenes obtenidas y las tareas de campo correspondientes, se libró una orden de allanamiento a una vivienda ubicada en El Jagüel, en la que fueron aprehendidos dos hermanos, ambos mayores de edad y uno con pedido de captura activo, los cuales habrían cometido el ilícito. En tanto, un tercero es buscado intensamente por los efectivos policiales.&#160; Como resultado del allanamiento, se secuestró un revólver marca Doberman calibre 22 largo, no apto para el disparo, una réplica de escopeta recortada y varias prendas de vestir utilizadas para cometer el hecho. Los sospechosos quedaron detenidos en la Comisaría 5ª de El Jagüel y a disposición de la UFIJ 1 y la UFIJ 4 de Esteban Echeverría.&#160; El Centro Operativo de Monitoreo cuenta actualmente con 1.783 cámaras fijas y domos de 360 grados en funcionamiento durante las 24 horas. Este sistema de prevención se complementa con paradas seguras, tótems de emergencia y el Anillo Digital de Seguridad, que incorpora lectoras de patentes para detectar vehículos con pedido de secuestro o denuncia de robo.",
     "imagenUrl": null,
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "cronograma-de-servicios-durante-el-proximo-feriado"
+  },
+  {
+    "titulo": "Magdalena Sierra recorrió la “Expo Escuelas Técnicas 2026”",
+    "descripcion": "Se desarrolló en el Parque La Estación, con entrada libre y gratuita.",
+    "imagenUrl": "https://www.mda.gob.ar/wp-content/uploads/2026/11/Proyecto-nuevo-350x240.jpg",
+    "urlNoticia": "https://www.mda.gob.ar/noticias/magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026/",
+    "fecha": "2026-11-03",
+    "volanta": null,
+    "fuente": "avellaneda",
+    "slug": "magdalena-sierra-recorrio-la-expo-escuelas-tecnicas-2026"
   },
   {
     "titulo": "Kicillof entregó viviendas a familias de San Pedro",
