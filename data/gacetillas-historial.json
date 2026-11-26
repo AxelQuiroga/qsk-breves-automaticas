@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof entregó 120 viviendas a familias de Tres Arroyos",
+    "descripcion": "Además, el Gobernador inauguró un nuevo SUM de la Comunidad y otorgó netbooks a estudiantes secundarios del distrito.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20VIVIENDA.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_entreg%C3%B3_120_viviendas_familias_de_tres_arroyos",
+    "fecha": null,
+    "volanta": "HÁBITAT",
+    "fuente": "gba",
+    "slug": "kicillof-entrego-120-viviendas-a-familias-de-tres-arroyos"
+  },
+  {
     "titulo": "Kicillof inauguró el nuevo Parque Solar de Pehuen Có",
     "descripcion": "Además, el Gobernador puso en funcionamiento un SUM de la comunidad para el desarrollo de talleres y actividades culturales.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_AK%20PANEL%20SOLAR.jpg",
@@ -108,16 +118,6 @@
     "volanta": "LA PLATA",
     "fuente": "gba",
     "slug": "se-entregaron-diplomas-a-egresados-del-curso-de-formacion-de-cuidadores-domiciliarios"
-  },
-  {
-    "titulo": "Kicillof participó de la Santa Misa brindada por el papa León XIV en Luján",
-    "descripcion": "Fue en la Plaza Belgrano, frente a la Basílica, ante más de dos millones de personas.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/cf33717b385b4dc18d72c30c4674364a.jpg.jpeg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_santa_misa_brindada_por_el_papa_le%C3%B3n_xiv_en",
-    "fecha": null,
-    "volanta": "LUJÁN",
-    "fuente": "gba",
-    "slug": "kicillof-participo-de-la-santa-misa-brindada-por-el-papa-leon-xiv-en-lujan"
   },
   {
     "titulo": "CONTINÚA EL AVANCE DEL PLAN DE PAVIMENTACIÓN EN VALENTÍN ALSINA",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "avanzan-las-tareas-de-fumigacion-en-esteban-echeverria-5"
+  },
+  {
+    "titulo": "Kicillof participó de la Santa Misa brindada por el papa León XIV en Luján",
+    "descripcion": "Fue en la Plaza Belgrano, frente a la Basílica, ante más de dos millones de personas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/cf33717b385b4dc18d72c30c4674364a.jpg.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_particip%C3%B3_de_la_santa_misa_brindada_por_el_papa_le%C3%B3n_xiv_en",
+    "fecha": null,
+    "volanta": "LUJÁN",
+    "fuente": "gba",
+    "slug": "kicillof-participo-de-la-santa-misa-brindada-por-el-papa-leon-xiv-en-lujan"
   },
   {
     "titulo": "Kicillof recorrió el operativo desplegado en Luján por la visita del papa León XIV",
