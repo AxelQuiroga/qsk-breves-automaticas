@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Finalizó la segunda edición del curso \"Gestión en Comunicación de Riesgos\"",
+    "descripcion": "De la propuesta participaron 22 municipios bonaerenses, 19 provincias argentinas y dos países, en un espacio de formación e intercambio sobre el rol de la comunicación en la gestión del riesgo",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Foto_curso_riesgo.jfif_.jpeg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/finaliz%C3%B3_la_segunda_edici%C3%B3n_del_curso_gesti%C3%B3n_en_comunicaci%C3%B3n_de",
+    "fecha": null,
+    "volanta": "COMUNICACIÓN",
+    "fuente": "gba",
+    "slug": "finalizo-la-segunda-edicion-del-curso-gestion-en-comunicacion-de-riesgos"
+  },
+  {
+    "titulo": "Kicillof y Alak inauguraron el nuevo Centro de Atención de Salud Municipal",
+    "descripcion": "Además, las autoridades encabezaron un acto por la celebración del 75° aniversario de la República de los Niños.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DAE5109%20~2.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_alak_inauguraron_el_nuevo_centro_de_atenci%C3%B3n_de_salud_0",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-y-alak-inauguraron-el-nuevo-centro-de-atencion-de-salud-municipal"
+  },
+  {
     "titulo": "Kicillof entregó 120 viviendas a familias de Tres Arroyos",
     "descripcion": "Además, el Gobernador inauguró un nuevo SUM de la Comunidad y otorgó netbooks a estudiantes secundarios del distrito.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20VIVIENDA.jpg",
@@ -100,24 +120,44 @@
     "slug": "kicillof-anuncio-una-inversion-de-3800-millones-para-financiar-proyectos-de-investigacion-cientifica-tecnologica-y-social"
   },
   {
-    "titulo": "Kicillof encabezó la apertura de Expo Cañuelas 2026",
-    "descripcion": "En ese marco se desarrolla también la Fiesta Provincial del Dulce de Leche, que reúne a más de 40 productores locales",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1000298226.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_expo_ca%C3%B1uelas_2026",
-    "fecha": null,
-    "volanta": "PRODUCCIÓN",
-    "fuente": "gba",
-    "slug": "kicillof-encabezo-la-apertura-de-expo-canuelas-2026"
+    "titulo": "VUELVEN LAS JORNADAS DE SALUD PARA INFANCIAS",
+    "descripcion": "Lanús Gobierno informa que el lunes 30 de noviembre, a las 8, se entregarán turnos presenciales en distintas Unidades Sanitarias y Centros de Atención Primaria de la Salud (CAPS) del distrito, con el objetivo de que las familias lanusenses puedan acceder a nuevas jornadas de salud para las infancias. Las atenciones médicas se brindarán en cada establecimiento entre el 3 y el 12 de diciembre.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-26-at-172216-RuInE.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4695-vuelven-las-jornadas-de-salud-para-infancias",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "vuelven-las-jornadas-de-salud-para-infancias"
   },
   {
-    "titulo": "Se entregaron diplomas a egresados del Curso de Formación de Cuidadores Domiciliarios",
-    "descripcion": "El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este jueves el cierre del Curso de Formación de Cuidadores/as Domiciliarios, acto en el que 50 egresados y egresadas recibieron sus diplomas.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AxelKicillofCuidarnos.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entregaron_diplomas_egresados_del_curso_de_formaci%C3%B3n_de",
-    "fecha": null,
-    "volanta": "LA PLATA",
-    "fuente": "gba",
-    "slug": "se-entregaron-diplomas-a-egresados-del-curso-de-formacion-de-cuidadores-domiciliarios"
+    "titulo": "FERIA “HECHO EN LANÚS”: NUEVAS JORNADAS EN EL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que el sábado 28 y el domingo 29 de noviembre, de 16 a 20, se llevarán adelante nuevas jornadas de la Feria de la Economía Social “Hecho en Lanús” en las plazas Sarmiento (avenida 9 de Julio N° 1900) y Villa Obrera (Eva Perón N° 2400), ambas situadas en Lanús Este.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-26-at-163253-H03rJ.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4694-feria-hecho-en-lanus-nuevas-jornadas-en-el-distrito",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "feria-hecho-en-lanus-nuevas-jornadas-en-el-distrito"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ INAUGURÓ LA PRIMERA JORNADA DEL III CONGRESO DE SALUD DE LANÚS",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, encabezó el acto de apertura de la primera jornada del III Congreso de Salud de Lanús (COSAL) que se hizo bajo el lema “Sostener lo construido para seguir transformando la salud en cada barrio” en el Auditorio Hugo del Carril del Palacio Municipal, donde aprovechó la ocasión para reconocer a cada uno de los actores del Sistema de Emergencias Local que trabajaron intensamente durante la explosión del viernes 13 de noviembre en Remedios de Escalada.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-26-at-160317-SIGRh.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4693-julian-alvarez-inauguro-la-primera-jornada-del-iii-congreso-de-salud-de-lanus",
+    "fecha": "2026-11-26",
+    "volanta": "Institucional",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-inauguro-la-primera-jornada-del-iii-congreso-de-salud-de-lanus"
+  },
+  {
+    "titulo": "SE DESARROLLARÁ UNA NUEVA EDICIÓN DEL PUNTO DE CASTRACIÓN ITINERANTE EN LANÚS OESTE",
+    "descripcion": "Lanús Gobierno informa que el viernes 27 de noviembre, a partir de las 9 y hasta agotar cupos, se asignará una nueva tanda de turnos presenciales para utilizar el servicio de castración itinerante gratuito de perros y gatos en el Club ATA, situado en Catamarca N° 2985 en Lanús Oeste.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-26-at-105218-cw5Ij.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4692-se-desarrollara-una-nueva-edicion-del-punto-de-castracion-itinerante-en-lanus-oeste",
+    "fecha": "2026-11-26",
+    "volanta": "Salud",
+    "fuente": "lanus",
+    "slug": "se-desarrollara-una-nueva-edicion-del-punto-de-castracion-itinerante-en-lanus-oeste"
   },
   {
     "titulo": "CONTINÚA EL AVANCE DEL PLAN DE PAVIMENTACIÓN EN VALENTÍN ALSINA",
@@ -168,46 +208,6 @@
     "volanta": "Control Comunal",
     "fuente": "lanus",
     "slug": "lanus-tu-gobierno-tendra-una-nueva-edicion-en-valentin-alsina"
-  },
-  {
-    "titulo": "SE DESARROLLA UNA NUEVA EDICIÓN DEL OPERATIVO ¡AMBIENTE SÍ!",
-    "descripcion": "Lanús Gobierno informa que del martes 24 al sábado 28 de noviembre se llevará a cabo una nueva edición del operativo ¡Ambiente Sí! en distintos espacios públicos del distrito. La propuesta busca promover la separación de residuos, el cuidado del ambiente y permite que las y los lanusenses acerquen materiales reciclables y retiren semillas de temporadas. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/ambiente-siiii-RzJEI.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4685-se-desarrolla-una-nueva-edicion-del-operativo-ambiente-si",
-    "fecha": "2026-11-24",
-    "volanta": null,
-    "fuente": "lanus",
-    "slug": "se-desarrolla-una-nueva-edicion-del-operativo-ambiente-si"
-  },
-  {
-    "titulo": "SE REALIZARÁN NUEVAS JORNADAS DEL PROGRAMA “PLAZAS SALUDABLES”",
-    "descripcion": "Lanús Gobierno informa que desde el martes 24 al viernes 27 de noviembre se desarrollarán nuevas jornadas del programa “Plazas Saludables” en lugares abiertos del distrito. Las actividades se realizarán de 9 a 12, con la finalidad de facilitar el acceso a controles médicos gratuitos, promover hábitos saludables e incentivar la práctica del ejercicio físico en la comunidad.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/plazas-saludableees-DoVjE.jpg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4684-se-realizaran-nuevas-jornadas-del-programa-plazas-saludables",
-    "fecha": "2026-11-24",
-    "volanta": null,
-    "fuente": "lanus",
-    "slug": "se-realizaran-nuevas-jornadas-del-programa-plazas-saludables"
-  },
-  {
-    "titulo": "SE LLEVA ADELANTE UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
-    "descripcion": "Lanús Gobierno informa que el lunes 23, miércoles 25 y viernes 27 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo continuará en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.En cada jornada, las vecinas y los vecinos podrán recorrer los distintos puestos y conocer una variada oferta de productos artesanales, elaboraciones y artículos de diferentes rubros a precios populares.Esta iniciativa busca promover el consumo de cercanía, fortalecer los espacios de comercialización directa y brindar nuevas oportunidades a los productores y las productoras locales, quienes contribuyen al desarrollo de la economía social.De esta manera, el Paseo de Compras 25 de Mayo ofrece una alternativa de compra accesible para la comunidad y es un lugar que permite visibilizar el trabajo de los emprendedores y las emprendedoras de la ciudad.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-21-at-45238-pm-8uW1e.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4683-se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
-    "fecha": "2026-11-21",
-    "volanta": null,
-    "fuente": "lanus",
-    "slug": "se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo"
-  },
-  {
-    "titulo": "JULIÁN ÁLVAREZ SUPERVISÓ LAS OBRAS DE PAVIMENTO QUE SE REALIZARON EN MONTE CHINGOLO",
-    "descripcion": "El intendente de Lanús, Julián Álvarez, recorrió las obras de pavimento que se ejecutaron a través de la Planta Asfáltica Municipal en Margarita Weild entre Monasterio y San Carlos, en la localidad de Monte Chingolo, con el objetivo de mejorar la circulación peatonal, vehicular y la calidad de vida de los vecinos y de las vecinas.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo-1-zDqHb.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4682-julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo",
-    "fecha": "2026-11-20",
-    "volanta": "Obras Públicas",
-    "fuente": "lanus",
-    "slug": "julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo"
   },
   {
     "titulo": "Avellaneda lanzó una licitación pública para incorporar cámaras corporales portátiles para su Policía Municipal",
@@ -330,6 +330,26 @@
     "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
   },
   {
+    "titulo": "Tu Foto con Papá Noel 2026",
+    "descripcion": null,
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/tu-foto-con-papa-noel-2026/",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "tu-foto-con-papa-noel-2026"
+  },
+  {
+    "titulo": "CONTINÚA LA OBRA DE REPAVIMENTACIÓN DE LA CALLE JUANA DE ARCO EN CANNING",
+    "descripcion": "El Municipio de Esteban Echeverría sigue adelante con los avances en la obra de repavimentación de la calle Juana de Arco, entre Suárez y Ruta 58, en la localidad de Canning.&#160; Las cuadrillas municipales continúan trabajando en la primera etapa de esta obra de infraestructura, en la cual se realizan trabajos de bacheo en las zonas donde el pavimento se encuentra deteriorado.&#160; Una vez finalizada la misma, el paso siguiente será la repavimentación asfáltica en el mismo tramo, para completar una superficie de 13.300 metros cuadrados, de la cual ya se finalizó el 30% (4.000 metros cuadrados). La obra integral representa una inversión de $ 1.392 millones para poner en valor una calle fundamental para conectar a las vecinas y los vecinos de Canning con el resto del municipio y de esa forma favorecer el acceso a barrios, escuelas, jardines, centros de salud y comercios.&#160; Esta intervención forma parte del programa de mantenimiento vial que el Municipio desarrolla con tareas de pavimentación, repavimentación, bacheo y sellado de juntas en calles y avenidas de las distintas localidades del distrito.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/continua-la-obra-de-repavimentacion-de-la-calle-juana-de-arco-en-canning/",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "continua-la-obra-de-repavimentacion-de-la-calle-juana-de-arco-en-canning"
+  },
+  {
     "titulo": "LUIS GUILLÓN: NUEVO OPERATIVO DE RECARGA DE GARRAFAS A PRECIO ACCESIBLE",
     "descripcion": "El Municipio de Esteban Echeverría llevará adelante un nuevo operativo de recarga de garrafas. Será este jueves 26 de noviembre, de 11 a 12:30 horas, en la Plaza Colonia Monte Grande, ubicada en Colonia Monte Grande y Zuviría, en el barrio Parish Robertson de Luis Guillón. Durante el operativo, las vecinas y los vecinos podrán acceder a la recarga del envase de 10 kilogramos a $25.500, un valor inferior al registrado en comercios del mercado local. El pago podrá realizarse en efectivo o mediante código QR. La iniciativa forma parte de las políticas del Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad. En caso de lluvia, la actividad será suspendida.",
     "imagenUrl": null,
@@ -408,6 +428,66 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "fernando-gray-entrego-sillas-de-ruedas-a-vecinas-y-vecinos-del-distrito"
+  },
+  {
+    "titulo": "Kicillof encabezó la apertura de Expo Cañuelas 2026",
+    "descripcion": "En ese marco se desarrolla también la Fiesta Provincial del Dulce de Leche, que reúne a más de 40 productores locales",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/1000298226.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_encabez%C3%B3_la_apertura_de_expo_ca%C3%B1uelas_2026",
+    "fecha": null,
+    "volanta": "PRODUCCIÓN",
+    "fuente": "gba",
+    "slug": "kicillof-encabezo-la-apertura-de-expo-canuelas-2026"
+  },
+  {
+    "titulo": "Se entregaron diplomas a egresados del Curso de Formación de Cuidadores Domiciliarios",
+    "descripcion": "El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este jueves el cierre del Curso de Formación de Cuidadores/as Domiciliarios, acto en el que 50 egresados y egresadas recibieron sus diplomas.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AxelKicillofCuidarnos.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/se_entregaron_diplomas_egresados_del_curso_de_formaci%C3%B3n_de",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "se-entregaron-diplomas-a-egresados-del-curso-de-formacion-de-cuidadores-domiciliarios"
+  },
+  {
+    "titulo": "SE DESARROLLA UNA NUEVA EDICIÓN DEL OPERATIVO ¡AMBIENTE SÍ!",
+    "descripcion": "Lanús Gobierno informa que del martes 24 al sábado 28 de noviembre se llevará a cabo una nueva edición del operativo ¡Ambiente Sí! en distintos espacios públicos del distrito. La propuesta busca promover la separación de residuos, el cuidado del ambiente y permite que las y los lanusenses acerquen materiales reciclables y retiren semillas de temporadas. Las postas funcionarán de lunes a viernes de 10 a 13 y el sábado de 10 a 17.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/ambiente-siiii-RzJEI.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4685-se-desarrolla-una-nueva-edicion-del-operativo-ambiente-si",
+    "fecha": "2026-11-24",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-desarrolla-una-nueva-edicion-del-operativo-ambiente-si"
+  },
+  {
+    "titulo": "SE REALIZARÁN NUEVAS JORNADAS DEL PROGRAMA “PLAZAS SALUDABLES”",
+    "descripcion": "Lanús Gobierno informa que desde el martes 24 al viernes 27 de noviembre se desarrollarán nuevas jornadas del programa “Plazas Saludables” en lugares abiertos del distrito. Las actividades se realizarán de 9 a 12, con la finalidad de facilitar el acceso a controles médicos gratuitos, promover hábitos saludables e incentivar la práctica del ejercicio físico en la comunidad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/plazas-saludableees-DoVjE.jpg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4684-se-realizaran-nuevas-jornadas-del-programa-plazas-saludables",
+    "fecha": "2026-11-24",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-realizaran-nuevas-jornadas-del-programa-plazas-saludables"
+  },
+  {
+    "titulo": "SE LLEVA ADELANTE UNA NUEVA EDICIÓN DEL PASEO DE COMPRAS 25 DE MAYO",
+    "descripcion": "Lanús Gobierno informa que el lunes 23, miércoles 25 y viernes 27 de noviembre, de 13:30 a 16:30, el Paseo de Compras 25 de Mayo continuará en Santiago Plaul N° 3201, en Lanús Oeste, con diferentes propuestas de emprendedores y emprendedoras del distrito.En cada jornada, las vecinas y los vecinos podrán recorrer los distintos puestos y conocer una variada oferta de productos artesanales, elaboraciones y artículos de diferentes rubros a precios populares.Esta iniciativa busca promover el consumo de cercanía, fortalecer los espacios de comercialización directa y brindar nuevas oportunidades a los productores y las productoras locales, quienes contribuyen al desarrollo de la economía social.De esta manera, el Paseo de Compras 25 de Mayo ofrece una alternativa de compra accesible para la comunidad y es un lugar que permite visibilizar el trabajo de los emprendedores y las emprendedoras de la ciudad.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-21-at-45238-pm-8uW1e.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4683-se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo",
+    "fecha": "2026-11-21",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "se-lleva-adelante-una-nueva-edicion-del-paseo-de-compras-25-de-mayo"
+  },
+  {
+    "titulo": "JULIÁN ÁLVAREZ SUPERVISÓ LAS OBRAS DE PAVIMENTO QUE SE REALIZARON EN MONTE CHINGOLO",
+    "descripcion": "El intendente de Lanús, Julián Álvarez, recorrió las obras de pavimento que se ejecutaron a través de la Planta Asfáltica Municipal en Margarita Weild entre Monasterio y San Carlos, en la localidad de Monte Chingolo, con el objetivo de mejorar la circulación peatonal, vehicular y la calidad de vida de los vecinos y de las vecinas.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo-1-zDqHb.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4682-julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo",
+    "fecha": "2026-11-20",
+    "volanta": "Obras Públicas",
+    "fuente": "lanus",
+    "slug": "julian-alvarez-superviso-las-obras-de-pavimento-que-se-realizaron-en-monte-chingolo"
   },
   {
     "titulo": "FERNANDO GRAY ENTREGÓ 19 ACTAS DE BIEN DE FAMILIA A VECINAS Y VECINOS DEL DISTRITO",
