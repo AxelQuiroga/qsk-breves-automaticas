@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Kicillof se reunió con intendentes y entregó equipamiento para fortalecer la respuesta ante el fenómeno de El Niño",
+    "descripcion": "Cada kit de gestión del riesgo cuenta con una motobomba, un generador eléctrico, gomones, catres, motosierras, podadoras de altura, motoguadañas, como así también indumentaria de trabajo y de protección.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/AK%20EL%20NI%C3%91O.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_se_reuni%C3%B3_con_intendentes_y_entreg%C3%B3_equipamiento_para",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-se-reunio-con-intendentes-y-entrego-equipamiento-para-fortalecer-la-respuesta-ante-el-fenomeno-de-el-nino"
+  },
+  {
     "titulo": "Finalizó la segunda edición del curso \"Gestión en Comunicación de Riesgos\"",
     "descripcion": "De la propuesta participaron 22 municipios bonaerenses, 19 provincias argentinas y dos países, en un espacio de formación e intercambio sobre el rol de la comunicación en la gestión del riesgo",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/Foto_curso_riesgo.jfif_.jpeg",
@@ -110,14 +120,34 @@
     "slug": "kicillof-y-alak-reinauguraron-el-teatro-municipal-coliseo-podesta-de-la-plata"
   },
   {
-    "titulo": "Kicillof anunció una inversión de $3.800 millones para financiar proyectos de investigación científica, tecnológica y social",
-    "descripcion": "Los fondos estarán destinados a impulsar iniciativas estratégicas que respondan a las demandas del sector productivo y social bonaerense.",
-    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC2472.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_anunci%C3%B3_una_inversi%C3%B3n_de_3800_millones_para_financiar",
-    "fecha": null,
-    "volanta": "LA PLATA",
-    "fuente": "gba",
-    "slug": "kicillof-anuncio-una-inversion-de-3800-millones-para-financiar-proyectos-de-investigacion-cientifica-tecnologica-y-social"
+    "titulo": "SIGUEN LAS JORNADAS DE AUTOCUIDADO \"LANÚS SE PREPARA\" EN VALENTÍN ALSINA",
+    "descripcion": "Lanús Gobierno realizará una nueva edición de las Jornadas de Autocuidado “Lanús se prepara para afrontar riesgos climatológicos” este lunes 30 de noviembre, a las 19, en el Club Sportivo Campos (Sdor. F. Quindimil N° 3899, Valentín Alsina) con la finalidad de brindar herramientas y conocimientos a la ciudadanía para evitar situaciones de riesgo y actuar con efectividad ante posibles emergencias.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-27-at-45737-pm-1-HLgTb.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4698-siguen-las-jornadas-de-autocuidado-lanus-se-prepara-en-valentin-alsina",
+    "fecha": "2026-11-27",
+    "volanta": null,
+    "fuente": "lanus",
+    "slug": "siguen-las-jornadas-de-autocuidado-lanus-se-prepara-en-valentin-alsina"
+  },
+  {
+    "titulo": "NUEVO \"BAILE POR LA INCLUSIÓN\" EN GERLI",
+    "descripcion": "Lanús Gobierno llevará adelante una nueva edición del programa “Baile por la Inclusión” este sábado 28 de noviembre, de 18 a 20, en el Club Leloir ubicado en la avenida Hipólito Yrigoyen N° 2956, en Gerli. La propuesta tiene como objetivo brindar un espacio de encuentro, recreación y disfrute a través de la música y el baile.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-27-at-114457-CO0u5.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4697-nuevo-baile-por-la-inclusion-en-gerli",
+    "fecha": "2026-11-27",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "nuevo-baile-por-la-inclusion-en-gerli"
+  },
+  {
+    "titulo": "FERIA DE ARTESANÍAS: NUEVAS JORNADAS EN LAS PLAZAS DEL DISTRITO",
+    "descripcion": "Lanús Gobierno informa que este viernes 27, sábado 28 y domingo 29 de noviembre se desarrollará la tradicional Feria de Artesanías, Paseo de Compras y Puestos Gastronómicos en distintos lugares públicos de la ciudad, con el objetivo de robustecer la actividad de los emprendedores y las emprendedoras locales y facilitar opciones de consumo a precios populares.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-27-at-100035-mIwGZ.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4696-feria-de-artesanias-nuevas-jornadas-en-las-plazas-del-distrito",
+    "fecha": "2026-11-27",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "feria-de-artesanias-nuevas-jornadas-en-las-plazas-del-distrito"
   },
   {
     "titulo": "VUELVEN LAS JORNADAS DE SALUD PARA INFANCIAS",
@@ -178,36 +208,6 @@
     "volanta": "Salud",
     "fuente": "lanus",
     "slug": "llega-un-nuevo-operativo-de-sabados-de-salud-en-el-barrio-a-lanus-este"
-  },
-  {
-    "titulo": "SE REALIZARÁ EL FESTIVAL “ESTE ES MI BARRIO” POR EL 211° ANIVERSARIO DE MONTE CHINGOLO CON EL CIERRE ESTELAR DE WALTER ENCINA",
-    "descripcion": "Lanús Gobierno invita a los vecinos y a las vecinas a participar de una nueva edición del festival “Este es mi Barrio” por el 211° aniversario de Monte Chingolo este sábado 28 de noviembre, desde las 13 en el Parque Lineal situado en Pitágoras N° 4500, donde habrá shows musicales en vivo, propuestas gastronómicas y diversas actividades para disfrutar en familia.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-25-at-123356-DtwCo.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4688-se-realizara-el-festival-este-es-mi-barrio-por-el-2110-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina",
-    "fecha": "2026-11-25",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "se-realizara-el-festival-este-es-mi-barrio-por-el-211-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina"
-  },
-  {
-    "titulo": "COMENZARON LAS OBRAS DE PUESTA EN VALOR DEL BOULEVARD DE LA AVENIDA RIVADAVIA",
-    "descripcion": "Lanús Gobierno inició las obras de puesta en valor del boulevard de la avenida Presidente Bernardino Rivadavia, desde Chile hasta la avenida Remedios de Escalada de San Martín en Valentín Alsina, que son ejecutadas con fondos 100% municipales y con el objetivo de transformar ese sector en beneficio de las vecinas y los vecinos.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-24-at-173754-RwLEU.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4687-comenzaron-las-obras-de-puesta-en-valor-del-boulevard-de-la-avenida-rivadavia",
-    "fecha": "2026-11-24",
-    "volanta": "Espacios y Servicios Públicos",
-    "fuente": "lanus",
-    "slug": "comenzaron-las-obras-de-puesta-en-valor-del-boulevard-de-la-avenida-rivadavia"
-  },
-  {
-    "titulo": "\"LANÚS TU GOBIERNO\" TENDRÁ UNA NUEVA EDICIÓN EN VALENTÍN ALSINA",
-    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 27 de noviembre, de 10 a 14 en la plaza Constitución, ubicada en la avenida Tte. Gral. Juan Domingo Perón N° 3000, en Valentín Alsina. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
-    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-24-at-111654-p81BX.jpeg",
-    "urlNoticia": "https://www.lanus.gob.ar/noticias/4686-lanus-tu-gobierno-tendra-una-nueva-edicion-en-valentin-alsina",
-    "fecha": "2026-11-24",
-    "volanta": "Control Comunal",
-    "fuente": "lanus",
-    "slug": "lanus-tu-gobierno-tendra-una-nueva-edicion-en-valentin-alsina"
   },
   {
     "titulo": "Avellaneda lanzó una licitación pública para incorporar cámaras corporales portátiles para su Policía Municipal",
@@ -330,6 +330,36 @@
     "slug": "la-intendenta-sierra-superviso-el-entrenamiento-de-la-policia-municipal-de-avellaneda"
   },
   {
+    "titulo": "LUIS GUILLÓN: EL MUNICIPIO REALIZÓ UN NUEVO OPERATIVO DE RECARGA DE GARRAFAS",
+    "descripcion": "El Municipio de Esteban Echeverría llevó adelante un nuevo operativo de recarga de garrafas a precio accesible, en esta oportunidad en la plaza Colonia Monte Grande, en la localidad de Luis Guillón. Durante la jornada, las vecinas y los vecinos accedieron a la recarga del envase de 10 kg por $25.500, un valor inferior al que ofrece el mercado. Esta iniciativa forma parte de las políticas que impulsa el Municipio para facilitar el acceso a servicios esenciales y acompañar la economía de la comunidad.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/luis-guillon-el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas/",
+    "fecha": "2026-11-27",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "luis-guillon-el-municipio-realizo-un-nuevo-operativo-de-recarga-de-garrafas"
+  },
+  {
+    "titulo": "DETIENEN A DOS PERSONAS POR EL ROBO DE UNA CASA EN MONTE GRANDE",
+    "descripcion": "La Policía de la Provincia de Buenos Aires aprehendió a dos sujetos acusados de protagonizar un robo bajo la modalidad entradera en la localidad de Monte Grande. Lo hizo luego de una investigación que incluyó el seguimiento de los delincuentes mediante las cámaras municipales del Centro Operativo de Monitoreo (COM) y un posterior allanamiento realizado en el partido de La Matanza. Intervino la UFIJ N° 2 de Esteban Echeverría.&#160;El hecho ocurrió durante la madrugada en una vivienda de la calle Chacabuco al 800, donde cuatro personas encapuchadas y con guantes forzaron una reja para ingresar, reducir a las víctimas y llevarse dinero, documentación, celulares y tablets antes de escapar en un vehículo de apoyo. Al lugar del hecho acudieron la Guardia Urbana loal y el SAME, que brindó asistencia médica a las víctimas del robo.&#160;Tras la denuncia realizada por uno de los damnificados, y luego de una rápida investigación basada en las imágenes de las cámaras municipales, se concretó la identificación del automóvil utilizado en el delito, un Chevrolet Corsa de color blanco, en su ingreso a Isidro Casanova (La Matanza). La policía logró detener a dos jóvenes, además de secuestrar el vehículo, uno de los celulares de las víctimas, dinero en efectivo y elementos utilizados para el robo tales como guantes, un criquet y un destornillador.&#160;El Centro Operativo de Monitoreo dispone de 1.783 cámaras de seguridad y domos con visión de 360 grados, operativos durante todo el año. El sistema se complementa con paradas seguras, tótems de emergencia y el Anillo Digital de Seguridad, integrado por lectoras de patentes utilizadas para identificar vehículos con pedido de secuestro o denuncias de robo.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/dos-detenidos-por-el-robo-de-un-automovil-en-el-jaguel-copy/",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "detienen-a-dos-personas-por-el-robo-de-una-casa-en-monte-grande"
+  },
+  {
+    "titulo": "FERNANDO GRAY SE REUNIÓ CON EL EMBAJADOR DE FRANCIA EN ARGENTINA",
+    "descripcion": "El intendente de Esteban Echeverría, Fernando Gray, mantuvo un encuentro con el embajador de Francia en Argentina, Romain Nadal, en la sede diplomática de ese país en la Ciudad Autónoma de Buenos Aires. “Continuamos trabajando para fortalecer las relaciones y posicionar nuestro municipio. Afianzamos los vínculos institucionales y le presentamos el programa Invertí en Esteban Echeverría, el cual está pensado para beneficiar a las empresas que se instalen en nuestro distrito y que generen mano de obra local, brindando más oportunidades para nuestra comunidad”, afirmó Fernando Gray.&#160; Estos encuentros con representantes diplomáticos de otras naciones se llevan adelante con el objetivo de fortalecer los lazos que permitan el crecimiento de Esteban Echeverría, generando inversiones y nuevos puestos de trabajo. El programa municipal “Invertí en Esteban Echeverría” otorga beneficios exclusivos —como la eximición del 100 % en las tasas municipales por diez años— a las firmas que se radiquen en el distrito y a las que ya operan en él y buscan expandir sus instalaciones, siempre que generen nuevos puestos de trabajo local. La medida también alcanza a las compañías que desarrollen plantas industriales como galpones y naves destinadas a la instalación de nuevos centros operativos.",
+    "imagenUrl": null,
+    "urlNoticia": "https://www.estebanecheverria.gob.ar/fernando-gray-se-reunio-con-el-embajador-de-francia-en-argentina/",
+    "fecha": "2026-11-26",
+    "volanta": null,
+    "fuente": "esteban-echeverria",
+    "slug": "fernando-gray-se-reunio-con-el-embajador-de-francia-en-argentina"
+  },
+  {
     "titulo": "Tu Foto con Papá Noel 2026",
     "descripcion": null,
     "imagenUrl": null,
@@ -398,6 +428,46 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "nuevos-trabajos-de-bacheo-en-monte-grande"
+  },
+  {
+    "titulo": "Kicillof anunció una inversión de $3.800 millones para financiar proyectos de investigación científica, tecnológica y social",
+    "descripcion": "Los fondos estarán destinados a impulsar iniciativas estratégicas que respondan a las demandas del sector productivo y social bonaerense.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DSC2472.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_anunci%C3%B3_una_inversi%C3%B3n_de_3800_millones_para_financiar",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-anuncio-una-inversion-de-3800-millones-para-financiar-proyectos-de-investigacion-cientifica-tecnologica-y-social"
+  },
+  {
+    "titulo": "SE REALIZARÁ EL FESTIVAL “ESTE ES MI BARRIO” POR EL 211° ANIVERSARIO DE MONTE CHINGOLO CON EL CIERRE ESTELAR DE WALTER ENCINA",
+    "descripcion": "Lanús Gobierno invita a los vecinos y a las vecinas a participar de una nueva edición del festival “Este es mi Barrio” por el 211° aniversario de Monte Chingolo este sábado 28 de noviembre, desde las 13 en el Parque Lineal situado en Pitágoras N° 4500, donde habrá shows musicales en vivo, propuestas gastronómicas y diversas actividades para disfrutar en familia.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-25-at-123356-DtwCo.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4688-se-realizara-el-festival-este-es-mi-barrio-por-el-2110-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina",
+    "fecha": "2026-11-25",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "se-realizara-el-festival-este-es-mi-barrio-por-el-211-aniversario-de-monte-chingolo-con-el-cierre-estelar-de-walter-encina"
+  },
+  {
+    "titulo": "COMENZARON LAS OBRAS DE PUESTA EN VALOR DEL BOULEVARD DE LA AVENIDA RIVADAVIA",
+    "descripcion": "Lanús Gobierno inició las obras de puesta en valor del boulevard de la avenida Presidente Bernardino Rivadavia, desde Chile hasta la avenida Remedios de Escalada de San Martín en Valentín Alsina, que son ejecutadas con fondos 100% municipales y con el objetivo de transformar ese sector en beneficio de las vecinas y los vecinos.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-24-at-173754-RwLEU.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4687-comenzaron-las-obras-de-puesta-en-valor-del-boulevard-de-la-avenida-rivadavia",
+    "fecha": "2026-11-24",
+    "volanta": "Espacios y Servicios Públicos",
+    "fuente": "lanus",
+    "slug": "comenzaron-las-obras-de-puesta-en-valor-del-boulevard-de-la-avenida-rivadavia"
+  },
+  {
+    "titulo": "\"LANÚS TU GOBIERNO\" TENDRÁ UNA NUEVA EDICIÓN EN VALENTÍN ALSINA",
+    "descripcion": "Lanús Gobierno llevará a cabo un nuevo operativo territorial “Lanús Tu Gobierno” este viernes 27 de noviembre, de 10 a 14 en la plaza Constitución, ubicada en la avenida Tte. Gral. Juan Domingo Perón N° 3000, en Valentín Alsina. Allí, las vecinas y los vecinos podrán recibir asesorías, información sobre políticas públicas y efectuar trámites vinculados a distintas áreas de la gestión, entre otros beneficios.",
+    "imagenUrl": "https://www.lanus.gob.ar/storage/fichas/imagenes/whatsapp-image-2026-11-24-at-111654-p81BX.jpeg",
+    "urlNoticia": "https://www.lanus.gob.ar/noticias/4686-lanus-tu-gobierno-tendra-una-nueva-edicion-en-valentin-alsina",
+    "fecha": "2026-11-24",
+    "volanta": "Control Comunal",
+    "fuente": "lanus",
+    "slug": "lanus-tu-gobierno-tendra-una-nueva-edicion-en-valentin-alsina"
   },
   {
     "titulo": "COMENZÓ EL ARMADO DEL ARBOLITO DE NAVIDAD EN LA PLAZA MITRE",
