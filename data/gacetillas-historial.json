@@ -23,11 +23,11 @@
     "titulo": "Kicillof y Alak inauguraron el nuevo Centro de Atención de Salud Municipal",
     "descripcion": "Además, las autoridades encabezaron un acto por la celebración del 75° aniversario de la República de los Niños.",
     "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DAE5109%20~2.jpg",
-    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_alak_inauguraron_el_nuevo_centro_de_atenci%C3%B3n_de_salud_0",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_alak_inauguraron_el_nuevo_centro_de_atenci%C3%B3n_de_salud",
     "fecha": null,
     "volanta": "LA PLATA",
     "fuente": "gba",
-    "slug": "kicillof-y-alak-inauguraron-el-nuevo-centro-de-atencion-de-salud-municipal"
+    "slug": "kicillof-y-alak-inauguraron-el-nuevo-centro-de-atencion-de-salud-municipal-2"
   },
   {
     "titulo": "Kicillof entregó 120 viviendas a familias de Tres Arroyos",
@@ -428,6 +428,16 @@
     "volanta": null,
     "fuente": "esteban-echeverria",
     "slug": "nuevos-trabajos-de-bacheo-en-monte-grande"
+  },
+  {
+    "titulo": "Kicillof y Alak inauguraron el nuevo Centro de Atención de Salud Municipal",
+    "descripcion": "Además, las autoridades encabezaron un acto por la celebración del 75° aniversario de la República de los Niños.",
+    "imagenUrl": "https://www.gba.gob.ar/sites/default/files/comunicacion_publica/imagenes/_DAE5109%20~2.jpg",
+    "urlNoticia": "https://www.gba.gob.ar/comunicacion_publica/gacetillas/kicillof_y_alak_inauguraron_el_nuevo_centro_de_atenci%C3%B3n_de_salud_0",
+    "fecha": null,
+    "volanta": "LA PLATA",
+    "fuente": "gba",
+    "slug": "kicillof-y-alak-inauguraron-el-nuevo-centro-de-atencion-de-salud-municipal"
   },
   {
     "titulo": "Kicillof anunció una inversión de $3.800 millones para financiar proyectos de investigación científica, tecnológica y social",
